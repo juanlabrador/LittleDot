@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/general_feed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <View
+        android:id="@+id/separate_line"
+        android:layout_below="@+id/container_top"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/separate_line"/>
+
+    <View
+        android:layout_below="@+id/separate_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/darkGray"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+    <RelativeLayout
+        android:id="@+id/empty_list"
+        android:layout_below="@+id/separate_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ListView
+        android:id="@+id/list_dots"
+        android:layout_below="@+id/separate_line"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none"
+        android:divider="@null"/>
+
+
+    <ImageView
+        android:id="@+id/feed_add_item"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/icn_add_teeth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <RelativeLayout
+        android:id="@+id/container_top"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/window_background">
+
+        <ImageView
+            android:id="@+id/feed_icon"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@mipmap/icn_teeth"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/feed_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:id="@+id/feed_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teeth_feed_name"
+                android:textColor="@color/text_normal"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/feed_name_baby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Emma"
+                android:textStyle="italic"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close_button"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@mipmap/icn_feed_close"
+            android:padding="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

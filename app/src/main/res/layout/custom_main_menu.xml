@@ -1,0 +1,152 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/home_feeding_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_feeding"/>
+
+                <ImageView
+                    android:id="@+id/home_sleeping_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_sleeping"/>
+
+                <ImageView
+                    android:id="@+id/home_diapers_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_diapers"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/home_sickness_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_sickness"/>
+
+                <ImageView
+                    android:id="@+id/home_temperature_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_temperature" />
+
+                <ImageView
+                    android:id="@+id/home_medicines_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_medicines" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/home_growth_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_growth"
+                    android:visibility="visible"/>
+
+                <ImageView
+                    android:id="@+id/home_growth_btn_lock"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_lock_growth"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/home_vaccines_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_vaccines"/>
+
+                <ImageView
+                    android:id="@+id/home_milestones_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_milestones" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/home_teeth_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_teeth" />
+
+                <ImageView
+                    android:id="@+id/home_others_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_other"/>
+
+                <ImageView
+                    android:id="@+id/home_doctors_btn"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:layout_weight="1"
+                    android:src="@mipmap/icn_doctor"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,1063 @@
+<resources>
+    <string name="app_name">LittleDot</string>
+    <string name="recommend_app">Schauen Sie sich die nuetzliche Applikation fuer Eltern an!</string>
+    <string name="shared_message">Geteilt %1$s durch</string>
+
+    <string name="button_report">Report</string>
+    <string name="email_subject_report">LittleDot crashed!</string>
+    <string name="title_dialog_report">Sorry, stürzte die App!</string>
+    <string name="content_dialog_report">Sorry, wir werden versuchen, dieses Problem so schnell wie möglich zu lösen. Danke, dass Sie durch den Bericht.</string>
+
+
+    <string name="action_settings">Einstellungen</string>
+
+    <string name="format_day">EEEE</string>
+    <string name="format_time">HH:mm</string>
+    <string name="format_pretty_time">MMMM dd, yyyy</string>
+    <string name="format_date_service">yyyy-MM-dd\'T\'HH:mm:ssZ</string>
+    <string name="format_date_short">MMM/dd</string>
+
+
+    <string name="button_ok">In Ordnung</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_next">Folgender</string>
+    <string name="button_optional">Freiwillige</string>
+    <string name="button_done">Fertig</string>
+    <string name="button_add">Hinzufügen %1$s Eingang</string>
+    <string name="button_skipped">Verpasste</string>
+    <string name="button_erase_all_data">Daten löschen</string>
+    <string name="option_edit">Bearbeite</string>
+    <string name="option_delete">Loeschen</string>
+    <string name="option_show">Zeige Details</string>
+    <string name="option_take_photo">Nehmen Sie von der Kamera</string>
+    <string name="option_take_from_gallery">Nehmen Sie aus der Galerie</string>
+    <string name="date_dialog">Tag:</string>
+    <string name="time_dialog">Zeit:</string>
+    <string name="time_now">Jetzt</string>
+    <string name="vaccinated_dialog">Geimpft:</string>
+    <string name="skipped_dialog">Verpasste:</string>
+    <string name="att_title">Fuege Notizen und Bilder hinzu</string>
+    <string name="att_pictures">Fuege Bilder hinzu:</string>
+    <string name="att_note"><i>Beruehre, damit du fuer diesen Eintrag Bemerkungen hinzufuegen kannst</i></string>
+
+    <!-- Main Feed -->
+    <string name="feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="feed_content_list_empty">Sie sind bereit! Beginnen Sie \n%1$s\'s Punkte hinzuzufuegen. Wie hat er/sie \n%1$s\'s letzte Nacht geschlafen?</string>
+
+
+    <!-- Details doctor -->
+    <string name="details_doctor">Arzt</string>
+    <string name="details_doctor_button">Bearbeite</string>
+    <string name="details_doctor_send_email">Sende die Kindesdaten als email ... (%1$s)</string>
+
+    <!-- Email Options doctor -->
+    <string name="email_option_title">E-Mail-Optionen</string>
+    <string name="email_option_doctor_menu">Bereite eine email vor</string>
+    <string name="email_option_doctor_label">Bereite eine email Nachricht fuer den \nArzt mit folgendem Inhalt vor: </string>
+    <string name="email_option_doctor_temperature">Temperatur</string>
+    <string name="email_option_doctor_sickness">Krankheit</string>
+    <string name="email_option_doctor_medicines">Medikamente</string>
+    <string name="email_option_doctor_vaccines">Schutzimpfungen</string>
+    <string name="email_no_client">Keine Email Software installiert.</string>
+    <string name="email_text_date"><u>%1$s</u></string>
+    <string name="email_text_temperature_f"><b>Temperatur:</b> %1$s °F (%2$s)</string>
+    <string name="email_text_temperature"><b>Temperatur:</b> %1$s °C (%2$s)</string>
+    <string name="email_text_feeding_bottle"><b>Fuettern:</b> %1$s ml (%2$s)</string>
+    <string name="email_text_feeding_bottle_fl"><b>Fuettern:</b> %1$s fl (%2$s)</string>
+    <string name="email_text_feeding_breast_left"><b>Fuettern:</b> Left %1$s min (%2$s)</string>
+    <string name="email_text_feeding_breast_right"><b>Fuettern:</b> Right %1$s min (%2$s)</string>
+    <string name="email_text_feeding_other"><b>Fuettern:</b> %1$s (%2$s)</string>
+    <string name="email_text_sleeping"><b>Schlaf:</b> %1$s h (%2$s)</string>
+    <string name="email_text_diapers"><b>Stuhlgang/Pinkeln:</b> %1$s (%2$s)</string>
+    <string name="email_text_diapers_2"><b>Stuhlgang/Pinkeln:</b> %1$s, %2$s (%3$s)</string>
+    <string name="email_text_sickness"><b>Krankheit:</b> %1$s (%2$s)</string>
+    <string name="email_text_medicine"><b>Medikamente:</b> %1$s (%2$s)</string>
+    <string name="email_text_growth_lb"><b>Wachstum:</b> Gewicht %1$s lb, Hoehe %2$s in</string>
+    <string name="email_text_growth"><b>Wachstum:</b> Gewicht %1$s kg, Hoehe %2$s cm</string>
+    <string name="email_text_growth_2"><b>Wachstum:</b> Gewicht %1$s kg, Hoehe %2$s cm, Kopfumpfang %3$s cm</string>
+    <string name="email_text_growth_2_lb"><b>Wachstum:</b> Gewicht %1$s lb, Hoehe %2$s in, Kopfumpfang %3$s in</string>
+    <string name="email_text_other"><b>Andere:</b> %1$s (%2$s)</string>
+    <string name="email_text_teeth"><b>Zaehne:</b> %1$s </string>
+    <string name="email_text_vaccine"><b>Schutzimpfungen:</b> %1$s </string>
+    <string name="email_text_milestone"><b>Meilenstein:</b> %1$s</string>
+    <string name="email_subject">%1$s (Geburtstag: %2$s )</string>
+    <string name="email_intent">Email senden...</string>
+    <string name="email_option_doctor_feeding">Fuettern</string>
+    <string name="email_option_doctor_sleeping">Schlaf</string>
+    <string name="email_option_doctor_diapers">Stuhlgang/Pinkeln</string>
+    <string name="email_option_doctor_growth">Wachstum </string>
+    <string name="email_option_doctor_milestone">Spezielle Augenblicke</string>
+    <string name="email_option_doctor_teeth">Zaehne</string>
+    <string name="email_option_doctor_other">Andere</string>
+
+    <!-- Edit doctor -->
+    <string name="edit_doctor">Bearbeiten von Arzt</string>
+    <string name="edit_doctor_menu">Speichern</string>
+    <string name="edit_doctor_name">Name</string>
+    <string name="edit_doctor_hours_work">Arbeitszeiten, uebrige Informationen</string>
+    <string name="edit_doctor_phone_1">Telefonleitung 1</string>
+    <string name="edit_doctor_phone_2">Telefonleitung 2</string>
+    <string name="edit_doctor_email">Email</string>
+    <string name="edit_doctor_address">Adresse</string>
+
+    <string name="setting_sync_complete">Die Daten Ihrer Kinder werden synchronisiert mit LittleDot service.</string>
+
+    <!-- Other options menu -->
+    <string name="other_menu_edit">Kinder bearbeiten</string>
+    <string name="other_menu_setting">Einstellungen</string>
+    <string name="other_menu_recommend">Freunden empfehlen</string>
+
+    <!-- Setting -->
+    <string name="setting_title">Einstellungen</string>
+    <string name="setting_menu">Fertig</string>
+    <string name="setting_sync">Synchronisation</string>
+    <string name="setting_sync_message">Synchronisieren Sie die LittleDot Kindesdaten mit LittleDot service damit Sie schnelle Hilfe bei Gesundheitsproblemen erhalten.</string>
+    <string name="setting_login_message">Melden Sie sich mit Ihrer email Adresse an, damit  die Synchronisierung der Daten beginnen kann.</string>
+    <string name="setting_button_email">Geben Sie Ihre email ein</string>
+    <string name="setting_button_login">Senden Sie Ihre Anmeldungsemail</string>
+    <string name="setting_forgot_password">Forgot password</string>
+    <string name="string_sync_data">When you want to upload your LittleDot data to server.</string>
+    <string name="setting_button_sync_data">Sync data</string>
+    <string name="setting_general">Allgemeine</string>
+    <string name="email_error">Email ist falsch</string>
+    <string name="setting_language">Sprache:</string>
+    <string name="setting_language_dialog">Ändern der Sprache:</string>
+    <string name="setting_language_1">Englisch</string>
+    <string name="setting_language_2">Spanisch</string>
+    <string name="setting_language_3">Deutsch</string>
+    <string name="setting_language_4">Kroatisch</string>
+    <string name="setting_units">Masseinheiten:</string>
+    <string name="setting_units_dialog">Ändern Sie die Einheiten:</string>
+    <string name="setting_units_1">Masseinheiten</string>
+    <string name="setting_units_2">U. S. Masse</string>
+    <string name="setting_purchases">Einkauf innerhalb der Applikation</string>
+    <string name="setting_progress">Einen Moment bitte....</string>
+    <string name="setting_purchases_content">Alle Einkaeufe erneuern</string>
+    <string name="setting_data">Daten</string>
+    <string name="setting_erase_all_data">Alle Daten loeschen</string>
+
+    <!-- setting erase all data -->
+    <string name="setting_erase_all_data_title">Alle Daten loeschen</string>
+    <string name="setting_erase_all_data_message">Wenn Sie fortfahren, loeschen Sie alle Daten, die Sie je in diese Applikation eingetragen haben.</string>
+    <string name="setting_erase_all_data_button">Vernichten Sie die Daten fuer:</string>
+    <string name="setting_erase_all_data_dialog">Sind Sie sicher, dass Sie alle Daten loeschen moechten?</string>
+
+    <!-- setting list children -->
+    <string name="setting_list_children_item">Gestalte %1$s\'s Profil</string>
+    <string name="setting_list_children_title">Kinder</string>
+    <string name="setting_list_children_new">Fuege ein neues Kind hinzu</string>
+
+    <!-- setting children edit -->
+    <string name="setting_children_menu_new">Ihre Kinder</string>
+    <string name="setting_children_menu_delete">Loesche Daten fuer %1$s aus</string>
+    <string name="setting_children_menu_delete_dialog">Sind Sie sicher, dass sie alle Daten fuer %1$s ausloeschen wollen?</string>
+    <string name="setting_children_menu_edit">Speichern</string>
+    <string name="setting_children_menu_add">Hinzufuegen</string>
+    <string name="setting_children_edit_photo">Gestalte\nFoto</string>
+    <string name="setting_children_name">Name des Kindes</string>
+    <string name="setting_children_date_birth">Geburtsdatum</string>
+    <string name="setting_children_gender">Geschlecht</string>
+    <string name="setting_children_gender_male">Maennlich</string>
+    <string name="setting_children_gender_female">Weiblich</string>
+    <string name="children_age_year">Jahr</string>
+    <string name="children_age_months">Monat</string>
+    <string name="children_age_month">m</string>
+    <string name="children_age_days">d</string>
+
+    <!-- Add entry temperature -->
+    <string name="add_temperature_menu">Speichern</string>
+    <string name="add_temperature_celsius">Temperatur (C°)</string>
+    <string name="add_temperature_fahrenheit">Temperatur (F°)</string>
+    <string name="add_temperature_measured">Gemessen:</string>
+
+    <!-- Temperature feed -->
+    <string name="temperature_feed_name">Temperatur</string>
+    <string name="temperature_title_info">Information</string>
+    <string name="temperature_menu_1">Ratschlaege</string>
+    <string name="temperature_menu_2">Medikamentendosierungen</string>
+    <string name="temperature_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="temperature_feed_content_list_empty">Verfolge hohe Koerpertemperaturen von \n%1$s , die er/sie hat.</string>
+    <string name="temperature_advices_when_title">Wann sollte man Temperatur messen?</string>
+    <string name="temperature_advices_when_content">\u0020\u0020\u0020Immer wenn das Kind waermer erscheint, wenn es
+        ruhiger ist, weinerlich ist, einen schlechten Appetit hat oder wenn andere Krankheitszeichen bestehen
+        (Erbrechen, Durchfall, Husten, Ausschlag oder Anderes). Die Temperaturbestimmung nur mittels Beruehrung des Kindes
+        ist sehr unsicher! Beispielsweise haben Kinder mit hohen Temperaturen kuehle Akren und eine kuehle Stirn, weil das
+        Temperaturregulierungszentrum versagt. Hohes Fieber kann zu unerwuenschten Nebenwirkungen wie zum Beispiel
+        Austrocknung fuehren (waehrend des Fiebers erhoeht sich der Bedarf an Fluessigkeit um das 2 bis 3 Fache). Das
+        sicherste Zeichen eines Fluessigkeitsmangels ist das Auftreten von trockenen Lippen und trockener Zunge, die
+        auch weiss wird.</string>
+    <string name="temperature_advices_how_title">Wie sollte man Temperatur messen?</string>
+    <string name="temperature_advices_how_content">\u0020\u0020\u0020Bei Saeuglingen bis zu einem Jahr wird empfohlen, die
+        Temperatur rektal (im Poppo) zu messen, indem der duennere Thermometerteil (wo sich das Quecksilber befindet) etwa
+        2 cm in die Dickdarmoeffnung eingefuehrt wird. Das Thermometer wird gehalten, solange das Quecksilber steigt
+        (meistens 2-3 Minuten). Bei groesseren Kindern haelt man das duennere Thermometerteil in den Achselmittelpunkt,
+        der vorher getrocknet wurde, anschliessend wird der Oberarm an den Koerper gedrueckt. Die Messung dauert 10
+        Minuten. Die Normaltemperatur, rektal gemessen, betraegt um die 37,5°C und unter der Achsel bis 37°C. Falls das
+        Kind aktiv ist (Weinen, Fuettern, Bewegung) oder wenn es sich in warmer Umgebung aufhaelt oder zu warm angezogen
+        ist, kann die Koerpertemperatur, die rektal gemessen wird, auch 38°C erreichen.</string>
+    <string name="temperature_advices_elevated">Wie und wann sollte man die erhoehte Koerpertemperatur senken?</string>
+    <string name="temperature_advices_elevated_content_1">\u0020\u0020\u0020Die erhoehte Temperatur ist eine natuerliche
+        Verteidigungsart des Organismus gegenueber Infektionserregern. Daher wird die Temperatursenkung erst empfohlen,
+        wenn sie ueber 38 C unter der Achsel, beziehungsweise 38,5°C rektal ansteigt. Genauer sind die zeitgemaessen
+        Empfehlungen, die Temperatur zu senken, wenn das Kind Zeichen der Apathie und Gemuetsaenderungen zeigt. So ist
+        es bei einem Kind, das froehlich rennt und 39 C Temperatur hat, nicht notwendig, ein Arzneimittel zu geben,
+        waeherend man einem Kind mit erst unbedeutend erhoehter Temperatur, aber muedem und weinerlichem Ausdruck, ein
+        Arzneimittel geben sollte.</string>
+    <string name="temperature_advices_elevated_content_2">\u0020\u0020\u0020Die Temperatur kann mit Arzneimitteln und
+        Kuehlung gesenkt werden. An Arzneimitteln sind  Paracetamol und Ibuprofen am wirkungsvollsten und am wenigsten
+        schaedlich (in Form von Saft oder Zaepfchen), wobei man sich strikt an die Mengenanweisungen, die man geben darf,
+        halten muss. Falls man merkt, dass das Kind hohe Temperaturen hat, muss man es sofort entkleiden und ihm ein
+        Arzneimittel zur Fiebersenkung geben.</string>
+    <string name="temperature_advices_elevated_content_3">\u0020\u0020\u0020Der Raum, in dem das Kind weilt, muss erkaltet
+        sein und die Kleidung minimal, damit man die stufenweise Abgabe der Koerpertemperatur an die Umgebung ermoeglicht. Nach
+        der Medikamentengabe zur Fiebersenkung wird empfohlen, zwanzig Minuten zu warten, bevor man mit der Kuehlung mittels
+        Dusche oder Baden in der Wanne beginnt. In dieser Zeit wird das Arzneimittel zur Fiebersenkung das Atemzentrum
+        laehmen. Das Zittern ist naemlich eine wirksame Art, die Koerpertemperatur zu heben und es kann passieren, dass
+        waehrend des Zitterns aufgrund des Kaeltegefuehls beim Baden die Temperatur anstatt der erwuenschten Senkung um 1-2
+        Grad steigt! Am wirkungsvollsten ist es, die Wanne mit Wasser der Temperatur von 37°C zu fuellen (das heisst 2-3
+        Grad niedriger als die Koerpertemperatur) und das Kind darin etwa 20 Minuten spielen zu lassen und langsam zu
+        kuehlen. Mit Alkohol einzureiben wird nicht empfohlen (es kuehlt die Hautoberflaeche rasch, die Hautblutgefaesse
+        verengen sich und die weitere Kuehlung ist geringer, ein Teil des Alkohols dringt in den Organismus aufgrund der
+        Atmung von Alkoholdampf oder durch die Haut ein). Wenn die Koerpertemperatur sich nicht senkt, ist es sehr nuetzlich
+        nach dem Baden, das Kind in eine Windel oder ein Handtuch einzuwickeln, das in Wasser (Raumtemperatur) getaucht wurde
+        (abgestandenes Wasser), und diese gelegentlich zu wechseln. Die Vorgehensweise der Fiebersenkung so oft wiederholen,
+        wie es notwendig ist.</string>
+    <string name="temperature_advices_elevated_content_4">\u0020\u0020\u0020Da das Kind waehrend des Fiebers deutlich mehr
+        Fluessigkeit braucht (der teagliche Fluessigkeitsbedarf vergroessert sich bis zur zweifachen Menge), ist es sehr
+        wichtig, ihm Tee, Saft oder Wasser (Raumtemperatur) zu trinken zu geben. Es danach sollte man aertzliche Hilfe suchen.</string>
+    <string name="temperature_advices_important_title">Es ist notwendig, Fiebersenkungsmedikamente zu Hause zu haben, bevor das Kind erkrankt!</string>
+    <string name="temperature_advices_assistance_title">Wann muss man sich unverzueglich beim Arzt melden?</string>
+    <string name="temperature_advices_assistance_content">\u0020\u0020\u0020Bei Saeuglingen insbesondere, wenn es sich um
+        Kinder juenger als 3 Monate handelt, ist es notwendig, sich nach der Fiebersenkung beim Arzt zu melden. Bei
+        aelteren Kindern wenn das Fieber hoeher als 40°C ist, wird empfohlen, sich am gleichen Tag aerztliche Hilfe zu
+        holen, weil dies Zeichen einer schwereren bakteriellen Infektion sein koennen. Schuettelfrost (starkes Zittern)
+        im Fieberanstieg, das Auftreten von Ausschlaegen und/oder ein schlechter Allgemeinzustand des Kindes erforden
+        auf jeden Fall den unverzueglichen Arztbesuch. Vermeiden Sie eine Ueberwaermung des Kindes waehrend
+        des Transportes.</string>
+    <string name="temperature_doses_ibuprofen"><b>5-10 mg/kg Koerpergewicht/pro Dosis</b>\n Dosierung: Die Dosis richtet sich nach dem Koerpergewicht des Kindes. Verabreichen Sie das Medikament alle 6 Stunden. Geben Sie nicht mehr als 4 Dosen innerhalb von 24 Stunden.</string>
+    <string name="temperature_doses_acetaminophen"><b>10-15 mg/kg Koerpergewicht/pro Dosis</b>\nDosierung: Geben Sie  Acetaminofen (Paracetamol) alle 4 Stunden, falls es notwendig ist. Verabreichen Sie nicht mehr als 5 Dosen innerhalb von 24 Stunden. Die Dosierung richtet sich nach dem Koerpergewicht des Kindes, unabhaengig davon, ob es sich um Saefte oder Zaepfchen handelt.</string>
+    <string name="temperature_doses_weight">Gewicht</string>
+    <string name="temperature_doses_Dose">Medikamentendosis </string>
+    <string name="temperature_dose_1">Ibuprofen</string>
+    <string name="temperature_dose_2">Acetaminophen (Paracetamol)</string>
+    <string name="temperature_doses_doctor">Fragen Sie einen Arzt</string>
+    <string name="temperature_doses_adult">Erwachsenendosis</string>
+    <string name="temperature_doses_mg">%1$s mg</string>
+    <string name="temperature_weight_kg">%1$s kg</string>
+    <string name="temperature_weight_lb">%1$s lb</string>
+
+    <!-- Filter Time list -->
+    <string name="filter_time_title">Zeitauswahl:</string>
+    <string name="filter_title_message">Anzeigen:</string>
+    <string name="filter_time_1">Letzten 7 Tage</string>
+    <string name="filter_time_2">Letzten 14 Tage</string>
+    <string name="filter_time_3">Letzten 30 Tage</string>
+    <string name="filter_time_4">Letzten 2 Monate</string>
+    <string name="filter_time_5">Letzten 6 Monate</string>
+    <string name="filter_time_6">Seit Geburt</string>
+    <string name="filter_time_7">Zwischen den Daten</string>
+    <string name="filter_today">Heute</string>
+    <string name="filter_yesterday">Gestern</string>
+    <string name="filter_between_from">Von</string>
+    <string name="filter_between_to">Bis</string>
+    <string name="filter_time_error">Die Daten sind falsch</string>
+
+    <string name="vaccine_age">Hinzufügen: %1$d Monate</string>
+    <string name="vaccine_dose">Dosis: %1$d/%2$d</string>
+    <string name="vaccine_detail_dose">%1$d dosis</string>
+    <string name="vaccine_recurring">wiederholend</string>
+    <string name="vaccine_info_check">Impfungsueberpruefung: %1$s</string>
+    <string name="vaccine_skipped">Verpasste:</string>
+    <string name="vaccine_done">Fertig:</string>
+
+    <!-- Teeth feed -->
+    <string name="teeth_feed_name">Zaehne</string>
+    <string name="teeth_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="teeth_feed_content_list_empty">Einer nach dem anderen erschienen %1$s\'s kleine Zaehne. \nHeisse jeden mit einem Punkt willkommen.</string>
+
+    <!-- Teeth List -->
+    <string name="teeth_1">Oberer rechter 1</string>
+    <string name="teeth_2">Oberer linker 1</string>
+    <string name="teeth_3">Unterer rechter 1</string>
+    <string name="teeth_4">Unterer linker 1</string>
+    <string name="teeth_5">Oberer rechter 2</string>
+    <string name="teeth_6">Oberer linker 2</string>
+    <string name="teeth_7">Unterer rechter 2</string>
+    <string name="teeth_8">Unterer linker 2</string>
+    <string name="teeth_9">Oberer rechter 3</string>
+    <string name="teeth_10">Oberer linker 3</string>
+    <string name="teeth_11">Unterer rechter 3</string>
+    <string name="teeth_12">Unterer linker 3</string>
+    <string name="teeth_13">Oberer rechter 4</string>
+    <string name="teeth_14">Oberer linker 4</string>
+    <string name="teeth_15">Unterer rechter 4</string>
+    <string name="teeth_16">Unterer linker 4</string>
+    <string name="teeth_17">Oberer rechter 5</string>
+    <string name="teeth_18">Oberer linker 5</string>
+    <string name="teeth_19">Unterer rechter 5</string>
+    <string name="teeth_20">Unterer linker 5</string>
+
+    <!-- Vaccine feed -->
+    <string name="vaccine_feed_name">Schutzimpfungen</string>
+    <string name="vaccine_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="vaccine_feed_content_list_empty">%1$s sollte vor altbekannten Erkrankungen \ngeschuetzt werden. Lerne mehr \nueber jede Schutzimpfung, bereite dich vor und \nmache dir zu jeder Schutzimpfung Notizen.</string>
+    <string name="vaccine_menu_1">Schutzimfpungsplan</string>
+    <string name="vaccine_menu_2">Gut zu wissen</string>
+    <string name="vaccine_vaccination_title">Schutzimpfungen </string>
+
+
+
+    <string name="vaccine_hepatitis_b">
+        1. Was ist Hepatitis B?\n\nHepatitis B ist eine Leberentzündung, die durch den Hepatitis B-Virus verursacht wird. Meistens offenbahrt sich
+        die Krankheit mit unklaren Symptomen (allgemeine Schwäche, Übelkeit, Appetitverlust) und ein Teil der Patienten
+        entwickelt eine Gelbsucht.\n\n
+        &#160;&#160;&#160;· Bei Kindern kann die Infektion ohne Symtome verlaufen, aber häufig kann der unzureichend starke Abwehrmechanismus
+        des kindlichen Organismus den Virus nicht vollständig vernichten. In diesem Falle wird das Kind zum chronischen
+        Virusträger und zum chronischen Patienten, der in der Zukunft ernsthafte Komplikationen wie Leberzirrhose oder ein
+        primäres Leberkarzinom entwickeln kann.\n
+        &#160;&#160;&#160;· Je jünger das Kind ist, desto größer ist die Wahrscheinlichkeit, dass es nach der Hepatitis B-Virusinfektion
+        schwere Komplikationen im Sinne chronischer Lebererkrankungen entwickelt.\n\nDas Kind kann sich mit dem Hepatitis B-Virus infizieren:\n
+        &#160;&#160;&#160;· während der Geburt, wenn die Mutter chronische Virusträgerin ist.\n
+        &#160;&#160;&#160;· im engen Kontakt mit einer infizierten Person (über kleinere Wunden, Bisse oder Schrammen, wenn Zahnbürsten und Maniküresets
+        gemeinsam benutzt werden)\n
+        &#160;&#160;&#160;· über infiziertes Blut wie zum Beispiel ein zufälliger Spritzeneinstich mit einer kontaminierten Nadel oder mit
+        infizierten Bluttransfusionsbestandteilen\n
+        &#160;&#160;&#160;· der sexuelle Übertragungsweg ist der häufigste bei Adoleszenten und bei Erwachsenen
+        Mit der Hepatitis B-Impfung kann die Krankheitsentstehung verhindert werden.\n\n2. Wie soll das Kind gegen Hepatitis B geimpft werden?\n\nDas Impfschema gegen Hepatitis B beinhaltet drei Impfdosen, die ein Kind bekommen muss, damit es vollständig und
+        langfristig vor der Infektion geschützt ist.\n
+        &#160;&#160;&#160;· Zwischen der ersten und zweiten Impfdosis muss 1 Monat vergehen, zwischen der zweiten und dritten 5 Monate oder nach
+        einem anderen Schema, falls so der Arzt entscheidet. Über die Notwendigkeit einer Auffrischimpfung werden Sie sich mit
+        Ihrem Arzt beratschlagen. In der Republik Kroatien wurden seit dem Jahr 1999 gemäß dem Pflichtimpfprogramm gegen Hepatitis
+        B  Kinder in der 6. Grundschulklasse und  Kinder, die nach 2007 geboren sind, werden bereits in der Geburtsklinik
+        geimpft. Falls es notwendig ist, das Kind früher zu schützen (bezieht sich auf Kinder, die vor 2007 geboren wurden), ist
+        dies nach einer Beratung mit Ihrem Kinderarzt möglich.\n\nKinder von Müttern, die chronische Virusträgerinnen sind, werden sofort nach der Entbindung geschützt. Alle Schwangeren
+        werden routinemäßig auf Hepatitis B getestet!\n\n3. Manche Kinder dürfen nicht geimpft werden oder die Impfung muss später durchgeführt  werden.\n\n
+        &#160;&#160;&#160;· Kinder, die bei der vorherigen Impfung gegen Hepatitis B eine allergische Reaktion auf den Impfstoff entwickelt
+        haben und Kinder, die auf irgendeinen Impfbestandteil allergisch sind, dürfen nicht geimft werden.\n
+        &#160;&#160;&#160;· Schwerkranke Kinder mit hohen Körpertemperaturen müssen die Genesung abwarten.\n\n4. Was sind die möglichen unerwünschten Impfreaktionen?\n\nDie Hepatitis B-Impfung ist eine sehr sichere Impfung.\n
+        Milde Reaktionen (die auch am häufigsten bemerkt werden)\n
+        &#160;&#160;&#160;· Schmerz, Rötung und Verhärtung an der Impfstelle Mäßige Reaktionen (selten)\n
+        &#160;&#160;&#160;· Müdigkeit, Schüttelfrost, vorrübergehend erhöhte Temperaturen\n
+        &#160;&#160;&#160;· Ausschlag, Juckreiz\n
+        &#160;&#160;&#160;· Übelkeit, Erbrechen, Durchfall, Bauchschmerzen sind kein Hindernis für weitere Impfungen.\n\nObwohl eine allergische Reaktion äußerst selten ist, kann sie wenige Minuten bis wenige Stunden nach der Impfung auftreten.
+        Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche, Herzschlagbeschleunigung
+        und Schwindel. Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren Arzt!
+    </string>
+
+    <string name="vaccine_dtap">
+        1. Was sind Diphterie, Tetanus (Wundstarrkrampf) und Pertussis (Keuchhusten)?\n\nDiphterie, Tetanus (Wundstarrkrampf) und Keuchhusten (Pertussis) sind gefährliche Krankheiten, die durch Bakterien verursacht
+        werden. Diphterie und Keuchhusten werden von Person zu Person übertragen. Der Wundstarrkrampf dringt durch Schnittwunden oder
+        andere Wunden in den Körper ein.\n\nDIPHTERIE verursacht eine dicke Ablagerung an der Rachenhinterwand, was zu Atembeschwerden, Lähmungen,  Herzstillstand
+        und sogar zum Tod führen kann.\n\nWUNDSTARRKRAMPF (Tetanus) verursacht schmerzhafte Muskellähmungen im gesamten Körper und kann Kieferkrämpfe hervorrufen, so
+        dass die erkrankte Person, nicht mehr den Mund öffnen oder schlucken kann.  Wundstarrkrampf verursacht den Tod bei einer von
+        zehn erkrankten Personen. Das Bakterium dringt durch Schnittwunden oder andere Wunden ein.\n\nKEUCHHUSTEN (Pertussis, Stickhusten oder großer Husten) ruft so starke Hustenattacken hervor, dass die Kinder weder  essen,
+        noch  trinken und  atmen können. Der starke Husten kann wochenlang dauern. Während der Krankheit kann es zur Lungenentzündung,
+        zu Hirnkrämpfen, Hirnschädigungen und sogar zum  Tod kommen.\n\n2. Welche Impfarten gegen Dipheterie, Tetanus und Pertussis existieren?\n\nEs gibt zwei Impfarten. Diese Impfstoffe unterscheiden sich in ihrer Zusammensetzung lediglich im Impfteil (Antigen) gegen
+        Pertussis:\n\n
+        a) Ganzkeimimpfstoff gegen Pertussis\n
+        &#160;&#160;&#160;· gut wirksam\n
+        &#160;&#160;&#160;· wurde jahrelang verabreicht\n
+        &#160;&#160;&#160;· führt etwas häufiger zu unerwünschten Nebenwirkungen\n\n
+        b) azellulärer Impfstoff gegen Pertussis\n
+        &#160;&#160;&#160;· Im azellulären Impfstoff wurden nur einige wichtige Zellteile extrahiert, die eine gute Immunantwort und damit eine gute
+        Schutzwirkung hervorrufen.\n
+        &#160;&#160;&#160;· Er führt seltener zu intensiven, unerwünschten Nebenwirkungen.\n
+        &#160;&#160;&#160;· Er wurde in dem Bestreben entwickelt, die unerwünschten Nebenwirkungen des Ganzkeimimpfstoffs zu mindern.\n
+        &#160;&#160;&#160;· Im Großteil der entwickelten Länder verwendet man ausschließlich diese Impfstoffart gegen Keuchhusten (USA, Canada,
+        Großbritannien, Deutschland, Österreich, Schweiz, Italien, Schweden, Belgien, Slowenien usw.). In der Republik Kroatien
+        benutzt man ebenfalls die azelluläre (volkstümlich als „gereinigt“ bezeichnete) Impfstoffart.\n\nWann werden die Kinder mit dem DTP-Impfstoff geimpft?\n\nDamit sie geschützt sind, müssen die Kinder 5 DTP-Impfungen erhalten; jeweils eine Dosis in  folgenden
+        Lebensabschnitten: 2. Monat, 4. Monat, 6. Monat, 2.Lebensjahr, 4.Lebensjahr.\n\nDiese Schutzimpfung kann gleichzeitig mit anderen in diesem Alter vorgesehenen Impfstoffen verabreicht werden.\n\n3. Manche Kinder dürfen nicht gegen Diphterie, Tetanus und Pertussis geimpft werden oder die Impfung muss später durchgeführt
+        werden .\n\n
+        &#160;&#160;&#160;· Kinder, die auf die erste DTP-Impfdosis eine allergische Reaktion hatten, dürfen keine zweite Dosis erhalten.\n
+        &#160;&#160;&#160;· Es ist ebenfalls sehr wichtig, den Arzt zu informieren, falls das Kind je Fieberkrämpfe (Krämpfe im Fieberanstieg) hatte.\n
+        &#160;&#160;&#160;· Informieren Sie Ihren Arzt, falls Ihr Kind nach der DTP-Impfung:\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- irgendeine unerwünschte Reaktion hatte\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- ernsthafte Nebenwirkungen (Krämpfe, Zusammenbrüche, Rötungen größer als das halbe Bein oder der halbe Arm) hatte\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- untröstlich, ohne Unterbrechung länger als 3 Stunden geweint hatte\n
+       &#160;&#160;&#160;&#160;&#160;&#160; - höheres Fieber als 40,5°C hatte Ältere Kinder und Erwachsene\n
+        &#160;&#160;&#160;· Die DTP-Impfung darf wegen der Pertussiskomponente  Erwachsenen und Kindern, die älter als 7 Jahre sind, nicht
+        verabreicht werden. Aber ältere Kinder, Jugendliche und Erwachsene müssen mit dem Td-Impfstoff gegen Diphterie und Tetanus
+        im Alter von 7, 14 und 19 Jahren und danach  alle  10 Jahre geimpft  werden.\n\n4. Was sind die unerwünschten Nebenwirkungen der DTP-Impfung?\n\nDie Diphterie-, Wundstarrkrampf- oder Keuchhustenerkrankungen bergen viel größere Risiken als die DTP-Impfung!
+        Wie bei jedem Medikament besteht auch bei diesen Impfstoffen das Risiko unerwünschter Reaktionen. Das Risiko, dass dieser
+        Impfstoff schwere und sehr schwere Nebenwirkungen hervorruft, ist außerordentlich gering.\n\nMilde Reaktionen (die auch am häufigsten vermerkt werden) sind:\n
+        &#160;&#160;&#160;· an der Impfstelle Schmerzen, Rötungen, Schwellungen\n
+        &#160;&#160;&#160;· ungewöhnliches Weinen\n
+        &#160;&#160;&#160;· Erbrechen\n
+        &#160;&#160;&#160;· Einnahme geringerer Ess- oder Trinkmengen als gewöhnlich\n
+        &#160;&#160;&#160;· Unruhe, Müdigkeit, mehr oder weniger Schlaf als gewöhnlich\n
+        &#160;&#160;&#160;· erhöhte Temperatur\n\nDiese treten bis zu 48 Stunden nach der Impfung auf. Sie sind kein Hindernis dafür,  mit dem Impfen fortzufahren.
+        Schwere Nebenwirkungen (ungewöhnliche) sind:\n
+        &#160;&#160;&#160;· Krämpfe (Fieberkrämpfe)\n
+        &#160;&#160;&#160;· untröstliches Weinen, das länger als 3 Stunden dauert\n
+        &#160;&#160;&#160;· schockähnlicher Zustand (Schlaffheits- und Blässeanfall)\n
+        &#160;&#160;&#160;· Fieber höher als 40,5°C\n
+        &#160;&#160;&#160;· Schwellungen, die größer als der halbe Arm oder das halbe Bein sind\n\nAuch diese Reaktionen treten 48 Stunden nach der Impfung auf, aber sie können auch nach 7 Tagen auftreten.
+        Verständigen Sie sofort Ihren Arzt! Sie sind kein Hindernis dafür, mit dem Impfen fortzufahren, aber darüber wie und wann
+        die Schutzimpfung fortgesetzt wird, entscheidet Ihr Kinderarzt.\n\nSehr schwere Nebenwirkungen (äußerst selten) sind:\n
+        &#160;&#160;&#160;· allergische Reaktionen\n
+        &#160;&#160;&#160;· Bewußtseinsstörungen (Koma, reduzierte Geistesgegenwart) sind äußerst seltene Reaktionen. Diese Reaktionen sind
+        Kontraindikationen für die Fortführung der DTP-Impfungen. Falls eine sehr schwere Nebenwirkung auftritt, verständigen
+        Sie sofort Ihren  Arzt.\n\nDie meisten unerwünschten Reaktionen treten üblicherweise innerhalb 1 bis 7 Tage nach der Impfung ein und verschwinden
+        meistens spontan ohne jegliche Folgen.\n\nWas tun, wenn schwere oder sehr schwere Nebenwirkungen auftreten?\n\nObwohl eine allergische Reaktion äußerst selten ist, kann sie dennoch wenige Minuten bis wenige Stunden nach der Impfung
+        eintreten. Die Symtome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeines Schwächegefühl,
+        Herzschlagbeschleunigung und Schwindel. In beiden Fällen muss das Kind so schnell wie möglich zum Arzt gebracht werden!
+
+    </string>
+
+    <string name="vaccine_go_to_know">
+        &lt;b>Impfschutz von Kindern vor ansteckenden Krankheiten&lt;/b>&lt;br>&lt;br>
+        Jeder von uns kommt täglich mit unzähligen Krankheitserregern in Berührung, die ernsthafte Erkrankungen,
+        Organbeschädigungen und im schlimmsten Falle auch den Tod verursachen können. Impfungen sind die größte
+        medizinische Errungenschaft des 20. Jahrhunderts. Damit wurden mehr Leben gerettet, als mit irgendeiner
+        sonstigen medizinischen Intervention in der Geschichte.\n
+        Das Verhindern des Auftretens (Immunprophylaxe) ansteckender Krankheiten wird auf zwei Arten durchgeführt –
+        aktiv und passiv. Die aktive Immunprophylaxe ist ein Vorgehen- die sogenannte Impfung, mit der der Körper
+        angehalten wird, selbst spezifische Antikörper gegenüber einer bestimmten ansteckenden Krankheit zu
+        entwickeln. Die passive Immunprophylaxe ist eine Vorgehensweise, bei der der Körper vorübergehend gegen eine
+        bestimmte Infektion durch Gabe schützender Antikörper geschützt wird. In diesem Artikel geht es um die
+        aktive Immunprophylase – das Impfen.  Da ansteckende Krankheiten gerade  im Kindesalter häufig und gefährlich
+        sind, hat das Impfen der Kinder eine große Bedeutung.\n\n
+        &lt;b>Impfarten&lt;/b>&lt;br>&lt;br>
+        Impfstoffe können wir in Lebend- und Totimpfstoffe einteilen. Lebendimpfstoffe enthalten abgeschwächte
+        (attenuierte) Erreger  ansteckender Krankheiten, deren Fähigkeit, Krankheiten hervorzurufen, in bestimmten
+        Verfahren gemindert ist, die aber die gleichzeitig die Fähigkeit behalten haben, sich in Geweben oder Zellen der
+        geimpften Person,  zu vermehren. Dies sind zum Beispiel Impfstoffe gegen Tuberkulose, Röteln, Masern, Mumps und
+        Kinderlähmung (Poliomyelitis). Totimpfstoffe enthalten tote Mikroorganismen (Impfung gegen Keuchhusten), Teile
+        von Mikroorganismen (Impfungen gegen Grippe, Diphterie- und Tetanustoxoide, Kapselpolysaccharide der Pneumokokken,
+        Meningokokken und Haemophilus influenzae Typ B) oder mittels Geningenieuring der extrahierten DNA Virusteile
+        (Impfung gegen Hepatitis B). Die wichtigsten Impfbestandteile heißen Antigene, weil der Körper der geimpften
+        Person gerade gegen diese spezifische, schützende Antikörper bildet. Die Antigene sind in einem Lösungsmittel
+        aufgelöst, am häufigsten in sterilem Wasser, physiologischen Lösungen oder in zusammengesetzten Lösungsmitteln.\n\n
+        &lt;b>Programm der vorgeschriebenen Impfungen&lt;/b>&lt;br>&lt;br>
+        &lt;a href="http://vaccine-schedule.ecdc.europa.eu/Pages/Schedule.aspx">EU Impfprogramme&lt;/a>&lt;br>&lt;br>
+        &lt;a href="http://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html">USA Impfprogramm&lt;/a>&lt;br>&lt;br>
+        Die meisten Pflichtimpfprogramme in der EU und in den USA beinhalten die Impfungen gegen  Diphterie, Tetanus
+        und Keuchhusten (Pertussis) (DI-TE-PER), Haemophilus influenzae B (HiB), Kinderlähmung (Poliomyelitis),
+        Masern, Mumps (Parotitis) und Röteln (MO-PA-RU) sowie Hepatitis B. Eine wichtige Rolle bei der
+        Krankheitsvorbeugung im Kindesalter spielen die Impfungen  gegen Windpocken, Streptokokken pneumoniae,
+        Meningokokken und  Rotaviren. Dies sind Impfungen, die in manchen Laendern empfohlen, aber nicht vorgeschrieben
+        sind. \n\n
+        &lt;b>Wie häufig treten  nach den Impfungen Reaktionen auf?&lt;/b>&lt;br>&lt;br>
+        Beim Großteil der geimpften Kinder gibt es keine Reaktion auf den Impfstoff oder sie haben leichte
+        Reaktionen, wie zum Beispiel leicht erhöhte Temperatur und Schmerzen an der Impfstelle. Sehr selten treten
+        ersthafte Komplikationen wie beispielsweise Krämpfe auf. Schwere Impfkomplikationen treten so selten auf, dass
+        man das Risiko hierfür schwer abschätzen kann.\n\n
+        &lt;b>Waes sind die Anzeichen für mäßige und ersthafte Komplikationen, auf die die Eltern achten müssen?&lt;/b>&lt;br>&lt;br>
+        Nachdem Ihr Kind geimpft wurde, sollten Sie das Auftreten jeglicher ungewöhnlicher Symptome wie zum Beispiel hohe
+        Temperaturen (>40°C), Verhaltensänderungen und Zeichen allergischer Reaktionen (erschwerte Atmung, Heiserkeit,
+        Ausschläge, Blässe, allgemeine Schwäche, Herzschlagbeschleunigung und Schwindel, Teilnahmslosigkeit) verfolgen.
+        Falls solche Reaktionen auftreten, rufen Sie Ihren Kinderarzt an. Falls dieser nicht mehr arbeitet, beratschlagen
+        Sie sich mit dem Bereitschaftsarzt!\n\n
+        &lt;b>Impfen mit kombiniertern Impfstoffen&lt;/b>&lt;br>&lt;br>
+        &lt;b>1. Was sind kombinierte Impfstoffe?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Jede kombinierte Impfung beinhaltet mehrere Antigene, die Schutz vor mehreren ansteckenden Krankheiten auf einmal bieten. &lt;br>
+        &#160;&#160;&#160;· Kombinationen, die schon lange verwendet und im Routinegebrauch sind, sind  die
+        DTP-Schutzimpfung, die vor Diphterie, Wundstarrkrampf und Keuchhusten schützt, sowie dir MMR-Schutzimpfung, die
+        vor Masern, Mumps und Röteln schützt. Diese Impfstoffkombinationen wurden in der Vergangenheit auch einzeln
+        geimpft, während heute ihre Kombinierung keine Neuigkeit mehr darstellt. &lt;br>&lt;br>
+        &lt;b>2. Warum werden Kombinationsimpfstoffe entwickelt?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Kombinationsimpfstoffe stellen die Zukunft der Kinderimpfung dar, weil gegen immer mehr ansteckende Krankheiten Impfungen entdeckt werden.&lt;br>
+        &#160;&#160;&#160;· Wenn man die einzelnen Impfstoffe anwenden würde, müsste jedes Kind in den ersten 18 Lebensmonaten 15-19 verschiedene Impfdosen erhalten.&lt;br>
+        &#160;&#160;&#160;· Die Anwendung kombinierter Impfstoffe bietet Ihnen und Ihrem Kind bedeutende Vorteile im Vergleich zu Einzelimpfstoffen:&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- weniger Einstiche für das Kind – weniger Tränen und Schmerzen&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- weniger Arztbesuche&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- weniger Kosten als die Einzelimpfstoffe;&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- weniger Möglichkeiten eines Arztfehlers.&lt;br>
+        · In entwickelten Ländern sind Kombinationsimpfstoffe in  breiter Anwendung. Manche Länder haben die Kombinationen
+        in ihre nationalen Impfprogramme aufgenommen (Großbritannien, Deutschland, Österreich, Belgien, Slowenien), während
+        manche Länder Empfehlungen erstellt haben, gegen welche ansteckenden Krankheiten geimpft werden soll, die es dem
+        Arzt und Elternteil freistellen, über den  Impfstoff (einzeln oder kombiniert) zu entscheiden. &lt;br>&lt;br>
+        &lt;b>3. Was  sind die gemeinsamen Charakteristiken der Kombinationsimpfstoffe?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Alle Komponenten in einer Impfdosis sind genauso schützend in der Kombination wie, wenn sie einzeln verabreicht werden.&lt;br>&lt;br>
+        &#160;&#160;&#160;· Der Kombinationsimpfstoff verursacht nicht mehr unerwünschte Reaktionen als die
+        Einzelimpfstoffe. Die Impfstoffe sind gut erforscht, sowohl in den klinischen Studien als auch in der massiven
+        Anwendung (zum Beispiel in Deutschland).&lt;br>&lt;br>
+        &lt;b>4. Welche Kombinationsimpfstoffe sind  in Gebrauch?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Außer dem MMR-Impfstoff, der schon sehr lange in der Anwendung ist, wird  ebenfalls der
+        Fünffachimpfstoff gegen Haemophilus influenzae Typ b, DTP (der den azelullären Impfstoff gegen Keuchhusten
+        enthält) und der Totimpfstoff gegen Kinderlähmung verwendet. Es gibt auch den Sechsfachimpfstoff, der sich aus
+        dem Impfstoff gegen Haemophilus influenzae Typ b, DTP (der den azelullären Impfstoff gegen Keuchhusten enthält),
+        dem Totimpfstoff gegen Kinderlähmung und dem gegen Hepatitis B zusammensetzt.&lt;br>&lt;br>
+        &lt;b>5. Was sind die Risiken der Kombinationsimpfstoffe?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Die Risiken sind die gleichen wie beim Gebrauch der Wirkstoffteile dieser Impfstoffe (DTP,
+        Poliomyelitis, Hib, Hepatitis B) einzeln, wie es in den Kapiteln über die  Einzelimpfstoffe dargestellt ist. &lt;br>&lt;br>
+        &lt;b>6. Was tun, wenn eine schwere, unerwünschte Nebenwirkung auftritt?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Obwohl eine allergische Reaktion äußerst selten ist, kann sie  einige Minuten bis einige
+        Stunden nach der Impfung auftreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe,
+        allgemeine Schwäche, Herzschlagbeschleunigung und Schwindel.&lt;br>
+        &#160;&#160;&#160;· Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort ihren Arzt!
+    </string>
+
+    <string name="vaccine_hib">
+        1. Was ist Hib und welche Krankheiten verursacht es?\n\nHaemophilus influenzae Typ b ist ein Bakterium, das eine ganze Reihe von schweren Erkankungen, vor allem  bei Kindern
+        unter 5 Jahren hervorruft.\n\n
+        &#160;&#160;&#160;• Das Kind kann sich beim Kontakt mit andern Kindern oder Erwachsenen anstecken, die Träger dieses Bakteriums sind, obwohl
+        sie es nicht wissen. Die Keime werden von Erwachsenen oder von Kind zu Kind mittels Tröpfcheninfektion oder mittels
+        Atemwegssekreten übertragen.\n
+        &#160;&#160;&#160;• Falls das Bakterium in der Nase oder dem Hals des Kindes verbleibt, wird das Kind vermutlich nicht erkranken. Aber wenn
+        das Hib an anderer Stelle in die Atemwege gelangt oder in den Blutkreislauf eintritt, kann das Bakterium eine schwere
+        Erkrankung verursachen. Eine eitrige Meningitis ist die häufigste  durch Hib verursachte Erkrankung. Daran erkranken Kinder
+        bis zum 5. Lebensjahr, besonders gefährdet sind jene im Alter von 6 bis 11 Monaten. Die Krankheit endet mit dem Tode bei 2-5\%%
+        der Erkrankten, kann aber auch bleibende Schäden im Sinne von Geistesretardierung, Taubheit und /oder Sprachstörungen bei 15-30\%%
+        der überlebenden Kinder hinterlassen.\n\nHib verursacht ebenfalls:\n
+        &#160;&#160;&#160;• Lungenentzündung\n
+        &#160;&#160;&#160;• Entzündung des Knorpeldeckels im Halse, der zu  erschwerter Atmung und Ersticken führt\n
+        &#160;&#160;&#160;• Sepsis – Anwesenheit des Bakteriums im Blut, was zu einem schlechten Allgemeinbefinden führt: hohe Temperaturen,
+        Abgeschlagenheit, erschwerte Atmung, Blässe, kalte Hände und Füße, Erbrechen\n
+        &#160;&#160;&#160;• eitrige Gelenkentzündung
+        Vor Einführung der Hib-Impfung in das Pflichtimpfprogramm der entwickelten Länder war dieses Bakterium der Haupterreger
+        bakterieller Meningitiden bei Kindern unter 5 Jahren.\n\n2. Wie soll das Kind gegen Hib geimpft werden?\n\nDie Impfung gegen Hib verhindert das Auftreten der Erkrankung, die durch dieses Bakterium verursacht wird.
+        Wer und wann muss geimpft werden?\n\n
+        &#160;&#160;&#160;• Gegen Hib werden Kinder bis zum Alter von 5 Jahren entsprechend den jeweiligen Impfprogrammen geimpft.\n\n3. Manche Kinder dürfen nicht gegen Hib geimpft werden oder die Impfung muss später durchgeführt werden.\n\n
+        &#160;&#160;&#160;• Kinder, die auf die vorherige Impfdosis gegen Hib eine allergische Reaktion erlebt haben, dürfen nicht die nächste
+        Impfdosis erhalten.\n
+        &#160;&#160;&#160;• Kinder jünger als 6 Wochen dürfen nicht gegen Hib geimpft werden.\n
+        &#160;&#160;&#160;• Kinder, die eine leichte Erkrankung wie zum Beispiel eine Erkältung haben, können geimpft werden. Aber bei schwerer
+        erkrankten Kindern muss die Hib-Impfung verschoben werden, bis die Kinder  vollständig genesen sind.\n\n4. Was sind die möglichen unerwünschten Reaktionen auf die Hib-Impfung?\n\nWie bei jedem Medikament besteht auch bei diesem Impfstoff ein Risiko für unerwünschte Reaktionen, wie zum Beispiel
+        allergische Reaktionen. Das Risiko, das dieser Impfstoff schwere oder sehr schwere Nebenwirkungen hervorrufen wird, ist
+        sehr gering. Der Großteil der Kinder, die gegen Hib geimpft worden sind, haben keine Probleme.\n\nMildere Reaktionen (die auch am häufigsten vermerkt werden)\n\n
+        &#160;&#160;&#160;• Rötung und/oder Schwellung an der Impfstelle\n
+        &#160;&#160;&#160;• erhöhte Temperatur über 38°C\n
+        &#160;&#160;&#160;• Appetitverlust, Unruhe, Erbrechen, Durchfall, ungewöhnliches Weinen\n\nFalls unerwünschte Reaktionen auftreten, geschieht dies meistens 1-2 Tage nach der Impfung, und sie verschwinden innerhalb von
+        2-3 Tagen ohne irgendwelche Folgen.\n\nWas tun, wenn eine schwere unerwünschte Nebenwirkung auftritt?\n\n
+        &#160;&#160;&#160;• Obwohl eine allergische Reaktion äußerst selten ist, kann sie  wenige Minuten bis wenige Stunden nach der Impfung
+        eintreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche, Herzschlagbeschleunigung
+        und Schwindel.\n\nFalls Sie irgendeins dieser Symptome bemerken, wenden Sie sich sofort an Ihren Arzt!
+    </string>
+
+    <string name="vaccine_ipv">
+        1. Was ist Kinderlähmung?\n\nKinderlähmung ist eine Viruserkrankung, die eine schwere Krankheit –  Paralyse verursacht (meistens ein Unvermögen,
+        die Arme und/oder Beine zu bewegen).\n\n
+        &#160;&#160;&#160;· Der Virus kann außerdem den Tod der infizierten Person verursachen, indem die hervorgerufene Muskelparalyse das Atmen
+        unmöglicht macht. Vor der Impfära war dies eine häufige Krankheit, die Tausende Menschen paralysiert und getötet hat.\n
+        &#160;&#160;&#160;· Der Virus tritt über den Mund in den Kindes- oder Erwachsenenorganismus ein.\n\nMit der Kinderlähmungsimpfung wird das Auftreten der Erkrankung verhindert.\n\n2. Welche Impfarten gegen Kinderlähmung gibt es?\n\nEs gibt zwei Arten von Kinderlähmungsimpfungen:\n
+        &#160;&#160;&#160;· „Totimpfstoff“ – inaktivierter Impfstoff gegen Poliomyelitis – IPV – der mittels Spritze angewandt wird;\n
+        &#160;&#160;&#160;· „Lebendimpfstoff“ – oraler Impfstoff gegen Poliomyelitis – OPV – der in Form von Tropfen in den Mund verabreicht wird.\n\nBeide Impfstoffe schaffen eine Immunität gegen Kinderlähmung und können zusammen mit andern Impfstoffen gegeben
+        werden. In Kroatien wird im Pflichtimpfprogramm ausschließlich der inaktivierte Impfstoff (IPV) verwendet.\n\nWann werden Kinder gegen Kinderlähmung geimpft?\n\nUm geschützt zu werden, müssen Kinder 6 Impfdosen erhalten; jeweils eine in folgenden Lebensabschnitten: 2. Monat, 4.
+        Monat, 6.- Monat, 2. Lebensjahr, 7. Lebensjahr, 14. Lebensjahr.\n\nIn diesem Alter kann es gleichzeitig mit anderen Impfungen verabreicht werden  (DTP, Hib, Hepatitis B).\n\n3. Manche Kinder dürfen nicht geimpft werden oder die Impfung muss später durchgeführt werden\n\n
+        &#160;&#160;&#160;· Mit dem inaktivierten Impfstoff dürfen Kinder, die auf die Antibiotika Neomycin, Streptomycin oder Polymyxin B allergisch
+        sind, sowie Kinder, die eine allergische Reaktion nach der Poliomyelitisimpfung hatten, nicht geimpft werden.\n
+        &#160;&#160;&#160;· Kinder mit leichten Erkrankungen wie Erkältung können geimpft werden, das Impfen mittelschwerkranker und schwerkranker
+        Kinder muss bis zur vollständigen Genesung aufgeschoben werden.\n\n4. Was sind die möglichen unerwünschten Reaktionen auf den Poliomyelitisimpfstoff?\n\n
+        &#160;&#160;&#160;· Nach Anwendung des inaktivierten Impfstoffs (IPV) kann an der Impfstelle eine Hautreaktion auftreten, meistens in
+        Form einer Rötung.\n
+        &#160;&#160;&#160;· Obwohl eine allergische Reaktion äußerst selten ist, kann sie dennoch  wenige Minuten bis wenige Stunden nach Anwendung
+        des Impfstoffes eintreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche,
+        Herzschlagbeschleunigung und Schwindel.\n\nFalls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren  Arzt!
+    </string>
+
+    <string name="vaccine_morapu">
+        1. Was sind Masern, Mumps und Röteln?\n\nMASERN sind eine Viruserkrankung, die mit Ausschlag, Husten, Nasenlaufen, Augenirritationen und hoher Köperkerntemperatur
+        einhergehen. Etwas 17\%% der Erkrankten haben eine oder mehrere Komplikationen der Erkrankung, als da sind Mittelohrentzündungen,
+        Lungenentzündungen, Fieberkrämpfe (Krämpfe als Folge hoher Köpertemperaturen), Durchfall oder Hirnentzündung (Encephalitis).\n\nDie häufigste Komplikation Lungenentzündung tritt bei  6\%% der Erkrankten auf und ist außerdem führende Ursache der
+        Maserntodesfälle, die in den entwickelten Länder 1 Todesfall auf 1 000 Erkrankte betragen, während es in den Entwicklungsländern
+        sogar 1\%% ist.\n\nMUMPS, bekannt als Parotitis oder Mumps, ist ebenfalls eine Viruserkrankung. Der Parotitiserreger verursacht hohe
+        Körpertemperaturen, Kopfschmerzen und Drüsenschwellungen. Sie kann zu Taubheit, Meningitis, schmerzhafter Testis- und
+        Ovarienschwellung sowie in seltenen Fällen auch zum Tode führen.\n\nRÖTELN - Der Viruserreger von Röteln verursacht einen Ausschlag, milde Körpertemperaturanstiege und Gelenkentzündungen
+        (meistens bei Frauen). Falls eine schwangere Frau an Röteln erkankt, kann ein Spontanabort oder die Geburt eines Kindes mit
+        schweren körperlichen Schädigungen eintreten.\n\n
+        &#160;&#160;&#160;· Ein Kind kann sich sehr leicht von einer kranken Person aus seiner Umgebung anstecken, denn der Virus verbreitet sich
+        mit der Luft. Die Impfung gegen Masern, Mumps und Röteln kann die Krankheitsentstehung verhindern.\n\n2. Wie soll ein Kind gegen Masern, Mumps und Röteln geimpft werden?\n\nDer Impfstoff gegen die Erreger dieser drei Krankheiten ist in einer Spritze enthalten und nennt sich MMR. Kinder müssen
+        zwei Dosen dieses Impfstoffes erhalten:\n
+        &#160;&#160;&#160;· die erste im Alter von einem Jahr\n
+        &#160;&#160;&#160;· die zweite mit 6 oder 7 Jahren (in der 1. Grundschulklasse) und er kann gleichzeitig mit anderen Impfstoffen
+        verabreicht werden.\n\n3. Wer darf nicht geimpft werden oder bei wem muss die Impfung aufgeschoben werden?\n\n
+        &#160;&#160;&#160;· Kinder, die auf Eier, Gelatine, das Antibiotikum Neomycin allergisch sind oder die auf die vorherige Impfdosis
+        gegen Masern, Mumps und Röteln allergisch reagiert haben, dürfen nicht geimpft werden.\n
+        &#160;&#160;&#160;· Die Impfung schwer oder schwerstkranker Kinder muss bis zur vollständigen Genesung aufgeschoben werden.\n
+        &#160;&#160;&#160;· In manchen Fällen müssen sich die Eltern mit dem Arzt vor der Impfung ihres Kindes beraten, insbesondere wenn die
+        Abwehrmechanismen des kindlichen Organismus aufgrund schwerer Krankheiten oder längerfristiger Behandlungen natürlich
+        gemindert sind, ebenso wenn das Kind eine allergische Reaktion auf Eier hatte.\n
+        &#160;&#160;&#160;· instabile neurologische Erkrankungen\n\n4. Was sind die möglichen, unerwünschten Impfreaktionen?\n\nDer Impfstoff kann wie auch Medikamente unerwünschte Reaktionen hervorrufen, aber die Impfung gegen Masern, Mumps und Röteln
+        ist sehr viel sicherer als das Erkranken an diesen Krankheiten. Die meisten Kinder, die gegen diese Krankheiten geimpft
+        werden, haben damit keine Probleme.\n\nMilde Reaktionen\n
+        &#160;&#160;&#160;· Rötung, Schmerz oder Schwellung an der Impfstelle\n
+        &#160;&#160;&#160;· erhöhte Körpertemperatur\n
+        &#160;&#160;&#160;· leichter Ausschlag\n\nMäßige Reaktionen (selten) treten selten auf.\n
+        &#160;&#160;&#160;· Lymphknotenschwellungen im Gesicht oder am Hals, Fieberkrämpfe – Krampfanfälle hervorgerufen durch erhöhte Körpertemperaturen,
+        Nervosität, obere Atemwegsinfektionen, Durchfall
+        Schwere Nebenwirkungen (selten)\n
+        &#160;&#160;&#160;· Aseptische Meningitis oder allergische Reaktionen, die je nach Schweregrad variieren können
+        Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie Ihren Arzt. Über die weiteren Impfungen mit diesem
+        Impfstoff entscheidet dann Ihr Arzt.
+    </string>
+
+    <string name="vaccine_optional_bcg">
+        1. Was ist Tuberkulose (TBC)?\n\nIn vielen entwickelten Länder ist die Tuberkuloseschutzimpfung eingestellt worden. Bei uns tritt Tuberkulose immer noch
+        auf, so dass die Schutzimpfungen weiterhin durchgeführt werden. Die Tuberkulose befällt alle Organe, am häufigsten die
+        Lungen. Die Tuberkulose wird mittels Tröpfcheninfektion und Husten verbreitet. Die Krankheit ist für Kleinkinder am
+        gefährlichsten.\n\n2. Normalreaktion an der Tuberkuloseimpfstelle\n\nSofort nach der Impfung entsteht eine Blase am Oberarm, die nach einigen Stunden verschwindet. In den nächsten 2-3 Wochen
+        passiert an der Impfstelle nichts Besonderes und danach bildet sich dort ein kleiner, lilafarbener Knoten. Der Knotenmittelpunkt
+        sezerniert während der nächsten 4-5 Wochen ein wenig. Nach dieser Zeit kommt es zur Knotenheilung und es bleibt eine kleine
+        Narbe zurück, die einen lebenslangen Impfbeweis darstellt.\n\n3. Mache Kinder dürfen nicht gegen Tuberkulose geimpft werden oder die Impfung muss später durchgeführt werden\n\n
+        &#160;&#160;&#160;· Kinder mit abgeschwächtem Immunsystem dürfen nicht geimpft werden.\n
+        &#160;&#160;&#160;· Verständigen Sie Ihren Arzt in der Geburtsklinik, falls jemand in der Familie Ihres Neugeborenen ein abgeschwächstes
+        Immunsystem hat, denn solche Krankheiten werden häufig weitervererbt.\n\n4. Was sind unerwünschte Reaktionen auf die Tuberkuloseschutzimpfung?\n\nDiese Schutzimpfung ist eine der sichersten Impfstoffe. Milde Reaktionen (die auch am häufigsten vermerkt werden):\n
+        &#160;&#160;&#160;· eine stärkere Reaktion in den angrenzenden axillären oder supraklavikulären Lympknoten, die man „BCG-tis“ nennt. Dieser
+        Zustand verschwindet meist spontan.\n
+        &#160;&#160;&#160;· Falls der Lymphknoten sezerniert, ist ein chirurgischer Eingriff notwendig.\n\nDies ist kein Hindernis für eine Auffrischimpfung mit demselben Impfstoff.\n\n5. Was tun, falls eine allergische Reaktion auftritt?\n\nObwohl eine allergische Reaktion sehr selten ist, kann sie dennoch  einige Minuten bis zu wenigen Stunden nach der Impfung
+        auftreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche, Herzbeschleunigung
+        und Schwindel. Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie umgehend  Ihren Arzt!
+    </string>
+
+    <string name="vaccine_optional_streptococcus">
+        1. Was sind die Pneumokokken (Streptococcus pneumoniae) und welche Krankheiten verursachen sie?\n\nDas Bakterium Streptococcus pneumoniae, welches auch Pneumokokken genannt wird, ist ein Erreger unterschiedlicher,
+        ansteckender Krankheiten: im Kindesalter Hirnhautentzündung, Lungenentzündung und Mittelohrentzündung und die
+        Komplikationen dieser Erkankungen sind nicht selten.\n\nWer kann sich anstecken?\n\nJeder kann sich anstecken, insbesondere Kleinkinder, Personen älter als 65 Jahre, desweiteren Herzkreislauf-,
+        Lungen-, Nierenkranke, Diabetiker, Alkoholiker und Menschen, die an malignen Erkrankungen leiden. Mit der
+        Pneumokokkenimpfung kann man das Auftreten schwerer Krankheitsformen verhinden, die dieser Erreger verursacht. Aufgrund des
+        Resistenzanstieges dieses Bakteriums auf Antibiotika gestaltet sich die Therapie schwierig und eine Verhinderung der
+        Krankheit mittels Schutzimpfung ist gerechtfertigt.\n\n2. Wie soll ein Kind gegen Streptococcus pneumoniae geimpft werden? (für Kinder älter als 2 Jahre)\n\nDer Polysaccharidimpfstoff gegen Pneumokokken schützt gegen 23 Streptococcus pneumoniae-Typen. Gesunde Personen
+        entwickeln eine Immunantwort auf den Großteil dieser Bakterientypen bereits 2-3 Wochen nach der Impfung.\n\nWer wird geimpft und wann?\n\nGeimpft werden können alle gesunden Kinder, insbesondere wird es für Hochrisikokinder (Kinder ohne Milz, mit
+        Diabetes, mit chronischen Lebererkrankungen, Krankheiten, die zum Liquorabfluss führen, Kinder mit eingebauter
+        Ohrschnecke, Kinder mit angeborenen Immundefizienzen, HIV Infektionen, mit nephrotischem Syndrom, mit bösartigen
+        Herzkreislauferkrankungen, Kinder unter Corticosteroid- und Immumsuppressionstherapien, Kinder nach Organ- oder
+        Knochenmarkstransplantationen) empfohlen.\n\nWann werden sie geimpft?\n\n
+        &#160;&#160;&#160;· Es können Kinder älter als 2 Jahre geimpft werden. Gesunden Kindern wird nur eine Impfung empfohlen.\n
+        &#160;&#160;&#160;· Kinder mit abgeschwächtem Immunsystem werden mit zwei Impfdosen geimpft: und zwar wird Kindern, die jünger als
+        10 Jahre sind, die zweite Impfdosis 3 Jahre und Kindern, die älter als 10 Jahre sind, die zweite Impfdosis 5 Jahre
+        nach der ersten Impfung verabreicht.\n
+        &#160;&#160;&#160;· Gesunde Erwachsene werden nur mit einer Impfdosis geimpft. Die Impfung kann gleichzeitig mit anderen Impfungen im
+        Kindesalter verabreicht werden.\n\n3. Manche Kinder dürfen nicht geimpft werden und die Impfung muss später durchgeführt werden\n
+        &#160;&#160;&#160;· Kinder, die nach der vorherigen Pneumokokkenschutzimpfung eine allergische Reaktion erlebt haben, dürfen nicht
+        die nächste Dosis dieses Impfstoffs erhalten.\n
+        &#160;&#160;&#160;· Die Impfung mittel- bis schwerkranker Kinder muss bis zur vollständigen Genesung verschoben werden.\n\n4. Was sind die möglichen unerwünschten Reaktionen auf die Impfung?\n\n
+        &#160;&#160;&#160;· Ungefähr die Hälfte der geimpften Personen hat milde Reaktionen im Sinne einer Rötung oder Schmerzen an der
+        Einstichstelle. Diese Reaktionen sind vorrübergehend und hinterlassen keine Folgen.\n
+        &#160;&#160;&#160;· Weniger als 1\%% der geimpften Personen hat eine hohe Körpertemperatur, Muskelschmerzen oder schwere Lokalreaktionen. Man
+        kann auf diese Impfung wie auch auf Medikamente eine allergische Reaktion entwickeln.\n\nWas tun, wenn eine schwere unerwünschte Nebenwirkung auftritt?\n\nObwohl eine allergische Reaktion äußerst selten ist, kann sie wenige Minuten bis wenige Stunden nach der Impfapplizierung
+        auftreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Auschläge, Blässe, allgemeine Schwäche,
+        Herzschlagbeschleunigung und Schwindel.\n\nFalls Sie irgendeines dieser Symptome bemerken, verständigen Sie sofort den Arzt!\n\n5. Wie soll das Kind gegen Streptococcus pneumoniae geimpft werden? (für Kinder im Alter von 2 Monaten bis 2 Jahren)
+        Der dreizehnvalente Konjugat-Impfstoff gegen die Pneumokokkenerkrankung ist für die aktive Immunisierung gegen die
+        invasive Erkrankung vorgesehen (Sepsis, Meningitis, bakterielle Lungenentzündung und Blutvergiftung / Bakteriämie),
+        die durch die Serotypen 1,3,4,5,6A,6B,7F,9V,14,18C,19A,19F und 23F Streptococcus pneumoniae bei Säuglingen und Kleinkindern
+        im Alter von 2 Monaten bis 2 Jahren und bei Hochrisikokranken im Alter von 2 bis  5 Jahren verursacht wird. Mit der
+        Anwendung dieser Schutzimpfung kann man die Häufigkeit der invasiven Pneumokokkenerkrankung signifikant vermindern,
+        die durch diese  Impfstämme verursacht wird. Es gibt Daten, dass diese Impfung auch die Häufigkeit von Lungenentzündungen
+        und in geringerm Maße auch Mittelohrentzündungen vermindert. Entsprechend begrenzter Daten verursachen die Pneumokokkenstämme,
+        die im Impfstoff enthalten sind, etwa 90\%% der invasiven Pneumokokkeninfektionen im nordwestlichen Kroatien.
+        Die Impfung wird als intramuskuläre Injektion verabreicht. Die zu empfehlende  Impfstelle ist der äußere Oberschenkelbereich
+        bei Säuglingen oder der Oberarmmuskel bei Kleinkindern. Säuglinge im Alter von 2 bis 6 Monaten werden mit drei Dosen zu je 0,5
+        ml geimpft. Die erste Dosis wird üblicherweise im Alter von 2 Monaten verabreicht und die folgenden beiden Dosen im
+        Abstand von mindestens 1 Monat zwischen den Impfdosen. Solchermaßen geimpfte Säuglinge erhalten im zweiten Lebensjahr
+        (im Alter von 15 bis 18 Monaten)  eine weitere Impfung zur Auffrischung. Vorher ungeimpfte, ältere Säuglinge und
+        Kleinkinder: Säuglinge im Alter von 7 bis 11 Monaten werden mit zwei Dosen a 0,5 ml mit einem zeitlichen Abstand
+        zwischen den Dosen von mindestens 1 Monat geimpft. Solchermaßen geimpfte Säuglinge werden im zweiten Lebensjahr
+        (im Alter von 15 bis 18 Monaten) mit einer Impfung geboostert. Kinder im Alter von 12 bis 23 Monaten werden mit zwei
+        Dosen a 0,5 ml mit einem zeitlichen Abstand von mindestens 2 Monaten geimpft. Kinder im Alter von 24 Monaten bis 5
+        Jahren werden mit einer Impfdosis geimpft.\n\n6. Was sind die möglichen unerwünschten Impfreaktionen?\n\nNebenwirkungen bei der Anwendung dieser Art der Pneumokokkenimpfung können wie auch bei anderen Impfungen in
+        örtliche und systemische Nebenwirkungen eingeteilt werden. Rötungen an der Impfstelle treten bei 12,1\%%, 14,0\%%,
+        beziehungsweise 15,2\%% der Geimpften im ersten Impfzyklus nach der ersten, zweiten, beziehungsweise dritten Dosis auf.
+        Es gibt daher Verbindungen zwischen steigender Anzahl örtlicher Reaktionen zur steigenden Anzahl der erhaltenen Impfdosen.
+        Eine bedeutende Rötung ist definiert als  Rötung, die größer als 2,4 cm ist, dies wurde jedoch nur bei 2\%% der geimpften
+        Säuglinge verzeichnet. Örtliche Verhärtungen (Indurationen) sind bei 10,7\%%, 12,4\%%, beziehungsweise 12,1\%% der Geimpften
+        im ersten Impfzyklus (1., 2. und 3. Dosis) notiert, während eine örtliche Empfindlichkeit bei 25,2\%%, 22,9\%%, beziehungsweise
+        22,3\%% der Geimpften vermerkt wurde. Schlußfolgernd steigt die Inzidenz dieser örtlichen Nebenwirkungen im
+        Gegensatz zu den Rötungen nicht mit der Anzahl der applizierten Dosen. Nach der Auffrischimpfung wurden Rötungen bei
+        12,6\%%, Verhärtungen bei 11,2\%% und örtliche Empfindlichkeit bei 30,4\%% der Geimpften vermerkt. Die Häufigkeit
+        bedeutender örtlicher Nebenwirkungen indes ist auch nach der Auffrischimpfung niedrig und beträgt 1,7\%%
+        (Rötung größer als 2,4 cm), 3,2\%% (Verhärtung), beziehungsweise 13,8\%% (örtliche Empfindlichkeit). Der Prozentsatz der
+        Geimpften, bei denen eine Körpertemperatur höher als 39°C notiert wurde, beträgt nur 1-3\%%. Der Prozentsatz der
+        systemischen Nebenwirkungen nach der Boosterimpfung, durchgeführt im Alter von 12 bis 15 Monaten, unterscheidet sich nicht
+        bedeutend von denen nach der Serie der Erstimpfungen.\n\nDie gleichzeitige Anwendung dieses Impfstoffes mit anderen pädiatrischen Impfungen ist möglich und bemerkte
+        Interaktionen haben keine klinische Bedeutung.\n\n7. Wer darf nicht geimpft werden?\n\nKontraindikationen für die Anwendung dieser Schutzimpfung sind Überempfindlichkeit auf die aktive und die Hilfssubstanzen
+        sowie auf das Diphterietoxoid. Die Impfung sollte bei Personen mit einer akuten Infektionskrankheit verschoben werden. Der
+        Impfstoff darf nicht bei Kindern mit Thrombozytopenie oder anderen Gerinnungsstörungen angewendet werden, die eine
+        Kontraindikation für eine intramuskuläre Injektion sein können, . Bei Kindern mit einer geschwächten Immunantwort kann
+        der Aufbau spezifischer Antikörper nach der Impfung mit diesem Impfstoff vermindert sein. Die vorbeugende Medikamentenanwendung
+        zur Temperatursenkung empfiehlt sich bei Kindern, die an Krampfleiden leiden oder die früher im Leben Fieberkrämpfe hatten.
+    </string>
+
+    <string name="vaccine_optional_chickenpox">
+        1. Was sind Windpocken?\n\nWindpocken sind eine häufige Kinderkrankheit. Meistens treten sie in einer leichteren Form auf, aber sie können auch in
+        schwerer Form insbesondere bei sehr kleinen Kindern und bei Erwachsenen auftreten.\n\n
+        &#160;&#160;&#160;· Der Windpockenvirus wird von Person zu Person über die Luft oder über den Kontakt mit der Blasenflüssigkeit von der
+        Haut übertragen.\n
+        &#160;&#160;&#160;· Windpocken erscheinen als Bläschen am ganzen Körper, die von Juckreiz, erhöhter Temperatur und allgemeiner Mattigkeit
+        begleitet werden.\n
+        &#160;&#160;&#160;· Im Kindesalter sind Lungenentzündungen sowie Hirn- und Hirnhautentzündungen, die durch das Windpockenvirus verursacht
+        werden, äußerst selten. Der Tod tritt nur bei immunkompromittierten Kindern ein.\n
+        &#160;&#160;&#160;· Narben, die an den Stellen der Windpocken zurückbleiben, verheilen innerhalb von einigen Wochen. Bleibende Narben
+        entstehen nur, wenn sich die Windpocken zusätzlich mit einem Bakterium infizieren (meistens Streptokokken oder Staphylokokken).\n\n2. Wie soll das Kind gegen Windpocken geimpft werden?\n\nDie Windpockenimpfung verhindert das Krankheitsauftreten. Der Großteil der geimpften Kinder wird sich nicht
+        mit Windpocken anstecken. Falls sich ein solches Kind auch ansteckt, bei ihm wird die Krankheit sehr milde
+        verlaufen und es wird viel schneller genesen.\n\nWer muss geimpft werden und wann?\n\n
+        &#160;&#160;&#160;· Wenn Kinder älter als 12 Monate geimpft werden, wird empfohlen, sie in zwei Dosen im Abstand von 6-10 Wochen
+        zu impfen. Bis vor Kurzem wurden die Kinder nur mit einer Dosis geimpft, aber wegen der verstärkten Virenaggressivität
+        sind mache geimpften Kinder erkrankt, so dass seit dem Jahre 2012 eine Auffrischimpfungsempfehlung eingeführt wurde.\n
+        &#160;&#160;&#160;· Kinder älter als 13 Jahre und Erwachsene müssen ebenfalls zwei Dosen im Abstand von 6-10 Wochen erhalten. Der
+        Windpockenimpfstoff kann gleichzeitig mit anderen Impfungen angewendet werden.\n\n3. Manche Kinder dürfen nicht gegen Windpocken geimpft werden oder die Impfung muss später durchgeführt werden.\n\n
+        &#160;&#160;&#160;· Kinder, die irgendwann im Leben eine allergische Reaktion auf Eier, Gelatine, das Antibiotikum Neomycin
+        oder (für jeden, die mit zwei Dosen geimpft werden) auf die vorherige Windpockenimpfdosis hatten, dürfen nicht geimpft werden.\n
+        &#160;&#160;&#160;· Schwangere dürfen nicht mit diesem Impfstoff geimpft werden. Frauen, die gegen Windpocken geimpft wurden,
+        sollten 3 Monate warten, bevor sie schwanger werden.\n
+        &#160;&#160;&#160;· Kinder mit abgeschwächtem Immunsystem dürfen nicht geimpft werden.\n\n4. Was sind die möglichen unerwünschten Reaktionen auf den Windpockenimpfstoff?\n\nWie bei jedem Medikament besteht auch beim Impfstoff das Risiko unerwünschter Reaktionen. Das Risiko, dass diese
+        Schutzimpfung schwere Nebenwirkungen hervorruft, ist außerordentlich klein. Der Großteil der Windpockengeimpften hat
+        keine unerwünschten Reaktionen.\n\nMilde Reaktionen (die am häufigsten notiert werden)\n
+        &#160;&#160;&#160;· Schmerzen, Schwellund und Rötung an der Einstichstelle\n
+        &#160;&#160;&#160;· erhöhte Temperatur\n
+        &#160;&#160;&#160;· milder Ausschlag\n
+        &#160;&#160;&#160;· außerordentlich seltene Möglichkeit der Infizierung Nahestehender (nur bei Kindern mit abgeschwächtem Immunsystem)\n\nWas tun, wenn eine allergische Reaktion auftritt?\n\nObwohl eine allergische Reaktion äußerst selten ist, kann sie wenige Minuten bis wenige Stunden nach der Impfung
+        eintreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche,
+        Herzschlagbeschleunigung und Schwindel. Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren Arzt!
+    </string>
+
+    <string name="vaccine_optional_flu">
+        1. Was ist die Grippe?\n\nDie Grippe oder Influenza ist eine angesteckende Krankheit, die der Grippevirus verursacht. Alleine für sich ist
+        die Grippe keine gefährliche Krankheit, aber sie kann zu ernsthaften Komplikationen führen, die auch fatal sein
+        können. Die Symptome treten plötzlich auf und umfassen hohe Körpertemperaturen, Schüttelfrost, Muskelschmerzen und
+        starke Kopfschmerzen. Es treten ebenfalls ein starker  Nasenfluss und starker Husten auf, die auch wochenlang dauern können.\n
+        &#160;&#160;&#160;· Die Grippe ist sehr ansteckend (1 Reisender mit Grippesymtomen im Flugzeug steckt bis zu 72\%% der übrigen
+        Mitreisenden an). Sie können sie mit der Atmung von jemandem bekommen, der hustet oder niest, wenn Sie im engen
+        Kontakt mit einer Person sind, die Grippe hat oder wenn Sie verseuchte Gegenstände anfassen und so den Virus in die
+        Atemwege übertragen.\n
+        &#160;&#160;&#160;· Kinder sind ansteckender als Erwachsene und verbreiten den Virus länger, außerdem werden sie wegen Grippe häufiger als
+        aufgrund anderer ansteckender Krankheiten stationär aufgenommen, insbesondere im Alter bis zu zwei Jahren.\n\nWer kann an Grippe erkranken?\n\nJederman kann Grippe bekommen, einschließlich Menschen guter Gesundheit. Falls Sie Grippe haben, können Sie sie ebenfalls
+        unbewußt auf andere übertragen, weil bis zum Eintreten der Symptome 1-4 Tage vergehen müssen und ansteckend sind wir bis zu
+        5 Tagen nach dem Verschwinden der Symptome.\n\n2. Wie soll das Kind gegen Grippe geimpft werden?\n\nDie Impfung verhindert das Auftreten der Grippe. Die Schutzimpfung wird vor der Grippesaison durchgeführt (Oktober,
+        November); für Kinder im Alter bis zu 7 Jahren in zwei Dosen und die zweite Dosis bekommt das Kind 4-6 Wochen nach der ersten
+        Impfdosis. Die Impfung muss jedes Jahr wiederholt werden, da sich der Grippevirus jedes Jahr ändert.\n\nWer sollte gegen Grippe geimpft werden?\n\nKinder, die an chronischen Krankheiten leiden, gehören zur Hochrisikogruppe der Personen, bei denen es zu lebengefährlichen
+        Komplikationen aufgrund der Grippeinfektion kommen kann und die daher gegen Grippe geimpft werden sollten. Zum Schutz der
+        Hochrisikokinder sollten sich auch Personen impfen, die mit ihnen in Kontakt sind!\n\n
+        &#160;&#160;&#160;· Es sollten alle Kinder zwischen 6 und 23 Monaten und ihre Familienangehörigen geimpft werden;\n
+        &#160;&#160;&#160;· Einrichtungsschützlinge zur Pflege chronisch Kranker;\n
+        &#160;&#160;&#160;· Kinder mit chronischen Lungenerkrankungen (Asthma, zystische Fibrose, bronchopulmonale Dysplasie);\n
+        &#160;&#160;&#160;· Kinder mit angeborenen Herzvitien, Nierenerkrankungen, Hämoglobinerkrankungen, Kinder mit Zuckerkrankheit, mit
+        geschädigtem Immunsystem (einschließlich HIV-Infektion);\n
+        &#160;&#160;&#160;· Kinder und Jugendliche mit langfristiger Aspirintherapie;\n
+        &#160;&#160;&#160;· Personen, die in längerem Kontakt mit chronisch kranken Kindern (Eltern, Pfleger) sind;\n
+        &#160;&#160;&#160;· Personen, die älter als 65 Jahre sind;\n
+        &#160;&#160;&#160;· Alle, die die Grippe vermeiden wollen.\n\n
+        Wann muss man sich gegen Grippe impfen?\n\nKinder und Erwachsene müssen sich jedes Jahr vor Beginn der Grippesaison (von September bis November) impfen, aber es
+        ist auch nicht zu spät, sich während der Saison (von November bis April, am häufigsten von Ende Dezember bis März) zu
+        impfen. Den Impfschutz erlangt man ein bis zwei Wochen nach der Impfung.\n\nWarum müssen wir uns jedes Jahr impfen?\n\nDie Grippeviren ändern sich ständig. In der Regel erscheinen jede Saison neue Grippevirenstämme. Jede Saison bestimmt die
+        Weltgesundheitsorganisation die aktivsten Viren und diese kommen in den Impfstoff, der für die kommende Saison produziert wird.\n\n3. Manche Kinder dürfen nicht gegen Grippe geimpft werden\n\n
+        &#160;&#160;&#160;· Kinder jünger als 6 Monate\n
+        &#160;&#160;&#160;· Kinder, die eine allergische Reaktion auf Eier oder auf den Grippeimpfstoff hatten.\n
+        &#160;&#160;&#160;· Kinder, die mittelmäßig oder schwerkrank sind, müssen die vollständige Genesung abwarten.\n\n4. Was sind die unerwünschten Reaktionen auf den Grippeimpfstoff?\n\nWie bei jedem Medikament besteht auch beim Impfstoff das Risiko unerwünschter Reaktionen. Das Risiko schwere Nebenwirkungen
+        mit diesem Impfstoff zu verursachen ist außerordentlich klein. Der Großteil der Grippegeimpften hat keine unerwünschten
+        Reaktionen.\n\nMilde Reaktionen (die auch am häufigsten notiert werden)\n\n
+        &#160;&#160;&#160;· Schmerzhaftigkeit, Schwellung und Rötung an der Einstichstelle\n
+        &#160;&#160;&#160;· erhöhte Temperatur\n\nSchwer allergische Reaktionen sind äußerst selten. Obwohl dies äußerst selten der Fall ist, kann eine allergische Reaktion
+        wenige Minuten bis wenige Stunden nach der Impfung auftreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge,
+        Blässe, allgemeine Schwäche, Herzschlagbeschleunigung und Schwindel.\n\nFalls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren Arzt! Zu allen anderen Informationen über die
+        Grippeimpfung fragen Sie Ihren Arzt.
+    </string>
+
+    <string name="vaccine_optional_hepatitis_a">
+        1. Was ist Hepatitis A?\n\nHepatitis A ist eine Leberentzündung, die durch den Hepatitis A-Virus verursacht wird. Die Krankheit beginnt mit
+        allgemeinen Symptomen wie Schüttelfrost, Schwäche, Erbrechen, Durchfall, aber nur jeder 4. Kranke ist gelb!\n\n
+        &#160;&#160;&#160;· Bei etwa 25\%% der Erkrankten werden die Haut und Skleren gelb, der Urin dunkler und der Stuhl heller.\n
+        &#160;&#160;&#160;· Nach 1 bis 2 Wochen verschwinden die Krankheitssymptome, aber die vollständige Genesung dauert länger; bei manchen
+        Patienten sogar 6-12 Monate.\n
+        &#160;&#160;&#160;· Die Inkubation nach einer Hepatitis A-Virusinfektion dauert 15-60 Tage.\n
+        &#160;&#160;&#160;· Der Hepatitis A-Virus überträgt sich mit schmutzigen Händen, infizierter Nahrung und Wasser. Die Infektion tritt am
+        häufigsten innerhalb von Gemeinschaften (Kindergarten, Schule, Familie) auf.\n
+        &#160;&#160;&#160;· Die Impfung wird als sichere Schutzform vor der Hepatitis A-Erkrankung empfohlen.\n\n2. Wer unterliegt der Impfnotwendigkeit?\n\nKinder mit hohem Risiko oder bei Reisen in Risikogebiete, wo Hepatitis A endemisch auftritt (Gebiete, in denen
+        er ständig vorhanden ist).\n\n3. Wie soll man das Kind gegen Hepatitis A impfen?\n\nZur Erlangung des vollständigen Impfschutzes ist es notwendig, zwei Impfdosen in jeglichem Alter, angefangen nach dem
+        vollendeten ersten Lebensjahr zu erhalten. Die zweite Dosis wird im Abstand von 6-12 Monaten nach der ersten Dosis verabreicht.\n\n4. Manche Kinder dürfen nicht geimpft werden oder die Impfung muss später durchgeführt werden .\n\n
+        &#160;&#160;&#160;· Kinder, die bei der vorherigen Hepatitis A-Impfung eine allergische Reaktion auf den Impfstoff entwickelt haben
+        und Kinder, die auf irgendeinen Impfinhaltsstoff allergisch sind, dürfen nicht geimpft werden.\n
+        &#160;&#160;&#160;· Kinder, die an einer leichter Erkrankung wie zum Beispiel an einer Erkältung erkranken, können geimpft werden,
+        aber bei schwerkranken Kindern mit hohen Temperaturen sollte man die Hepatitis A-Impfung aufschieben, bis sie
+        vollständig genesen sind.\n\n5. Was sind die möglichen unerwünschten Impfreaktionen?\n\nDer Hepatitis A-Impfstoff ist eine sehr sichere Schutzimpfung. Falls sie existieren, sind die unerwünschten Reaktionen
+        in einem Großteil der Fälle sehr milde:\n
+        &#160;&#160;&#160;· Schmerz und Rötung an der Impfstelle\n
+        &#160;&#160;&#160;· vorrübergehende Temperaturerhöhungen, Kopfschmerzen, Müdigkeit, Fieber, Übelkeit und Appetitverlust.
+        Schwerere Formen unerwünschter Nebenwirkungen wie zum Beispiel allergische\n\nReaktionen sind selten.\n\nWas tun, falls eine schwere unerwünschte Reaktion auftritt?\n\n
+        Obwohl eine allergische Reaktion sehr selten ist, kann sie wenige Minuten bis wenige Stunden nach der Impfung
+        eintreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche,
+        Herzschlagbeschleunigung und Schwindel.\n\nFalls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren Arzt!\n\nImpfung gegen Hepatitis A und B mit einer Spritze\n\n1. Was ist der kombinierte Impfstoff gegen Hepatitis A und B?\n\nHeute ist es möglich, mit dem kombinierten Impfstoff Kinder und Erwachsene gleichzeitig gegen die Virusinfektionen
+        Hepatitis A und Hepatitis B zu schützen. Die Impfung wird als sichere Form des gleichzeitigen Erkrankungsschutzes gegen
+        Hepatitis A und Hepatitis B empfohlen.\n\n2. Wie soll das Kind gleichzeitig gegen Hepatitis A und Hepatitis B geimpft werden?\n\nDas Impfschema gegen Hepatitis A und Hepatitis B gleichzeitig beinhaltet drei kombinierte Impfungen, die ein  Kind
+        erhalten muss, um vollständig und langfristig gegen diese beiden viralen Leberentzündungskrankheiten geschützt zu sein.
+        &#160;&#160;&#160;· Zwischen der ersten und zweiten Dosis muss 1 Monat und zwischen der zweiten und dritten müssen 5 Monate vergehen. Über
+        die Notwendigkeit späterer Auffrischimpfungen werden Sie sich mit Ihrem Arzt beraten.\n\n3. Manche Kinder dürfen nicht geimpft werden oder die Impfung muss später durchgeführt werden.\n\n
+        &#160;&#160;&#160;· Kinder, die bei der vorherigen Hepatitis A- und Hepatitis B-Impfung allergische Reaktionen auf den Impfstoff
+        entwickelt haben und Kinder, die auf irgendeinen Impfbestandteil allergisch sind, dürfen nicht geimpft werden.\n
+        &#160;&#160;&#160;· Kinder, die an einer leichten Erkrankung zum Beispiel Erkältung erkrankt sind, können geimpft werden, aber bei
+        schwerkranken Kindern mit hohen Temperaturen sollte man die Impfung bis zur vollständigen Genesung aufschieben.\n\n4. Was sind die möglichen unerwünschten Impfreaktionen?\n\n
+        &#160;&#160;&#160;· Die unerwünschten Reaktionen sind die gleichen wie bei der Benutzung der einzelnen Impfbestandteile (Hepatitis A
+        und Hepatitis B), was in den Kapiteln über die  Einzelimpfstoffe beschrieben wurde.
+    </string>
+
+    <string name="vaccine_optional_rota_virus">
+        1. Was verursacht der Rotavirus?\n\nDer Rotavirus ist die häufigste Ursache schwerer Formen von Brechdurchfallerkrankungen im Säuglingsalter und bei
+        Kleinkindern. Die Krankheit zeigt sich mit Erbrechen, Durchfall sowie erhöhter Körpertemperatur und dauert 4-8 Tage. \n\nSchwere
+        Fälle sind durch Austrocknung und Elektrolytungleichgewichte gekennzeichnet, so dass eine stationäre Therapie der Erkrankten
+        notwendig ist. Der Rotavirus ist allgegenwärtig, so dass sich im Alter von 3-5 Jahren 95\%% der Kinder  anstecken.\n\nEs wird
+        geschätzt, dass jährlich von dieser Krankheit in der Europäischen Union sogar 3,6 Millionen Kinder jünger als 5 Jahre
+        erkranken, von denen etwa 50.000 stationär aufgenommen werden und 231 Kinder an den Infektionsfolgen sterben.\n\nDer größte
+        Teil der Erkrankten meldet sich im Alter zwischen 6 und 24 Monaten, aber die Infektion ist ebenfalls nicht selten im frühen
+        Säuglingsalter, wenn die Gefahr einer schweren Krankheitsform und der folgenden stationären Aufnahme am höchsten
+        ist.\n\nRotavirusinfektionen treten in der Mehrheit der entwickelten Länder meistens während der Wintermonate, am häufigsten
+        von Oktober bis April auf.\n\n2. Übertragungswege\n\nDer Rotavirus ist hochinfektiös und überträgt sich meistens auf dem fäkal-oralen Weg, aber es wird angenommen, dass
+        eine Infektionsverbreitung auch als Tröpfchenübertragung (über die Luft)  und über kontaminierte Oberflächen möglich
+        ist.\n\nDer Virus wird ohne Rücksicht auf sanitäre Bedingungen übertragen, so dass mit der Verbesserung des sozial-ökonomischen
+        Standards, der Wasserqualität, des Abwassersystems und der Hygiene in den entwickelten Ländern die Infektionsausbreitung
+        nicht signifikant unterbunden werden konnte.\n\nDie Infektion zeigt sich hauptsächlich in Einrichtungen, und ganz häufig sind
+        Epidemien auf Kinderstationen in Krankenhäusern, in Tageskliniken und medizinischen Intensivstationen, wo es besonders
+        schwer ist, die Infektionsausbreitung zu kontrollieren.\n\nIn diesem Fall können die Folgen für das stationäre Kind fatal
+        sein und die Verlängerung des stationären Aufenthaltes verteuert bedeutend die Behandlung. Auf schmutzigen Händen kann
+        der Virus wenige Stunden überleben, während er in der Nahrung oder gar auf festen Unterlagen, wie zum Beispiel Spielzeug
+        auch bis zu mehreren Tagen überleben kann.\n\n3. Klinisches Bild\n\nBei Kindern jünger als 5 Jahre kann das klinische Bild von einem milden, kurzfristigen Durchfall bis zu einer
+        schweren Brech-Durchfall-Erkrankung variieren, die zu Blutdruckabfall, Kreislaufkollaps und zum Tode führt.\n\nDie Symptome
+        dauern regelmäßig einige Tage und der Durchfall endet von selbst, aber die schwere Infektionsform kann sich schnell
+        verschlechtern und eine lebensgefährliche Austrocknung verursachen, die eine sofortige intravenöse Rehydrierung
+        erfordert.\n\nNach der Inkubationsperiode von 12 Stunden bis 4 Tagen treten Durchfall und Erbrechen auf, welche 4-8 Tage
+        dauern. Gewöhnlich gibt es auch erhöhte Körpertemperaturen und Bauchschmerzen. Die Erstinfektion ist meistens die
+        schwerste, während die Syptome bei jeder weiteren Infektion schwächer ausgeprägt sind.\n\n4. Impfempfehlungen\n\nDie Richtlinien zweier europäischer Dachorganisationen European Society for Pediactric Infectious Diseases
+        (ESPID) und European Society for Pediatric Gastroenterology, Hepathology and Nutrition (ESPAGHAN) besagen,
+        dass aufgrund unannehmbarer Morbiditäts- und Mortalitätsstufen verurascht durch Rotavireninfektionen in Europa
+        ein frühes Impfen vor der ersten Infektion mit dem Rotavirus den Großteil schwerer Erkrankung und ihrer Folgen bei
+        gesunden Kindern verhindern könnte.\n\nDaher wird die Schutzimpfung für jedes gesunde Kind in Europa empfohlen. Weiterhin ist
+        zu erwarten, dass die Impfung auch die erwachsene Population vor der Rotavirusinfektion schützt, was besonders für
+        ältere und immunkompromittierte Personen wichtig ist.\n\nEntlang der Spur solcher Bestrebungen wurde Anfang des Jahres
+        2008 in Kroatien ein Nationalausschuss zur Präventionsförderung der Rotavirusinfektionen bei Kindern gegründet.\n\n5. Über die Impfstoffe\n\nAuf dem Markt in Europa und Kroatien sind zwei lebende, attenuierte Impfstoffe gegen den Rotavirus für die oraleAnwendung (Rotarix&#174;; GSK Biologicals und RotaTeq&#x2122;, SPMSD) zugänglich.\n\nDer Impfstoff Rotarix&#174; wird in nur zwei oralen Dosen angewendet.\n\n
+        &#160;&#160;&#160;· Die erste Dosis kann bereits ab der vollendeten 6. Lebenswoche angewendet werden und es wird empfohlen, dieSchutzimpfung bis zur vollendeten 16. Lebenswoche zu beenden, aber sie muss spätestens bis zum Alter von 24
+        Wochen beendet werden.\n
+        &#160;&#160;&#160;· Der Zeitraum zwischen den Dosen muss mindestens 4 Wochen betragen.\n\nEr kann gleichzeitig mit allen monovalenten oder kombinierten Impfungen, die im Säuglingsalter benutzt werden, beim
+        gleichen Besuch angewendet werden, einschließlich des hexavalenten und dem Pneumokokkenimpfstoff.\n\nNachweislich wirksam
+        ist er im Schutz vor 5 der häufigsten Rotavirenstämme. In 96\%% der Fälle sichert er einen Schutz vor der schweren Form
+        des Rotavirus-Brechdurchfalls im ersten Jahr nach der Impfung.\n\nIn 100\%% der Fälle sichert er einen Schutz vor dem
+        Krankenhausaufenthalt wegen schwerer Rotavirus-Brechdurchfallerkrankungen im ersten Jahr nach der Impfung. Er sichert
+        einen fortlaufenden Schutz in den ersten beiden Lebensjahren, wenn das Risiko für das Kind am größten ist.\n\nIn den
+        durchgeführten Umfragen waren die meistgenannten Nebenwirkungen Irritabilität und Appetitverlust (1/10).\n\nEine große
+        Untersuchung zeigte ebenfalls, dass es nach der Impfung mit dem angeführten Impfstoff kein gesteigertes Risiko vor
+        einer Darminvagination (Einstülpung eines Darmteils in einen anderen Teil) gab.\n\nÄhnlich sind auch die Eigenschaften des anderen Impfstoffs RotaTeq&#x2122;, außer dass er in 3 Dosen angewendet wird. Die erste
+        Dosis wird zwischen der sechsten und 12. Lebenswoche verabreicht. Der Zeitraum zwischen den Dosen muss mindestens vier
+        Wochen betragen. Es wird empfohlen, alle drei Dosen vor der 20.-22. Lebenswoche des Kindes zu geben, jedoch sind alle drei
+        Dosen vor der 26. Lebenswoche des Kindes zu verabreichen.
+    </string>
+
+    <string name="vaccine_optional_tick_borne">
+        1. Was ist die Frühsommermeningoencephalitis?\n\nDie Frühsommermeningoencephalitis ist eine virale Hirn- und Hirnhautentzündung, die bei Kindern meistens ohne
+        bleibende Schäden verläuft.\n\n
+        &#160;&#160;&#160;· Der Virusüberträger ist die Waldzecke oder gewöhnliche Zecke, die mit dem Virus infiziert ist.\n
+        &#160;&#160;&#160;· Das ist eine ausgesprochen saisonale Krankheit, die im März beginnt, während der Sommermonate abnimmt und
+        sich regelmäßig während des frühen Herbstes zurückmeldet.\n
+        &#160;&#160;&#160;· Die Virusinkubation dauert 1 bis 2 Wochen, danach stellt sich der Zustand erhöhter Körpertemperaturen, Schwäche
+        und Müdigkeit ein. Daraufhin kommt es zur dauerhaften oder vorrübergehenden Besserung, wonach Hirn- und Hirnhautentzündungen
+        mit begleitenden hohen Temperaturen, Bewußtsseinsminderungen, starken Kopfschmerzen und anderen Störungen eintreten können.\n
+        &#160;&#160;&#160;· Meistens ist die Genesung von dieser Krankheit bei Kindern vollständig und wird nicht von bedeutenden Komplikationen und
+        bleibenden Schäden begleitet.\n\n2. Wer soll geimpft werden?\n\nPersonen, die Gebiete besuchen, in denen sich mit Frühsommermeningoencephalitisviren infizierte Zecken
+        (nordwestliches Kroatien, nördlich des Flusses Sava) befinden.\n\n3. Wie soll das Kind gegen Frühsommermeningoencephalitis geimpft werden?\n\n
+        &#160;&#160;&#160;· Das Kind kann durch Impfung mit dem inaktivierten (toten) Impfstoff in drei Dosen von dieser Krankheit geschützt werden.\n
+        &#160;&#160;&#160;· Zwischen der ersten und zweiten Dosis müssen zwischen 2 Wochen und 3 Monate vergehen, zwischen der zweiten und
+        dritten 9 bis 12 Monate.\n
+        &#160;&#160;&#160;· Es können Kinder älter als 1 Jahr geimpft werden.\n
+        &#160;&#160;&#160;· Die Impfung kann gleichzeitig mit anderen Impfungen im Kindesalter angewendet werden.\n
+        &#160;&#160;&#160;· Nach 3 Jahren ist eine Auffrischimpfung notwendig.\n\n4. Manche Kinder dürfen nicht gegen die Frühsommermeningoencephalitis geimpft werden oder die Impfung muss auf
+        später aufgeschoben werden.\n\n
+        &#160;&#160;&#160;· Kinder, die allergisch auf einen Impfbestandteil sind oder die irgendwann eine schwere allergische Reaktion auf
+        Eier hatten, dürfen nicht geimpft werden.\n\n5. Was sind die möglichen unerwünschten Impfreaktionen auf die Frühsommermeningoencephalitisimpfung?\n\nWie bei jedem Medikament besteht bei der Impfung das Risiko unerwünschter Reaktionen, wie zum Beispiel allergische
+        Reaktionen. Das Risiko schwerer oder sehr schwerer Nebenwirkungen, hevorgerufen durch diesen Impfstoff, ist außerordentlich
+        klein.\n\nWährend der Impfung kann es zu unerwünschten Reaktionen kommen:\n
+        &#160;&#160;&#160;· lokaler Art in Form von Rötungen und Schwellungen an der Impfstelle sowie Schwellung der umliegenden Lymphknoten\n
+        &#160;&#160;&#160;· allgemeinen Reaktionen wie Müdigkeit, Schmerzen im Arm oder Bein, Übelkeit, Kopfschmerzen, erhöhte Körpertemperatur,
+        Erbrechen oder vorrübergehende Ausschläge\n\nWas tun, wenn schwere unerwünschte Nebenwirkungen auftreten?\n\n
+        &#160;&#160;&#160;· Obwohl allergische Reaktionen äußerst selten sind, können sie wenige Minuten bis wenige Stunden nach der
+        Impfung auftreten. Die Symptome umfassen erschwerte Atmung, Heiserkeit, Ausschläge, Blässe, allgemeine Schwäche, Herzschlagbeschleunigung und Schwindel.
+        Falls Sie irgendeins dieser Symptome bemerken, verständigen Sie sofort Ihren Arzt!
+    </string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_1">BCG, dosis:</string>
+    <string name="vaccine_2">DTaP, dosis:</string>
+    <string name="vaccine_3">IPV: Inactivated Polio Vaccine, dosis:</string>
+    <string name="vaccine_4">Hib, dosis:</string>
+    <string name="vaccine_5">MO-PA-RU: MMR, Masern, Mumps, Roeteln, dosis:</string>
+    <string name="vaccine_6">Hepatitis B, dosis:</string>
+    <string name="vaccine_7">Hepatitis A, dosis:</string>
+    <string name="vaccine_8">Windpocken, dosis:</string>
+    <string name="vaccine_9">Fruehsommermeningoencephalitis</string>
+    <string name="vaccine_10">Pneumokokken, dosis:</string>
+    <string name="vaccine_11">Grippe</string>
+    <string name="vaccine_12">ROTA VIRUS, dosis:</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_next_1">Hepatitis B</string>
+    <string name="vaccine_next_2">DTaP</string>
+    <string name="vaccine_next_3">IPV: Inactivated Polio Vaccine</string>
+    <string name="vaccine_next_4">Hib</string>
+    <string name="vaccine_next_5">MO-PA-RU: MMR, Masern, Mumps, Roeteln</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_optional_1">BCG:</string>
+    <string name="vaccine_optional_2">Pneumokokken</string>
+    <string name="vaccine_optional_3">ROTA VIRUS</string>
+    <string name="vaccine_optional_4">Grippe</string>
+    <string name="vaccine_optional_5">Hepatitis A</string>
+    <string name="vaccine_optional_6">Windpocken</string>
+    <string name="vaccine_optional_7">Fruehsommermeningoencephalitis</string>
+
+    <!-- Add entry feeding -->
+    <string name="add_feeding_menu">Speichern</string>
+    <string name="add_feeding_ml">Menge (ml)</string>
+    <string name="add_feeding_fl">Menge (fl)</string>
+    <string name="add_feeding_min">Zeit (min)</string>
+    <string name="feed_1">Flasche</string>
+    <string name="feed_2">Linke Brust</string>
+    <string name="feed_3">Rechte Brust</string>
+    <string name="feed_4">Andere</string>
+
+    <!-- Sleeping feed -->
+    <string name="sleeping_feed_name">Schlaf</string>
+    <string name="sleeping_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="sleeping_feed_content_list_empty">Um gut schlafen zu koennen, sollte %1$s\n eine Schlafroutine haben. Folge %1$s\'s Schlafgewohnheiten, damit er/sie die ganze Nacht durchschlaeft .</string>
+
+    <!-- Add sleeping feeding -->
+    <string name="add_sleeping_menu">Speichern</string>
+    <string name="add_sleeping_ml">Schlafstunden (h)</string>
+
+    <!-- Diapers feed -->
+    <string name="diapers_feed_name">Stuhlgang/Pinkeln</string>
+    <string name="diapers_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="diapers_feed_content_list_empty">Nasse oder schmutzige Windeln \nsagen viel ueber \n%1$s\'s Gesundheit aus.</string>
+
+    <!-- Diapers list -->
+    <string name="diapers_pee">Pinkeln</string>
+    <string name="diapers_poo_1">Weicher Stuhlgang</string>
+    <string name="diapers_poo_2">Breiiger Stuhlgang</string>
+    <string name="diapers_poo_3">Normaler Stuhlgang</string>
+    <string name="diapers_poo_4">Knoddeliger Stuhlgang</string>
+    <string name="diapers_poo_5">Harter Stuhlgang</string>
+
+    <!-- Diapers list -->
+    <string name="diapers_poo_group_1">Weicher Stuhlgang</string>
+    <string name="diapers_poo_group_2">Breiiger Stuhlgang</string>
+    <string name="diapers_poo_group_3">Normaler Stuhlgang</string>
+    <string name="diapers_poo_group_4">Knoddeliger Stuhlgang</string>
+    <string name="diapers_poo_group_5">Harter Stuhlgang</string>
+
+    <!-- Growth feed -->
+    <string name="growth_feed_name">Wachstum</string>
+    <string name="growth_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="growth_feed_content_list_empty">Ist %1$s Wachstum entlang der richtigen Perzentile? Erhalte eine Rueckmeldung bezueglich der Wachstumsbereiche - Gewicht, Hoehe und Body-Mass-Index. </string>
+    <string name="growth_menu_1">Growth Curves</string>
+    <string name="growth_menu_2">Body Mass Index</string>
+
+    <!-- Feeding feed -->
+    <string name="feeding_feed_name">Fuettern</string>
+    <string name="feeding_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="feeding_feed_content_list_empty">Fuettern ist der wichtigste Entwicklungsteil \nvon  %1$s\'s. Wissen, was  %1$s gesund macht.</string>
+    <string name="feeding_feed_item_left">Linker %1$d min</string>
+    <string name="feeding_feed_item_right">Rechter %1$d min</string>
+
+    <string name="feed_group_main">Letzte - %1$s · %2$s Minuten</string>
+    <string name="feed_group_left">Linker</string>
+    <string name="feed_group_right">Rechter</string>
+
+    <!-- Sickness feed -->
+    <string name="sickness_feed_name">Krankheit</string>
+    <string name="sickness_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="sickness_feed_content_list_empty">Erbrechen, Durchfall, verstopfte Nase... Kennzeichne alle Schwierigkeiten, die  %1$s durchmacht.</string>
+
+    <!-- Medicine feed -->
+    <string name="medicine_feed_name">Medikamente</string>
+    <string name="medicine_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="medicine_feed_content_list_empty">Medikamente erfordern Verantwortung. Kenne die Dosierung fuer gaengige Arzneimittel und punkte auf jegliche Medikamente, die %1$@ nimmt.</string>
+    <string name="hint_add_entry">Please, write here...</string>
+
+    <!-- Add entry Growth -->
+    <string name="add_growth_menu">Speichern</string>
+    <string name="add_growth_weight">Gewicht (kg)</string>
+    <string name="add_growth_height">Hoehe (cm)</string>
+    <string name="add_growth_height_inches">Hoehe (in)</string>
+    <string name="add_growth_head">Kopfumpfang (cm)</string>
+    <string name="add_growth_weight_pounds">Gewicht (lb)</string>
+
+    <string name="growth_weight">Gewicht</string>
+    <string name="growth_height">Hoehe</string>
+    <string name="growth_head">Kopfumpfang</string>
+
+    <string name="add_growth_head_inches">Kopfumpfang (in)</string>
+
+    <!-- Milestone feed -->
+    <string name="milestone_feed_name">Spezielle Augenblicke</string>
+    <string name="milestone_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="milestone_feed_content_list_empty">Das erste Laecheln, die ersten Worte und die ersten Schritte - klicke alle speziellen Momente, die %1$s durchmacht, an.</string>
+
+    <!-- Milestone List -->
+    <string name="milestone_1">Faengt an, Menschen anzulaecheln.</string>
+    <string name="milestone_2">Dreht den Kopf zu Geraeuschquellen.</string>
+    <string name="milestone_3">Erkennt Gesichter.</string>
+    <string name="milestone_4">Kann den Kopf anheben und faengt an, sich in Bauchlage abzustuetzen.</string>
+    <string name="milestone_5">Laechelt spontan, besonders Menschen an.</string>
+    <string name="milestone_6">Blabbert mit Ausdruck und ahmt Geraeusche nach, die es hoert.</string>
+    <string name="milestone_7">Reagiert auf Zuwendung.</string>
+    <string name="milestone_8">Erkennt bekannte Personen und Dinge auf eine bestimmte Entfernung.</string>
+    <string name="milestone_9">Haelt selbst den Kopf ohne Unterstuetzung.</string>
+    <string name="milestone_10">Kann sich vom Bauch auf den Ruecken wenden.</string>
+    <string name="milestone_11">Wenn es auf dem Bauch liegt, stuetzt es sich auf die Unterarme ab.</string>
+    <string name="milestone_12">Spielt gerne mit anderen, insbesonders mit den Eltern.</string>
+    <string name="milestone_13">Beginnt erste Konsonanten - Laute auszusprechen (blabbert \"m\", \"b\").</string>
+    <string name="milestone_14">Schaut auf umliegende Dinge umher.</string>
+    <string name="milestone_15">Beginnt Dinge aus einer Hand in die andere zu reichen.</string>
+    <string name="milestone_16">Dreht sich in beide Richtungen (vom Ruecken auf den Bauch, vom Bauch auf den Ruecken).</string>
+    <string name="milestone_17">Wiegt sich rueckwaerts und vorwaerts, krabbelt manchmals rueckwaerts, bevor es sich vorwaerts bewegt.</string>
+    <string name="milestone_18">Kann sich vor Fremden fuerchten.</string>
+    <string name="milestone_19">Versteht das \"nein\".</string>
+    <string name="milestone_20">Produziert viele unterschiedliche Laute wie \"mamamama\" und \"bababababa\".</string>
+    <string name="milestone_21">Sucht Dinge, die es gesehen hat, wie sie von Ihnen versteckt wurden.</string>
+    <string name="milestone_22">Hebt zwischen dem Daumen und dem Zeigefinder Dinge wie Getreidekoerner auf.</string>
+    <string name="milestone_23">Kann sich in sitzende Position aufrichten.</string>
+    <string name="milestone_24">Krabbelt.</string>
+    <string name="milestone_25">Weint, wenn Mutter oder Vater gehen.</string>
+    <string name="milestone_26">Antwortet auf einfach formulierte Aufforderungen.</string>
+    <string name="milestone_27">Sagt \"Mama\" und \"Papa\" und Ausrufe wie \"uh-oh!\".</string>
+    <string name="milestone_28">Zeigt mit dem Zeigefinger.</string>
+    <string name="milestone_29">Zieht sich zum Stehen hoch, laeuft sich an Moebeln festhaltend entlang (\"kreisend\").</string>
+    <string name="milestone_30">Kann wenige Stufen ohne Festhalten aufwaerts gehen.</string>
+    <string name="milestone_31">Kann selbststaendig stehen.</string>
+    <string name="milestone_32">Erkundet die Umwelt selbststaendig, solange die Eltern in der Naehe sind.</string>
+    <string name="milestone_33">Sagt einige vollstaendige Worte.</string>
+    <string name="milestone_34">Zeigt auf einige Koerperteile.</string>
+    <string name="milestone_35">Kann die Stufen aufwaerts gehen und laufen.</string>
+    <string name="milestone_36">Trinkt aus der Tasse.</string>
+    <string name="milestone_37">Isst mit dem Loeffel.</string>
+    <string name="milestone_38">Ahmt andere, insbesondere Erwachsene und aeltere Kinder, nach.</string>
+    <string name="milestone_39">Spricht Saetze mit 2 bis 4 Worten.</string>
+    <string name="milestone_40">Baut Tuerme mit 4 und mehr Kloetzchen.</string>
+    <string name="milestone_41">Benennt Gegenstaende im Bilderbuch wie zum Beispiel Katze, Vogel oder Hund.</string>
+    <string name="milestone_42">Steht auf Zehenspitzen.</string>
+    <string name="milestone_43">Faengt an zu rennen.</string>
+    <string name="milestone_44">Loest sich leicht von der Mutter und dem Vater.</string>
+    <string name="milestone_45">Spricht ziemlich deutlich, so dass auch ein Fremder den Grossteil gut verstehen kann.</string>
+    <string name="milestone_46">Legt Puzzel mit 3 oder 4 Teilen zusammen.</string>
+    <string name="milestone_47">Malt einen Kreis mit dem Bleistift oder dem Buntstift ab.</string>
+    <string name="milestone_48">Laeuft Treppen ab- und aufwaerts, jeder Fuss auf einer Stufe.</string>
+    <string name="milestone_49">Spielt lieber mit anderen Kindern als alleine.</string>
+    <string name="milestone_50">Kann haeufig nicht sagen, was real ist und was fiktiv ist.</string>
+    <string name="milestone_51">Erzaehlt Geschichten.</string>
+    <string name="milestone_52">Kann sich an Geschichtsteile erinnern.</string>
+    <string name="milestone_53">Malt einen Menschen mit 2 bis 4 Koerperteilen.</string>
+    <string name="milestone_54">Springt auf einem Bein und steht auf einem Bein bis zu 2 Sekunden.</string>
+    <string name="milestone_55">Mag singen, tanzen und schauspielern.</string>
+    <string name="milestone_56">Spricht sehr deutlich.</string>
+    <string name="milestone_57">Erzaehlt eine einfache Geschichte, indem es vollstaendige Saetze benutzt.</string>
+    <string name="milestone_58">Zaehlt 10 oder mehr Dinge.</string>
+    <string name="milestone_59">Steht auf einem Bein 10 Sekunden oder laenger.</string>
+    <string name="milestone_60">Benutzt die Gabel und den Loeffel, manchmal auch das Messer.</string>
+    <string name="milestone_61">Kann selbststaendig die Toilette benutzen.</string>
+
+    <!-- Other feed -->
+    <string name="other_feed_name">Andere</string>
+    <string name="other_feed_title_list_empty">Fuege den ersten Punkt hinzu</string>
+    <string name="other_feed_content_list_empty">Fuege Punkte an fuer Alles, was  %1$s durchmacht.</string>
+
+    <string name="metric_unit_volume">ml</string>
+    <string name="us_unit_volume">fl oz</string>
+
+    <string name="metric_unit_length">cm</string>
+    <string name="us_unit_length">in</string>
+
+    <string name="metric_unit_weight">kg</string>
+    <string name="us_unit_weight">lb</string>
+
+    <string name="metric_unit_temperature">°C</string>
+    <string name="us_unit_temperature">°F</string>
+    <string name="title_activity_barchart">BarchartActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

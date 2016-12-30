@@ -1,0 +1,962 @@
+<resources>
+    <string name="app_name">LittleDot</string>
+    <string name="recommend_app">Pogledajte ovu korisnu aplikaciju za roditelje!</string>
+    <string name="action_settings">Postavke</string>
+    <string name="shared_message">Dijeljeno %1$s putem</string>
+    <string name="format_day">EEEE</string>
+    <string name="format_time">HH:mm</string>
+    <string name="format_pretty_time">MMMM dd, yyyy</string>
+    <string name="format_date_service">yyyy-MM-dd\'T\'HH:mm:ssZ</string>
+    <string name="format_date_short">MMM/dd</string>
+
+    <string name="button_report">Prijavi</string>
+    <string name="email_subject_report">LittleDot crashed!</string>
+    <string name="title_dialog_report">Nažalost, aplikacija se srušio!</string>
+    <string name="content_dialog_report">Nažalost, mi ćemo pokušati riješiti ovaj problem što je brže moguće. Hvala vam po izvješću.</string>
+
+    <string name="button_ok">U redu</string>
+    <string name="button_cancel">Odustani</string>
+    <string name="button_next">Sljedeće</string>
+    <string name="button_optional">Neobavezna</string>
+    <string name="button_done">Završeno</string>
+    <string name="button_add">Dodaj %1$s unos</string>
+    <string name="button_skipped">Preskočeno</string>
+    <string name="button_erase_all_data">Poništi podatke za</string>
+    <string name="option_edit">Uredi</string>
+    <string name="option_delete">Obriši</string>
+    <string name="option_show">Pokaži detalje</string>
+    <string name="option_take_photo">Uzeti od Kamere</string>
+    <string name="option_take_from_gallery">Uzeti iz Galerije</string>
+    <string name="date_dialog">Dan:</string>
+    <string name="time_dialog">Vrijeme:</string>
+    <string name="time_now">Sada</string>
+    <string name="att_title">Dodaj zabilješke i slike</string>
+    <string name="att_pictures">Dodaj slike:</string>
+    <string name="att_note"><i>Dodirni za dodavanje zabilješke za ovaj unos</i></string>
+    <string name="vaccinated_dialog">Cijepljeno:</string>
+    <string name="skipped_dialog">Preskočeno:</string>
+    <!-- Main Feed -->
+    <string name="feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="feed_content_list_empty">Spremni ste! Počnite dodavati \n%1$s\'s točke. Kako je %1$s\n spavao/la noćas?</string>
+
+
+    <!-- Details doctor -->
+    <string name="details_doctor">Liječnik</string>
+    <string name="details_doctor_button">Uredi</string>
+    <string name="details_doctor_send_email">Pošalji djetetove podatke na email... (%1$s)</string>
+
+    <!-- Email Options doctor -->
+    <string name="email_option_title">Mogućnosti e-pošte</string>
+    <string name="email_option_doctor_menu">Pripremi email</string>
+    <string name="email_option_doctor_label">Pripremi email poruku za liječnika sa \nslijedećim sadržajem::</string>
+    <string name="email_option_doctor_temperature">Temperatura</string>
+    <string name="email_option_doctor_sickness">Bolest</string>
+    <string name="email_option_doctor_medicines">Lijekovi</string>
+    <string name="email_option_doctor_vaccines">Cijepljenje</string>
+    <string name="email_text_date"><u>%1$s</u></string>
+    <string name="email_text_temperature_f"><b>Temperatura:</b> %1$s °F (%2$s)</string>
+    <string name="email_text_temperature"><b>Temperatura:</b> %1$s °C (%2$s)</string>
+    <string name="email_text_feeding_bottle"><b>Hranjenje:</b> %1$s ml (%2$s)</string>
+    <string name="email_text_feeding_bottle_fl"><b>Hranjenje:</b> %1$s fl (%2$s)</string>
+    <string name="email_text_feeding_breast_left"><b>Hranjenje:</b> Left %1$s min (%2$s)</string>
+    <string name="email_text_feeding_breast_right"><b>Hranjenje:</b> Right %1$s min (%2$s)</string>
+    <string name="email_text_feeding_other"><b>Hranjenje:</b> %1$s (%2$s)</string>
+    <string name="email_text_sleeping"><b>Spavanje:</b> %1$s h (%2$s)</string>
+    <string name="email_text_diapers"><b>Kakanje/mokrenje:</b> %1$s (%2$s)</string>
+    <string name="email_text_diapers_2"><b>Kakanje/mokrenje:</b> %1$s, %2$s (%3$s)</string>
+    <string name="email_text_sickness"><b>Bolest:</b> %1$s (%2$s)</string>
+    <string name="email_text_medicine"><b>Lijekovi:</b> %1$s (%2$s)</string>
+    <string name="email_text_growth_lb"><b>Rast:</b> Težina %1$s lb, Visina %2$s in</string>
+    <string name="email_text_growth"><b>Rast:</b> Težina %1$s kg, Visina %2$s cm</string>
+    <string name="email_text_growth_2"><b>Rast:</b> Težina %1$s kg, Visina %2$s cm, Opseg glave %3$s cm</string>
+    <string name="email_text_growth_2_lb"><b>Rast:</b> Težina %1$s lb, Visina %2$s in, Opseg glave %3$s in</string>
+    <string name="email_text_other"><b>Ostalo:</b> %1$s (%2$s)</string>
+    <string name="email_text_teeth"><b>Zubi:</b> %1$s </string>
+    <string name="email_text_vaccine"><b>Cijepljenje:</b> %1$s </string>
+    <string name="email_option_doctor_feeding">Hranjenje</string>
+    <string name="email_option_doctor_sleeping">Spavanje</string>
+    <string name="email_option_doctor_diapers">Diapers</string>
+
+    <string name="email_option_doctor_growth">Rast</string>
+    <string name="email_option_doctor_milestone">Posebni trenuci</string>
+    <string name="email_option_doctor_teeth">Zubi</string>
+    <string name="email_option_doctor_other">Ostalo</string>
+
+
+    <!-- Edit doctor -->
+    <string name="edit_doctor">Uređivanje liječnika</string>
+    <string name="edit_doctor_menu">Spremi</string>
+    <string name="edit_doctor_name">Ime</string>
+    <string name="edit_doctor_hours_work">Radno vrijeme, ostale informacije</string>
+    <string name="edit_doctor_phone_1">Telefonska linija 1</string>
+    <string name="edit_doctor_phone_2">Telefonska linija 2</string>
+    <string name="edit_doctor_email">Email</string>
+    <string name="edit_doctor_address">Adresa</string>
+
+    <!-- Other options menu -->
+    <string name="other_menu_edit">Djeca uredi</string>
+    <string name="other_menu_setting">Postavke</string>
+    <string name="other_menu_recommend">Preporuči prijateljima</string>
+
+    <!-- Setting -->
+    <string name="setting_title">Postavke</string>
+    <string name="setting_menu">Završeno</string>
+    <string name="setting_sync">Sinkronizacija</string>
+    <string name="setting_sync_message">Sinkronizirajte LittleDot podatke djece s LittleDot servisom da biste dobili brzu pomoć za zdravstvene probleme.</string>
+    <string name="setting_login_message">Prijavite se vašom email adresom da biste započeli sinkronizaciju podataka.</string>
+    <string name="setting_progress">Pričekajte trenutak...</string>
+    <string name="setting_button_email">Unesite email</string>
+    <string name="setting_button_login">Pošalji email za prijavu</string>
+    <string name="setting_forgot_password">Zaboravili ste lozinku</string>
+    <string name="string_sync_data">When you want to upload your LittleDot data to server.</string>
+    <string name="setting_button_sync_data">Sync data</string>
+    <string name="setting_general">Opći</string>
+    <string name="setting_language">Jezik:</string>
+    <string name="setting_language_dialog">Promjena jezika:</string>
+    <string name="setting_language_1">Engleski</string>
+    <string name="setting_language_2">Španjolski</string>
+    <string name="setting_language_3">Njemački</string>
+    <string name="setting_sync_complete">Podaci vaše djece se sinkroniziraju s LittleDot servisom.</string>
+    <string name="setting_language_4">Hrvatski</string>
+    <string name="setting_units">Jedinice:</string>
+    <string name="email_error">Pogrešna e-mail adresa</string>
+    <string name="email_text_milestone"><b>Ključna točka:</b> %1$s</string>
+    <string name="email_subject">%1$s (datum rođenja: %2$s )</string>
+    <string name="email_intent">Pošalji e-mail...</string>
+    <string name="setting_units_dialog">Promijenite jedinice:</string>
+    <string name="setting_units_1">Metričke jedinice</string>
+    <string name="setting_units_2">SAD jedinice</string>
+    <string name="setting_purchases">Kupovine unutar aplikacije</string>
+    <string name="setting_purchases_content">Dohvati ranije kupljeno</string>
+    <string name="setting_data">Podaci</string>
+    <string name="setting_erase_all_data">Izbriši sve podatke</string>
+    <string name="email_no_client">Nije instaliran e-mail klijent.</string>
+    <!-- setting erase all data -->
+    <string name="setting_erase_all_data_title">Izbriši sve podatke</string>
+    <string name="setting_erase_all_data_message">Nastavkom ćete izbrisati sve podatke koje ste ikada unijeli u ovu aplikaciju</string>
+    <string name="setting_erase_all_data_button">Poništi podatke za:</string>
+    <string name="setting_erase_all_data_dialog">Da li ste sigurni da želite poništiti sve podatke?</string>
+
+    <!-- setting list children -->
+    <string name="setting_list_children_item">Uredi %1$s\'s  profil </string>
+    <string name="setting_list_children_title">Djeca</string>
+    <string name="setting_list_children_new">Dodaj novo dijete</string>
+
+    <!-- setting children edit -->
+    <string name="setting_children_menu_new">Tvoja djeca</string>
+    <string name="setting_children_menu_delete">Izbriši podatke za %1$s</string>
+    <string name="setting_children_menu_delete_dialog">Jeste li sigurni da želite izbrisati sve podatke za %1$s?</string>
+    <string name="setting_children_menu_edit">Spremi</string>
+    <string name="setting_children_menu_add">Dodaj</string>
+    <string name="setting_children_edit_photo">Uredi\nsliku</string>
+    <string name="setting_children_name">Ime djeteta</string>
+    <string name="setting_children_date_birth">Datum rođenja</string>
+    <string name="setting_children_gender">Spol</string>
+    <string name="setting_children_gender_male">Muški</string>
+    <string name="setting_children_gender_female">Ženski</string>
+    <string name="children_age_year">godina</string>
+    <string name="children_age_months">mjesec</string>
+    <string name="children_age_month">m</string>
+    <string name="children_age_days">d</string>
+
+    <!-- Add entry temperature -->
+    <string name="add_temperature_menu">Spremi</string>
+    <string name="add_temperature_celsius">Temperatura (C°)</string>
+    <string name="add_temperature_fahrenheit">Temperatura (F°)</string>
+    <string name="add_temperature_measured">Mjereno:</string>
+
+    <!-- Temperature feed -->
+    <string name="temperature_feed_name">Temperatura</string>
+    <string name="temperature_title_info">Informacije</string>
+    <string name="temperature_menu_1">Savjeti</string>
+    <string name="temperature_menu_2">Doze lijekova</string>
+    <string name="temperature_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="temperature_feed_content_list_empty">Prati visoke tjelesne temperature koje \n%1$s ima.</string>
+    <string name="temperature_advices_when_title">Kada mjeriti temperaturu?</string>
+    <string name="temperature_advices_when_content">\u0020\u0020\u0020Uvijek kada se dijete čini toplim, kad je mirnije,
+        cendravo, slabijeg apetita ili kada postoje drugi znaci bolesti (povraćanje, proljev, kašalj, osip ili drugo).
+        Određivanje temperature samo opipom djeteta vrlo je nesigurno! Primjerice, djeca s visokim temperaturama imaju
+        hladne okrajine i čelo zbog zakazivanja centra za reguliranje temperature. Visoke vrućice mogu dovesti do
+        neželjenih posljedica kao što su dehidracija (tijekom vrućice se potreba za tekućinom povećava 2-3 puta). Najbolji
+        znak manjka tekućine je pojava suhoće usnica i jezika koji postaje bijel. </string>
+    <string name="temperature_advices_how_title">Kako mjeriti temperaturu?</string>
+    <string name="temperature_advices_how_content">\u0020\u0020\u0020U djece do godine dana preporuča se mjeriti
+        temperaturu rektalno (u guzi) stavljanjem užeg dijela toplomjera (gdje se nalazi živa) oko 2 cm u otvor debelog
+        crijeva. Toplomjer se drži dokle god živa raste (obično 2-3 minute). Kod veće djece uži kraj toplomjera se stavlja
+        u središte pazuha, koje smo prethodno posušili, potom se nadlaktica prisloni uz tijelo. Mjerenje traje 10 minuta.
+        Normalna temperatura mjerena rektalno je oko 37,50°C a pod rukom do 37°C. Ako je dijete aktivno (plač, hranjenje,
+        kretanje) ili ako je u toplom okruženju ili pretoplo obučeno, tjelesna temperatura koja se izmjeri rektalno može
+        doseguti i 38°C.</string>
+    <string name="temperature_advices_elevated">Kada i kako snižavati povišenu tjelesnu temperaturu?</string>
+    <string name="temperature_advices_elevated_content_1">\u0020\u0020\u0020Povišena temperatura je jedan od prirodnih
+        načina obrane organizma protiv uzročnika infekcije. Stoga se preporučuje snižavati temperaturu tek kada poraste
+        iznad 38°C pod pazuhom, odnosno 38,50 C rektalno. Točnije, suvremene preporuke su snižavati temperaturu kada
+        dijete pokazuje znakove klonulosti i promjene raspoloženja. Tako u djeteta koje veselo trčkara i ima 39°C nije
+        nužno dati lijek, dok u djeteta s tek neznatno povišenom temperaturom ako izgleda umorno i plačljivo treba ga dati.</string>
+    <string name="temperature_advices_elevated_content_2">\u0020\u0020\u0020Temperatura se može snižavati lijekovima i
+        hlađenjem. Od lijekova je najpogodniji i najmanje štetan paracetamol (u obliku sirupa ili čepića) i ibuprofen, pri
+        čemu se treba strogo pridržavati uputstava o količinama koje se mogu dati. Ako se primijeti da dijete ima visoku
+        temperaturu, treba ga odmah razodjenuti i dati mu lijek za snižavanje temperature. </string>
+    <string name="temperature_advices_elevated_content_3">\u0020\u0020\u0020Prostorija u kojoj dijete boravi treba biti
+        rashlađena a odjevenost što manja kako bi se omogućilo postupno odavanje tjelesne temperature u okolicu. Nakon
+        davanja lijeka za snižavanje vrućice preporuča se pričekati dvadesetak minuta prije negoli dijete počnemo hladiti
+        tuširanjem ili kupanjem u kadici. U ovom periodu će lijek za snižavanje temperature zakočiti centar za drhtanje.
+        Naime, drhtanje je iznimno moćan način podizanja tjelesne temperature i može se dogoditi da prigodom drhtanja
+        uslijed osjećaja hladnoće kupke dođe do porasta za 1-2 stupnja umjesto očekivanog pada! Najpogodnije je napuniti
+        kadicu s vodom temperature oko 37°C ( tj 2-3 stupnja niže temperature od temperature tijela) i pustiti da se
+        dijete u njoj igra oko 20 minuta i polagano hladi. Trljanje alkoholom se ne preporuča (naglo ohlađuje površinu
+        kože, krvne žile u koži se suze i daljnje hlađenje je slabije, jedan dio alkohola prodire u organizam udisanjem
+        alkoholne pare ili kroz kožu). Ukoliko se tjelesna temperatura ne snizi, veoma je korisno nakon kupanja omotati
+        dijete u pelenu ili ručnik namočen u vodu sobne temperature (odstajala voda) i to povremeno mijenjati. Postupak
+        snižavanja temperature ponavljati dokle god je potrebno. </string>
+    <string name="temperature_advices_elevated_content_4">\u0020\u0020\u0020Budući da u temperaturi dijete treba mnogo
+        više tekućine (dnevna potreba za tekućinom se povećava i do dvostrukih količina), veoma je važno napajati ga čajem,
+        sokom ili vodom sobne temperature.Tek potom treba zatražiti liječničku pomoć.</string>
+    <string name="temperature_advices_important_title">Nužno je imati kod kuće lijek za snižavanje temperature prije negoli
+        se dijete razboli!</string>
+    <string name="temperature_advices_assistance_title">Kada se treba neodložno javiti liječniku?</string>
+    <string name="temperature_advices_assistance_content">\u0020\u0020\u0020U dojenčadi, naročito ako je riječ o djeci
+        mlađoj od 3 mjeseca, nakon snižavanja temperature potrebno je obratiti se liječniku. U starije djece, ako je
+        temperatura viša od 40°C, preporuča se istoga dana potražiti liječničku pomoć jer također može biti znakom težih
+        bakterijskih infekcija. Tresavice (jako drhtanje) u vrijeme porasta temperature, pojava osipa i/ili loše opće stanje
+        djeteta svakako nalažu neodložni posjet pedijatru. Izbjegavajte utopljavanje djeteta za vrijeme transporta.</string>
+    <string name="temperature_doses_ibuprofen"><b>5-10 mg/kg tjelesne mase/po dozi.</b>\nDoziranje: Doziranje se temelji na tjelesnoj masi djeteta. Dajte lijek svakih 6 sati. Nemojte davati više od 4 doze tijekom 24 sata.</string>
+    <string name="temperature_doses_acetaminophen"><b>10-15 mg/kg tjelesne mase/po dozi.</b>\nDoziranje: Dajte acetaminofen (paracetamol), ako je potrebno,svaka 4 sata. Nemojte davati više od 5 doza u 24 sata. Doziranje se temelji na tjelesnoj masi djeteta, bez obzira da li je riječ o primjeni u obliku sirupa ili čepića.</string>
+    <string name="temperature_doses_weight">Težina</string>
+    <string name="temperature_doses_Dose">Doza</string>
+    <string name="temperature_dose_1">Ibuprofen</string>
+    <string name="temperature_dose_2">Acetaminophen (Paracetamol)</string>
+    <string name="temperature_doses_doctor">Pitajte liječnika</string>
+    <string name="temperature_doses_adult">Odrasle doza</string>
+    <string name="temperature_doses_mg">%1$s mg</string>
+    <string name="temperature_weight_kg">%1$s kg</string>
+    <string name="temperature_weight_lb">%1$s lb</string>
+
+    <!-- Filter Time list -->
+    <string name="filter_time_title">Izaberi vrijeme:</string>
+    <string name="filter_title_message">Prikaz:</string>
+    <string name="filter_time_1">Posljednjih 7 dana</string>
+    <string name="filter_time_2">Posljednjih 14 dana</string>
+    <string name="filter_time_3">Posljednjih 30 dana</string>
+    <string name="filter_time_4">Posljednjih 2 mjeseca</string>
+    <string name="filter_time_5">Posljednjih 6 mjeseca</string>
+    <string name="filter_time_6">Od rođenja</string>
+    <string name="filter_time_7">Između datuma</string>
+    <string name="filter_today">Danas</string>
+    <string name="filter_yesterday">Jučer</string>
+    <string name="filter_between_from">Od</string>
+    <string name="filter_between_to">Do</string>
+    <string name="filter_time_error">Dates are wrong</string>
+
+    <!-- Teeth feed -->
+    <string name="teeth_feed_name">Zubi</string>
+    <string name="teeth_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="teeth_feed_content_list_empty">Jedan po jedan %1$s\'s zubići niču. Poželi dobrodošlicu i označi svaki novi zub.</string>
+
+    <!-- Teeth List -->
+    <string name="teeth_1">Gornji desni 1</string>
+    <string name="teeth_2">Gornji lijevi 1</string>
+    <string name="teeth_3">Donji desni 1</string>
+    <string name="teeth_4">Donji lijevi 1</string>
+    <string name="teeth_5">Gornji desni 2</string>
+    <string name="teeth_6">Gornji lijevi 2</string>
+    <string name="teeth_7">Donji desni 2</string>
+    <string name="teeth_8">Donji lijevi 2</string>
+    <string name="teeth_9">Gornji desni 3</string>
+    <string name="teeth_10">Gornji lijevi 3</string>
+    <string name="teeth_11">Donji desni 3</string>
+    <string name="teeth_12">Donji lijevi 3</string>
+    <string name="teeth_13">Gornji desni 4</string>
+    <string name="teeth_14">Gornji lijevi 4</string>
+    <string name="teeth_15">Donji desni 4</string>
+    <string name="teeth_16">Donji lijevi 4</string>
+    <string name="teeth_17">Gornji desni 5</string>
+    <string name="teeth_18">Gornji lijevi 5</string>
+    <string name="teeth_19">Donji desni 5</string>
+    <string name="teeth_20">Donji lijevi 5</string>
+
+
+    <!-- Vaccine feed -->
+    <string name="vaccine_feed_name">Cijepljenje</string>
+    <string name="vaccine_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="vaccine_feed_content_list_empty">%1$s treba zaštiti od davno poznatih oboljenja. Nauči više od cjepivima, pripremi se i napiši natuknice o svakom cjepivu.</string>
+    <string name="vaccine_menu_1">Raspored cijepljenja</string>
+    <string name="vaccine_menu_2">Dobro je znati</string>
+    <string name="vaccine_vaccination_title">Cijepljenje</string>
+    <string name="vaccine_age">U dobi: %1$d mjeseci</string>
+    <string name="vaccine_dose">doza: %1$d/%2$d</string>
+    <string name="vaccine_detail_dose">%1$d doza</string>
+    <string name="vaccine_recurring">Ponavljajuće</string>
+    <string name="vaccine_info_check">Provjeri cijepljenje: %1$s</string>
+    <string name="vaccine_skipped">Preskočeno:</string>
+    <string name="vaccine_done">Završeno:</string>
+
+    <string name="vaccine_hepatitis_b">
+        Cijepljenje protiv hepatitisa B\n\n1. Što je hepatitis B? \n\nHepatitis B je upalna bolest jetre koju uzrokuje virus hepatitisa B. Obično se manifestira nejasnim simptomima (opća slabost,
+        muč- nina, gubitak apetita) i jedan dio bolesnika razvija žuticu. \n\n
+        &#160;&#160;&#160;· Kod djece infekcija može proći bez simptoma, ali često nedovoljno jak obrambeni sustav dječjeg organizma ne može u potpunosti
+        uništiti virus. U tom slučaju dijete postaje kronični nositelj virusa i kronični bolesnik, koji u budućnosti može razviti ozbiljne
+        komplikacije kao što su ciroza ili primarni karcinom jetre.\n
+        &#160;&#160;&#160;· Što je dijete mlađe, veća je šansa da nakon infekcije virusom hepatitisa B razvije teške komplikacije u smislu kronične
+        bolesti jetre.\n\nDijete se može zaraziti virusom hepatitisa B:\n
+        &#160;&#160;&#160;· tijekom poroda od majke koja je kronični nositelj virusa\n
+        &#160;&#160;&#160;· u bliskom kontaktu s inficiranom osobom (koristeći zajedničke četkice za zube te pribor za manikiranje, preko manjih rana,
+        ugriza i ogrebotina)\n
+        &#160;&#160;&#160;· putem zaražene krvi, npr. slučajni ubod injekcijskom iglom koja je kontaminirana te putem zaraženih krvnih pripravaka\n
+        &#160;&#160;&#160;· seksualni put je najčešći put infekcije kod adolescenata i odraslih\n\nCijepljenjem protiv hepatitisa B može se spriječiti nastanak bolesti.\n\n2. Kako cijepiti dijete protiv hepatitisa B?\n\nShema cijepljenja protiv hepatitisa B sadrži tri doze cjepiva koje dijete mora primiti da bi bilo potpuno i dugotrajno
+        zaštićeno od infekcije.\n\n
+        &#160;&#160;&#160;· između prve i druge doze treba proći 1 mjesec, a između druge i treće 5 mjeseci, ili po nekoj drugoj shemi ako tako odluči
+        liječnik. O potrebi kasnijeg docjepljivanja savjetovat ćete se sa svojim liječnikom. U Republici Hrvatskoj se od 1999. godine,
+        prema Programu obveznih cijepljenja, protiv hepatitisa B cijepe djeca u 6. razredu osnovne škole, a djeca rođena od 2007.
+        godine već u rodilištu. Ukoliko je potrebno dijete zaštititi ranije (vrijedi za djecu rođenu prije 2007. godine),
+        to je moguće nakon savjetovanja s liječnikom vašeg djeteta. Djeca majki koje su kronični nositelji virusa zaštićuju se odmah
+        po porodu. Sve se trudnice rutinski testiraju na hepatitis B!\n\n3. Neka djeca ne smiju se cijepiti ili moraju pričekati.\n\n
+        &#160;&#160;&#160;· Ne smiju se cijepiti djeca koja su pri prethodnom cijepljenju protiv hepatitisa B razvila alergijsku reakciju na cjepivo i
+        djeca koja su alergična na bilo koji sastojak cjepiva.\n
+        &#160;&#160;&#160;· Teže bolesna djeca s visokom tjelesnom temperaturom moraju pričekati ozdravljenje.\n\n4. Koje su moguće neželjene reakcije na cijepljenje?\n\nCjepivo protiv hepatitisa B je vrlo sigurno cjepivo.\n\nBlaže reakcije (koje su i najčešće zabilježene)\n
+        &#160;&#160;&#160;· bol, crvenilo i otvrdnuće na mjestu uboda\n\nUmjerene reakcije (rijetko)\n
+        &#160;&#160;&#160;· umor, groznica, prolazno povišenje temperature\n
+        &#160;&#160;&#160;· osip, svrbež,\n
+        &#160;&#160;&#160;· mučnina, povraćanje, proljev, bol u trbuhu\n\nNisu zapreka daljnjem cijepljenju.\n\nIako izuzetno rijetka, alergijska se reakcija može desiti nekoliko minuta do nekoliko sati nakon primjene cjepiva.
+        Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu.\n\nUkoliko primijetite bilo koji od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <string name="vaccine_dtap">
+       1. Što su difterija, tetanus i hripavac (pertusis)?\n\nDifterija, tetanus i hripavac (pertusis) opasne su bolesti uzrokovane bakterijama. Difterija i hripavac prenose se s osobe na
+        osobu. Tetanus ulazi u tijelo kroz posjekotinu ili ranu.\n\nDIFTERIJA uzrokuje debeli sloj naslaga na stražnjoj stijenci ždrijela, zbog čega se razviju teškoće u disanju, paraliza, zastoj
+        srca pa čak i smrt.\n\nTETANUS uzrokuje bolno zatezanje mišića u čitavom tijelu te može izazvati ukočenje čeljusti, tako da oboljela osoba ne može
+        otvoriti usta ili gutati. Tetanus uzrokuje smrt kod jedne od deset oboljelih osoba. Bakterija ulazi kroz posjekotinu ili ranu.\n\nHRIPAVAC (pertusis, magareći ili veliki kašalj) izaziva napadaje tako jakog kašlja da djeca ne mogu jesti, piti niti disati.
+        Jak kašalj može trajati tjednima. Tijekom bolesti može se razviti upala pluća, konvulzije, oštećenja mozga i smrt.\n\n2. Kakve vrste cjepiva protiv difterije, tetanusa i pertusisa postoje?\n\nPostoje dvije vrste cjepiva. Ova cjepiva se razlikuju po sastavu jedino u dijelu cjepiva (antigenu) protiv pertusisa:\n\n\na) cjelostanično cjepivo protiv pertusisa\n
+        &#160;&#160;&#160;· dobro učinkovito\n
+        &#160;&#160;&#160;· koristilo se dugi niz godina\n
+        &#160;&#160;&#160;· nešto učestalije dovodi do neželjenih reakcija\n\n
+        b) acelularno cjepivo protiv pertusisa\n
+        &#160;&#160;&#160;· U acelularnom cjepivu izdvojeni su samo neki važni dijelovi stanice koji izazivaju dobar imuni odgovor, što znači i dobru
+        zaštitnu učinkovitost.\n
+        &#160;&#160;&#160;· Rjeđe dovodi do burnih neželjenih reakcija.\n
+        &#160;&#160;&#160;· Razvijeno je zbog nastojanja da se smanje neželjene posljedice cjelostaničnog cjepiva.\n
+        &#160;&#160;&#160;· U većini razvijenih zemalja upotrebljava se isključivo ta vrsta cjepiva protiv hripavca (SAD, Kanada, Velika Britanija,
+        Njemačka, Austrija, Švicarska, Italija, Švedska, Belgija, Slovenija itd.). U Republici Hrvatskoj se također koristi acelularna
+        (popularno nazvana „pročišćena“) vrsta cjepiva.\n\nKada se djeca cijepe DiTePer cjepivom?\n\nDa bi bila zaštićena, djeca moraju primiti 5 doza DiTePer cjepiva; po jednu u sljedećim razdobljima života: 2 mjeseca,
+        4 mjeseci, 6 mjeseci, 2 godine, 4 godine.\n\nTo se cjepivo može primijeniti istovremeno s drugim cjepivima predviđenim u toj dobi.\n\n3. Neka se djeca ne smiju cijepiti protiv difterije, tetanusa i pertusisa, ili moraju pričekati.\n\n
+        &#160;&#160;&#160;· Dijete koje je imalo alergijsku reakciju na prvu dozu DiTePer cjepiva ne smije primiti drugu dozu.\n
+        &#160;&#160;&#160;· Također je vrlo važno obavijestiti liječnika ukoliko je dijete ikada imalo febrilne konvulzije (grčeve u vrućici).\n
+        &#160;&#160;&#160;· Obavijestite liječnika, ukoliko je Vaše dijete nakon DiTePer cjepiva:\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- imalo bilo koju vrstu neželjene reakcije\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- imalo ozbiljnije reakcije (grčeve, kolaps, crvenilo veće od pola noge ili ruke)\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- neutješno plakalo bez prestanka dulje od 3 sata\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- imalo vrućicu višu od 40,5 °C\n\nStarija djeca i odrasli\n\n
+        &#160;&#160;&#160;· DiTePer cjepivo ne smije se davati odraslima i djeci starijoj od 7 godina zbog komponente protiv pertusisa. No, starija djeca,
+        adolescenti i odrasli trebaju se docijepiti DT cjepivom protiv difterije i tetanusa u dobi od 7, 14 i 19 godina te potom svakih
+        deset godina.\n\n4. Koje su moguće neželjene reakcije na DiTePer cjepivo?\n\nObolijevanje od difterije, tetanusa ili hripavca nosi sa sobom mnogo veće rizike od DiTePer cjepiva!\n
+        Kao i kod svakog lijeka, i kod cjepiva postoji rizik od neželjenih reakcija. Rizik da će ovo cjepivo uzrokovati teške i jako
+        teške reakcije izuzetno je malen.\n\nBlaže reakcije (koje su i najčešće zabilježene):\n
+        &#160;&#160;&#160;· bol, crvenilo, oteklina na mjestu injekcije\n
+        &#160;&#160;&#160;· neuobičajen plač\n
+        &#160;&#160;&#160;· povraćanje\n
+        &#160;&#160;&#160;· uzimanje hrane ili pića manje nego uobičajeno\n
+        &#160;&#160;&#160;· nemir, pospanost, spavanje više ili manje nego uobičajeno\n
+        &#160;&#160;&#160;· povišena temperatura\n\nJavljaju se 48 h od cijepljenja. Nisu zapreka za nastavak cijepljenja.\n\nTeške reakcije (neuobičajene):\n
+        &#160;&#160;&#160;· konvulzije (grčevi u vrućici)\n
+        &#160;&#160;&#160;· neutješan plač u trajanju dulje od 3 sata\n
+        &#160;&#160;&#160;· stanje slično šoku (napadaj mlohavosti i bljedila)\n
+        &#160;&#160;&#160;· vrućica viša od 40,5 °C\n
+        &#160;&#160;&#160;· oteklina veća od pola ruke ili noge\n\nI ove se reakcije javljaju 48h od cijepljenja, ali se mogu javiti i nakon 7 dana. Javite se odmah liječniku! Nisu zapreka
+        nastavku cijepljenja, ali o tome kada i kako odlučit će Vaš pedijatar.\n\nJako teške reakcije (vrlo rijetke):\n
+        &#160;&#160;&#160;· alergijska reakcija\n
+        &#160;&#160;&#160;· Poremećaj svijesti (koma, smanjena prisebnost iznimno je rijetka reakcija. Ova reakcija zapreka je nastavku cijepljenja s
+        DiTePer cjepivom. Ako nastupi jako teška reakcija na cijepljenje, javite se odmah liječniku.\n\nVećina neželjenih reakcija obično nastaje unutar 1 do 7 dana od cijepljenja te najčešće spontano nestaje bez ikakvih posljedica.\n\nŠto ako nastupi teška ili jako teška reakcija?\n\nIako izuzetno rijetka, alergijska reakcija može nastati nekoliko minuta do nekoliko sati nakon primjene cjepiva. Simptomi
+        uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. U oba slučaja dijete treba
+        čim prije odvesti liječniku!
+    </string>
+
+    <string name="vaccine_go_to_know">
+        &lt;b>Zaštita djece od zaraznih bolesti cijepljenjem&lt;/b>&lt;br>&lt;br>
+        Svatko od nas svakodnevno dolazi u dodir s brojnim uzročnicima bolesti  koji mogu uzrokovati ozbiljne bolesti,
+        oštećenja organizma te u  najtežim slučajevima i smrt. Cijepljenje je najveći medicinski uspjeh 20. stoljeća.
+        Njime je spašeno više života nego bilo kojom drugom medicinskom intervencijom u povijesti. \n\nSprečavanje pojavljivanja (imunoprofilaksa) zaraznih bolesti provodi se na dva načina – aktivno i pasivno. Aktivna
+        imunoprofilaksa je postupak koji nazivamo cijepljenjem, a njime se organizam potiče da sam razvije specifičnu
+        obranu prema određenoj zaraznoj bolesti.\n\nPasivna imunoprofilaksa je postupak kojim se organizam privremeno
+        zaštićuje od određene infekcije davanjem gotovih zaštitnih protutijela. U ovom članku bit će govora o aktivnoj
+        imunoprofilaksi – CIJEPLJENJU. Budući da su zarazne bolesti česte i osobito opasne u dječjoj dobi, cijepljenje
+        djece ima velik značaj.\n\n
+        &lt;b>\nVrste cjepiva &lt;/b>&lt;br>&lt;br>
+        Cjepiva možemo podijeliti na živa i neživa. Živa cjepiva sadrže umrtvljene (atenuirane) uzročnike zaraznih bolesti
+        kojima je određenim postupcima smanjena sposobnost izazivanja bolesti, ali koji su istovremeno zadržali sposobnost
+        razmnožavanja u tkivima ili stanicama osobe koja se cijepi.\n\nTakva su npr. cjepiva protiv tuberkuloze, rubeole,
+        ospica, mumpsa i poliomijelitisa. Neživa cjepiva sadrže mrtve mikroorganizme (cjepivo protiv hripavca), dijelove
+        mikroorganizama (cjepivo protiv gripe, toksini difterije i tetanusa, topivi kapsularni materijal bakterija-pneumokoka,
+        meningokoka i Haemophilus influenzae tip b) ili genetskim inženjeringom izdvojene dijelove DNK virusa
+        (cjepivo protiv hepatitisa B).\n\nNajvažniji sastojci cjepiva zovu se antigeni jer organizam osobe koju cijepimo
+        upravo prema njima stvara specifična zaštitna protutijela. Antigeni su otopljeni u otapalu, najčešće sterilnoj vodi,
+        fiziološkoj otopini ili složenoj otopini. &lt;br>&lt;br>
+        &lt;b>Program obveznog cijepljenja &lt;/b>&lt;br>&lt;br>
+        &lt;a href="http://vaccine-schedule.ecdc.europa.eu/Pages/Schedule.aspx">Kalendar imunizacije u Republici Hrvatskoj&lt;/a>&lt;br>&lt;br>
+        &lt;a href="http://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html">Kalendari imunizacije u zemljama EU&lt;/a>&lt;br>&lt;br>
+        U našoj zemlji postoji Program obveznog cijepljenja djece koji obuhvaća cijepljenja protiv tuberkuloze (BCG),
+        difterije, tetanusa i hripavca (pertusisa) (DI-TE-PER), dječje paralize (poliomijelitis), ospica, zaušnjaka
+        (mumpsa, parotitisa) i rubeole (MO-PA-RU) te hepatitisa B.\n\nProgram predstavlja dio primarne zdravstvene zaštite
+        djece koji se \n
+        financira sredstvima Hrvatskog zavoda za zdravstveno osiguranje. Prema njemu se u određenim bolestima i stanjima
+        osiguravaju cjepiva protiv vodenih kozica, streptokoka pneumoniae i, po novom, protiv rota virusne infekcije.\n\nOsim
+        navedenih, u Hrvatskoj su registrirana i druga cjepiva koja nisu u programu obveznog cijepljenja, a predstavljaju
+        važan dio zaštite djece od zaraznih bolesti. To su cjepiva koja nisu obvezna, ali se preporučuju u dječjoj
+        dobi. &lt;br>&lt;br>
+        &lt;b>Koliko se često javljaju reakcije nakon cijepljenja? &lt;/b>&lt;br>&lt;br>
+        U većine cijepljene djece nema reakcije na cjepivo ili ponekad imaju samo blage reakcije kao što su lagano povišena
+        temperatura i bol na mjestu injekcije. Vrlo rijetko se javljaju ozbiljnije reakcije, kao npr. konvulzije. Teške
+        reakcije na cjepiva javljaju se toliko rijetko da je teško procijeniti rizik za njihovu pojavu. e.&lt;br>&lt;br>
+        &lt;b>Koji su znakovi umjerenih i ozbiljnih reakcija na koje roditelj treba paziti? &lt;/b>&lt;br>&lt;br>
+        Nakon što je vaše dijete cijepljeno, pratite pojavu bilo kakvih neobičnih simptoma kao što su visoka temperatura
+        (>40 °C), promjene ponašanja i znakovi alergijske reakcije (teško disanje, promuklost, osip, bljedilo, opću
+        slabost, ubrzan rad srca i vrtoglavica, klonulost). Ako se pojave ove reakcije, nazovite svog pedijatra. Ako on
+        ne radi, onda dežurnog liječnika i posavjetujte se! &lt;br>&lt;br>
+        &lt;b>Cijepljenje kombiniranim cjepivima&lt;/b>&lt;br>&lt;br>
+        &lt;b>1. Što su kombinirana cjepiva? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;· Svako kombinirano cjepivo sadrži nekoliko antigena te pruža zaštitu od nekoliko zaraznih bolesti odjednom. &lt;br>
+        &#160;&#160;&#160;· Kombinacije koje se već dugo koriste i u rutinskoj su uporabi su DiTePer cjepivo koje štiti od
+        difterije, tetanusa i pertusisa (hripavca) te MoPaRu cjepivo koje štiti od ospica, zaušnjaka (parotitisa) i
+        rubeole. Ta su cjepiva u prošlosti također bila pojedinačna, a danas njihovo kombiniranje ne predstavlja nikakvu
+        novost. &lt;br>&lt;br>
+        &lt;b>2. Zašto se razvijaju kombinirana cjepiva? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;Kombinirana cjepiva predstavljaju budućnost u cijepljenju djece, jer se protiv sve više zaraznih bolesti otkriva cjepivo. &lt;br>
+        &#160;&#160;&#160;· Ako bi se koristila pojedinačna cjepiva, svako bi dijete unutar prvih 18 mjeseci života trebalo dobiti 15–19 doza različitih cjepiva. &lt;br>
+        &#160;&#160;&#160;· Primjena kombiniranih cjepiva nudi vama i vašem djetetu značajne prednosti pred pojedinačnim cjepivima: &lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- manje uboda za dijete – manje suza i boli, &lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- manje posjeta liječniku, &lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- manje troškove nego pojedinačna cjepiva, &lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- manju mogućnost pogreške liječnika.&lt;br>
+        U razvijenim zemljama kombinirana cjepiva su u širokoj uporabi. Neke zemlje uvrstile su kombinacije u svoje
+        nacionalne programe imunizacije (Velika Britanija, Njemačka, Austrija, Belgija, Slovenija), dok neke zemlje imaju
+        preporuku protiv kojih se zaraznih bolesti treba cijepiti, a odluku kojim cjepivom (pojedinačnim ili kombiniranim)
+        ostavljaju liječniku i roditelju. &lt;br>&lt;br>
+        &lt;b>3. Koje su zajedničke karakteristike kombiniranih cjepiva? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;· Sve komponente u jednoj dozi cjepiva jednako su zaštitne u kombinaciji kao i kada se daju pojedinačno. &lt;br>&lt;br>
+        &#160;&#160;&#160;· Kombinirano cjepivo ne uzrokuje više neželjenih reakcija od pojedinačnih cjepiva. Ta su cjepiva dobro ispitana,
+        kako u kliničkim studijama, tako i u masovnoj uporabi (npr. u Njemačkoj). &lt;br>&lt;br>
+        &lt;b>4. Koja su kombinirana cjepiva u uporabi u našoj zemlji? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;· Osim MoPaRu cjepiva koja su već dugo vremena u uporabi, u Hrvatskoj se koristi i peterokomponentno &lt;br>&lt;br>
+        &#160;&#160;&#160;· kombinirano cjepivo koje sadrži Haemophilus influenzae tip b, DiTePera (koje sadrži acelularno
+        cjepivo protiv pertusisa) i mrtvo cjepivo protiv poliomijelitisa. Postoji i šesterokomponentno cjepivo, koje se
+        sastoji od cjepiva Haemophilus influenzae tip b, DiTePera (koje sadrži acelularno cjepivo protiv pertusisa), mrtvog
+        cjepiva protiv poliomijelitisa i hepatitisa B. lt;br>&lt;br>
+        &lt;b>\n\n5. Koji su rizici od kombiniranih cjepiva? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;· Rizici su jednaki kao i kod uporabe sastavnih dijelova tih cjepiva (DiTePer, poliomijelitis,
+        Hib, hepatitis B) pojedinačno, što je opisano u poglavljima o pojedinim cjepivima &lt;/b>&lt;br>
+         &lt;b>\n\n6. Što ako se javi teška neželjena reakcija? &lt;/b>&lt;br>\n\n
+        &#160;&#160;&#160;· Iako izuzetno rijetka, alergijska se reakcija može desiti nekoliko minuta do nekoliko sati
+        nakon primjene cjepiva. Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad
+        srca i vrtoglavicu. &lt;br>
+        &#160;&#160;&#160;· Ukoliko primijetite bilo koji od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <string name="vaccine_hib">
+       Cijepljenje protiv Haemophilus influenzae tip b (Hib)\n\n1. Što je Hib i kakve bolesti uzrokuje?\n\nHaemophilus influenzae tip b je bakterija koja uzrokuje čitav niz teških bolesti, a najčešće u djece mlađe od 5 godina.\n\n
+        &#160;&#160;&#160;· Dijete se može zaraziti Hibom u kontaktu s drugom djecom ili odraslim osobama koje su nositelji te bakterije, a da to ne znaju.
+        Klice se prenose s odrasle osobe ili s djeteta na dijete kapljičnim putem ili putem sekreta iz dišnih putova.\n
+        &#160;&#160;&#160;· Ako bakterija ostane u djetetovu nosu ili grlu, dijete se vjerojatno neće razboljeti. Međutim, prijeđe li Hib na druga mjesta
+        u dišnom sustavu ili uđe u krvotok, ta bakterija može uzrokovati tešku bolest. Gnojni meningitis najčešća je bolest uzrokovana
+        Hibom. Od njega obolijevaju djeca do 5. godine života, a najugroženija su ona od 6 do 11 mjeseci starosti. Bolest završava
+        smrću u 2–5\%% oboljelih, a može ostaviti i trajne posljedice u vidu duševne zaostalosti, gluhoće i/ili poremećaja govora u 15–30\%%
+        preživjele djece.\n\nHib također uzrokuje:\n
+        &#160;&#160;&#160;· upalu pluća\n
+        &#160;&#160;&#160;· upalu hrskavičnog poklopca u grlu koja uzrokuje otežano disanje i gušenje\n
+        &#160;&#160;&#160;· sepsu – prisustvo bakterija u krvi, što dovodi do općeg teškog stanja: visoke temperature, klonulosti, otežanog disanja,
+        bljedila, hladnih ruku i nogu, povraćanja\n
+        &#160;&#160;&#160;· gnojnu upalu zglobova\n\nPrije uvođenja cijepljenja protiv Hiba u obvezne programe cijepljenja u razvijenim zemljama, ta je bakterija bila vodeći
+        uzročnik bakterijskog meningitisa u djece mlađe od 5 godina.\n\n2. Kako cijepiti dijete protiv Hiba?\n\nCijepljenje protiv Hiba sprečava pojavljivanje bolesti uzrokovanih tom bakterijom.\n\nTko se i kada treba cijepiti?\n\n
+        &#160;&#160;&#160;· Protiv Hiba se cijepe djeca do 5. godine života prema programu cijepljenja.\n\n
+        3. Neka djeca ne smiju se cijepiti protiv Hiba, ili moraju pričekati\n\n
+        &#160;&#160;&#160;· Djeca koja su na prethodnu dozu cjepiva protiv Hiba doživjela alergijsku reakciju ne smiju primiti sljedeću dozu tog cjepiva.\n
+        &#160;&#160;&#160;· Djeca mlađa od 6 tjedana ne smiju se cijepiti protiv Hiba.\n
+        &#160;&#160;&#160;· Djeca koja boluju od neke lakše bolesti, npr. prehlade mogu se cijepiti. Međutim, u teže bolesne djece, cijepljenje protiv
+        Hiba treba odgoditi dok potpuno ne ozdrave.\n\n4. Koje su moguće neželjene reakcije na cijepljenje protiv Hiba?\n\nKao i kod svakog lijeka, i kod cjepiva postoji rizik od neželjenih reakcija, kao npr. alergijske reakcije. Rizik da će ovo
+        cjepivo uzrokovati teške ili jako teške reakcije izuzetno je mali. Većina djece cijepljena protiv Hiba nema nikakvih problema.\n\nBlaže reakcije (koje su i najčešće zabilježene)\n\n
+        &#160;&#160;&#160;· crvenilo i/ili oteklina na mjestu uboda\n
+        &#160;&#160;&#160;· povišena temperatura preko 38 °C\n
+        &#160;&#160;&#160;· gubitak teka, nemir, povraćanje, proljev, neuobičajen plač Ako nastupe neželjene reakcije, to se obično događa unutar 1–2
+        dana od cijepljenja, a prolaze bez posljedica u roku 2–3 dana.\n\nŠto ako se javi teška neželjena reakcija?\n\n
+        &#160;&#160;&#160;· Iako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do nekoliko sati nakon primjene cjepiva. \n\nSimptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite
+        bilo koji od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <string name="vaccine_ipv">
+        Cijepljenje protiv djecje paralize (poliomijelitisa)\n\n1. Što je djecja paraliza?\n\nDjecja paralioza je virusna bolest koja uzrokuje teško oboljenje – paralizu (najcešce nemogucnost pomicanja ruku i/ili nogu).\n\n
+        &#160;&#160;&#160;· Virus takoder može uzrokovati smrt zaražene osobe, obicno tako da izazove paralizu mišica koji omogucuju disanje. Prije pojave cjepiva ovo je bila cesta bolest, koja je paralizirala i usmrtila tisuce ljudi.\n
+        &#160;&#160;&#160;· Virus ulazi u organizam djeteta ili odrasle osobe kroz usta.\n\nCijepljenjem protiv poliomijelitisa sprecava se nastanak bolesti.\n\n2. Kakve vrste cjepiva protiv poliomijelitisa postoje?\n\nPostoje dvije vrste cjepiva protiv poliomijelitisa:\n\n
+        &#160;&#160;&#160;· \"mrtvo\" – inaktivirano cjepivo protiv poliomijelitisa – IPV – koje se primjenjuje putem injekcije;
+        &#160;&#160;&#160;· \"živo\" – oralno cjepivo protiv poliomijelitisa – OPV koje se primjenjuje u obliku kapi koje se daju u usta.\n\nOba cjepiva stvaraju imunitet na poliomijelitis i mogu se dati istodobno s drugim cjepivima. U Hrvatskoj je u Obveznom programu cijepljenja koristi se iskljucivo inaktivirano cjepivo (IPV).\n\nKada se djeca cijepe protiv poliomijelitisa?\n\nDa bi se zaštitila, djeca moraju primiti 6 doza cjepiva; po jednu u sljedecim razdobljima života: 2 mjeseca, 4 mjeseci, 6 mjeseci, 2 godine, 7 godina, 14 godina.\n\nMože se cijepiti istovremeno s drugim cjepivima u toj dobi (Di- Te-Per, Hib, hepatitis B).\n\n3. Neka se djeca ne smiju cijepiti, ili trebaju pricekati na cijepljenje\n\n
+        &#160;&#160;&#160;· Inaktiviranim cjepivom ne smiju se cijepiti djeca alergicna na antibiotike neomicin, streptomicin ili polimiksin B, kao i djeca koja su imala alergijsku reakciju nakon cijepljenja protiv poliomijelitisa.
+        &#160;&#160;&#160;· Djeca s blagim bolestima, kao što je prehlada, mogu se cijepiti, a cijepljenje umjereno ili teško bolesne djece treba odgoditi do potpunog ozdravljenja.\n\n4. Koje su moguce neželjene reakcije na cijepljenje protiv poliomijelitisa?\n\n
+        &#160;&#160;&#160;· Nakon primjene inaktiviranog cjepiva (IPV), na mjestu uboda injekcije može se javiti kožna reakcija, najcešce u obliku crvenila.
+        &#160;&#160;&#160;· Iako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do nekoliko sati nakon primjene\n\ncjepiva. Simptomi ukljucuju teško disanje, promuklost, osip, bljedilo, opcu slabost, ubrzan rad srca i vrtoglavicu.
+        Ukoliko primijetite bilo koji od ovih simptoma, odmah se javite lijecniku!
+    </string>
+
+    <string name="vaccine_morapu">
+        Cijepljenje protiv ospica, zaušnjaka i rubeole\n\n1. Što su ospice, zaušnjaci i rubeola?\n\nOSPICE su virusna bolest karakterizirana osipom, kašljem, curenjem iz nosa, iritacijom očiju i visokom tjelesnom temperaturom.
+        Oko 17\%% oboljelih ima jednu ili više komplikacija bolesti kao što su upale uha, upala pluća, febrilne konvulzije (grčenje
+        uslijed visoke tjelesne temperature), proljev ili upalu mozga (encefalitis). Najčešća komplikacija, upala pluća, javlja se u o
+        ko 6\%% oboljelih i vodeći je uzrok smrtnosti od ospica koja se u razvijenim zemljama kreće 1 na 1000 oboljelih, dok u zemljama
+        u razvoju doseže čak 1\%%.\n\nZAUŠNJACI, poznati i kao parotitis ili mumps, također je virusna bolest. Uzročnik parotitisa uzrokuje visoku tjelesnu
+        temperaturu, glavobolju i oticanje žlijezda. Može dovesti do gluhoće, meningitisa, bolnog oticanja testisa i ovarija, a rijetko
+        i smrti.\n\nRUBEOLA Virus uzročnik rubeole uzrokuje osip, blagi porast tjelesne temperature i upalu zglobova (većinom u žena).
+        Ako trudna žena oboli od rubeole, može nastupiti spontani pobačaj ili rođenje djeteta s teškim tjelesnim oštećenjima.\n
+        &#160;&#160;&#160;· Dijete se vrlo lako može zaraziti od bolesne osobe iz svoje okoline jer se virusi šire zrakom. Cijepljenjem protiv ospica,
+        parotitisa i rubeole može se spriječiti nastanak bolesti.\n\n2. Kako cijepiti dijete protiv ospica, parotitisa i rubeole? \n\nCjepivo protiv uzročnika ovih triju bolesti je sadržano u jednoj injekciji i zove se MoPaRu. Djeca trebaju primiti dvije
+        doze ovog cjepiva:\n
+        &#160;&#160;&#160;· prvu u dobi od godinu dana\n
+        &#160;&#160;&#160;· drugu u dobi od 6 ili 7 godina (u 1. razredu osnovne škole), a može ga primiti istodobno s drugim cjepivima.\n\n3. Tko se ne smije cijepiti, ili treba pričekati na cijepljenje \n\n
+        &#160;&#160;&#160;· Ne smiju se cijepiti djeca koja su alergična na jaja, želatinu, antibiotik neomicin ili na prethodnu dozu cjepivaprotiv
+        ospica, parotitisa i rubeole. \n
+        &#160;&#160;&#160;· Cijepljenje umjereno ili teško bolesne djece treba odgoditi do potpunog ozdravljenja. \n
+        &#160;&#160;&#160;· U nekim slučajevima roditelji se moraju posavjetovati s liječnikom prije cijepljenja svog djeteta, naročito ako su obrambene
+        funkcije dječjeg organizma oslabljene prirođeno, uslijed težih bolesti ili dugotrajnog liječenja, kao i ako je dijete doživjelo
+        alergijsku reakciju na jaja. \n
+        &#160;&#160;&#160;· Nestabilne neurološke bolesti \n\n4. Koje su moguće neželjene reakcije na cijepljenje? \n\nCjepivo, kao i lijekovi, može izazvati neželjene reakcije, ali je cijepljenje protiv ospica, parotitisa i rubeole mnogo
+        sigurnije nego obolijevanje od ovih bolesti. Većina djece koja se cijepe protiv ovih bolesti nemaju nikakvih problema. \n\nBlage reakcije: \n
+        &#160;&#160;&#160;· crvenilo, bol ili oteklina na mjestu uboda\n
+        &#160;&#160;&#160;· povišena tjelesna temperatura\n
+        &#160;&#160;&#160;· blagi osip \n\nUmjerene reakcije (rijetko): rijetko se javljaju. \n
+        &#160;&#160;&#160;· oticanje žlijezda na licu ili vratu, febrilne konvulzije napadaji grčenja uzrokovani povišenom tjelesnom temperaturom,
+        nervoza, infekcija gornjih dišnih puteva, proljev \n\n
+        Teške nuspojave (rijetko) \n\n
+        &#160;&#160;&#160;· aseptični meningitis ili alergijske reakcije, koje mogu varirati prema stupnju težine\n\nUkoliko primijetite neki od ovih simptoma, javite se liječniku. O daljnjem cijepljenju ovim cjepivom odlučit će vaš liječnik.
+    </string>
+
+    <string name="vaccine_optional_bcg">
+        1. Što je tuberkuloza (TBC)?\n\nU mnogim razvijenim zemljama cijepljenje protiv tuberkuloze je ukinuto. U nas se još uvijek tuberkuloza pojavljuje, te se
+        cijepljenje provodi i dalje. Tuberkuloza zahvaća sve organe, a najčešće pluća. Tuberkuloza se širi kapljičnim putem, kašljanjem.
+        Bolest je najkritičnija u sasvim male djece.\n\n2. Normalna reakcija na mjestu cijepljenja protiv tuberkuloze\n\nOdmah nakon cijepljenja nastane mjehurić na nadlaktici koji nakon nekoliko sati nestane. Idućih oko 2-3 tjedna na mjestu
+        cijepljenja ne događa se ništa osobito, a tada se počne stvarati mali ljubičasti čvorić. Središnji dio tog čvorića tijekom 4-5
+        tjedana lagano vlaži. Nakon tog vremena dolazi do zacjeljivanja čvorića te ostaje mali ožiljak koji postaje doživotnim biljegom
+        cijepljenja.\n\n3. Neka djeca ne smiju se cijepiti protiv tuberkuloze, ili moraju pričekati\n\n
+        &#160;&#160;&#160;· Dijete s oslabljenim imunološkim sustavom ne smije se cijepiti.\n
+        &#160;&#160;&#160;· Obavijestite liječnika u rodilištu ukoliko je netko u obitelji Vašeg novorođenčeta imao oslabljen imunološki sustav, jer se ta
+        oboljenja često nasljeđuju. \n\n4. Koje su moguće neželjene reakcije na cjepivo protiv tuberkuloze?\n\nOvo je cjepivo jedno od najsigurnijih cjepiva. Blaže reakcije (koje su i najčešće zabilježene):\n\n
+        &#160;&#160;&#160;· Jača upalna reakcija u obližnjem limfnom čvoru u pazuhu ili iznad ključne kosti, koja se zove “besežitis”. To stanje obično
+        prođe spontano.\n
+        &#160;&#160;&#160;· Ako limfni čvor vlaži, potrebna je kirurška obrada čvora.\n\nNije zapreka docjepljivanju istim cjepivom.\n\n5. Što ako nastupi alergijska reakcija?\n\nIako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do nekoliko sati nakon primjene cjepiva. Simptomi
+        uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite bilo koji
+        od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <string name="vaccine_optional_streptococcus">
+        Cijepljenje protiv Streptococcus pneumoniae – pneumokoka\n\n1. Što je Streptococcus pneumoniae i koje bolesti uzrokuje?\n\nBakterija Streptococcus pneumoniae, koja se naziva i pneumokok, čest je uzročnik različitih zaraznih bolesti, u dječjoj dobi
+        meningitisa, upale pluća i upale srednjeg uha, a komplikacije ovih bolesti nisu rijetke.\n\nTko se može zaraziti?\n\nNjime se može zaraziti bilo tko, naročito mala djeca, osobe starije od 65 godina, kao i bolesnici s bolestima srca, pluća i
+        bubrega, dijabetičari, alkoholičari i osobe koje boluju od malignih bolesti. Cijepljenjem protiv S. pneumoniae može se
+        spriječiti nastanak teških oblika bolesti koje je on uzrokuje. Budući da zbog porasta otpornosti ove bakterije na antibiotike
+        liječenje postaje sve teže, opravdano je sprečavanje ovih bolesti cijepljenjem.\n\n2. Kako cijepiti dijete protiv S. pneumoniae? (za djecu stariju od 2 godine )\n\nPolisaharidno cjepivo protiv pneumokoka štiti protiv 23 tipa S. pneumoniae. Zdrave osobe razviju imuni odgovor na većinu ovih
+        tipova bakterije 2-3 tjedna nakon cijepljenja.\n\nTko se cijepi i kada?\n\nCijepiti se mogu sva zdrava djeca, ali posebno se preporučuje za visokorizičnu djecu (djeca bez slezene, sa šećernom bolešću,
+        kroničnom bolešću jetre, bolestima koje dovode do istjecanja likvorske tekućine, djeca s ugrađenom pužnicom, djeca s prirođenim
+        imunodeficijencijama, HIV infekcijom, nefrotskim sindromom, zloćudnim bolestima krvotvornih organa, djeca na terapiji
+        kortikosteroidima i imunosupresivima, djeca nakon transplantacije organa ili koštane srži).\n\nKada se cijepe?\n\n
+        &#160;&#160;&#160;• Cijepiti se mogu djeca starija od 2 godine. Zdravoj se djeci preporučuje samo jedna doza cjepiva.\n
+        &#160;&#160;&#160;• Djeca s oslabljenim imunološkim sustavom cijepe se s dvije doze, i to tako da se djeci mlađoj od 10 godina druga doza daje
+        3, a djeci starijoj od 10 godina 5 godina nakon prve.\n
+        &#160;&#160;&#160;• Zdrave odrasle osobe cijepe se samo jednom dozom cjepiva. Cjepivo se može primijeniti istovremeno s drugim cjepivima u
+        dječjoj dobi.\n\n3. Neka se djeca ne smiju cijepiti, ili trebaju pričekati na cijepljenje\n\n
+        &#160;&#160;&#160;• Djeca koja su na prethodnu dozu cjepiva protiv pneumokoka doživjela alergijsku reakciju ne smiju primiti sljedeću dozu tog
+        cjepiva.\n
+        &#160;&#160;&#160;• Cijepljenje umjereno ili teško bolesne djece treba odgoditi do potpunog ozdravljenja.\n\n4. Koje su moguće neželjene reakcije na cijepljenje?\n
+        &#160;&#160;&#160;• Otprilike polovica cijepljenih osoba ima blage reakcije kao što su crvenilo ili bol na mjestu uboda. Te reakcije su prolazne
+        i ne ostavljaju posljedice.\n
+        &#160;&#160;&#160;• Manje od 1\%% cijepljenih osoba ima visoku tjelesnu temperaturu, bolove u mišićima, ili teže lokalne reakcije. Na ovo se
+        cjepivo kao i na lijekove, može razviti i alergijska reakcija.\n\nŠto ako se javi teška neželjena reakcija?\n\nIako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do nekoliko sati nakon primjene cjepiva. Simptomi
+        uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite bilo koji
+        od ovih simptoma, odmah se javite liječniku!\n\n5. Kako cijepiti dijete protiv S. pneumoniae? (za djecu u dobi od 2 mjeseca do 2 godine)\n\nKonjugirano trinaesterovalentno cjepivo protiv pneumokokne bolesti namijenjeno je aktivnoj imunizaciji protiv invazivne bolesti
+        (sepse, meningitisa, bakterijemičnog oblika pneumonije i bakterijemije) uzrokovane serotipovima 1, 3, 4, 5, 6A, 6B, 7 F, 9V, 14,
+        18C, 19 A, 19F i 23F Streptococcus pneumoniae kod dojenčadi i male djece u dobi od 2 mjeseca do 2 godine te kod visokorizičnih
+        bolesnika u dobi od 2 do 5 godina.\n\nPrimjenom ovog cjepiva može se značajno smanjiti učestalost invazivne pneumokokne bolesti
+        uzrokovane cjepnim sojevima, a postoje podaci kako ovo cjepivo smanjuje i učestalost upale pluća te u manjoj mjeri upale srednjega
+        uha.\n\nPrema ograničenim podacima sojevi pneumokoka koji su sadržani u cjepivu uzrokuju oko 90\%% invazivnih pneumokoknih infekcija u
+        sjeverozapadnoj Hrvatskoj.\n\nCjepivo se daje u obliku intramuskularne injekcije. Preporučljivo mjesto primjene cjepiva je vanjsko područje natkoljenice u
+        dojenčadi ili rameni mišić nadlaktice u male djece. Dojenčad u dobi od 2 do 6 mjeseci cijepe se s tri doze od po 0,5 ml.\n\nPrva se
+        doza uobičajeno primjenjuje u dobi od 2 mjeseca, a druge dvije doze s razmakom između doza od najmanje 1 mjesec.\n\nTako cijepljena
+        dojenčad docjepljuju se u drugoj godini života (u dobi od 15 do 18 mjeseci). Prethodno necijepljena starija dojenčad i mala
+        djeca Dojenčad u dobi od 7 do 11 mjeseci cijepi se s dvije doze, svaka 0,5 ml, s vremenskim razmakom između doza od najmanje 1
+        mjesec. Tako cijepljena dojenčad docjepljuju se u drugoj godini života (u dobi od 15 do 18 mjeseci). Djeca u dobi od 12 do 23
+        mjeseca cijepe se s dvije doze, svaka 0,5 ml, s vremenskim razmakom između doza od najmanje 2 mjeseca. Djeca u dobi od 24 mjeseca
+        do 5 godina cijepe se jednom dozom cjepiva.\n\n6. Koje su moguće neželjene reakcije na cijepljenje?\n\nNuspojave primjene ove vrste pneumokoknog cjepiva mogu se, kao i kod drugih cjepiva, podijeliti na lokalne i sustavne
+        nuspojave. Crvenilo na mjestu aplikacije cjepiva u 12,1\%%, 14,0\%%, odnosno 15,2\%% cjepljenika u primarnom ciklusu cijepljenja
+        nakon prve, druge, odnosno treće doze.\n\nPostoji, dakle, tendencija povećanja broja lokalnih reakcija s povećanjem broja
+        primijenjenih doza. Značajno crvenilo definirano kao promjer crvenila veći od 2,4 cm, zabilježeno je, pak, samo u 2\%% cijepljene
+        dojenčadi. Lokalno otvrdnuće (induracija) zabilježeni su u 10,7\%%, 12,4\%%, odnosno 12,1\%% cjepljenika u primarnom ciklusu
+        cijepljenja (1., 2. i 3. doza), dok se lokalna osjetljivost bilježila u 25,2%, 22,9%, odnosno 22,3\%% cijepljenih.\n\nZaključak
+        je da se incidencija ovih lokalnih nuspojava, za razliku od crvenila, ne povećava s brojem apliciranih doza. Nakon
+        revakcinacije crvenilo je zabilježeno u 12,6\%%, otvrdnuće u 11,2\%%, a lokalna osjetljivost u 30,4\%% cijepljenih.\n\nUčestalost
+        značajnih lokalnih nuspojava, međutim, i nakon revakcinacije je niska i iznosi 1,7\%% (crvenilo veće od 2,4 cm), 3,2\%% (otvrdnuće),
+        odnosno 13,8\%% (lokalna osjetljivost). Postotak cjepljenika u kojih je zabilježena tjelesna temperatura viša od 39 °C iznosio je
+        samo 1–3\%%.\n\nPostotak sustavnih nuspojava nakon revakcinacije provedene u dobi od 12 do 15 mjeseci, ne razlikuje se značajno od
+        onoga nakon serije primovakcinacije.\n\nIstovremena primjena ovog cjepiva s drugim pedijatrijskim cjepivima moguća je, a zapažene interakcije nemaju klinički značaj.\n\n7. Tko se ne smije cijepiti?\n\nKontraindikacije za primjenu ovog cjepiva su preosjetljivost na aktivne i pomoćne tvari te na toksoid difterije. Primjenu
+        cjepiva valja odgoditi u osoba s akutnom infekcijskom bolešću. Cjepivo se ne smije primjenjivati u djece s trombocitopenijom ili
+        drugim poremećajem zgrušavanja koji može biti kontraindikacija za primjenu intramuskularne injekcije.\n\nU djece s oslabljenim
+        imunološkim odgovorom, stvaranje specifičnih protutijela nakon imunizacije ovim cjepivom može biti umanjeno. Preventivna primjena
+        lijekova za snižavanje temperature preporučuje se  za djecu koja boluju od konvulzivnih poremećaja ili su ranije u životu imala
+        grčeve (konvulzije) u febrilitetu."
+    </string>
+
+    <string name="vaccine_optional_chickenpox">
+        Cijepljenje protiv vodenih kozica \n\n1. Što su vodene kozice? \n\nVodene kozice su česta dječja bolest. Obično se javljaju u lakšem obliku, ali mogu se javiti i u težem obliku,
+        naročito u sasvim male djece i u odraslih. \n\n
+        &#160;&#160;&#160;· Virus vodenih kozica prenosi se s osobe na osobu putem zraka ili preko kontakta s tekućinom iz mjehurića na koži. \n
+        &#160;&#160;&#160;· Vodene kozice pojavljuju se u obliku mjehurića po čitavom tijelu, praćenih svrbežom, povišenom temperaturom i osjećajem
+        iznemoglosti. \n
+        &#160;&#160;&#160;· U dječjoj dobi upala pluća te mozga i mozgovnih ovojnica uzrokovani virusom vodenih kozica iznimno su rijetki. \n\nSmrt nastupa samo u imunokompromitirane djece. \n\n
+        &#160;&#160;&#160;· Ožiljci koji zaostanu na mjestu kozica prolaze za nekoliko tjedana, a trajni ožiljci nastanu samo ako se kozice dodatno
+        inficiraju nekom bakterijom (najčešće streptokokom ili stafilokokom). \n\n2. Kako cijepiti dijete protiv vodenih kozica?\n\nCijepljenje protiv vodenih kozica sprečava pojavljivanje bolesti. Većina cijepljene djece neće se zaraziti vodenim kozicama.
+        Ako se takvo dijete i zarazi, kod njega će bolest proteći vrlo blago i puno će se brže oporaviti.\n\nTko se treba cijepiti i kada?\n\n
+        &#160;&#160;&#160;· Cijepe se djeca starija od 12 mjeseci, preporučljivo u dvije doze u razmaku od 6-10 tjedana. Do nedavno su se djeca
+        cijepila jednom dozom no zbog povećane agresivnosti virusa neka su cijepljena djeca oboljela te se od 2012. godine uvodi
+        preporuka docjepljivanja.\n
+        &#160;&#160;&#160;· Djeca starija od 13 godina i odrasli također trebaju primiti 2 doze u razmaku 6–10 tjedana. Cjepivo protiv vodenih kozica
+        može se primijeniti istovremeno s ostalim cjepivima.\n\n3. Neka djeca ne smiju se cijepiti protiv vodenih kozica, ili moraju pričekati\n\n
+        &#160;&#160;&#160;· Djeca koja su ikada prije u životu imala alergijsku reakciju na jaja, želatinu, antibiotik neomicin ili (za one koji se cijepe
+        s dvije doze) na prethodnu dozu cjepiva protiv vodenih kozica ne smiju se cijepiti.\n
+        &#160;&#160;&#160;· Trudnice se ne smiju cijepiti ovim cjepivom. Žena cijepljena protiv vodenih kozica treba pričekati 3 mjeseca prije
+        nego zatrudni.\n
+        &#160;&#160;&#160;· Djeca koja imaju oslabljen imunološki sustav ne smiju se cijepiti.\n\n4. Koje su moguće neželjene reakcije na cjepivo protiv vodenih kozica?\n\nKao i kod svakog lijeka, i kod cjepiva postoji rizik od neželjenih reakcija. Rizik da će ovo cjepivo uzrokovati teške reakcije
+        izuzetno je mali. Većina cijepljenih protiv vodenih kozica nema nikakve neželjene reakcije.\n\nBlaže reakcije (koje su i najčešće zabilježene):\n
+        &#160;&#160;&#160;· bolnost, oteklina i crvenilo na mjestu uboda\n
+        &#160;&#160;&#160;· povišena temperatura\n
+        &#160;&#160;&#160;· blag osip\n
+        &#160;&#160;&#160;· izuzetno rijetka mogućnost zaraze bližnjih (samo kod djece s oslabljenim imunološkim sustavom)\n\nŠto ako nastupi alergijska reakcija?\n\nIako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do nekoliko sati nakon primjene cjepiva.
+        Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite
+        bilo koji od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <string name="vaccine_optional_flu">
+        CIJEPLJENJE PROTIV UZROČNIKA GRIPE\n\n1. Što je gripa?\n\nGripa ili influenca je zarazna bolest koju uzrokuje virus gripe. Sama po sebi, gripa nije opasna bolest, ali može dovesti do
+        ozbiljnih komplikacija koje mogu biti i fatalne. Simptomi se pojavljuju iznenada i uključuju visoku tjelesnu temperaturu,
+        tresavicu, bolove u mišićima i jaku glavobolju. Također, često se javlja sekrecija iz nosa i jaki kašalj koji može trajati
+        tjednima.\n
+        &#160;&#160;&#160;• Gripa je jako zarazna (1 putnik sa simptomima gripe u zrakoplovu zarazi do 72% ostalih putnika). Možete je dobiti udisanjem;
+        od nekoga tko kašlje ili kiše; ako ste u bliskom kontaktu s osobom koja ima gripu ili ako dodirujete zaraženi predmet i tako
+        prenesete viruse u dišni sustav.\n
+        &#160;&#160;&#160;• Djeca su zaraznija od odraslih i dulje šire virus gripe, a češće su i hospitalizirana zbog gripe nego zbog drugih zaraznih
+        bolesti, najčešće u dobi do dvije godine.\n\nTko može oboljeti od gripe?\n\nSvatko može dobiti gripu, uključujući osobe dobrog zdravlja. Također, ako imate gripu, možete je nesvjesno prenijeti i na
+        druge, jer do pojave simptoma treba proći 1–4 dana, a zarazni smo i 5 dana nakon nastanka simptoma.\n\n2. Kako cijepiti dijete protiv gripe?\n\nCijepljenje sprečava pojavu gripe. Cijepljenje se provodi pred sezonu gripe (listopad, studeni); za djecu u dobi do 7 godina u
+        dvije doze, a drugu dozu dijete dobiva 4–6 tjedana nakon prve doze. Cijepljenje treba ponoviti svake godines obzirom na to da
+        se virus gripe svake godine mijenja.\n\nTko bi se trebao cijepiti protiv gripe?\n\nDjeca koja boluju od kroničnih bolesti spadaju u visokorizičnu skupinu osoba kod kojih može doći do po život opasnih
+        komplikacija uslijed infekcije gripom i ona bi se trebala cijepiti protiv gripe. Zbog zaštite visokorizične djece trebale bi se
+        cijepiti i osobe koje su s njima u kontaktu!\n
+        &#160;&#160;&#160;• Morala bi se cijepiti sva djeca između 6 i 23 mjeseca i članovi njihovih obitelji;\n
+        &#160;&#160;&#160;• štićenici institucija za njegu kroničnih bolesnika;\n
+        &#160;&#160;&#160;• djeca s kroničnim plućnim bolestima (astma, cistična fibroza, bronhopulmonalna displazija);\n
+        &#160;&#160;&#160;• djeca s prirođenim srčanim bolestima, bolestima bubrega, hemoglobinopatijom, djeca sa šećernom bolešću, oštećenjem
+        imunog sustava (uključujući HIV infekciju);\n
+        &#160;&#160;&#160;• djeca i adolescenti na dugotrajnoj terapiji aspirinom;\n
+        &#160;&#160;&#160;• osobe koje su u duljem kontaktu s kronično bolesnom djecom (roditelji, njegovatelji);\n
+        &#160;&#160;&#160;• stariji od 65 godina;\n
+        &#160;&#160;&#160;• svi koji žele izbjeći gripu.\n\nKada se treba cijepiti protiv gripe?\n\nI djeca i odrasli trebaju se cijepiti svake godine prije početka sezone gripe (od rujna do studenog), ali nije prekasno niti
+        tijekom sezone (od studenog do travnja; najčešće od konca prosinca do ožujka). Zaštita se stječe tjedan do dva nakon cijepljenja.\n\nZašto se moramo cijepiti svake godine?\n\nVirusi gripe stalno se mijenjaju. U pravilu se svake sezone pojavljuju novi sojevi virusa gripe. Svake sezone najaktivnije
+        viruse određuje Svjetska zdravstvena organizacija i oni ulaze u sastav cjepiva koje se proizvodi za dolazeću sezonu.\n\n3. Neka djeca se ne smiju cijepiti protiv gripe\n\n
+        &#160;&#160;&#160;• Djeca mlađa od 6 mjeseci\n
+        &#160;&#160;&#160;• Djeca koja su imala alergijsku reakciju na jaja ili na cjepivo protiv gripe.\n
+        &#160;&#160;&#160;• Djeca koja su umjereno ili teško bolesna trebaju pričekati potpuno ozdravljenje.\n\n4. Koje su neželjene reakcije na cjepivo protiv gripe?\n\nKao i kod svakog lijeka, i kod cjepiva postoji rizik od neželjenih reakcija. Rizik da će ovo cjepivo uzrokovati teške reakcije
+        izuzetno je mali. Većina cijepljenih protiv gripe nema nikakve neželjene reakcije.\n\nBlaže reakcije (koje su i najčešće zabilježene):\n
+        &#160;&#160;&#160;• bolnost, oteklina i crvenilo na mjestu uboda\n
+        &#160;&#160;&#160;• povišena temperatura\n\nTeške alergijske reakcije su vrlo rijetke. Iako izuzetno rijetka, alergijska se reakcija može dogoditi nekoliko minuta do
+        nekoliko sati nakon primjene cjepiva. Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad
+        srca i vrtoglavicu.\n\nUkoliko primijetite bilo koji od ovih simptoma, odmah se javite liječniku! Za sve ostale informacije o cijepljenju od gripe
+        upitajte svog liječnika.
+    </string>
+
+    <string name="vaccine_optional_hepatitis_a">
+        Cijepljenje protiv hepatitisa A \n\n1. Što je hepatitis A? \n\nHepatitis A je upalna bolest jetre uzrokovana virusom hepatitisa A. Bolest počinje općim simptomima kao što su groznica,
+        slabost, povraćanje, proljev, a tek je svaki 4. oboljeli žut!\n\n
+        &#160;&#160;&#160;· U oko 25\%% oboljelih koža i bjeloočnice postaju žute, mokraća tamnija, a stolica svjetlija. \n
+        &#160;&#160;&#160;· Nakon 1 do 2 tjedna simptomi bolesti nestaju, ali potpun oporavak traje duže; kod nekih pacijenata čak 6-12 mjeseci. \n
+        &#160;&#160;&#160;· Inkubacija nakon infekcije virusom hepatitisa A traje 15–60 dana. \n
+        &#160;&#160;&#160;· Virus hepatitisa A prenosi se prljavim rukama, zaraženom hranom i vodom. Infekcija se najčešće javlja unutar zajednice
+        (vrtića, škola, obitelji).\n
+        &#160;&#160;&#160;· Cijepljenje se preporučuje kao siguran oblik zaštite od obolijevanja od hepatitisa A. \n\n2. Tko podliježe potrebi cijepljenja? \n\nDjeca s visokim rizikom ili pri putovanju u rizična područja gdje se hepatitis A nalazi endemski (područja gdje je
+        stalno nazočan). \n\n3. Kako cijepiti dijete protiv hepatitisa A? \n\nZa postizanje potpune zaštite potrebno je primiti dvije doze cjepiva u bilo kojoj dobi, počevši od navršene godine dana
+        života. Druga se doza daje u razdoblju od 6–12 mjeseci nakon prve doze. \n\n4. Neka djeca ne smiju se cijepiti ili moraju pričekati. \n\n
+        &#160;&#160;&#160;· Ne smiju se cijepiti djeca koja su pri prethodnom cijepljenju protiv hepatitisa A razvila alergijsku reakciju na
+        cjepivo i djeca koja su alergična na bilo koji sastojak cjepiva. \n
+        &#160;&#160;&#160;· Djeca koja boluju od neke lakše bolesti, npr. prehlade, mogu se cijepiti, međutim u teže bolesne djece s visokom
+        temperaturom cijepljenje protiv hepatitisa A treba odgoditi dok potpuno ne ozdrave. \n\n5. Koje su moguće neželjene reakcije na cijepljenje? \n\nCjepivo protiv hepatitisa A je vrlo sigurno cjepivo. Ukoliko postoje, neželjene reakcije su u većini slučajeva vrlo blage: \n
+        &#160;&#160;&#160;· bol i crvenilo na mjestu uboda\n
+        &#160;&#160;&#160;· prolazno povišenje temperature, glavobolja, umor, zimica, mučnina i gubitak teka. \n\nTeži oblici neželjenih reakcija, npr. alergijske reakcije, rijetki su. \n\nŠto ako se javi teška neželjena reakcija? \n\nIako izuzetno rijetka, alergijska se reakcija može nastaviti nekoliko minuta do nekoliko sati nakon primjene cjepiva.
+        Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite
+        bilo koji od ovih simptoma, odmah se javite liječniku! \n\nCijepljenje protiv hepatitisa A i B jednim ubodom \n\n1. Što je kombinirano cjepivo protiv hepatitisa A i B?\n\nDanas je moguće i djecu i odrasle osobe zaštititi istodobno od infekcije virusom hepatitisa A i hepatitisa B –
+        kombiniranim cjepivom. Cijepljenje se preporučuje kao siguran oblik istodobne zaštite od obolijevanja od hepatitisa A i
+        hepatitisa B.\n\n2. Kako cijepiti dijete protiv hepatitisa A i hepatitisa B istovremeno?\n\nShema cijepljenja protiv hepatitisa A i hepatitisa B istodobno sadrži tri doze kombiniranog cjepiva koje dijete mora
+        primiti da bi bilo potpuno i dugotrajno zaštićeno protiv ove dvije virusne upalne bolesti jetre.\n\n
+        &#160;&#160;&#160;· Između prve i druge doze treba proći 1 mjesec, a između druge i treće 5 mjeseci. O potrebi kasnijeg docjepljivanja
+        savjetovat ćete se sa svojim liječnikom.\n\n3. Neka djeca ne smiju se cijepiti ili moraju pričekati.\n\n
+        &#160;&#160;&#160;· Ne smiju se cijepiti djeca koja su pri prethodnom cijepljenju protiv hepatitisa A i hepatitisa B razvile alergijsku
+        reakciju na cjepivo i djeca koja su alergična na bilo koji sastojak cjepiva.\n
+        &#160;&#160;&#160;· Djeca koja boluju od neke lakše bolesti, npr. prehlade, mogu se cijepiti, međutim u teže bolesne djece s visokom temperaturom
+        cijepljenje treba odgoditi dok potpuno ne ozdrave.\n\n4. Koje su moguće neželjene reakcije na cijepljenje?\n\n
+        &#160;&#160;&#160;· Neželjene reakcije su jednake kao i kod uporabe sastavnih dijelova tog cjepiva (hepatitisa A i hepatitisa B) pojedinačno,
+        što je opisano u poglavljima o pojedinim cjepivima.
+    </string>
+
+    <string name="vaccine_optional_rota_virus">
+        CIJEPLJENJE PROTIV ROTA VIRUSNIH INFEKCIJA\n\n1. Što uzrokuje rota virus?\n\nRota virus je najčešći uzrok teškog oblika gastroenteritisa u dojenčadi i male djece. Bolest se manifestira povraćanjem,
+        proljevom te povišenom tjelesnom temperaturom i traje 4-8 dana. Teški slučajevi su karakterizirani dehidracijom i elektrolitskim
+        disbalansom pa je potrebno bolničko liječenje oboljelih.\n\nRota virus je sveprisutan te se do dobi od 3-5 godina zarazi 95% djece.
+        Procjenjuje se da godišnje od ove bolesti u Europskoj uniji oboli čak 3,6 miijuna djece mlađe od 5 godina, od čega se oko
+        50.000 hospitalizira a 231 dijete umre od posljedica infekcije.\n\nNajveći broj oboljelih se javlja u dobi između 6 i 24 mjeseci,
+        no infekcija nije rijetka ni u ranoj dojenačkoj dobi, kada je opasnost od teškog oblika bolesti i posljedične hospitalizacije
+        najveća. Rota virusne infekcije se u većini razvijenih zemalja javljaju uglavnom tijekom zimskih mejseci, najčešće od listopada
+        do travnja.\n\n2. Putevi prijenosa\n\nRota virus je visoko zarazan i uglavnom se prenosi feko-oralnim putem, a smatra se da je širenje infekcije moguće i kapljičnim
+        putem (zrakom) kao i preko kontaminiranih površina. Virus se prenosi bez obzira na sanitarne uvjete te se poboljšanjem
+        socio-ekonomske razine, kvalitete vode, kanalizacijskih sustava te higijene u razvijenim zemljama nije uspjelo značajno
+        suzbiti širenje infekcije.\n\n1,16 Infekcija se uglavnom javlja u kolektivu no česte su epidemije u pedijatrijskim odjelima
+        bolnica, u dnevnim bolnicama te odjelima za intenzivnu medicinsku skrb, gdje je posebno teško kontrolirati širenje infekcije.\n\nU tom slučaju posljedice za hospitalizirano dijete mogu biti fatalne, a produljenje hospitalizacije značajno
+        poskupljuje liječenje. Na nečistim rukama virus može preživjeti nekoliko sati, dok u hrani ili pak na čvrstim površinama kao
+        što su igračke može preživjeti i do nekoliko dana.\n\n3. Klinička slika\n\nU djece mlađe od 5 godina klinička slika može varirati od blažeg kratkotrajnog proljeva do teškog gastroenteritisa koji
+        dovodi do pada tlaka, cirkulatornog kolapsa i smrti. Simptomi obično traju nekoliko dana, a proljev prestaje sam od sebe no
+        težak oblik infekcije može rapidno progredirati i uzrokovati po život opasnu dehidraciju koja zahtijeva urgentnu intravensku
+        rehidraciju.\n\nNakon perioda inkubacije od 12 sati do 4 dana, javlja se proljev i povraćanje koje traje 4-8 dana. Uobičajena je i
+        povišena tjelesna temperatura i bol u trbuhu. Prva infekcija obično je najteža, dok su prilikom svake slijedeće infekcije
+        simptomi sve slabije izraženi.\n\n4. Preporuke za cijepljenje\n\nSmjernice dviju krovnih europskih udruga European Society for Pediactric Infectious Diseases (ESPID) i European Society for
+        Pediatric Gastroenterology, Hepathology and Nutrition (ESPGHAN) govore kako bi zbog neprihvatljivog stupnja morbiditeta i
+        mortaliteta uzrokovanog RV infekcijama u Europi rano cijepljenje, prije prve infekcije rotavirusom, moglo spriječiti
+        većinu slučajeva teške bolesti i njezinih posljedica u zdrave djece.\n\nZbog toga se cijepljenje preporučuje za svako
+        zdravo dijete u Europi. Nadalje, za očekivati je da će cijepljenje od infekcije rotavirusom zaštititi i odraslu
+        populaciju što je pogotovo važno za starije i imunokompromitirane osobe.\n\nNa tragu ovih nastojanja, u Hrvatskoj je
+        početkom 2008. godine osnovan Nacionalni odbor za promicanje prevencije rotavirusnih infekcija u djece.\n\n5. O cjepivima\n\nNa tržištu u Europi i Hrvatskoj dostupna su dva živa atenuirana, cjepiva protiv RV za oralnu primjenu (Rotarix&#174;; GSK
+        Biologicals i RotaTeq&#x2122;; SPMSD).\n\nCjepivo Rotarix&#174; se primjenjuje u samo dvije oralne doze.\n
+        &#160;&#160;&#160;• Prvu dozu moguće je primijeniti već od navršenog 6. tjedna, a cijepljenje preporučeno dovršiti do navršenih 16 tjedana
+        ali se mora se dovršiti najkasnije do dobi od 24 tjedna.\n
+        &#160;&#160;&#160;• Razdoblje između doza treba biti najmanje 4 tjedna.\n\nMože se primijeniti istovremeno sa svim monovalentnim ili kombiniranim cjepivima koja se koriste u dojenačkoj dobi u
+        istoj posjeti uključujući i heksavalentno te pneumokokno cjepivo. Dokazano je učinkovit u zaštiti od 5 najučestalijih
+        sojeva rotavirusa.\n\nU 96\%% slučajeva osigurava zaštitu od teškog oblika rota-virusnog gastroenterokolitisa u prvoj godini nakon
+        cijepljenja.\n\nU 100\%% slučajeva osigurava zaštitu od hospitalizacije zbog teškog rota-virusnog gastroenterokolitisa u prvoj
+        godini nakon cijepljenja. Osigurava kontinuiranu zaštitu u prve dvije godine života kada je rizik za dijete najveći.
+        U provedenim ispitivanjima najčešće prijavljene nuspojave bile su iritabilnost i gubitak apetita (1/10). Veliko ispitivanje,
+        također, pokazalo je da nema povećanog rizika od intususcepcije (uvlačenja dijela crijeva u drugi dio) nakon cijepljenja
+        navedenim cjepivom.\n\nSlična su svojstva i drugog cjepiva RotaTeq&#x2122;, osim što se primjenjuje u 3 doze. Prva se doza primjenjuje između šestog i 12.
+        tjedna starosti. Razdoblje između doziranja treba biti najmanje četiri tjedna. Preporučljivo je da se sve tri doze daju prije
+        20.-22. tjedna starosti djeteta. Sve tri doze svakako treba dati do 26. tjedna starosti djeteta.
+    </string>
+
+    <string name="vaccine_optional_tick_borne">
+        Cijepljenje protiv krpeljnog meningoencefalitisa\n\n1. Što je krpeljni meningoencefalitis?\n\nKrpeljni meningoencefalitis je virusna upala mozga i njegovih ovojnica koja u djece prolazi uglavnom bez trajnih posljedica.\n
+        &#160;&#160;&#160;· Prijenosnik virusa je šumski ili obični krpelj, koji je njime zaražen.\n
+        &#160;&#160;&#160;· To je izrazito sezonska bolest, koja počinje u ožujku, jenjava tijekom ljetnih mjeseci i ponovo se učestalije javlja
+        tijekom rane jeseni.\n
+        &#160;&#160;&#160;· Inkubacija virusa traje od 1 do 2 tjedna, nakon čega nastupa stanje povišene tjelesne temperature, malaksalosti i
+        umora. Nakon toga dolazi do trajnog ili privremenog poboljšanja iza kojega može nastupiti upala mozga i moždanih ovojnica
+        praćena visokom temperaturom, smanjenim stupnjem svijesti, jakim glavoboljama i drugim poremećajima.\n
+        &#160;&#160;&#160;· Obično je oporavak od ove bolesti u djece potpun i nije praćen značajnim komplikacijama i trajnim posljedicama.\n\n2. Tko se treba cijepiti?\n\nOsobe koje posjećuju područja u kojima se nalaze krpelji zaraženi virusom proljetno-ljetnjeg krpeljnog meningoencefalitisa
+        (sjeverozapadna Hrvatska, sjeverno od rijeke Save).\n\n3. Kako cijepiti dijete protiv krpeljnog meningoencefalitisa?\n\n
+        &#160;&#160;&#160;· Dijete se može zaštititi od ove bolesti cijepljenjem inaktiviranim (mrtvim) cjepivom u tri doze.\n
+        &#160;&#160;&#160;· Između prve i druge doze treba proći između 2 tjedna i 3 mjeseca, a između druge i treće 9 do 12 mjeseci.\n
+        &#160;&#160;&#160;· Cijepiti se mogu djeca starija od 1 godine.\n
+        &#160;&#160;&#160;· Cjepivo se može primijeniti istovremeno s drugim cjepivima u dječjoj dobi.\n
+        &#160;&#160;&#160;· Nakon 3 godine potrebno je docjepljivanje\n\n4. Neka djeca ne smiju se cijepiti protiv krpeljnog meningoencefalitisa ili moraju pričekati\n\n
+        &#160;&#160;&#160;· Ne smiju se cijepiti djeca koja su alergična na neki sastojak cjepiva ili su ikada doživjela težu alergijsku
+        reakciju na jaja.\n\n5. Koje su moguće neželjene reakcije cijepljenja protiv krpeljnog meningoencefalitisa?\n\nKao i kod svakog lijeka, i kod cjepiva postoji rizik od neželjenih reakcija, kao npr. alergijske reakcije. Rizik da će
+        ovo cjepivo uzrokovati teške ili jako teške reakcije iznimno je mali.\n\nPrilikom cijepljenja može doći do neželjenih reakcija:\n
+        &#160;&#160;&#160;· lokalnog karaktera u obliku crvenila i otekline na mjestu cijepljenja, oticanja obližnjih limfnih čvorova\n
+        &#160;&#160;&#160;· općih reakcija kao što su umor, bol u ruci ili nozi, mučnina, glavobolja, povišena tjelesna temperatura, povraćanje
+        ili prolazni osip.\n\nŠto ako se javi teška neželjena reakcija?\n\n
+        &#160;&#160;&#160;· Iako izuzetno rijetka, alergijska reakcija može nastatiti nekoliko minuta do nekoliko sati nakon primjene cjepiva.
+        Simptomi uključuju teško disanje, promuklost, osip, bljedilo, opću slabost, ubrzan rad srca i vrtoglavicu. Ukoliko primijetite
+        bilo koji od ovih simptoma, odmah se javite liječniku!
+    </string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_1">BCG, doza:</string>
+    <string name="vaccine_2">DI-TE-PER, doza:</string>
+    <string name="vaccine_3">IPV: Inactivated Polio Vaccine, doza:</string>
+    <string name="vaccine_4">Hib, doza:</string>
+    <string name="vaccine_5">MO-PA-RU: Measles, mumps and rubella, doza:</string>
+    <string name="vaccine_6">Hepatitis B, doza:</string>
+    <string name="vaccine_7">Hepatitis A, doza:</string>
+    <string name="vaccine_8">VARIČELA (VODENE KOZICE), doza:</string>
+    <string name="vaccine_9">Krpeljni Meningoencefalitis</string>
+    <string name="vaccine_10">Pneumokokna Bolest, doza:</string>
+    <string name="vaccine_11">GRIPA</string>
+    <string name="vaccine_12">ROTA VIRUS, doza:</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_next_1">Hepatitis B</string>
+    <string name="vaccine_next_2">DI-TE-PER</string>
+    <string name="vaccine_next_3">IPV: Inactivated Polio Vaccine</string>
+    <string name="vaccine_next_4">Hib</string>
+    <string name="vaccine_next_5">MO-PA-RU: Measles, mumps and rubella</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_optional_1">BCG:</string>
+    <string name="vaccine_optional_2">Pneumokokna Bolest</string>
+    <string name="vaccine_optional_3">ROTA VIRUS</string>
+    <string name="vaccine_optional_4">GRIPA</string>
+    <string name="vaccine_optional_5">Hepatitis A</string>
+    <string name="vaccine_optional_6">VARIČELA (VODENE KOZICE)</string>
+    <string name="vaccine_optional_7">Krpeljni Meningoencefalitis</string>
+
+
+    <!-- Add entry feeding -->
+    <string name="add_feeding_menu">Spremi</string>
+    <string name="add_feeding_ml">Količina (ml)</string>
+    <string name="add_feeding_fl">Količina (fl)</string>
+    <string name="add_feeding_min">Vrijeme (min)</string>
+    <string name="feed_1">Bočica</string>
+    <string name="feed_2">Lijeva dojka</string>
+    <string name="feed_3">Desna dojka</string>
+    <string name="feed_4">Ostalo</string>
+    <string name="feed_group_main">Zadnje - %1$s · %2$s min</string>
+    <string name="feed_group_left">Lijevi</string>
+    <string name="feed_group_right">Desni</string>
+
+    <!-- Sleeping feed -->
+    <string name="sleeping_feed_name">Spavanje</string>
+    <string name="sleeping_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="sleeping_feed_content_list_empty">Da bi %1$s\n dobro spavao/la treba rutinu uspavljivanja. Prati %1$s\'s navike spavanja dok ne prospava cijelu noć.</string>
+
+    <!-- Add sleeping feeding -->
+    <string name="add_sleeping_menu">Spremi</string>
+    <string name="add_sleeping_ml">Prespavano sati (h)</string>
+
+    <!-- Diapers feed -->
+    <string name="diapers_feed_name">Kakanje/mokrenje</string>
+    <string name="diapers_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="diapers_feed_content_list_empty">Wet or dirty, diapers tell much\nabout what is going on with\n%1$s\'s health.</string>
+
+
+    <!-- Diapers list -->
+    <string name="diapers_pee">Mokrenje</string>
+    <string name="diapers_poo_1">Rijetka stolica</string>
+    <string name="diapers_poo_2">Kašasta stolica</string>
+    <string name="diapers_poo_3">Normalna stolica</string>
+    <string name="diapers_poo_4">Polutvrda stolica</string>
+    <string name="diapers_poo_5">Tvrda stolica</string>
+
+    <string name="diapers_poo_group_1">Rijetka stolica</string>
+    <string name="diapers_poo_group_2">Kašasta stolica</string>
+    <string name="diapers_poo_group_3">Normalna stolica</string>
+    <string name="diapers_poo_group_4">Polutvrda stolica</string>
+    <string name="diapers_poo_group_5">Tvrda stolica</string>
+
+
+    <!-- Growth feed -->
+    <string name="growth_feed_name">Rast</string>
+    <string name="growth_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="growth_feed_content_list_empty">Raste li %1$s duž svoje krivulje? Dobij povratnu informaciju o područjima rasta - težina, visina i indeks tjelesne mase.</string>
+    <string name="growth_menu_1">Growth Curves</string>
+    <string name="growth_menu_2">Body Mass Index</string>
+
+    <!-- Feeding feed -->
+    <string name="feeding_feed_name">Hranjenje</string>
+    <string name="feeding_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="feeding_feed_content_list_empty">Hranjenje je najvažniji dio razvoja. Saznaj što %1$s čini zdravim.</string>
+    <string name="feeding_feed_item_left">Lijeva %1$d min</string>
+    <string name="feeding_feed_item_right">Desna %1$d min</string>
+    <!-- Sickness feed -->
+    <string name="sickness_feed_name">Bolest</string>
+    <string name="sickness_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="sickness_feed_content_list_empty">Povraćanje, proljev, začepljen nos... Označi sve poteškoće koje %1$s prolazi.</string>
+
+    <!-- Medicine feed -->
+    <string name="medicine_feed_name">Lijekovi</string>
+    <string name="medicine_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="medicine_feed_content_list_empty">Lijekovi iziskuju odgovornost. Znaj koje su uobičajene doze najčešćih lijekova i unesi sve lijekove koje  %1$s uzima.</string>
+    <string name="hint_add_entry">Please, write here...</string>
+
+    <!-- Add entry Growth -->
+    <string name="add_growth_menu">Spremi</string>
+    <string name="add_growth_weight">Težina (kg)</string>
+    <string name="add_growth_head">Opseg glave (cm)</string>
+    <string name="add_growth_weight_pounds">Težina (lb)</string>
+    <string name="add_growth_height">Visina (cm)</string>
+    <string name="add_growth_height_inches">Visina (in)</string>
+    <string name="growth_weight">Težina</string>
+    <string name="growth_height">Visina</string>
+    <string name="growth_head">Opseg glave</string>
+    <string name="add_growth_head_inches">Opseg glave (in)</string>
+    <!-- Milestone feed -->
+    <string name="milestone_feed_name">Posebni trenuci</string>
+    <string name="milestone_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="milestone_feed_content_list_empty">Prvi smješak, prve riječi i prvi koraci - označi sve posebne trenutke kroz koje %1$s prolazi.</string>
+
+
+    <!-- Milestone List -->
+    <string name="milestone_1">Počinje se smiješiti ljudima.</string>
+    <string name="milestone_2">Okreće glavicu prema zvukovima.</string>
+    <string name="milestone_3">Opaža lica.</string>
+    <string name="milestone_4">Može dizati glavicu i počinje se odizati kada leži na trbuhu.</string>
+    <string name="milestone_5">Smije se spontano, posebice ljudima.</string>
+    <string name="milestone_6">Brblja s izražajem i oponaša zvukove koje čuje.</string>
+    <string name="milestone_7">Odgovara na emocije.</string>
+    <string name="milestone_8">Prepoznaje poznate osobe i stvari na udaljenosti.</string>
+    <string name="milestone_9">Drži glavu čvrsto, bez podrške.</string>
+    <string name="milestone_10">Može se okrenuti s trbuha na leđa.</string>
+    <string name="milestone_11">Kada leži potrbuške, odiže se na podlaktice.</string>
+    <string name="milestone_12">Voli se igrati s drugima, posebice s roditeljima.</string>
+    <string name="milestone_13">Počinje izgovarati suglasnike - zvukove (blebeće \"m\", \"b\").</string>
+    <string name="milestone_14">Gleda uokolo na obližnje stvari.</string>
+    <string name="milestone_15">Počinje prebacivati stvari iz jedne ruke u drugu.</string>
+    <string name="milestone_16">Okeće se u oba smjera (s trbuha na leđa, s leđa na trbuh).</string>
+    <string name="milestone_17">Njiše se natrag i naprijed, ponekad puže natraške prije kretanja naprijed.</string>
+    <string name="milestone_18">Može se bojati stranaca.</string>
+    <string name="milestone_19">Razumije \"ne\".</string>
+    <string name="milestone_20">Proizvodi mnogo različitih zvukova kao \"mamamama\" i \"bababababa\".</string>
+    <string name="milestone_21">Traži stvari koje je vidjelo da Vi sakrivate.</string>
+    <string name="milestone_22">Diže stvari poput žitarica između palca i kažiprsta.</string>
+    <string name="milestone_23">Može se podići u sjedeći položaj.</string>
+    <string name="milestone_24">Puže.</string>
+    <string name="milestone_25">Plače kada mama ili tata odlaze.</string>
+    <string name="milestone_26">Odgovara na jednostavno izgovorene naredbe.</string>
+    <string name="milestone_27">Kaže \"mama\" i \"tata\" i usklike poput \"uh-oh!\".</string>
+    <string name="milestone_28">Pokazuje kažiprstom.</string>
+    <string name="milestone_29">Diže se u stojeći položaj, hoda pridržavajući se uz pokućstvo (\"kruži\").</string>
+    <string name="milestone_30">Može se popeti uz par stepenica bez pridržavanja.</string>
+    <string name="milestone_31">Može samostalno stajati.</string>
+    <string name="milestone_32">Istražuje samostalno dok su roditelji u blizini.</string>
+    <string name="milestone_33">Kaže nekoliko pojedinačnih riječi.</string>
+    <string name="milestone_34">Pokazuje pojedine dijelove tijela.</string>
+    <string name="milestone_35">Može se penjati uz stepenice i trčati.</string>
+    <string name="milestone_36">Pije iz šalice.</string>
+    <string name="milestone_37">Jede žlicom.</string>
+    <string name="milestone_38">Pponaša druge, posebice odrasle i stariju djecu.</string>
+    <string name="milestone_39">Govori rečenice s 2 do 4 riječi.</string>
+    <string name="milestone_40">Gradi kule od 4 i više kockica.</string>
+    <string name="milestone_41">Imenuje elemente u slikovnici kao na primjer mačka, ptica ili pas.</string>
+    <string name="milestone_42">Stoji na prstićima.</string>
+    <string name="milestone_43">Počinje trčati.</string>
+    <string name="milestone_44">Lako se odvaja od mame i tate.</string>
+    <string name="milestone_45">Govori dosta razgovjetno da ga i stranac može razumijeti većim dijelom.</string>
+    <string name="milestone_46">Slaže puzle od 3 ili 4 komada.</string>
+    <string name="milestone_47">Precrtava krug olovkom ili bojicom.</string>
+    <string name="milestone_48">Ide uz i niz stube, svakom nogom na zasebnoj stepenici.</string>
+    <string name="milestone_49">Radije se igra s drugom djecom nego samo.</string>
+    <string name="milestone_50">često ne može reći što je realno, a što nestvarno.</string>
+    <string name="milestone_51">Priča priče.</string>
+    <string name="milestone_52">Sjeća se dijelova priče.</string>
+    <string name="milestone_53">Crta čovjeka s 2 do 4 dijela tijela.</string>
+    <string name="milestone_54">Skače na jednoj nozi i stoji na jednoj nozi do 2 sekunde.</string>
+    <string name="milestone_55">Voli pjevati, plesati i glumiti.</string>
+    <string name="milestone_56">Govori vrlo čisto.</string>
+    <string name="milestone_57">Priča jednostavnu priču koristeći se punim rečenicama.</string>
+    <string name="milestone_58">Broji 10 ili više stvari.</string>
+    <string name="milestone_59">Stoji na jednoj nozi 10 sekunda ili dulje.</string>
+    <string name="milestone_60">Koristi vilicu i žlicu, a ponekad i nož.</string>
+    <string name="milestone_61">Može samostalno koristiti zahod.</string>
+
+    <!-- Other feed -->
+    <string name="other_feed_name">Ostalo</string>
+    <string name="other_feed_title_list_empty">Dodaj prvu točkicu</string>
+    <string name="other_feed_content_list_empty">Nadodaj oznaku za sve drugo što %1$s prolazi.</string>
+
+    <string name="metric_unit_volume">ml</string>
+    <string name="us_unit_volume">fl oz</string>
+
+    <string name="metric_unit_length">cm</string>
+    <string name="us_unit_length">in</string>
+
+    <string name="metric_unit_weight">kg</string>
+    <string name="us_unit_weight">lb</string>
+
+    <string name="metric_unit_temperature">°C</string>
+    <string name="us_unit_temperature">°F</string>
+    <string name="title_activity_barchart">BarchartActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

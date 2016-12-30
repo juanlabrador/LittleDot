@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/type_sleeping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_sleeping_ml"
+            android:textColor="@color/text_list"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:id="@+id/content_sleeping"
+            android:layout_below="@+id/type_sleeping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sleeping_text"
+            android:text="0.0"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_sleeping"
+            android:layout_below="@+id/content_sleeping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:indeterminate="false"
+            app:dsb_trackColor="@color/sleeping_text"
+            app:dsb_indicatorColor="@color/sleeping_text"
+            app:dsb_progressColor="@color/sleeping_text"/>
+
+    </RelativeLayout>
+</RelativeLayout>

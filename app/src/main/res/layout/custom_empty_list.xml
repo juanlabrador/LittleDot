@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/container_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/window_background">
+
+        <Button
+            android:id="@+id/choose_time_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:padding="16dp"
+            android:gravity="center"
+            android:drawableLeft="@mipmap/img_filter_by_date"
+            android:text="Showing: Last 6 months"
+            android:textSize="16sp"
+            android:background="@drawable/border_button_disable"
+            android:textColor="@color/text_feed"
+            android:textAllCaps="false"/>
+
+        <View
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/choose_time_filter"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="@color/darkGray"
+            android:layout_marginLeft="40dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/empty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_feed"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_above="@+id/empty_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/feed_title_list_empty"/>
+
+    <TextView
+        android:id="@+id/empty_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/darkestGray"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/feed_content_list_empty"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"/>
+
+    <LinearLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:background="@color/window_background"/>
+
+    <View
+        android:id="@+id/translucent"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/translucent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="true"
+        android:longClickable="false"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/footer"
+            layout="@layout/custom_footer_add_entry"/>
+
+        <include
+            android:id="@+id/view_add_image"
+            layout="@layout/custom_add_pictures"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</RelativeLayout>

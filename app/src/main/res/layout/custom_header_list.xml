@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background">
+
+    <Button
+        android:id="@+id/choose_time_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/img_filter_by_date"
+        android:text="Showing: Last 6 months"
+        android:textSize="16sp"
+        android:background="@drawable/border_button_disable"
+        android:textColor="@color/text_feed"
+        android:textAllCaps="false"/>
+
+    <View
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/choose_time_filter"
+        android:layout_width="1dp"
+        android:layout_height="30dp"
+        android:background="@color/darkGray"
+        android:layout_marginLeft="40dp"/>
+
+</LinearLayout>

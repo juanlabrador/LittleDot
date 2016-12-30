@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/button_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/container_dose"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <Button
+            android:id="@+id/vaccine_list_next_button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/style_button_vaccine_color"
+            android:text="@string/button_next"
+            android:textColor="@color/window_background"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/vaccine_list_optional_button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_toEndOf="@+id/vaccine_list_next_button"
+            android:layout_weight="1"
+            android:background="@drawable/style_button_vaccine"
+            android:text="@string/button_optional"
+            android:textColor="@color/vaccine_text"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/vaccine_schedule_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button_holder"
+        android:layout_marginLeft="16dp"
+        android:scrollbars="none"
+        android:background="@color/window_background" />
+
+</RelativeLayout>

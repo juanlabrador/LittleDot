@@ -1,0 +1,1065 @@
+<resources>
+    <string name="app_name">LittleDot</string>
+    <string name="recommend_app">¡Hey, mira esta aplicación para padres, se ve realmente genial!</string>
+    <string name="shared_message">Compartir %1$s via</string>
+
+    <string name="button_report">Reportar</string>
+    <string name="email_subject_report">LittleDot crashed!</string>
+    <string name="title_dialog_report">Lo sentimos, la aplicación se detuvo</string>
+    <string name="content_dialog_report">Lo sentimos, nosotros trataremos de solventar este problema los más pronto posible. Gracias por reportalo.</string>
+
+    <string name="action_settings">Configuración</string>
+
+    <string name="format_day">EEEE</string>
+    <string name="format_time">HH:mm</string>
+    <string name="format_pretty_time">MMMM dd, yyyy</string>
+    <string name="format_date_service">yyyy-MM-dd\'T\'HH:mm:ssZ</string>
+    <string name="format_date_short">dd/MMM</string>
+
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">CANCELAR</string>
+    <string name="button_next">Siguiente</string>
+    <string name="button_optional">Opcional</string>
+    <string name="button_done">Vacunado</string>
+    <string name="button_add">Agregar registro a %1$s</string>
+    <string name="button_skipped">Saltado</string>
+    <string name="button_erase_all_data">Borrar datos</string>
+    <string name="option_edit">Editar</string>
+    <string name="option_delete">Borrar</string>
+    <string name="option_show">Mostrar detalles</string>
+    <string name="option_take_photo">Tomar desde la cámara</string>
+    <string name="option_take_from_gallery">Tomar desde la galería</string>
+    <string name="date_dialog">Día:</string>
+    <string name="time_dialog">Hora:</string>
+    <string name="time_now">Ahora</string>
+    <string name="vaccinated_dialog">Vacunado:</string>
+    <string name="skipped_dialog">Saltada:</string>
+    <string name="att_title">Agrega notas y fotos</string>
+    <string name="att_pictures">Agrega fotos:</string>
+    <string name="att_note"><i>Pulse para añadir una nota</i></string>
+
+    <!-- Main Feed -->
+    <string name="feed_title_list_empty">Agrega el primer registro</string>
+    <string name="feed_content_list_empty">¡Tu estas listo! Empieza a agregar\nregistros de %1$s. ¿Como\ndurmió %1$s anoche?</string>
+
+
+    <!-- Details doctor -->
+    <string name="details_doctor">Médico</string>
+    <string name="details_doctor_button">Editar</string>
+    <string name="details_doctor_send_email">Enviar datos (%1$s)</string>
+
+    <!-- Email Options doctor -->
+    <string name="email_option_title">Opciones de correo</string>
+    <string name="email_no_client">No hay un cliente de correo instalado.</string>
+    <string name="email_text_date"><u>%1$s</u></string>
+    <string name="email_text_temperature_f"><b>Temperatura:</b> %1$s °F (%2$s)</string>
+    <string name="email_text_temperature"><b>Temperatura:</b> %1$s °C (%2$s)</string>
+    <string name="email_text_feeding_bottle"><b>Alimentación:</b> %1$s ml (%2$s)</string>
+    <string name="email_text_feeding_bottle_fl"><b>Alimentación:</b> %1$s fl (%2$s)</string>
+    <string name="email_text_feeding_breast_left"><b>Alimentación:</b> Pecho izquierdo %1$s min (%2$s)</string>
+    <string name="email_text_feeding_breast_right"><b>Alimentación:</b> Pecho derecho %1$s min (%2$s)</string>
+    <string name="email_text_feeding_other"><b>Alimentación:</b> %1$s (%2$s)</string>
+    <string name="email_text_sleeping"><b>Sueño:</b> %1$s h (%2$s)</string>
+    <string name="email_text_diapers"><b>Heces/Orina:</b> %1$s (%2$s)</string>
+    <string name="email_text_diapers_2"><b>Heces/Orina:</b> %1$s, %2$s (%3$s)</string>
+    <string name="email_text_sickness"><b>Enfermedad:</b> %1$s (%2$s)</string>
+    <string name="email_text_medicine"><b>Medicamento:</b> %1$s (%2$s)</string>
+    <string name="email_text_growth_lb"><b>Crecimiento:</b> Peso %1$s lb, Altura %2$s in</string>
+    <string name="email_text_growth"><b>Crecimiento:</b> Peso %1$s kg, Altura %2$s cm</string>
+    <string name="email_text_growth_2"><b>Crecimiento:</b> Peso %1$s kg, Altura %2$s cm, Circunferencia de la cabeza %3$s cm</string>
+    <string name="email_text_growth_2_lb"><b>Crecimiento:</b> Altura %1$s lb, Altura %2$s in, Circunferencia de la cabez %3$s in</string>
+    <string name="email_text_other"><b>Otro:</b> %1$s (%2$s)</string>
+    <string name="email_text_teeth"><b>Dientes:</b> %1$s </string>
+    <string name="email_text_vaccine"><b>Vacunación:</b> %1$s </string>
+    <string name="email_text_milestone"><b>Momentos especiales:</b> %1$s </string>
+    <string name="email_subject">%1$s (fecha de nacimiento: %2$s )</string>
+    <string name="email_intent">Enviar correo...</string>
+    <string name="email_option_doctor_menu">Preparar el correo</string>
+    <string name="email_option_doctor_label">Preparar el correo para\nel médico que contiene:</string>
+    <string name="email_option_doctor_temperature">Temperatura</string>
+    <string name="email_option_doctor_sickness">Enfermedad</string>
+    <string name="email_option_doctor_medicines">Medicamentos</string>
+    <string name="email_option_doctor_vaccines">Vacunas</string>
+
+    <string name="email_option_doctor_feeding">Alimentación</string>
+    <string name="email_option_doctor_sleeping">Sueño</string>
+    <string name="email_option_doctor_diapers">Pañales</string>
+
+    <string name="email_option_doctor_growth">Crecimiento</string>
+    <string name="email_option_doctor_milestone">Momentos especiales</string>
+    <string name="email_option_doctor_teeth">Dientes</string>
+    <string name="email_option_doctor_other">Otro</string>
+
+
+    <!-- Edit doctor -->
+    <string name="edit_doctor">Editar médico</string>
+    <string name="edit_doctor_menu">Guardar</string>
+    <string name="edit_doctor_name">Nombre</string>
+    <string name="edit_doctor_hours_work">Horario de trabajo, otra información</string>
+    <string name="edit_doctor_phone_1">Teléfono 1</string>
+    <string name="edit_doctor_phone_2">Teléfono 2</string>
+    <string name="edit_doctor_email">Correo electrónico</string>
+    <string name="edit_doctor_address">Dirección</string>
+
+    <!-- Other options menu -->
+    <string name="other_menu_edit">Editar niños</string>
+    <string name="other_menu_setting">Configuración</string>
+    <string name="other_menu_recommend">Recomiendanos a tus amigos</string>
+
+    <!-- Setting -->
+    <string name="setting_title">Configuración</string>
+    <string name="setting_menu">Hecho</string>
+    <string name="setting_sync_message">Sincroniza los datos de sus hijos con los servicios de LittleDot para obtener ayuda rápida a los problemas de salud.</string>
+    <string name="setting_sync">Sincronizar</string>
+    <string name="setting_sync_complete">Los datos de sus hijos se está sincronizando con los servicios de LittleDot.</string>
+    <string name="setting_login_message">Tu nueva cuenta ha sido enviado a su dirección de correo. Abre el enlace desde el correo electrónico para comenzar a sincronizar sus datos con el servidor.</string>
+    <string name="setting_progress">Espere un momento...</string>
+    <string name="setting_button_email">Ingrese su correo electrónico</string>
+    <string name="email_error">El correo electrónico es incorrecto.</string>
+    <string name="setting_button_login">Enviar enlace de cuenta</string>
+    <string name="setting_forgot_password">Olvidó su contraseña</string>
+    <string name="string_sync_data">Cuando tu quieras sincronizar tus datos con el servidor.</string>
+    <string name="setting_button_sync_data">Sincronizar datos</string>
+    <string name="setting_general">General</string>
+    <string name="setting_language">Idioma:</string>
+    <string name="setting_language_dialog">Cambia el idioma:</string>
+    <string name="setting_language_1">Ingles</string>
+    <string name="setting_language_2">Español</string>
+    <string name="setting_language_3">Alemán</string>
+    <string name="setting_language_4">Croata</string>
+    <string name="setting_units">Unidades:</string>
+    <string name="setting_units_dialog">Cambia las unidades:</string>
+    <string name="setting_units_1">Unidades métricas</string>
+    <string name="setting_units_2">Unidades U.S.</string>
+    <string name="setting_purchases">Compras en la aplicación</string>
+    <string name="setting_purchases_content">Restaurar todas tus compras</string>
+    <string name="setting_data">Datos</string>
+    <string name="setting_erase_all_data">Borrar todos los datos</string>
+
+    <!-- setting erase all data -->
+    <string name="setting_erase_all_data_title">Borrar todos los datos</string>
+    <string name="setting_erase_all_data_message">Este procedimiento borrará todos\nlos datos no registrados\nde la aplicación.</string>
+    <string name="setting_erase_all_data_button">Borrar datos de: </string>
+    <string name="setting_erase_all_data_dialog">¿Seguro que quieres borrar todos los datos?</string>
+
+    <!-- setting list children -->
+    <string name="setting_list_children_item">Editar el perfil de %1$s</string>
+    <string name="setting_list_children_title">Niños</string>
+    <string name="setting_list_children_new">Agrega un nuevo niño</string>
+
+    <!-- setting children edit -->
+    <string name="setting_children_menu_new">Tus niños</string>
+    <string name="setting_children_menu_delete">Borrar datos de %1$s</string>
+    <string name="setting_children_menu_delete_dialog">¿Seguro que quieres borrar todos los datos para %1$s?</string>
+    <string name="setting_children_menu_edit">Guardar</string>
+    <string name="setting_children_menu_add">Agregar</string>
+    <string name="setting_children_edit_photo">Editar\nFoto</string>
+    <string name="setting_children_name">Nombre del niño</string>
+    <string name="setting_children_date_birth">Fecha de nacimiento</string>
+    <string name="setting_children_gender">Genero</string>
+    <string name="setting_children_gender_male">Masculino</string>
+    <string name="setting_children_gender_female">Femenino</string>
+    <string name="children_age_year">Año</string>
+    <string name="children_age_months">mes</string>
+    <string name="children_age_month">m</string>
+    <string name="children_age_days">d</string>
+
+    <!-- Add entry temperature -->
+    <string name="add_temperature_menu">Guardar</string>
+    <string name="add_temperature_celsius">Temperatura (C°)</string>
+    <string name="add_temperature_fahrenheit">Temperatura (F°)</string>
+    <string name="add_temperature_measured">Tomada:</string>
+
+    <!-- Temperature feed -->
+    <string name="temperature_feed_name">Temperatura</string>
+    <string name="temperature_title_info">Información</string>
+    <string name="temperature_menu_1">Consejos</string>
+    <string name="temperature_menu_2">Dosis de medicamentos</string>
+    <string name="temperature_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="temperature_feed_content_list_empty">Seguimiento de la alta temperatura\n que %1$s esta teniendo en su cuerpo.</string>
+    <string name="temperature_advices_when_title">¿Cuando tomarle la temperatura?</string>
+    <string name="temperature_advices_when_content">
+        \u0020\u0020\u0020Cuando el niño parece estar caliente, molesto, ha reducido su apetito, o está menos activo como
+        de costumbre, o cuando normalmente hay otros signos de enfermedad (vómitos, diarrea, tos, erupción
+        o algún otro signo). ¡La estimación de la fiebre en los niños por palpación es poco fiable!. Por ejemplo,
+        los niños con fiebre alta tienen frías las manos, los pies y la frente debido a la falta (inmadurez) del
+        centro para la regulación de la temperatura. La fiebre alta puede conducir a la deshidratación (durante
+        la ingesta de líquidos, la fiebre aumenta 2-3 veces). El signo más fiable de la deshidratación son
+        los labios secos y la lengua cual se torna a blanco.</string>
+    <string name="temperature_advices_how_title">¿Como tomarle la temperatura?</string>
+    <string name="temperature_advices_how_content">
+        \u0020\u0020\u0020En niños de hasta un año, se recomienda tomarle la temperatura vía rectal mediante
+        la inserción de un termómetro de unos 2 cm. Mantenga el termómetro durante aprox. 2-3 minutos hasta que
+        la línea deje de aumentar (o cuando el termómetro es electrónico, emita un pitido). En los niños mayores, el termómetro se
+        coloca en el medio de la axila seca, y se coloca la parte superior del brazo por encima del cuerpo. Se tarda unos
+        10 minutos para tomar la temperatura. La temperatura normal medido por vía rectal es aproximadamente
+        37,5 °C y 37,0 °C axilar. Si el niño está físicamente activo (llorando, comiendo, corriendo), la temperatura rectal puede llegar a 38 °C.</string>
+    <string name="temperature_advices_elevated">¿Cuándo y cómo acabar con la temperatura elevada del cuerpo?</string>
+    <string name="temperature_advices_elevated_content_1">
+        \u0020\u0020\u0020La fiebre es una de las formas naturales de defensa del cuerpo contra la infección.
+        Por lo tanto, es razonable comenzar a tomarle la temperatura cuando se eleva por encima de 38 °C vía axilar o
+        38,5 °C vía rectal. Más precisamente, las últimas recomendaciones aconsejan acabar con la fiebre, cuando el niño
+        muestra signos de postración o cambios de estado de ánimo (se vuelve irritable). Así que si el niño esta feliz
+        corriendo y tiene 39 °C, no es necesariamente necesario administrarle antipiréticos, pero en caso contrario, si el
+        niño con un poco de fiebre se encuentra irritable o cansado, debe aplicarle.</string>
+    <string name="temperature_advices_elevated_content_2">
+        \u0020\u0020\u0020La fiebre puede reducirse mediante fármacos y enfriamiento. Entre los antipiréticos más
+        apropiados y menos dañinos son el acetaminofén (paracetamol) y el ibuprofeno (en forma de jarabe y supositorio),
+        teniendo estrictamente en cuenta que no exceda las dosis recomendadas. Si el niño esta corriendo con fiebre alta,
+        debe ser desvestido y darle antipirético inmediatamente.</string>
+    <string name="temperature_advices_elevated_content_3">
+        \u0020\u0020\u0020Para bajarle la temperatura, la temperatura del ambiente debe reducirse y
+        reducir el exceso de ropa. Se recomienda esperar unos 20 minutos después de la administración
+        del antipirético en un lugar frío, con un baño con esponja o una ducha. Durante este período el
+        antipirético se bloqueará, ocasionando escalofríos. Es decir, el temblor es una poderosa
+        manera de aumentarle la temperatura del cuerpo, la sensación de frío puede aumentar la fiebre por 1-2 grados
+        en lugar de ¡disminuirle como se espera!. Lo más adecuado será llenarle la bañera con agua de alrededor de 37 °C
+        (o 2-3 grados menos que la temperatura corporal) y dejar al niño en ella durante unos 20 minutos y seguir
+        enfriando gradualmente. Frotar la piel con alcohol no se recomienda - el enfriamiento brusco de la piel causa
+        vasoconstrición y reduce el efecto de enfriamiento, parte del alcohol penetra la piel y algunos vapores se inhalan.
+        Si la temperatura del cuerpo no se reduce después del baño, envuelva al niño en una toalla humeda o empapada previamente
+        a temperatura ambiente, y cambiar periódicamente, siempre y cuando sea necesario.</string>
+    <string name="temperature_advices_elevated_content_4">
+        \u0020\u0020\u0020Durante la fiebre, el niño debe tomar muchos líquidos (la necesidad de líquido puede
+        incluso hasta duplicarse), por lo que es importante ofrecerle agua, jugo o té a temperatura ambiente.
+        Sólo despues de que se lleven a cabo estas medidas, debe solicitar asistencia médica.</string>
+    <string name="temperature_advices_important_title">¡Es importante contar con antipiréticos en casa antes de que el niño se enferme!</string>
+    <string name="temperature_advices_assistance_title">¿Cuando pedir ayuda médica sin demora?</string>
+    <string name="temperature_advices_assistance_content">
+        \u0020\u0020\u0020En los bebés, particularmente en bebés de hasta 3 meses de edad, después de
+        bajarle la fiebre, es necesario buscar un médico. En los niños mayores, si la fiebre supera
+        los 40 °C, se recomienda también buscar un médico durante el primer día de la enfermedad, debido
+        a que podría ser un signo de infección bacteriana muy grave. Si tiene agitación (temblor excesivo)
+        durante el aumento de la temperatura, erupción y/o empeoramiento del estado general del niño, este
+        requiere de asistencia médica inmediata. Evite el sobrecalientamiento (demasiada ropa) del niño
+        durante el traslado.</string>
+    <string name="temperature_doses_ibuprofen"><b>5-10 mg/kg de masa corporal/dosis.</b>
+        \nDosis: Las dosis están basadas en el peso del niño. Dar el medicamento cada 6 horas.
+        No le dé más de 4 dosis en un período de 24 horas.</string>
+    <string name="temperature_doses_acetaminophen"><b>10-15 mg/kg de masa corporal/dosis.</b>
+        \nDosis: Déle acetaminofén cada 4 horas según sea necesario. No le dé más de 5 dosis en un
+        periodo de 24 horas. Las dosificaciones se basan en el peso del niño, independientemente de
+        si se usan productos orales o rectales.</string>
+    <string name="temperature_doses_weight">Peso</string>
+    <string name="temperature_doses_Dose">Dosis</string>
+    <string name="temperature_dose_1">Ibuprofeno</string>
+    <string name="temperature_dose_2">Acetaminofén (Paracetamol)</string>
+    <string name="temperature_doses_doctor">Pregúntele a su médico</string>
+    <string name="temperature_doses_adult">Dosis de adulto</string>
+    <string name="temperature_doses_mg">%1$s mg</string>
+    <string name="temperature_weight_kg">%1$s kg</string>
+    <string name="temperature_weight_lb">%1$s lb</string>
+
+    <!-- Filter Time list -->
+    <string name="filter_time_title">Elija el tiempo:</string>
+    <string name="filter_title_message">Mostrando:</string>
+    <string name="filter_time_1">Últimos 7 días</string>
+    <string name="filter_time_2">Últimos 14 días</string>
+    <string name="filter_time_3">Últimos 30 días</string>
+    <string name="filter_time_4">Últimos 2 meses</string>
+    <string name="filter_time_5">Últimos 6 meses</string>
+    <string name="filter_time_6">Desde su nacimiento</string>
+    <string name="filter_time_7">Entre fechas</string>
+    <string name="filter_today">Hoy</string>
+    <string name="filter_yesterday">Ayer</string>
+    <string name="filter_between_from">Desde</string>
+    <string name="filter_between_to">Hasta</string>
+    <string name="filter_time_error">Las fechas son incorrectas.</string>
+
+    <!-- Teeth feed -->
+    <string name="teeth_feed_name">Dientes</string>
+    <string name="teeth_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="teeth_feed_content_list_empty">Uno por uno, los pequeños dientes de\n%1$s empiezan a aparecer. Bienvenido\ncada uno como un registro.</string>
+
+    <!-- Teeth List -->
+    <string name="teeth_1">Superior derecho 1</string>
+    <string name="teeth_2">Superior izquierdo 1</string>
+    <string name="teeth_3">Inferior derecho 1</string>
+    <string name="teeth_4">Inferior izquierdo 1</string>
+    <string name="teeth_5">Superior derecho 2</string>
+    <string name="teeth_6">Superior izquierdo 2</string>
+    <string name="teeth_7">Inferior derecho 2</string>
+    <string name="teeth_8">Inferior izquierdo 2</string>
+    <string name="teeth_9">Superior derecho 3</string>
+    <string name="teeth_10">Superior izquierdo 3</string>
+    <string name="teeth_11">Inferior derecho 3</string>
+    <string name="teeth_12">Inferior izquierdo 3</string>
+    <string name="teeth_13">Superior derecho 4</string>
+    <string name="teeth_14">Superior izquierdo 4</string>
+    <string name="teeth_15">Inferior derecho 4</string>
+    <string name="teeth_16">Inferior izquierdo 4</string>
+    <string name="teeth_17">Superior derecho 5</string>
+    <string name="teeth_18">Superior izquierdo 5</string>
+    <string name="teeth_19">Inferior derecho 5</string>
+    <string name="teeth_20">Inferior izquierdo 5</string>
+
+
+    <!-- Vaccine feed -->
+    <string name="vaccine_feed_name">Vacuna</string>
+    <string name="vaccine_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="vaccine_feed_content_list_empty">%1$s debe protegerse de las enfermedades\nmás conocidas. Más información sobre\ncada vacuna, prepararla, y\ntomar notas con cada vacunación.</string>
+    <string name="vaccine_menu_1">Horario de vacunación</string>
+    <string name="vaccine_menu_2">Es bueno saber</string>
+    <string name="vaccine_vaccination_title">Vacunación</string>
+    <string name="vaccine_age">A la edad: %1$d meses</string>
+    <string name="vaccine_dose">Dosis: %1$d/%2$d</string>
+    <string name="vaccine_detail_dose">%1$d dosis</string>
+    <string name="vaccine_recurring">Periódicamente</string>
+    <string name="vaccine_info_check">Revisar vacunación: %1$s</string>
+    <string name="vaccine_skipped">Saltado:</string>
+    <string name="vaccine_done">Vacunado:</string>
+
+    <string name="vaccine_hepatitis_b">
+        1. ¿Qué es la hepatitis B?\n\n
+        Hepatitis B es una inflamación del hígado, que es causada por el virus de la hepatitis B, generalmente se manifiesta
+        con síntomas vagos (debilidad general, náuseas, pérdida de apetito), y algunas personas infectadas pueden desarrollar ictericia.\n\n
+        &#160;&#160;&#160;· En los niños, la enfermedad puede ir sin síntomas, pero a menudo el sistema de defensa del organismo del niño es insuficientemente fuerte
+        que no puede destruir por completo el virus. En ese caso, el niño se convertirá en un portador crónico del virus y tiene
+        una enfermedad crónica, que luego más tarde pueden convertirse en complicaciones graves, como cirrosis o carcinoma primario del hígado.\n
+        &#160;&#160;&#160;· Cuanto más joven es el niño, mayor será la posibilidad que después de ser infectado con el virus de la hepatitis B, él o ella desarrollará
+        complicaciones graves en la forma de una enfermedad hepática crónica.\n\n
+        Un niño puede estar infectado con el virus de la hepatitis B:\n\n
+        &#160;&#160;&#160;· En el nacimiento de una madre que es portadora crónica del virus;\n
+        &#160;&#160;&#160;· en contacto cercano con una persona infectada (usando un cepillo de dientes común o conjunto de manicura, a través de pequeñas heridas, picaduras y los arañazos);\n
+        &#160;&#160;&#160;· a través de sangre infectada, por ejemplo, por accidente a través de la aguja de inyección infectada que ha sido contaminada, o a través de productos de sangre infectada;\n
+        &#160;&#160;&#160;· el sexo es la causa más frecuente de infección en adolescentes y adultos.\n\n
+        La vacunación contra la hepatitis B puede prevenir la aparición de la enfermedad.\n\n
+        2. ¿Cómo es un niño vacunado contra la hepatitis B?\n\n
+        El esquema de vacunación contra la hepatitis B contiene tres dosis de vacuna que debe recibir el niño para ser
+        protegido totalmente y durante mucho tiempo contra la infección.\n\n
+        &#160;&#160;&#160;· La primera y segunda dosis se administran 1 mes de diferencia, y la tercera dosis se administra 5 meses después de la segunda dosis,
+         o de acuerdo con otro esquema, si el médico así lo decide. Consulte a su médico sobre la necesidad de más revacunación. Desde 1999,
+        según el calendario de vacunación obligatoria, en los niños de la República de Croacia en el 6to formulario de primaria
+        son vacunados contra la hepatitis B, mientras que los niños nacidos después de 2007 son vacunados cuando aún están en el hospital de maternidad.
+        Si un niño debe ser protegido antes (para los niños nacidos de 2007), esto es posible, después de la consulta con el pediatra del niño.\n\n
+        Los hijos de madres que son portadores crónicos del virus son inmunizados inmediatamente después del nacimiento. ¡Todas las mujeres
+        embarazadas se prueban rutinariamente para la hepatitis B!\n\n
+        3. Algunos niños no deben ser vacunados o que tenga que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que después de la vacunación previa contra la hepatitis B desarrollan una reacción alérgica a la vacuna y los niños
+        que son alérgicos a cualquier componente de la vacuna no deben ser vacunados.\n
+        &#160;&#160;&#160;· Los niños que están gravemente enfermos y tienen fiebre alta debe esperar hasta que se recuperen.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacuna?\n\n
+        La vacuna contra la hepatitis B es muy segura.\n\n
+        Las reacciones leves (que son, de hecho, lo más comúnmente posible) incluyen:\n\n
+        &#160;&#160;&#160;· dolor, enrojecimiento y endurecimiento de la piel en el sitio de la inyección (rara veces):\n\n
+        &#160;&#160;&#160;· cansancio, fiebre, temperatura alta temporal\n
+        &#160;&#160;&#160;· erupción cutánea, picazón\n
+        &#160;&#160;&#160;· náusea, vómito, diarrea, dolor de estómago.\n\n
+        Estos no presentan obstáculo para su posterior vacunación.\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos hasta varias horas después de la
+        administración de la vacuna. Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general,
+        el aumento del ritmo cardíaco, y el vértigo.\n\n
+        ¡Si usted nota cualquiera de estos síntomas póngase en contacto con el médico inmediatamente!</string>
+
+    <string name="vaccine_dtap">
+        1. ¿Qué son la difteria, el tétanos y la tos ferina (pertussis)?\n\n
+        La difteria, el tétanos y la tos ferina (pertussis) son enfermedades peligrosas causadas por bacterias. La difteria y la tos ferina
+        se transmiten de persona a persona. El tétanos puede entrar en el cuerpo a través de un corte o una herida.\n\n
+        DIFTERIA provoca la formación de una membrana gruesa en el tejido posterior de la faringe, lo que provoca dificultad para respirar,
+        parálisis y puede detener el corazón y causar la muerte.\n\n
+        TÉTANOS causa contracciones musculares dolorosas en todo el cuerpo. También puede causar un bloqueo de la mandíbula para
+        que el paciente no pueda abrir la boca o tragar. El tétanos es fatal en uno de cada diez personas. Las bacterias entran en el cuerpo a través de un corte o una herida.\n\n
+        TOS FERINA (pertussis) causa ataques de tos que son tan violentas que impiden a los niños de comer, beber o respirar.
+        Estos ataques de tos graves pueden durar semanas. Las complicaciones pueden causar neumonía, convulsiones, daño cerebral y muerte.\n\n
+        2. ¿Qué tipo de vacuna están allí contra la difteria, el tétanos y la tos ferina?\n\n
+        Hay dos tipos de vacunas. Estas vacunas difieren sólo en la composición de una parte de la vacuna (antígeno) contra la tos ferina:\n\n
+        a) la vacuna contra la tos ferina de células enteras\n\n
+        &#160;&#160;&#160;· muy afectiva\n\n
+        &#160;&#160;&#160;· fue utilizado para un gran número de años\n\n
+        &#160;&#160;&#160;· causó reacciones adversas más frecuentes\n\n
+        b) la vacuna contra la tos ferina acelular\n\n
+        &#160;&#160;&#160;· En la vacuna acelular, sólo algunas partes importantes de la célula que causan una buena respuesta inmune se separan, que también
+        proporciona una protección eficaz.\n\n
+        &#160;&#160;&#160;· muy raramente provoca reacciones indeseables severas.\n\n
+        &#160;&#160;&#160;· fue desarrollado en un intento de reducir las reacciones adversas de la vacuna..\n\n
+        &#160;&#160;&#160;· La mayoría de los países desarrollados utilizan exclusivamente este tipo de vacuna contra la tos ferina (Estados Unidos, Canadá, Reino Unido, Alemania, Austria, Italia,
+        Suecia, Bélgica, Eslovenia, etc.). El tipo acelular de la vacuna también se utiliza en la República de Croacia.\n\n
+        ¿Cuándo los niños son vacunados con la vacuna DTaP?\n\n
+        Con el fin de proteger, los niños deben recibir 5 dosis de la vacuna DTaP; uno en cada una de las siguientes edades: 2 meses, 4 meses, 6 meses, 2 años, 4 años.\n\n
+        Esta vacuna puede administrarse simultáneamente con otras vacunas que se dan a esas edades.\n\n
+        3. Algunos niños no deben ser vacunados contra la difteria, el tétanos y la tos ferina o tienen que esperar.\n\n
+        &#160;&#160;&#160;· Un niño que ha experimentado una reacción alérgica a la primera dosis de la vacuna DTaP no debe recibir una segunda dosis.\n\n
+        &#160;&#160;&#160;· También es muy importante informar al médico si el niño alguna vez ha tenido convulsiones febriles (convulsiones que vienen con fiebre alta).\n\n
+        &#160;&#160;&#160;· Informar al doctor si su hijo después de recibir una vacuna DTaP:\n\n
+        - ha tenido cualquier tipo de reacción adversa\n
+        - ha tenido reacciones graves (convulsiones, colapso, enrojecimiento de la piel que cubre más de la mitad de la pierna o el brazo)\n
+        - lloraba desconsoladamente y continuamente por más de 3 horas\n
+        - ha tenido una fiebre superior a 40,5 °C\n\n
+        Los niños mayores y los adultos\n\n
+        &#160;&#160;&#160;· La vacuna DTaP no se debe dar a los adultos y niños mayores de 7 años de edad, debido al componente contra la tos ferina. Sin embargo,
+        niños mayores, adolescentes y adultos tienen que ser revacunados con DT contra la difteria y el tétanos a las edades de 7, 14 y 19, y cada diez años después de eso.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas causadas por la vacuna DTaP?\n\n
+        ¡Contrayendo la difteria, el tétanos o la tos ferina conlleva riesgos mucho más altos que la vacuna DTaP!\n\n
+        Al igual que con todos los medicamentos, las vacunas también conllevan el riesgo de reacciones adversas. El riesgo de esta vacuna cause reacciones graves y muy graves es extremadamente pequeño.\n\n
+        Las reacciones leves (que son, de hecho, los registrados con mayor frecuencia):\n\n
+        &#160;&#160;&#160;· Dolor, enrojecimiento hinchazón en el sitio de la infección\n\n
+        &#160;&#160;&#160;· llanto inusual\n\n
+        &#160;&#160;&#160;· vómitos\n\n
+        &#160;&#160;&#160;· comer y beber menos que de costumbre\n\n
+        &#160;&#160;&#160;· inquietud, somnolencia, dormir más o menos de lo habitual\n\n
+        &#160;&#160;&#160;· fiebre alta\n\n
+        Esto ocurre 48 horas después de la vacunación. No son un obstáculo para la revacunación.\n\n
+        Las reacciones severas (inusual):
+        &#160;&#160;&#160;· convulsiones (convulsiones causadas por la fiebre)\n
+        &#160;&#160;&#160;· llanto inconsolable que dura de forma continua durante más de 3 horas\n
+        &#160;&#160;&#160;· una condición que se asemeja a estar en shock (flacidez y palidez)\n
+        &#160;&#160;&#160;· fiebre superior a 40,5 °C\n
+        &#160;&#160;&#160;· hinchazón que cubre más de la mitad de la pierna o el brazo\n\n
+        Estos reacción también se produce 48 horas de la vacunación, pero también puede aparecer después de 7 días. ¡Póngase en contacto con su médico inmediatamente!
+        Estos no son obstáculos para continuar con la vacunación, pero su pediatra decidirá cuándo y cómo.\n\n
+        Reacciones muy graves (muy raro):\n\n
+        &#160;&#160;&#160;· reacciones alérgicas\n
+        &#160;&#160;&#160;· Trastorno de conciencia (coma, conciencia inhibida) es una reacción extremadamente raro. Este tipo de reacción presentaría y sería un obstáculo para la continuación
+        de la administración de la vacuna DTaP. Si aparece una reacción muy grave a la vacuna, llame al médico inmediatamente.\n\n
+         La mayoría de las reacciones adversas usualmente ocurren dentro de 1 a 7 días de la vacunación y desaparecen con mayor frecuencia sin ninguna consecuencia.\n\n
+        ¿Qué pasa si un severo número de reacciones muy graves se produce?\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede aparecer varios minutos hasta varias horas después de la administración de la vacuna. Los síntomas incluyen
+        dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la aceleración del ritmo cardíaco, y el vértigo. ¡En todos estos casos, el niño tiene que ser llevado al médico tan pronto como sea posible!
+    </string>
+
+    <string name="vaccine_go_to_know">
+        &lt;b>Proteger a los niños contra las enfermedades infecciosas a través de la vacunación&lt;/b>&lt;br>&lt;br>
+        Todos nosotros entran en contacto diario con muchos agentes patógenos que pueden causar enfermedades graves, daños en el organismo y,
+        en los peores casos, la muerte. La vacunación es el mayor éxito de la medicina del siglo 20. Se ha salvado más vidas que cualquier otra intervención médica en la historia.&lt;br>
+        &#160;&#160;&#160;La prevención (inmunoprofilaxis) de las enfermedades infecciosas se lleva a cabo de dos maneras - activa y pasiva. Inmunoprofilaxis activa
+        es un procedimiento que llamamos la vacunación, donde se estimula el organismo para desarrollar sus propias defensas específicas contra una enfermedad infecciosa
+        en particular. Inmunoprofilaxis pasiva es un procedimiento donde el organismo está protegida temporalmente contra una enfermedad particular. Inmunoprofilaxis
+        pasiva es un procedimiento donde el organismo está protegida temporalmente contra una infección particular, por la provisión de anticuerpos protectores ya hechas.
+        Este trabajo se ocupa de la inmunoprofilaxis activa - vacunación. Dado que las enfermedades infecciosas son frecuentes y particularmente peligrosa en la infancia
+        y la niñez, la vacunación de los niños es de la mayor importancia.&lt;br>&lt;br>
+        &lt;b>Tipos de Vacunas&lt;/b>&lt;br>&lt;br>
+        Las vacunas se pueden dividir en las vacunas vivas e inactivadas/muertas. Las vacunas vivas contienen los virus que causan enfermedades atenuados que han
+        sido sometidas a diversos procesos a fin de disminuir su capacidad de enfermedades que causan, mientras que al mismo tiempo, mantener su capacidad de
+        multiplicarse en los tejidos o células de la persona que ha sido vacunada. Estos tipos de vacunas incluyen vacunas contra la tuberculosis, la rubéola,
+        el sarampión, las paperas y la polio. Las vacunas inactivadas contienen microorganismos muertos (la vacuna contra la tos ferina), partes de microorganismos
+        (vacunas contra la gripe, difteria y el tétanos toxinas, material capsular soluble del neumococo, meningococo y Haemophilus influenzae tipo b bacterias)
+        o partes del ADN del virus separado a través de ingeniería genética (la vacuna de la hepatitis B). Los ingredientes más importantes de la vacuna se llaman
+        antígenos debido a que el organismo de la persona vacunada crea anticuerpos específicos de protección contra ellos. Los antígenos se disuelven en un solvente,
+        agua esterilizada con mayor frecuencia, una solución fisiológica o un solvente de compuestos.&lt;br>&lt;br>
+        &lt;b>Calendario de vacunación obligatoria&lt;/b>&lt;br>&lt;br>
+        &lt;a href="http://vaccine-schedule.ecdc.europa.eu/Pages/Schedule.aspx">Calendarios de vacunación en la UE. (En inglés).&lt;/a>&lt;br>&lt;br>
+        &lt;a href="http://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html">Calendario de vacunación en EE.UU. (En inglés).&lt;/a>&lt;br>&lt;br>
+        La mayoría de los calendarios de vacunación obligatorios en la UE y EE.UU. contienen la vacunación contra la difteria, el tétanos y la tos ferina (DTaP),
+        haemophilus influenzae tipo B, la poliomielitis, el sarampión, las paperas (parotiditis) y la rubéola (MoPaRu), y la hepatitis B. Las vacunas contra la varicela,
+        el estreptococo neumonía, infecciones y enfermedades meningocócicas rotavirus, también juegan un papel importante en la prevención de las enfermedades
+        infecciosas en los niños. Estas son las vacunas que se encuentran para prevenir algunas enfermedades infecciosas en niños. Estas son las vacunas que se
+        encuentran en algunos de los países que recomienda ser prescrita para los niños.&lt;br>&lt;br>
+        &lt;b>¿Con qué frecuencia las dosis de vacunación causa reacciones?&lt;/b>&lt;br>&lt;br>
+        La mayoría de los niños vacunados manifiestan ninguna reacción a la vacuna, o a veces una reacción muy leve, como una fiebre leve y dolor en el sitio de la inyección.
+        Reacciones más graves, como por ejemplo, convulsiones, ocurren muy raramente. Las reacciones muy graves a las vacunas se presentan tan raramente
+        que es difícil evaluar el riesgo de su ocurrencia.&lt;br>&lt;br>
+        &lt;b>¿Cuáles son los síntomas de las reacciones moderadas y graves que los padres deben tener en cuenta?&lt;/b>&lt;br>&lt;br>
+        Después de que su hijo ha sido vacunado, prestar atención a la aparición de cualquier síntoma inusual, como fiebre alta (> 40 °C),
+        cambios en el comportamiento y síntomas de una reacción alérgica (dificultad para respirar, ronquera, una erupción, palidez, debilidad general,
+        aceleración del ritmo cardíaco, vértigo y fatiga). Si se producen estas reacciones, llame a su pediatra. Si él o ella no está en el trabajo, ¡llame al médico de guardia y pregunte por algún consejo!&lt;br>&lt;br>
+        &lt;b>Vacunación con vacunas combinadas&lt;/b>&lt;br>&lt;br>
+        &lt;b>1. ¿Cuáles son las vacunas combinadas?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Todas las vacunas combinadas contienen varios antígenos y proporcionan protección simultánea contra varias enfermedades contagiosas.&lt;br>
+        &#160;&#160;&#160;· Las vacunas combinadas que han estado en uso durante mucho tiempo y se utilizan habitualmente incluyen DTaP contra la difteria, el tétanos y
+        la tos ferina (tos ferina) y MoPaRu contra el sarampión, las paperas (parotiditis) y la rubéola (sarampión alemán). Estas vacunas también se administraron en el
+        pasado como vacunas separadas, por lo que su combinación hoy representan ninguna novedad.&lt;br>&lt;br>
+        &lt;b>2. ¿Por qué se han desarrollado vacunas combinadas?&lt;/b>&lt;br>
+        &#160;&#160;&#160;Las vacunas combinadas son el futuro en vacunar a los niños, porque las vacunas se están descubriendo para un número creciente de enfermedades.&lt;br>
+        &#160;&#160;&#160;· Si se utilizan vacunas separadas, cada niño debería recibir 15-19 dosis de diferentes vacunas dentro de los primeros 18 meses de su vida.&lt;br>
+        &#160;&#160;&#160;· La administración de vacunas combinadas le ofrece a usted y a su hijo ventajas significativas en comparación con las vacunas separadas:&lt;br>
+        &#160;&#160;&#160;- menos inyecciones para el niño - menos lágrimas y menos dolor;&lt;br>
+        &#160;&#160;&#160;- menos visitas al médico;&lt;br>
+        &#160;&#160;&#160;- costos más bajos que con las vacunas separadas;&lt;br>
+        &#160;&#160;&#160;- menos riesgo de los errores potenciales de los médicos.&lt;br>
+        Las vacunas combinadas son ampliamente utilizados en los países desarrollados. Algunos países incluyen vacunas combinadas en su Lista Nacional de Inmunización
+        (Reino Unido, Alemania, Austria, Bélgica, Eslovenia), mientras que algunos países han introducido recomendaciones sobre enfermedades infecciosas contra las que
+        los niños deben ser vacunados, y dejar la decisión sobre el tipo de vacuna (simple o combinación) para el médico y el padre.&lt;br>&lt;br>
+        &lt;b>3. ¿Cuáles son las características comunes de las vacunas combinadas?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Todos los componentes en una sola dosis de la vacuna proporciona una protección igual tanto en la combinación y cuando se administran por separado.&lt;br>&lt;br>
+        &#160;&#160;&#160;· Las vacunas combinadas no causan más reacciones adversas que las vacunas separadas. Estas vacunas se han probado completamente, tanto en estudios clínicos y por
+        ser utilizado de forma masiva (por ejemplo, en Alemania).&lt;br>&lt;br>
+        &lt;b>4. ¿Que vacunas combinadas se utilizan en Croacia?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Además de MoPaRu, que se ha administrado durante un largo tiempo, una vacuna de combinación de cinco componente que contiene Haemophilus
+        influenzae tipo b, DTaP (que contiene la vacuna acelular contra la tos ferina), y la vacuna inactivada contra la polio también se utiliza en Croacia. También hay una vacuna de
+        seis componentes, que consiste en la vacuna contra Haemophilus influenzae tipo b, DTaP (que contiene la vacuna acelular contra la tos ferina), la vacuna inactivada contra la poliomielitis, y la hepatitis B.&lt;br>&lt;br>
+        &lt;b>5. ¿Cuáles son los riesgos de las vacunas combinadas?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Los riesgos son los mismos que en el uso de los componentes de estas vacunas (DTaP, la polio, Hib, hepatitis B) por separado, y que se describen en las secciones que se ocupan de estas vacunas separadas.&lt;br>&lt;br>
+        &lt;b>6. ¿Qué pasa si se produce una reacción adversa severa?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna. Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la aceleración del ritmo cardíaco, y el vértigo.&lt;br>
+        &#160;&#160;&#160;· Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡pongase en contacto con el médico de inmediato!
+    </string>
+
+    <string name="vaccine_hib">
+        1. ¿Qué es Hib y qué enfermedades causa?\n\n
+        Haemophilus influenzae tipo b es una infección bacteriana que provoca toda una serie de enfermedades graves, y es más común en niños menores de 5 años.\n\n
+        &#160;&#160;&#160;· Un niño puede contraer Hib en contacto con otros niños o adultos que llevan las bacterias, sin ser conscientes de ello. Los gérmenes se transmiten desde
+        un adulto, de un niño a otro por gotitas a través del aire o a través de las secreciones de las vías respiratorias.\n
+        &#160;&#160;&#160;· Si las bacterias permanecen en la nariz o la garganta, el niño probablemente no conseguirá enfermo. Sin embargo, si las bacterias Hib extensión a otros
+        lugares en el sistema respiratorio o entrar en el torrente sanguíneo, pueden causar una enfermedad muy grave. La meningitis purulenta es la causa más común
+        de enfermedad por Hib. Es más común en niños menores de 5 años de edad, y los más vulnerables son los de 6 a 11 meses de edad. La enfermedad es fatal en 2-5\%%
+        de los pacientes y también puede dejar consecuencias duraderas en la forma de retraso mental, sordera y trastornos del habla en 15-30\%% de los niños que sobreviven a la enfermedad.\n\n
+        Hib también puede causar:\n\n
+        &#160;&#160;&#160;· neumonía\n\n
+        &#160;&#160;&#160;· epiglotitis - una inflamación de la solapa en la garganta, lo que puede conducir a la dificultad para respirar y la asfixia\n
+        &#160;&#160;&#160;· sepsis - presencia de bacterias en la sangre, que conduce a condiciones generalmente graves: fiebre alta, debilidad, dificultad para respirar, palidez, extremidades frías y vómitos\n\n
+        &#160;&#160;&#160;· inflamación de las articulaciones\n\n
+       Antes de la vacuna Hib se introdujo dentro de los calendarios de vacunación obligatoria de los países desarrollados, este tipo de bacteria era la causa principal de meningitis bacteriana en niños menores de 5 años.\n\n
+        2. ¿Cómo es un niño vacunado contra la Hib?\n\n
+        La vacunación contra Hib previene la aparición de enfermedades causadas por este tipo de bacterias.\n\n
+        ¿Quién debe vacunarse y cuándo?\n\n
+        &#160;&#160;&#160;· De acuerdo con el calendario de vacunación, los niños son vacunados contra Hib antes de los 5 años.\n\n
+        3. Algunos niños no deben ser vacunados contra Hib o tienen que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que han tenido una reacción alérgica a la dosis previa de la vacuna Hib no deben recibir una segunda dosis de la vacuna.\n\n
+        &#160;&#160;&#160;· Los niños menores de 6 meses de edad no deben ser vacunados contra Hib.\n\n
+        &#160;&#160;&#160;· Los niños con una enfermedad leve, como un resfriado, pueden ser vacunados, Sin embargo, la vacunación de los niños que están más gravemente enfermo debe posponerse hasta que se recuperen por completo.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacuna contra la Hib?\n\n
+        Al igual que en cualquier medicamento, esta vacuna también conlleva el riesgo de reacciones adversas, tales como, por ejemplo, reacciones alérgicas. El riesgo de que esta vacuna pueda causar reacciones graves o muy graves es extremadamente pequeño. La mayoría de los niños vacunados contra Hib experimentan ningún problema en absoluto.\n\n
+        Las reacciones leves (que son, de hecho, los más comúnmente registrada)\n\n
+        &#160;&#160;&#160;· enrojecimiento y/o hinchazón en el sitio de la inyección\n
+        &#160;&#160;&#160;· fiebre superior a 38 °C\n\n
+        &#160;&#160;&#160;· pérdida del apetito, inquietud, vómitos, diarrea, llanto inusual\n\n
+        Si se producen reacciones adversas, esto generalmente ocurre dentro de 1-2 días de la vacunación, y desaparecen sin consecuencias dentro de 2-3 días.\n\n
+        ¿Qué pasa si se produce una reacción adversa severa?\n\n
+        &#160;&#160;&#160;· Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna.
+        Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la aceleración del ritmo cardíaco, y el vértigo.\n\n
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡póngase en contacto con el médico inmediatamente!
+    </string>
+
+    <string name="vaccine_ipv">
+        1. ¿Qué es el polio?\n\n
+        La poliomielitis es una enfermedad viral que causa una enfermedad grave - parálisis (que incapacita más frecuentemente el movimiento de los brazos o las piernas).\n\n
+        &#160;&#160;&#160;· El virus también puede causar la muerte de la persona infectada, por lo general cuando se provoca la parálisis de los músculos que facilitan la respiración.
+        Antes de la aparición de la vacuna, la polio es una enfermedad frecuente, que paralizó y mató a miles de personas.\n
+        &#160;&#160;&#160;· El virus entra en el organismo del niño o adulto a través de la boca.\n\n
+        La vacunación contra la polio previene la aparición de la enfermedad.\n
+        La vacunación contra la polio impide la insurgencia de la enfermedad.\n\n
+        2. ¿Qué tipo de vacunas contra la polio hay?\n\n
+        Hay dos tipos de vacunas contra la polio:\n\n
+        &#160;&#160;&#160;· \"Muerto\" - vacuna inactivada contra la polio - IPV - el cual es administrado por inyección;\n
+        &#160;&#160;&#160;· \"Vivo\" - la vacuna oral contra la polio - OPV\n
+        - el cual es administrado por la boca en forma de gotas.\n\n
+        Ambas vacunas proporcionan inmunidad contra la poliomielitis y pueden administrarse simultáneamente con otras vacunas. El Calendario de vacunación obligatoria en Croacia sólo utiliza la vacuna inactivada (IPV).\n\n
+        ¿Cuándo los niños son vacunados contra la polio?\n\n
+        Con el fin de proteger, los niños deben recibir 6 dosis de la vacuna; uno en cada una de las siguientes edades: 2 meses, 4 meses, 6 meses, 2 años, 7 años, y 14 años.\n
+        Otras vacunas se pueden administrar de forma simultánea a esta edad (DTaP, Hib, hepatitis B).\n\n
+        3. Algunos niños no deben ser vacunados o que tenga que esperar\n\n
+        &#160;&#160;&#160;· La vacuna inactivada no debe administrarse a niños alérgicos a los antibióticos como la neomicina. estreptomicina o polimixina B, o los niños que han tenido una reacción alérgica después de haber sido vacunados contra la poliomielitis.\n
+        &#160;&#160;&#160;· Los niños que están un poco enfermo, por ejemplo, que sufre de un resfriado, pueden ser vacunados, mientras que la vacunación en los niños que están moderada o gravemente enfermos tiene que ser pospuesto hasta que se recuperan totalmente.\n\n
+        4. ¿Qué posibles reacciones adversas pueden ser causados ​​por la vacuna contra la polio?\n\n
+        &#160;&#160;&#160;· Después de la administración de la vacuna inactivada (IPV), una reacción de la piel puede aparecer en el sitio de la inyección, más frecuentemente en forma de enrojecimiento.\n
+        &#160;&#160;&#160;· Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna.
+        Los síntomas incluyen dificultad para respirar, ronquera, palidez, debilidad general, palpitaciones y vértigo.\n\n
+         Si usted nota cualquiera de estos síntomas, ¡llame al médico inmediatamente!
+    </string>
+
+    <string name="vaccine_morapu">
+        1. ¿Qué son el sarampión, la papera y la rubéola?\n\n
+        EL SARAMPIÓN es una enfermedad viral caracterizada por una erupción cutánea, tos, secreción nasal, irritación de los ojos y fiebre alta. Aproximadamente 17\%% de quienes contraen la enfermedad desarrollan una o varias complicaciones, como infección del oído, neumonía, convulsiones febriles (convulsiones causadas por fiebre alta), diarrea o una inflamación del cerebro (encefalitis).
+        La complicación más común, neumonía, se produce en alrededor de 6\%% de los pacientes y es la causa principal de muerte por sarampión, que, en los países desarrollados, asciende a 1 de cada 1000 pacientes, mientras que en los países en desarrollo que equivale a tanto como 1\%%.\n\n
+        LA PAPERA también conocido como parotitis, también es una enfermedad viral. El virus de la parotiditis provoca fiebre alta, dolor de cabeza e inflamación de las glándulas. También puede conducir a la sordera, meningitis, una inflamación dolorosa de los testículos y los ovarios, y, aunque raramente, a la muerte.\n\n
+        LA RUBÉOLA (popularmente conocida como sarampión alemán) es causada por un virus, y se manifiesta en una erupción, fiebre moderada y una inflamación de las articulaciones (sobre todo en las mujeres). Si una mujer contrae rubéola cuando está embarazada, ella puede tener un aborto involuntario o de dar a luz a un bebé con discapacidades físicas graves.\n\n
+        &#160;&#160;&#160;· Un niño puede contraer fácilmente la enfermedad de una persona infectada en su entorno, ya que los virus están en el aire.\n\n
+        2. ¿Cómo es un niño vacunado contra el sarampión, la papera y la rubéola?\n\n
+        La vacuna contra los portadores de estas tres enfermedades se combina en una única inyección que se llama MoPaRu.\n
+        Los niños deben recibir dos dosis de esta vacuna:\n\n
+        &#160;&#160;&#160;· la primera antes de cumplir el año;\n\n
+        &#160;&#160;&#160;· la segunda a la edad de 6 o 7 años (en el 1er grado de primaria), y pueden recibirla simultáneamente con otras vacunas.\n\n
+        3. ¿Quiénes no deben vacunarse o deben esperar?\n\n
+        &#160;&#160;&#160;· Los niños que son alérgicos a los huevos, gelatina, antibióticos como la neomicina o a la dosis previa de la vacuna contra el sarampión, la parotiditis y la rubéola no deben ser vacunados.\n
+        &#160;&#160;&#160;· La vacunación en los niños con una enfermedad moderada o grave, debe ser pospuesta hasta que han recuperado totalmente.\n
+        &#160;&#160;&#160;· En algunos casos, los padres deben consultar al médico antes de vacunar a sus hijos, sobre todo si las defensas del organismo del niño se han debilitado por razones congénitas, o como resultado de enfermedades graves o tratamiento a largo plazo, así como si el niño ha tenido una reacción alérgica a los huevos.\n
+        Los niños con enfermedades neurológicas inestables.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacunación?\n\n
+        Las vacunas, al igual que todos los medicamentos, pueden causar reacciones adversas, pero la vacunación contra el sarampión, la parotiditis y la rubéola es mucho más seguro que contraer estas enfermedades. La mayoría de los niños que están vacunados contra estas enfermedades hacen ninguna experiencia ningún problema en absoluto.\n\n
+        Las reacciones leves:\n\n
+        &#160;&#160;&#160;· enrojecimiento, dolor o hinchazón en el sitio de la inyección;\n\n
+        &#160;&#160;&#160;· fiebre\n\n
+        &#160;&#160;&#160;· sarpullido leve.\n\n
+        Reacciones moderadas (raro):\n\n
+        &#160;&#160;&#160;· hinchazón de las glándulas en la cara o el cuello, convulsiones febriles - convulsiones causadas por fiebre alta, irritabilidad, infecciones del sistema respiratorio superior, diarrea\n\n
+        Efectos secundarios graves (rara):\n\n
+        &#160;&#160;&#160;· meningitis aséptica o reacciones alérgicas, que pueden ser más o menos graves.\n\n
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, póngase en contacto con el médico inmediatamente. Su médico decidirá si continuar o no con la administración de esta vacuna.
+    </string>
+
+    <string name="vaccine_optional_bcg">
+        1. ¿Qué es la tuberculosis (TBC)?\n\n
+        Muchos países desarrollados han suprimido la vacunación contra la tuberculosis. Puesto que la tuberculosis todavía ocurre en Croacia, sigue la vacunación.
+        La tuberculosis afecta a todos los órganos, con mayor frecuencia a los pulmones. Se propaga por gotitas a través de los pulmones. Se propaga por gotitas a través del aire, a través de la tos. La enfermedad es más crítica cuando se produce en niños muy pequeños.\n\n
+        2. Reacción normal en el lugar donde se administró la vacuna contra la TBC.\n\n
+        Una ampolla en el antebrazo aparece inmediatamente después de la vacunación, que desaparece después de unas horas. En las 2-3 semanas que siguen, en particular no pasa nada en el lugar de la vacunación, pero luego un pequeño nodo morado comienza a aparecer.
+        La parte central de este nodo puede secretar un poco humedad. Después de ese tiempo, el nodo cura dejando una pequeña cicatriz, que permanecerá para toda la vida como un recordatorio de la vacunación.\n\n
+        3. Algunos niños no deben ser vacunados contra la tuberculosis, o tienen que esperar.\n\n
+        &#160;&#160;&#160;· Un niño con un sistema inmunológico debilitado no debe ser vacunado.\n
+        &#160;&#160;&#160;· Informar al médico en el hospital de maternidad, si cualquier nacido en su familia ha tenido un sistema inmunológico deteriorado.\n\n
+        4. ¿Qué reacciones adversas puede causar la vacuna TBC?\n\n
+        Esta vacuna es uno de los más seguros. Las reacciones leves (que son, de hecho, los más frecuentemente registrada) incluyen:\n\n
+        &#160;&#160;&#160;· Una inflamación un poco fuerte cerca de los ganglios linfáticos, en la axila o encima de la clavícula, llamado BCGitis. Esta condición suele desaparecer espontáneamente.\n
+        &#160;&#160;&#160;· Si una descarga de humedad aparece desde el nodo de linfa, será necesaria una intervención quirúrgica en el nodo.\n\n
+        Esto no es un obstáculo para la revacunación con la misma vacuna.\n\n
+        5. ¿Qué pasa si hay una reacción alérgica?\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede ocurrir unos pocos minutos hasta varias horas después de la administración de la vacuna.
+        Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la aceleración del ritmo cardíaco, y el vértigo.
+        Si usted nota cualquiera de estos síntomas, ¡llame al médico inmediatamente!
+    </string>
+
+    <string name="vaccine_optional_streptococcus">
+        1. ¿Qué es el neumococo y qué enfermedades causa?\n\n
+        La bacteria Streptococcus pneumoniae, también llamada neumococo, son una causa frecuente de diversas enfermedades infecciosas.
+        En los niños esto es por lo general la meningitis, la neumonía y la infección del oído (otitis media), lo que puede con frecuencia llevar a complicaciones.\n\n
+        ¿Quién puede contraer la infección?\n\n
+        Cualquiera puede convertirse en niños infectados, y especialmente a los jóvenes, las personas mayores de 65 años de edad, así como las personas
+        que padecen del corazón, enfermedades pulmonares y renales, diabéticos, alcohólicos y personas que sufren de enfermedades malignas.
+        La vacunación contra el neumococo puede prevenir la aparición de formas serosas de la enfermedad causadas por estas bacterias. Debido a la
+        creciente resistencia de estas bacterias a los antibióticos, el tratamiento se está convirtiendo cada vez más difícil, lo que justifica la
+        prevención de estas enfermedades mediante la vacunación.\n\n
+        2. ¿Cómo es un niño vacunado contra el neumococo? (para niños mayores de 2 años de edad)\n\n
+        La vacuna polisacárida contra el neumococo protege contra 23 tipos de neumococo. Una persona sana desarrollará una respuesta inmune a la mayoría
+        de estos tipos de bacterias dentro de 2-3 semanas después de la vacunación.\n\n
+         ¿Quién puede vacunarse y cuándo?\n\n
+        La vacuna puede ser administrada a todos los niños sanos, pero se recomienda especialmente para niños de alto riesgo (niños cuyo bazo ha sido eliminado,
+        o aquellos que sufren de diabetes, enfermedad hepática crónica o enfermedades que llevan a la salida del licor, los niños con audífonos, los niños con
+        inmunodeficiencia congénita, infección por VIH, síndrome nefrítico, enfermedades malignas de los órganos productores de sangre, los niños sometidos a terapia
+        con corticoesteroides e inmunosupresores, los niños después de un trasplante de órgano o de médula ósea).\n\n
+        Cuando están vacunados?\n\n
+        &#160;&#160;&#160;· La vacuna se puede administrar a niños mayores de 2 años de edad. Se recomienda una sola dosis de la vacuna para los niños sanos.\n\n
+        &#160;&#160;&#160;· Los niños con un sistema inmune comprometido se administran la vacuna en dos dosis. Si son menores de 10 años de edad, la segunda dosis se administrará 5 años después de la primera.\n\n
+        &#160;&#160;&#160;· Los adultos sanos son vacunados con una dosis única de la vacuna. La vacuna puede administrarse simultáneamente con otras vacunas en niños.\n\n
+        3. Algunos niños no deben ser vacunados o que tenga que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que experimentaron una reacción alérgica a la dosis previa de la vacuna contra el neumococo no deben recibir una segunda dosis de esta vacuna.\n
+        &#160;&#160;&#160;· La vacunación en niños moderadamente o gravemente enfermos debe posponerse hasta que se recuperen totalmente.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacuna?\n\n
+        &#160;&#160;&#160;· En promedio, alrededor de la mitad de las personas vacunadas experimentan reacciones leves, como enrojecimiento y dolor en el sitio de la inyección.
+        Estas reacciones son temporales y no dejan ninguna consecuencia.\n
+        &#160;&#160;&#160;· Menos de 1\%% de las personas vacunadas pueden experimentar fiebre alta, dolores musculares, o reacciones más severas. Esta vacuna, como cualquier otro medicamento, también puede causar una reacción alérgica.\n\n
+        ¿Qué pasa si se produce una reacción adversa severa?\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna.
+        Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la aceleración del ritmo cardíaco, y el vértigo.
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡póngase en contacto con el médico inmediatamente!\n\n
+        5. ¿Cómo es un niño vacunado contra el neumococo? (niños entre 2 meses y 2 años)\n\n
+        El propósito de la vacuna conjugada 13-valente contra la enfermedad del neumococo es proporcionar inmunización activa contra enfermedades invasivas
+        (sepsis, meningitis, una forma bacteriana de la neumonía y bacteriemia) causada por los serotipos 1, 3, 4, 5, 6A, 6B, 7 F, 9V, 14, 18C, 19 A, 19F y 23F
+        de neumococo en lactantes y niños pequeños de edades comprendidas entre 2 meses y 2 años, y en pacientes de alto riesgo entre las edades de 2 y 5 años.
+        La administración de esta vacuna puede reducir significativamente la frecuencia de la enfermedad de neumococo invasiva causada por estas cepas de vacuna,
+        y hay datos que muestran que esta vacuna también disminuye la frecuencia de la neumonía y, en menor medida, la otitis media. De acuerdo con datos limitados,
+        las cepas de neumococo incluidos en la causa de la vacuna causan alrededor del 90\%% de las infecciones neumocócicas invasivas en el noroeste de Croacia.\n\n
+        La vacuna se administra en forma de una inyección intramuscular. Se recomienda administrar la vacuna en la zona externa del muslo en los lactantes, o en el
+        músculo del hombro del antebrazo en los niños pequeños. Los bebés de 2 a 6 meses son vacunados en tres dosis de 0,5 ml cada una. La primera dosis se administra
+        generalmente a los 2 meses, y las dos dosis restantes en un mínimo de 1 mes entre las dosis.
+        Por lo tanto, los niños vacunados son revacunados en su segundo año de vida (15 a 18 meses). Previamente los bebés mayores y niños pequeños de 7 a 11 meses no vacunados
+        se les administran dos dosis de 0,5 ml cada una, con un mínimo de 1 mes entre dosis, seguido de la vacunación de refuerzo (revacunación) entre los 15 y 18 meses
+        de edad. Los niños entre 12 y 23 meses son administrados dos dosis de 0,5 ml cada una, con un mínimo de 2 meses entre dosis.
+        Los niños entre 24 meses y 5 años se le administran una sola dosis.\n\n
+        6. ¿Cuáles son las posibles reacciones adversas a la vacuna?\n\n
+        Los efectos secundarios de este tipo de vacuna antineumocócica pueden, al igual que otras vacunas, pueden dividirse en efectos secundarios locales y sistémicos.
+        Los efectos secundarios locales son enrojecimiento en el sitio de la inyección en 12,1\%%, 14,0\%% y 15,2\%% de las personas vacunadas dentro del ciclo de vacunación
+        primaria después de la primera, segunda y tercera dosis, respectivamente. Por lo tanto, existe una tendencia cada vez mayor de reacciones locales que ocurren con cada una
+        de las dosis recibidas. Endurecimiento de la piel (induración) ha sido registrado en el 10,7\%%, 12,4\%% y el 12,1\%% de las personas vacunadas dentro del ciclo de vacunación
+        primario (primera, segunda y tercera dosis), mientras que el dolor, se registró en el 25,2\%%, 22,9\%%, y 22,3\%% de las personas vacunadas. Se puede concluir que la incidencia de estos efectos secundarios locales, a diferencia de enrojecimiento, no crece con el
+        número de dosis administradas. Después de la revacunación, enrojecimiento se registró en 12,6\%%, endurecimiento en 11,2\%%, y dolor local en el 30,4 %% de los sujetos
+        vacunados. Sin embargo, la frecuencia de efectos secundarios locales significativas después de la revacunación es baja y asciende a 1,7\%% (enrojecimiento mayor que 2,4 cm),
+        3,2\%% (endurecimiento), y 13,8\%% (sensibilidad local). El porcentaje de sujetos vacunados experimenta fiebre superior a 39 °C fue de solamente 1.3\%%.
+        El porcentaje de efectos secundarios sistémicos después de la revacunación a la edad de 12 a 15 meses no es significativamente diferente de la que después de una serie de primovacunación.\n\n
+        La administración simultánea de esta vacuna con otras vacunas pediátricas es posible, y las interacciones observadas no son clínicamente significativos.\n\n
+        7. ¿Quién no debe recibir la vacuna?\n\n
+        Contraindicaciones para la administración de esta vacuna incluyen más de sensibilidad a materias activas y auxiliares y el toxoide diftérico.
+        La administración de esta vacuna debe posponerse en personas con una enfermedad infecciosa aguda. La vacuna no debe administrarse a niños que sufren de trombocitopenia u otra
+        coagulación de la sangre, trastornos que pueden ser una indicación del contador para la administración de inyecciones intramusculares.
+        En los niños con una respuesta inmune débil, la creación de anticuerpos específicos después de la inmunización con esta vacuna puede ser reducida.\n\n
+        La administración preventiva de medicamentos para bajar la fiebre se recomienda para niños con trastornos convulsivos o que previamente han experimentado convulsiones febriles (convulsiones).
+    </string>
+
+    <string name="vaccine_optional_chickenpox">
+        1. ¿Qué es la varicela?\n\n
+        La varicela es una enfermedad infantil común. Por lo general, se manifiesta en una forma leve,
+        pero también puede ocurrir en una forma leve, pero también puede ocurrir en una forma más grave, sobre todo en los niños muy pequeños y adultos.\n\n
+        &#160;&#160;&#160;· El virus se transmite de persona a persona a través del aire o por contacto con el líquido de las vesículas de la piel.\n
+        &#160;&#160;&#160;· En los niños, la neumonía y la encefalitis causada por el virus de la varicela son extremadamente raros.
+        La muerte sólo puede ocurrir en niños con un sistema inmune comprometido.\n
+        &#160;&#160;&#160;· Las cicatrices que quedan en el lugar de las vesículas desaparecen en pocas semanas, y las cicatrices permanentes ocurren sólo si las
+        vesículas están infectadas, además, con las bacterias (más comúnmente estreptococos o estafilococos).\n\n
+        2. ¿Cómo es un niño vacunado contra la varicela?\n\n
+        La vacunación contra la varicela previene la aparición de la enfermedad. La mayoría de los niños vacunados no contraer varicela.
+        Si estos niños están infectados. la enfermedad va a ser muy suave y que se recuperará mucho más rápido.\n\n
+        ¿Quién debe vacunarse y cuándo?\n\n
+        &#160;&#160;&#160;· La vacuna se administra a niños mayores de 12 meses de edad, y se recomienda para ser administrado en dos dosis de 6-10 semanas
+        de diferencia. Hasta hace poco, los niños recibieron una sola dosis, pero debido a la aumento de la agresividad del virus,
+        algunos de los niños vacunados contrajeron la enfermedad de todos modos. Por esa razón, la recomendación fue emitida en 2012 para la introducción de una dosis de refuerzo.\n
+        &#160;&#160;&#160;· Los niños mayores de 13 y los adultos también deben recibir 2 dosis, 6-10 semanas de diferencia.
+        La vacuna contra la varicela puede administrarse simultáneamente con otras vacunas.\n\n
+        3. Algunos niños no deben ser vacunados contra la varicela o tener que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que antes en sus vidas experimentaron una reacción alérgica a los huevos, gelatina, antibiótico neomicina
+        (para los que se supone deben recibir dos dosis de la vacuna) o a la dosis previa de la vacuna contra la varicela no deben ser vacunados.\n
+        &#160;&#160;&#160;· Las mujeres embarazadas no deben ser vacunados con esta vacuna. Una mujer vacunada contra la varicela debe esperar por lo menos 3 meses antes de quedar embarazada.\n
+        &#160;&#160;&#160;· Los niños con un sistema inmune comprometido no deben ser vacunados.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacuna contra la varicela?\n\n
+        Al igual que con cualquier otro medicamento, las vacunas pueden causar reacciones adversas. El riesgo de que esta vacuna particular causar reacciones graves es
+        extremadamente pequeño. La mayoría de las personas vacunadas contra la varicela no experimentan efectos secundarios.\n\n
+        Las reacciones leves (que son, de hecho, registrado con mayor frecuencia) incluyen:\n\n
+        &#160;&#160;&#160;· dolor, hinchazón y enrojecimiento en el sitio de la inyección\n
+        &#160;&#160;&#160;· alta temperatura\n
+        &#160;&#160;&#160;· una erupción leve\n
+        &#160;&#160;&#160;· una posibilidad extremadamente rara de infectar a otra persona (sólo en niños con un sistema inmune debilitado).\n\n
+        ¿Qué pasa si se produce una reacción alérgica?\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna.
+        Los síntomas incluyen dificultad para respirar, ronquera, una palidez erupción, debilidad general, la aceleración del ritmo cardíaco, y el vértigo.
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡póngase en contacto con el médico inmediatamente!
+    </string>
+
+    <string name="vaccine_optional_flu">
+    1. ¿Qué es la gripe?\n\n
+        La gripe es una enfermedad infecciosa causada por el virus de la gripe. En sí misma, la gripe no es una enfermedad peligrosa,
+        aunque puede dar lugar a complicaciones graves que pueden incluso ser fatales. Los síntomas aparecen de repente y causar fiebre alta, escalofríos,
+        dolores musculares y un fuerte dolor de cabeza. A menudo esto se acompaña de la secreción de la nariz y una tos fuerte que puede durar semanas.\n\n
+        &#160;&#160;&#160;· La gripe es muy contagiosa (1 pasajero con síntomas de gripe en un avión puede infectar hasta el 27% de los pasajeros).
+        Puedes contraerlo por respirar el aire cerca de una persona tosiendo o estornudando, si usted está en contacto cercano con una persona que tiene la gripe, o si toca un objeto infectado y así transferir el virus en tu tracto respiratorio.\n\n
+        &#160;&#160;&#160;· Los niños son más contagiosos que los adultos y se propagan el virus de la gripe durante más tiempo.
+        También son hospitalizados con más frecuencia para la gripe que para otras enfermedades contagiosas, por lo general cuando son menores de dos años.\n\n
+        ¿Quién puede contraer la gripe?\n\n
+        Cualquier persona puede contraer la gripe, incluyendo a las personas que generalmente están en buena salud.
+        Además, si usted tiene la gripe, puede inadvertidamente transmitirla a los demás, ya que 1-4 días pueden pasar antes de que aparezcan
+        los primeros síntomas, y estamos contagiosos por hasta 5 días después de que ocurren los síntomas.\n\n
+        2.  ¿Cómo es un niño vacunado contra la gripe?\n\n
+        La vacunación previene la aparición de la gripe. La vacunación se realiza antes de la temporada de gripe (octubre, noviembre);
+        para los niños menores de 7 años se administra en dos dosis de 4-6 semanas de diferencia. La vacunación debe repetirse todos los años desde que el virus de la gripe muta cada año.\n\n
+        ¿Quién debe vacunarse contra la gripe?\n\n
+        Los niños con enfermedades crónicas pertenecen al grupo de alto riesgo de las personas que pueden desarrollar complicaciones mortales
+        de la infección de la gripe, y deben ser vacunados contra la gripe. Con el fin de proteger a los niños de alto riesgo, las personas que entran en
+        contacto con ellos también debe ser vacunado.\n\n
+        &#160;&#160;&#160;· Todos los niños entre 6 y 23 meses y los miembros de sus familias deben ser vacunados;\n
+        &#160;&#160;&#160;· pacientes de las instituciones para el cuidado de pacientes con enfermedades crónicas;\n
+        &#160;&#160;&#160;· los niños con enfermedades crónicas pulmonares (asma, fibrosis quística, dyslasia broncopulmonar);\n
+        &#160;&#160;&#160;· niños con enfermedades congénitas del corazón, enfermedades renales, hemoglobinopatías, niños diabéticos, los niños con un sistema inmune comprometido (incluyendo infección por VIH);\n
+        &#160;&#160;&#160;· niños y adolescentes en tratamiento de aspirina a largo plazo;\n
+        &#160;&#160;&#160;· personas que pasan gran cantidad de tiempo en contacto con los niños con enfermedades crónicas (padres, cuidadores);\n
+        &#160;&#160;&#160;· personas mayores de 65 años od edad;\n
+        &#160;&#160;&#160;· todos aquellos que desean evitar la gripe.\n\n
+        ¿Cuándo se debe vacunarse contra la gripe?\n\n
+        Tanto los niños como los adultos deben vacunarse todos los años antes del inicio de la temporada de gripe (de septiembre a noviembre),
+        aunque no es demasiado tarde, incluso durante la temporada (de noviembre a abril, con mayor frecuencia a partir de finales de diciembre a marzo).
+        La protección es adquirida de una a dos semanas después de la vacunación.\n\n
+        ¿Por qué tenemos que vacunarnos cada año?\n\n
+        Virus de la gripe mutan constantemente. Por regla general, las nuevas cepas del virus de la gripe aparecen cada temporada. Los virus más activos para cada temporada.
+        Los virus más activos para cada temporada son determinados por la Organización Mundial de la Salud y que estén incluidos en la composición de la vacuna que se produce para la próxima temporada.\n\n
+        3. Algunos niños no deben ser vacunados contra la gripe.\n\n
+        &#160;&#160;&#160;· Los niños menores de 6 meses de edad\n
+        &#160;&#160;&#160;· Los niños que han tenido una reacción alérgica al huevo o a la vacuna contra la gripe\n
+        &#160;&#160;&#160;· Los niños que están moderadamente o gravemente enfermos tienen que esperar hasta que se recuperen por completo.\n\n
+        4. ¿Qué reacciones adversas puede ser causada por la vacuna contra la gripe?\n\n
+        Al igual que con todos los medicamentos, las vacunas también conllevan el riesgo de reacciones adversas. El riesgo de que esta vacuna provoque reacciones graves es
+        extremadamente pequeño. La mayoría de las personas vacunadas contra la gripe no experimentan reacciones adversas.\n\n
+        Las reacciones leves (que son, de hecho, la grabadora más comúnmente) incluyen:\n\n
+        &#160;&#160;&#160;· dolor, hinchazón y enrojecimiento en el sitio de la inyección\n
+        &#160;&#160;&#160;· fiebre alta\n\n
+        Reacciones alérgicas graves son muy raras. Aunque extremadamente raros, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de
+        la vacuna. Los síntomas incluyen respiración de la dificultad, ronquera, erupción cutánea, palidez, debilidad general, frecuencia cardíaca rápida y vértigo.\n\n
+        Si usted nota cualquiera de estos síntomas, ¡llame al médico inmediatamente! Para cualquier otra información sobre la vacunación contra la gripe, consulte a su médico.
+    </string>
+
+    <string name="vaccine_optional_hepatitis_a">
+        1. ¿Qué es la hepatitis A?\n\n
+        Hepatitis A es una enfermedad inflamatoria del hígado causada por el virus de la hepatitis A.
+        La enfermedad comienza con síntomas generales, como fiebre, debilidad, vómitos, diarrea, y sólo una de cada 4 infectados ¡se vuelve amarillo!\n\n
+        &#160;&#160;&#160;· En torno al 25\%% de las personas infectadas, la piel y la parte blanca de los ojos se vuelven de color amarillo, la orina se vuelve más oscura y la materia fecal de color más claro.\n
+        &#160;&#160;&#160;· Después de 1 a 2 semanas, los síntomas de la enfermedad desaparecen, pero la recuperación completa lleva más tiempo; en algunos pacientes, siempre y cuando 6-12 meses.\n\n
+        &#160;&#160;&#160;· El período de incubación después de haber sido infectado con el virus de hepatitis A es de entre 15 a 60 días.\n
+        &#160;&#160;&#160;· El virus de la hepatitis A se transmite a través de las manos sucias y la comida y el agua contaminada. La infección se produce con mucha frecuencia dentro de una comunidad (jardín de infantes, escuela, familia).\n
+        &#160;&#160;&#160;· Se recomienda la vacunación como una forma segura de protección contra la hepatitis A.\n\n
+        2. ¿Quién está sujeta a la vacunación?\n\n
+        Niños en riesgo muy alto, o si viaja a zonas de alto riesgo donde la hepatitis A es una enfermedad endémica (muy común).\n\n
+        3. Cómo es un niño vacunado contra la hepatitis A?\n\n
+        Para lograr una protección completa, dos dosis de vacuna tienen que ser administrados a cualquier edad, a partir del primer año. La segunda dosis debe administrarse de 6 a 12 meses después de la primera dosis.\n\n
+        4. Algunos niños no deben ser vacunados o que tenga que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que desarrollan una reacción alérgica a la vacuna después de la primera vacunación contra la hepatitis A y los niños que son alérgicos a cualquier componente de la vacuna no deben ser vacunados.\n
+        &#160;&#160;&#160;· Los niños que tienen una enfermedad leve, como, por ejemplo, un resfriado, pueden ser vacunados, pero la vacunación contra la hepatitis A de los niños que son más gravemente enfermo y tiene fiebre alta debe posponerse hasta que se recuperan totalmente.\n\n
+        5. ¿Cuáles son las posibles reacciones adversas a la vacuna?\n\n
+        La vacuna contra la hepatitis A es muy seguro. Si se producen reacciones adversas, que son, en la mayoría de los casos, muy suave:\n
+        &#160;&#160;&#160;· dolor y enrojecimiento en el sitio de la inyección\n
+        &#160;&#160;&#160;· fiebre temporal, dolor de cabeza, cansancio, escalofríos, náuseas y pérdida de apetito.\n\n
+        Las reacciones adversas más graves, como las reacciones alérgicas, son muy poco frecuentes.\n\n
+        ¿Qué pasa si se produce una reacción adversa severa?\n\n
+        Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna. Los síntomas incluyen dificultad para respirar, ronquera, una erupción, debilidad general, el aumento del ritmo cardíaco, y el vértigo.\n\n
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡póngase en contacto con el médico inmediatamente!\n\n
+        La vacunación contra la hepatitis A y B en una sola inyección.\n\n
+        1. ¿Qué es una vacuna combinada contra la hepatitis A y B?\n\n
+        Hoy en día es posible para proteger a niños y adultos de la infección por el virus de la hepatitis A y la hepatitis B a través de una única vacuna combinada. La vacunación se recomienda como una forma segura de protección simultánea de contraer la hepatitis A y la hepatitis B.\n\n
+        2. ¿Cómo puede un niño ser vacunados simultáneamente contra la hepatitis A y la hepatitis B?\n\n
+        El esquema de vacunación simultánea contra la hepatitis A y la hepatitis B incluye tres dosis de una vacuna combinada que el niño debe recibir con el fin de proteger plenamente y durante mucho tiempo en contra de estas dos infecciones virales del hígado.\n\n
+        &#160;&#160;&#160;· La primera y la segunda dosis de la vacuna se administran dentro de un plazo de un mes, y la tercera dosis se administra 5 meses después de la segunda dosis. Usted debe consultar a su médico sobre la necesidad de la posterior revacunación.\n\n
+        3. Algunos niños no deben ser vacunados o que tenga que esperar.\n
+        &#160;&#160;&#160;· Los niños que desarrollan una reacción alérgica a la vacuna después de la vacunación previa contra la hepatitis A y la hepatitis B, y los niños que son alérgicos a cualquier componente de la vacuna no deben ser vacunados.\n
+        &#160;&#160;&#160;· Los niños que tienen una enfermedad leve, como un resfriado, pueden ser vacunados, pero la vacunación en niños que son están gravemente enfermo y tienen fiebre alta debe posponerse hasta que se recuperen totalmente.\n\n
+        4. ¿Cuáles son las posibles reacciones adversas a la vacuna?\n\n
+        &#160;&#160;&#160;· Las reacciones adversas son idénticos a los que puede ocurrir después de la utilización por separado de las partes componentes de esta vacuna (hepatitis A y la hepatitis B), y que se describen en las secciones que tratan de las vacunas separadas.
+    </string>
+
+    <string name="vaccine_optional_rota_virus">
+        1. ¿Qué causa el rotavirus?\n\n
+        Rotavirus son la causa más común de una forma grave de gastroenteritis en los bebés y niños pequeños. La enfermedad se manifiesta por vómitos, diarrea
+        y fiebre alta y tiene una duración de 4-8 días. Los casos graves se caracterizan por la deshidratación y un desequilibrio electrolítico, donde es necesaria la hospitalización del enfermo.
+        Rotavirus es omnipresente y el 95\%% de los niños se infectan por la edad de 3-5 años. Se estima que unos 3,6 millones de niños menores de 5 años de edad
+        contrajo esta enfermedad en la Unión Europea, alrededor de 50.000 son hospitalizados y 231 niños mueren como consecuencia de la infección. El mayor número de licitación de la enfermedad
+        es a una edad de entre 6 y 24 meses, pero la infección no es rara en la infancia temprana, cuando es más grave la enfermedad lleva a la consecuente hospitalización.
+        Las infecciones por rotavirus en los países más desarrollados generalmente ocurren durante los meses de invierno, por lo general a partir de octubre a abril.\n\n
+        2. Vías de transmisión.\n\n
+        Rota virus son altamente contagiosos y son principalmente a través de caminos fecal-oral, pero se considera que la infección también se puede contagiar a través de gotitas (aire)
+        y a través de superficies contaminadas. El virus se transmite independientemente de las condiciones sanitarias. La mejora de la situación socio-económica, la calidad del agua,
+        sistemas de alcantarillado y la higiene en los países desarrollados no han logrado suprimir significativamente la propagación de la infección. La infección suele aparecer entre el personal
+        de la oficina, pero las epidemias en hospitales, salas de pediatría también son comunes, así como en los centros ambulatorios y unidades de cuidados intensivos, donde es particularmente difícil de controlar la propagación de la infección.
+        En tales casos, las consecuencias para el niño hospitalizado pueden ser fatales, y la prolongación de la hospitalización aumenta significativamente los costos del tratamiento. El virus puede sobrevivir varias horas en las manos sucias,
+        mientras que en los alimentos o superficies duras, tales como juguetes, incluso puede sobrevivir hasta algunos días.\n\n
+        3. Cuadro clínico\n\n
+        En los niños menores de 5 años, el cuadro clínico puede variar desde diarrea de corta duración leve a gastroenteritis grave que lleva a una caída en la presión arterial,
+        colapso circulatorio y la muerte. Los síntomas suelen durar varios días y diarrea desaparece espontáneamente. Sin embargo, una forma grave de la infección puede progresar
+        rápidamente y causar deshidratación potencialmente mortal que requiere rehidratación intravenosa urgente. Después de un período de incubación de 12 horas a 4 días, diarrea
+        y vómitos se producen y por último durante 4-8 días. Fiebre alta y dolor de estómago también son comunes. La primera infección suele ser la más grave,
+        mientras que los síntomas se debilitan en cada infección posterior.\n\n
+        5. Recomendaciones de vacunación.
+        Las directrices de dos asociaciones centrales europeas, la Sociedad Europea de Enfermedades Infecciosas Pediátricas (ESPID) y la Sociedad Europea de Gastroenterología Pediátrica,
+        Hepatología y Nutrición (ESPGHAN), afirman que debido al grado inaceptable de la morbilidad y la mortalidad causadas por infecciones de RV en Europa , la vacunación temprana,
+        antes de la primera infección por el rotavirus, podría prevenir la mayoría de las apariciones de la forma grave de la enfermedad y sus consecuencias para los niños sanos.
+        Por esta razón, se recomienda la vacunación para cada niño sano en Europa. Además, es de esperar que la vacunación contra la infección por rotavirus también protegerá a la población adulta,
+        lo que es especialmente importante para las personas de edad y inmunocomprometidos. De conformidad con estos esfuerzos, a principios de 2008 en Croacia, un Comité Nacional para la promoción de la prevención de las infecciones por rotavirus en niños fue fundada.\n\n
+        6. Sobre las vacunas.\n\n
+        Dos vacunas vivas atenuadas contra la RV para la administración oral están disponibles en los mercados de Europa y Croacia
+        (Rotarix&#174;; GSK Biologicals y RotaTeq&#x2122;; SPMSD).\n\n
+        Rotarix&#174; se administra en dos dosis orales.\n\n
+        · La primera dosis se puede administrar desde la edad de 6 semanas. Se recomienda para completar la vacunación por la semana 16a, pero debe ser completado a más tardar, a la edad de 24 semanas.\n
+        Se puede administrar simultáneamente con todas las vacunas monovalentes o combinadas que se utilizan en la infancia durante la misma visita, incluyendo la vacuna
+        hexavalente y neumococo. Está comprobado para proteger eficazmente contra 5 de las cepas más comunes de rotavirus. En el 96\%% de los casos, se garantiza la
+        protección contra una forma grave de gastroenterocolitis rotavirus en el primer año después de la vacunación. En el 100\%% de los casos, proporciona
+        protección contra la hospitalización por gastroenterocolitis rotavirus severa durante el primer año después de la vacunación. Proporciona protección contra
+        en los dos primeros años de vida de un niño, cuando el niño está en mayor riesgo. Los efectos secundarios observados con mayor frecuencia durante los
+        ensayos clínicos llevados a cabo fueron irritabilidad y pérdida de apetito (1/10). Una prueba extensa también mostró que aquí hay un aumento del riesgo de
+        invaginación intestinal (el telescopio de un segmento de intestino a otra después de la vacunación con esta vacuna.\n\n
+        La otra vacuna RotaTeq&#x2122; tiene características similares, excepto que se administra en 3 dosis. La primera dosis se
+        administra entre los días 6 y 12 semanas de la vida de un niño. Un mínimo de cuatro semanas debe pasar por entre las dosis. Se recomienda
+        administrar las tres dosis antes de la 20a-22a semanas. Las tres dosis sin duda deben ser administrados por la semana 26 de vida de un niño.
+    </string>
+
+    <string name="vaccine_optional_tick_borne">
+        1. ¿Qué es la meningoencefalitis transmitida por garrapatas?\n\n
+        Meningoencefalitis transmitida por garrapatas es una inflamación viral del cerebro y sus membranas, que en los niños por lo general pasa sin dejar secuelas permanentes.\n\n
+        &#160;&#160;&#160;· El portador del virus es una garrapata infectada bosque o garrapata común (Ixodes ricinus).\n
+        &#160;&#160;&#160;· Esto es principalmente una enfermedad estacional, que comienza en marzo, se vuelve menos frecuente durante los meses de verano y de nuevo se produce con más frecuencia a principios de otoño.\n
+        &#160;&#160;&#160;· El período de incubación es de 1 a 2 semanas, después de lo cual se produce una fiebre alta acompañada de debilidad y cansancio. Esto es seguido por una mejora permanente o temporal,
+        después de lo cual encefalitis o meningoencefalitis pueden ocurrir acompañado de fiebre alta, alteración de la conciencia, fuertes dolores de cabeza y otros trastornos.
+        Los niños generalmente se recuperan totalmente de esta enfermedad y no sufren complicaciones permanentes o consecuencias significativas.\n\n
+        2. ¿Quiénes deben vacunarse?\n\n
+        Las personas que visitan las zonas donde hay garrapatas infectadas con el virus que causa la meningoencefalitis por garrapatas de primavera-verano (noroeste de Croacia, al norte del río Sava).\n\n
+        3. ¿Cómo es un niño vacunado contra la meningoencefalitis por garrapatas?\n\n
+        &#160;&#160;&#160;· Un niño puede estar protegido contra esta enfermedad al ser vacunados con una vacuna (muerta) inactivada, que se administra en tres dosis.\n
+        &#160;&#160;&#160;· Un período de 2 semanas a 3 meses debe pasar por entre la primera y segunda dosis, y un período de 9 a 12 meses entre la segunda y tercera dosis.\n
+        &#160;&#160;&#160;· Los niños mayores de 1 año de edad pueden ser vacunados.\n
+        La vacuna se puede administrar a niños simultáneamente con otras vacunas.\n
+        &#160;&#160;&#160;· Una dosis de refuerzo es necesario después de 3 años.\n\n
+        4. Algunos niños no deben ser vacunados contra la meningoencefalitis transmitida por garrapatas o tienen que esperar.\n\n
+        &#160;&#160;&#160;· Los niños que son alérgicos a cualquier componente de la vacuna, o que tenían alguna vez experimentaron una reacción alérgica grave a los huevos no debe ser vacunado.\n\n
+        5. ¿Cuáles son las posibles reacciones adversas causadas por la vacuna contra la meningoencefalitis por garrapatas?\n\n
+        Al igual que con cualquier otro medicamento, las vacunas pueden causar reacciones adversas. El riesgo de que esta vacuna particular cause reacciones graves o muy graves es extremadamente pequeño.\n\n
+        La vacunación puede provocar algunas reacciones adversas\n\n
+        &#160;&#160;&#160;· de carácter local en forma de enrojecimiento e hinchazón en el sitio de la inyección, y la hinchazón de los ganglios linfáticos circundantes\n
+        &#160;&#160;&#160;· reacciones genéricos tales como cansancio, dolor en el brazo o la pierna, náuseas, dolor de cabeza, aumento de la temperatura corporal o una erupción temporal.\n\n
+        ¿Qué pasa si se produce una reacción adversa severa?\n\n
+        &#160;&#160;&#160;· Aunque es extremadamente raro, una reacción alérgica puede ocurrir varios minutos a varias horas después de la administración de la vacuna. Los síntomas incluyen dificultad para respirar, ronquera, una erupción, palidez, debilidad general, la frecuencia cardíaca rápida y el vértigo.\n\n
+        Si usted nota cualquiera de los síntomas mencionados anteriormente, ¡póngase en contacto con su médico inmediatamente!
+    </string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_1">BCG, dosis: %1$d</string>
+    <string name="vaccine_2">DTaP, dosis: %1$d</string>
+    <string name="vaccine_3">IPV: Vacuna contra la polio inactiva, dosis: %1$d</string>
+    <string name="vaccine_4">Hib, dosis: %1$d</string>
+    <string name="vaccine_5">MO-PA-RU: El sarampión, la papera y la rubéola, dosis: %1$d</string>
+    <string name="vaccine_6">Hepatitis B, dosis: %1$d</string>
+    <string name="vaccine_7">Hepatitis A, dosis: %1$d</string>
+    <string name="vaccine_8">Varicela, dosis:  %1$d</string>
+    <string name="vaccine_9">Meningoencefalitis transmitida por garrapatas, dosis: %1$d  </string>
+    <string name="vaccine_10">Neumococo, dosis: %1$d</string>
+    <string name="vaccine_11">Gripe</string>
+    <string name="vaccine_12">ROTAVIRUS, dosis: %1$d</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_next_1">Hepatitis B</string>
+    <string name="vaccine_next_2">DTaP</string>
+    <string name="vaccine_next_3">IPV: Vacuna contra la polio inactiva</string>
+    <string name="vaccine_next_4">Hib</string>
+    <string name="vaccine_next_5">MO-PA-RU: El sarampión, la papera y la rubéola</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_optional_1">BCG</string>
+    <string name="vaccine_optional_2">Neumococo</string>
+    <string name="vaccine_optional_3">ROTAVIRUS</string>
+    <string name="vaccine_optional_4">Gripe</string>
+    <string name="vaccine_optional_5">Hepatitis A</string>
+    <string name="vaccine_optional_6">Varicela</string>
+    <string name="vaccine_optional_7">Meningoencefalitis transmitida por garrapatas </string>
+
+
+    <!-- Add entry feeding -->
+    <string name="add_feeding_menu">Guardar</string>
+    <string name="add_feeding_ml">Cantidad (ml)</string>
+    <string name="add_feeding_fl">Cantidad (fl)</string>
+    <string name="add_feeding_min">Tiempo (min)</string>
+    <string name="feed_1">Biberón</string>
+    <string name="feed_2">Pecho izquierdo</string>
+    <string name="feed_3">Pecho derecho</string>
+    <string name="feed_4">Otro</string>
+
+    <string name="feed_group_main">Últimos - %1$s · %2$s min</string>
+    <string name="feed_group_left">Izquierdo</string>
+    <string name="feed_group_right">Derecho</string>
+
+    <!-- Sleeping feed -->
+    <string name="sleeping_feed_name">Sueño</string>
+    <string name="sleeping_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="sleeping_feed_content_list_empty">Para dormir bien, %1$s\ndebe tener una rutina de sueño.\nSiga los habitos de sueño de %1$s\nmientras duerme en las noches.</string>
+
+    <!-- Add sleeping feeding -->
+    <string name="add_sleeping_menu">Guardar</string>
+    <string name="add_sleeping_ml">Horas dormido (h)</string>
+
+    <!-- Diapers feed -->
+    <string name="diapers_feed_name">Heces/Orina</string>
+    <string name="diapers_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="diapers_feed_content_list_empty">Mojado o sucio, los pañales dicen mucho\nacerca de lo que está pasando con\nla salud de %1$s.</string>
+
+
+    <!-- Diapers list -->
+    <string name="diapers_pee">Orina</string>
+    <string name="diapers_poo_1">Heces blandas</string>
+    <string name="diapers_poo_2">Heces semiblandas</string>
+    <string name="diapers_poo_3">Heces regulares</string>
+    <string name="diapers_poo_4">Heces semiduras</string>
+    <string name="diapers_poo_5">Heces duras</string>
+
+    <!-- Diapers list -->
+    <string name="diapers_poo_group_1">Blanda</string>
+    <string name="diapers_poo_group_2">Semiblanda</string>
+    <string name="diapers_poo_group_3">Regular</string>
+    <string name="diapers_poo_group_4">Semidura</string>
+    <string name="diapers_poo_group_5">Dura</string>
+
+    <!-- Growth feed -->
+    <string name="growth_feed_name">Crecimiento</string>
+    <string name="growth_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="growth_feed_content_list_empty">¿Está %1$s creciendo al ritmo adecuado?\nObten información para las áreas\nclaves de crecimiento.\nEl peso, la altura y el IMC.</string>
+    <string name="growth_menu_1">Curvas de crecimiento</string>
+    <string name="growth_menu_2">Indice de masa corporal</string>
+
+    <!-- Feeding feed -->
+    <string name="feeding_feed_name">Alimentación</string>
+    <string name="feeding_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="feeding_feed_content_list_empty">La alimentación es la parte más\nimportante en el desarrollo de %1$s. Conocer\nlo que hace a %1$s estar saludable.</string>
+    <string name="feeding_feed_item_left">Izquierdo %1$d min</string>
+    <string name="feeding_feed_item_right">Derecho %1$d min</string>
+    <!-- Sickness feed -->
+    <string name="sickness_feed_name">Enfermedad</string>
+    <string name="sickness_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="sickness_feed_content_list_empty">Vómitos, diarrea, congestión nasal...\nRegistra todos los problemas que\na %1$s se le presenten.</string>
+
+    <!-- Medicine feed -->
+    <string name="medicine_feed_name">Medicamentos</string>
+    <string name="medicine_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="medicine_feed_content_list_empty">Los medicamentos requieren\nresponsabilidad. Conozca las dosis\nde los medicamentos más populares\ny registre cada medicamento que\n%1$s está tomando.</string>
+    <string name="hint_add_entry">Por favor, escriba aquí...</string>
+
+    <!-- Add entry Growth -->
+    <string name="add_growth_menu">Guardar</string>
+    <string name="add_growth_weight">Peso (kg)</string>
+    <string name="add_growth_weight_pounds">Peso (lb)</string>
+    <string name="add_growth_height">Altura (cm)</string>
+    <string name="add_growth_height_inches">Altura (in)</string>
+    <string name="add_growth_head">Circunferencia de la cabeza (cm)</string>
+    <string name="add_growth_head_inches">Circunferencia de la cabeza (in)</string>
+
+    <string name="growth_weight">Peso</string>
+    <string name="growth_height">Altura</string>
+    <string name="growth_head">Cabeza</string>
+
+    <!-- Milestone feed -->
+    <string name="milestone_feed_name">Momentos especiales</string>
+    <string name="milestone_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="milestone_feed_content_list_empty">Primera sonrisa, primeras palabras y \nprimeros pasos. Registra todos\nlos momentos especiales por los que\n%1$s está pasando.</string>
+
+
+    <!-- Milestone List -->
+    <string name="milestone_1">Comienza a sonreír a las personas.</string>
+    <string name="milestone_2">Voltea la cabeza hacia los sonidos.</string>
+    <string name="milestone_3">Presta atención a las caras.</string>
+    <string name="milestone_4">Puede sostener la cabeza y comienza a empujar hacia arriba cuando está acostado boca abajo.</string>
+    <string name="milestone_5">Sonrie de forma espontánea, sobre todo a las personas.</string>
+    <string name="milestone_6">Balbucea con la expresión y copia los sonidos que oye.</string>
+    <string name="milestone_7">Responde al afecto.</string>
+    <string name="milestone_8">Reconoce personas familiares y cosas a una distancia.</string>
+    <string name="milestone_9">Sostiene la cabeza firme, sin apoyo.</string>
+    <string name="milestone_10">Puede voltearse de boca abajo a boca arriba.</string>
+    <string name="milestone_11">Cuando está acostado sobre el estómago, empuja hacia arriba a codos.</string>
+    <string name="milestone_12">Le gusta jugar con los demás, especialmente con sus padres.</string>
+    <string name="milestone_13">Comienza a decir los sonidos de las consonantes (parloteando con \"m\", \"b\").</string>
+    <string name="milestone_14">Mira a su alrededor las cosas cercanas.</string>
+    <string name="milestone_15">Empieza a pasarse cosas de una mano a la otra.</string>
+    <string name="milestone_16">Da la vuelta en ambas direcciones (boca abajo hacia boca arriba, de boca arriba hacia boca abajo).</string>
+    <string name="milestone_17">Se mece hacia adelante y hacia atrás, a veces se arrastra hacia atrás antes de seguir adelante.</string>
+    <string name="milestone_18">Puede tenerle miedo a los extraños.</string>
+    <string name="milestone_19">Entiende \"No\".</string>
+    <string name="milestone_20">Hace un montón de diferentes sonidos como \"mamamama\" y \"bababababa\".</string>
+    <string name="milestone_21">Busca las cosas que usted oculta.</string>
+    <string name="milestone_22">Recoge cosas como cereal entre el pulgar y el dedo índice.</string>
+    <string name="milestone_23">Puede ponerse en posición de sentado.</string>
+    <string name="milestone_24">Se arrastra.</string>
+    <string name="milestone_25">Llora cuando mamá o papá se van.</string>
+    <string name="milestone_26">Responde a peticiones simples habladas.</string>
+    <string name="milestone_27">Dice \"mamá\" y \"papá\" y exclamaciones como \"uh-oh!\".</string>
+    <string name="milestone_28">Empuja con el dedo índice (puntero).</string>
+    <string name="milestone_29">Tira hasta ponerse de pie, camina agarrándose de los muebles.</string>
+    <string name="milestone_30">Puede dar algunos pasos sin agarrarse.</string>
+    <string name="milestone_31">Puede estar solo.</string>
+    <string name="milestone_32">Explora solo pero con sus padres cerca.</string>
+    <string name="milestone_33">Dice varias palabras simples.</string>
+    <string name="milestone_34">Apunta a una parte del cuerpo.</string>
+    <string name="milestone_35">Puede caminar por las escaleras y correr.</string>
+    <string name="milestone_36">Bebe de un vaso.</string>
+    <string name="milestone_37">Come con una cuchara.</string>
+    <string name="milestone_38">Copia a los demás, especialmente a los adultos y a niños mayores.</string>
+    <string name="milestone_39">Dice frases con 2 a 4 palabras.</string>
+    <string name="milestone_40">Construye torres de 4 o más bloques.</string>
+    <string name="milestone_41">Nombra elementos de un libro de imágenes, como un gato, pájaro, o un perro.</string>
+    <string name="milestone_42">Se pone de puntillas.</string>
+    <string name="milestone_43">Comienza a correr.</string>
+    <string name="milestone_44">Se separa fácilmente del papá y mamá.</string>
+    <string name="milestone_45">Habla lo suficientemente bien como para que los extraños entiendan la mayor parte del tiempo.</string>
+    <string name="milestone_46">Arma rompecabezas con 3 o 4 piezas.</string>
+    <string name="milestone_47">Copia un círculo con lápiz o crayón.</string>
+    <string name="milestone_48">Sube y baja las escaleras, con un pie en cada escalón.</string>
+    <string name="milestone_49">Prefiere jugar con otros niños que consigo mismo.</string>
+    <string name="milestone_50">A menudo no puede decir lo que es real y qué es fantasía.</string>
+    <string name="milestone_51">Cuenta historias.</string>
+    <string name="milestone_52">Recuerda las partes de una historia.</string>
+    <string name="milestone_53">Dibuja una persona con 2 a 4 partes del cuerpo.</string>
+    <string name="milestone_54">Salta y se coloca en un pie hasta 2 segundos.</string>
+    <string name="milestone_55">Le gusta cantar, bailar y actuar.</string>
+    <string name="milestone_56">Habla con claridad.</string>
+    <string name="milestone_57">Cuenta una simple historia usando oraciones completas.</string>
+    <string name="milestone_58">Cuenta 10 o más cosas.</string>
+    <string name="milestone_59">Se para en un pie durante 10 segundos o más.</string>
+    <string name="milestone_60">Utiliza un tenedor y cuchara, a veces un cuchillo de mesa.</string>
+    <string name="milestone_61">Puede usar el baño por su cuenta.</string>
+
+    <!-- Other feed -->
+    <string name="other_feed_name">Otro</string>
+    <string name="other_feed_title_list_empty">Agrega el primer registro</string>
+    <string name="other_feed_content_list_empty">Agrega registros para todo lo demás\n que a %1$s le está pasando.</string>
+
+    <string name="metric_unit_volume">ml</string>
+    <string name="us_unit_volume">fl oz</string>
+
+    <string name="metric_unit_length">cm</string>
+    <string name="us_unit_length">in</string>
+
+    <string name="metric_unit_weight">kg</string>
+    <string name="us_unit_weight">lb</string>
+
+    <string name="metric_unit_temperature">°C</string>
+    <string name="us_unit_temperature">°F</string>
+    <string name="title_activity_barchart">BarchartActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

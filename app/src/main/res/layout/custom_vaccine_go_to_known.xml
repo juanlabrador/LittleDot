@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/vaccine_go_to_know"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:linksClickable="true"
+        android:textColorLink="@color/text_feed"
+        android:textColor="@color/text_normal"
+        android:text="@string/vaccine_go_to_know"/>
+
+</ScrollView>

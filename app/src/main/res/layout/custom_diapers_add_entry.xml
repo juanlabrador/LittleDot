@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/type_pee"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diapers_pee"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:focusable="false"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/text_normal"/>
+
+    <View
+        android:id="@+id/separate_line"
+        android:layout_below="@+id/type_pee"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/separate_line"/>
+
+
+    <ListView
+        android:id="@+id/list_diapers_add_entry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/separate_line"
+        android:choiceMode="singleChoice"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:background="@color/window_background"/>
+
+</RelativeLayout>

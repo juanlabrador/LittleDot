@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background">
+
+    <TextView
+        android:id="@+id/type_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_temperature_celsius"
+        android:textColor="@color/text_list"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_marginTop="48dp"/>
+
+    <TextView
+        android:id="@+id/content_temperature"
+        android:layout_below="@+id/type_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/temperature_text"
+        android:text="36.0"
+        android:textSize="52sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"/>
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:id="@+id/seek_bar_temperature"
+        android:layout_below="@+id/content_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal"
+        app:dsb_trackColor="@color/temperature_text"
+        app:dsb_indicatorColor="@color/temperature_text"
+        app:dsb_progressColor="@color/temperature_text"/>
+
+</RelativeLayout>

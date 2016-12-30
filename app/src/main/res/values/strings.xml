@@ -1,0 +1,999 @@
+<resources>
+    <string name="app_name">LittleDot</string>
+    <string name="recommend_app">Hey, check out this app for parents, it seems really good!</string>
+    <string name="shared_message">Shared %1$s via</string>
+
+    <string name="button_report">Report</string>
+    <string name="email_subject_report">LittleDot crashed!</string>
+    <string name="title_dialog_report">Sorry, the app crashed!</string>
+    <string name="content_dialog_report">Sorry, we will try to solve this problem as fast as possible. Thank you by report.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="format_day">EEEE</string>
+    <string name="format_time">HH:mm</string>
+    <string name="format_pretty_time">MMMM dd, yyyy</string>
+    <string name="format_date_service">yyyy-MM-dd\'T\'HH:mm:ssZ</string>
+    <string name="format_date_short">MMM/dd</string>
+
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="button_next">Next</string>
+    <string name="button_optional">Optional</string>
+    <string name="button_done">Done</string>
+    <string name="button_add">Add %1$s entry</string>
+    <string name="button_skipped">Skipped</string>
+    <string name="button_erase_all_data">Delete data</string>
+    <string name="option_edit">Edit</string>
+    <string name="option_delete">Delete</string>
+    <string name="option_show">Show Details</string>
+    <string name="option_take_photo">Take from Camera</string>
+    <string name="option_take_from_gallery">Take from Gallery</string>
+    <string name="date_dialog">Day:</string>
+    <string name="time_dialog">Time:</string>
+    <string name="time_now">Now</string>
+    <string name="vaccinated_dialog">Vaccinated:</string>
+    <string name="skipped_dialog">Skipped:</string>
+    <string name="att_title">Add notes and pictures</string>
+    <string name="att_pictures">Add pictures:</string>
+    <string name="att_note"><i>Tap to add note for this entry</i></string>
+
+    <!-- Main Feed -->
+    <string name="feed_title_list_empty">Add the first dot</string>
+    <string name="feed_content_list_empty">You are ready! Start adding\n%1$s\'s dots. How did %1$s\nsleep tonight?</string>
+
+
+    <!-- Details doctor -->
+    <string name="details_doctor">Doctor</string>
+    <string name="details_doctor_button">Edit</string>
+    <string name="details_doctor_send_email">Send data (%1$s)</string>
+
+    <!-- Email Options doctor -->
+    <string name="email_option_title">Email options</string>
+    <string name="email_no_client">There is no email client installed.</string>
+    <string name="email_text_date"><u>%1$s</u></string>
+    <string name="email_text_temperature_f"><b>Temperature:</b> %1$s °F (%2$s)</string>
+    <string name="email_text_temperature"><b>Temperature:</b> %1$s °C (%2$s)</string>
+    <string name="email_text_feeding_bottle"><b>Feeding:</b> %1$s ml (%2$s)</string>
+    <string name="email_text_feeding_bottle_fl"><b>Feeding:</b> %1$s fl (%2$s)</string>
+    <string name="email_text_feeding_breast_left"><b>Feeding:</b> Left %1$s min (%2$s)</string>
+    <string name="email_text_feeding_breast_right"><b>Feeding:</b> Right %1$s min (%2$s)</string>
+    <string name="email_text_feeding_other"><b>Feeding:</b> %1$s (%2$s)</string>
+    <string name="email_text_sleeping"><b>Sleeping:</b> %1$s h (%2$s)</string>
+    <string name="email_text_diapers"><b>Stool/Pee:</b> %1$s (%2$s)</string>
+    <string name="email_text_diapers_2"><b>Stool/Pee:</b> %1$s, %2$s (%3$s)</string>
+    <string name="email_text_sickness"><b>Sickness:</b> %1$s (%2$s)</string>
+    <string name="email_text_medicine"><b>Medicine:</b> %1$s (%2$s)</string>
+    <string name="email_text_growth_lb"><b>Growth:</b> Weight %1$s lb, Height %2$s in</string>
+    <string name="email_text_growth"><b>Growth:</b> Weight %1$s kg, Height %2$s cm</string>
+    <string name="email_text_growth_2"><b>Growth:</b> Weight %1$s kg, Height %2$s cm, Head circumference %3$s cm</string>
+    <string name="email_text_growth_2_lb"><b>Growth:</b> Weight %1$s lb, Height %2$s in, Head circumference %3$s in</string>
+    <string name="email_text_other"><b>Other:</b> %1$s (%2$s)</string>
+    <string name="email_text_teeth"><b>Teeth:</b> %1$s </string>
+    <string name="email_text_vaccine"><b>Vaccination:</b> %1$s </string>
+    <string name="email_text_milestone"><b>Milestone:</b> %1$s </string>
+    <string name="email_subject">%1$s (birth date: %2$s )</string>
+    <string name="email_intent">Send email...</string>
+    <string name="email_option_doctor_menu">Prepare email</string>
+    <string name="email_option_doctor_label">Prepare email message for\ndoctor containing:</string>
+    <string name="email_option_doctor_temperature">Temperature</string>
+    <string name="email_option_doctor_sickness">Sickness</string>
+    <string name="email_option_doctor_medicines">Medicines</string>
+    <string name="email_option_doctor_vaccines">Vaccines</string>
+
+    <string name="email_option_doctor_feeding">Feeding</string>
+    <string name="email_option_doctor_sleeping">Sleeping</string>
+    <string name="email_option_doctor_diapers">Diapers</string>
+
+    <string name="email_option_doctor_growth">Growth</string>
+    <string name="email_option_doctor_milestone">Milestones</string>
+    <string name="email_option_doctor_teeth">Teeth</string>
+    <string name="email_option_doctor_other">Other</string>
+
+
+    <!-- Edit doctor -->
+    <string name="edit_doctor">Edit Doctor</string>
+    <string name="edit_doctor_menu">Save</string>
+    <string name="edit_doctor_name">Name</string>
+    <string name="edit_doctor_hours_work">Working hours, other info</string>
+    <string name="edit_doctor_phone_1">Phone line 1</string>
+    <string name="edit_doctor_phone_2">Phone line 2</string>
+    <string name="edit_doctor_email">Email</string>
+    <string name="edit_doctor_address">Address</string>
+
+    <!-- Other options menu -->
+    <string name="other_menu_edit">Children edit</string>
+    <string name="other_menu_setting">Setting</string>
+    <string name="other_menu_recommend">Recommended to friends</string>
+
+    <!-- Setting -->
+    <string name="setting_title">Setting</string>
+    <string name="setting_menu">Done</string>
+    <string name="setting_sync_message">Sync your children\'s LittleDot data with LittleDot service to get quick help with health problems.</string>
+    <string name="setting_sync">Sync</string>
+    <string name="setting_sync_complete">Your children\'s data is being synchronized with LittleDot services.</string>
+    <string name="setting_login_message">Login email has been sent to your address. Open the link in email to start syncing your LittleDot data to server.</string>
+    <string name="setting_progress">Wait a moment...</string>
+    <string name="setting_button_email">Enter email</string>
+    <string name="email_error">Email is wrong</string>
+    <string name="setting_button_login">Send login link</string>
+    <string name="string_sync_data">When you want to upload your LittleDot data to server.</string>
+    <string name="setting_button_sync_data">Sync data</string>
+    <string name="setting_forgot_password">Forgot password</string>
+    <string name="setting_general">General</string>
+    <string name="setting_language">Language:</string>
+    <string name="setting_language_dialog">Change the language:</string>
+    <string name="setting_language_1">English</string>
+    <string name="setting_language_2">Spanish</string>
+    <string name="setting_language_3">German</string>
+    <string name="setting_language_4">Croatian</string>
+    <string name="setting_units">Units:</string>
+    <string name="setting_units_dialog">Change the units:</string>
+    <string name="setting_units_1">Metric units</string>
+    <string name="setting_units_2">U.S. units</string>
+    <string name="setting_purchases">In-app purchases</string>
+    <string name="setting_purchases_content">Restore all purchases</string>
+    <string name="setting_data">Data</string>
+    <string name="setting_erase_all_data">Erase all data</string>
+
+    <!-- setting erase all data -->
+    <string name="setting_erase_all_data_title">Erase all data</string>
+    <string name="setting_erase_all_data_message">By proceeding you will erase all\nthe data you ever recorder\nusing this app.</string>
+    <string name="setting_erase_all_data_button">Delete data for: </string>
+    <string name="setting_erase_all_data_dialog">Are you sure you want to delete all the data?</string>
+
+    <!-- setting list children -->
+    <string name="setting_list_children_item">Edit %1$s\'s profile</string>
+    <string name="setting_list_children_title">Children</string>
+    <string name="setting_list_children_new">Add new child</string>
+
+    <!-- setting children edit -->
+    <string name="setting_children_menu_new">Your children</string>
+    <string name="setting_children_menu_delete">Erase data for %1$s</string>
+    <string name="setting_children_menu_delete_dialog">Are you sure you want to delete all data for %1$s?</string>
+    <string name="setting_children_menu_edit">Save</string>
+    <string name="setting_children_menu_add">Add</string>
+    <string name="setting_children_edit_photo">Edit\nphoto</string>
+    <string name="setting_children_name">Child name</string>
+    <string name="setting_children_date_birth">Date of birth</string>
+    <string name="setting_children_gender">Gender</string>
+    <string name="setting_children_gender_male">Male</string>
+    <string name="setting_children_gender_female">Female</string>
+    <string name="children_age_year">year</string>
+    <string name="children_age_months">month</string>
+    <string name="children_age_month">m</string>
+    <string name="children_age_days">d</string>
+
+    <!-- Add entry temperature -->
+    <string name="add_temperature_menu">Save</string>
+    <string name="add_temperature_celsius">Temperature (C°)</string>
+    <string name="add_temperature_fahrenheit">Temperature (F°)</string>
+    <string name="add_temperature_measured">Measured:</string>
+
+    <!-- Temperature feed -->
+    <string name="temperature_feed_name">Temperature</string>
+    <string name="temperature_title_info">Info</string>
+    <string name="temperature_menu_1">Advices</string>
+    <string name="temperature_menu_2">Medicine Doses</string>
+    <string name="temperature_feed_title_list_empty">Add the first dot</string>
+    <string name="temperature_feed_content_list_empty">Track high body temperature\n%1$s is having.</string>
+    <string name="temperature_advices_when_title">When to take a temperature?</string>
+    <string name="temperature_advices_when_content">\u0020\u0020\u0020Whenever child seem warm, fussy, has reduced appetite or lees active then usually or when there are other signs of disease (vomiting, diarrhea, cough, rash or some other sign). Estimation of fever in child by palpation is unreliable! For instance, children with high fever have cold hand, feet and forehead due to the failure (immaturity) of the center for temperature regulation. High fever can lead to dehydration (during fever fluids intake is increased 2-3 fold). Most reliable sign of dehydration are dry lips and tongue which turns to white.</string>
+    <string name="temperature_advices_how_title">How to take a temperature?</string>
+    <string name="temperature_advices_how_content">\u0020\u0020\u0020In children aged up to one year it is recommended to take a temperature rectally by inserting a thermometer for about 2 cm. Hold thermometer for approx. 2-3 minutes till line stops increasing (or electronic thermometer beeps). In older children thermometer is placed in the middle of axilla is dried, and put upper arm by the body. It takes 10 minutes to take a temperature. Normal temperature measured rectally is about 37,5 °C and 37,0 °C axillary. If the child is physically active (crying, feeding, running), if surrounding or clothes are to warm, rectal temperature can reach 38 °C.</string>
+    <string name="temperature_advices_elevated">When and how to take down elevated body temperature?</string>
+    <string name="temperature_advices_elevated_content_1">\u0020\u0020\u0020Fever is one of the natural ways of body defense against infection. So it is reasonable to start taking down temperature when it rises above 38 °C axillary or 38,5 °C rectally. More precisely, latest recommendations advise to take down fever when child show signs of prostration and change of mood (becomes cranky). So if the child is happily running around and has 39 °C it is not necessarily needed to administer antipyretic, but on a contrary, if the child with a slight fever looks cranky and tired it should be given.</string>
+    <string name="temperature_advices_elevated_content_2">\u0020\u0020\u0020Fever can be reduced by drugs and cooling. Among antipyretics most appropriate and least harmful are paracetamol and ibuprofen (in a form of syrup and suppositories), having strictly in mind not to exceed recommended doses. If the child is running high fever, it should be immediately undressed and given antipyretic.</string>
+    <string name="temperature_advices_elevated_content_3">\u0020\u0020\u0020To enable gradual body cooling, room temperature should be lowered and clothing reduced. It is recommended to wait for about 20 minutes after antipyretic administration with cooling with bath, sponging or shower. During this period antypyretic will block center that trigger shivering. Namely, shivering is very powerful way of increasing the body temperature, so triggered by the sensation of cold bath it can increase fever for 1-2 degrees instead of expected decrease! Most appropriate would be bath-tub filled with water of around 37 °C (or 2-3 degrees less than body temperature) and to let child ply in it for about 20 minutes and gradually cool down. Skin rubbing with alcohol is not recommended - sudden cooling of skin causes vasoconstriction and reduces cooling effect, some of the alcohol penetrates skin and some vapors are inhaled. If body temperature is not reduced, following bath, wrap the child in wet sheet or towel previously soaked in room temperature water, and change it periodically, as long as needed.</string>
+    <string name="temperature_advices_elevated_content_4">\u0020\u0020\u0020During the fever child need much more liquids (daily need of liquid can be even doubled), so it is important to offer water, juice or room temperature tea. Only after those measures are undertaken, medical assistance should be asked for.</string>
+    <string name="temperature_advices_important_title">It is important to have antipyretics at home before child gets ill!</string>
+    <string name="temperature_advices_assistance_title">When to ask for medical assistance without delay?</string>
+    <string name="temperature_advices_assistance_content">\u0020\u0020\u0020In infants, particularly in babies up to 3 months of age, after taking down the fever it is necessary to look for a doctor. In older children, if fever exceeds 40 °C, it is also recommended to look for a doctor during the first day of illness as it might be a sign of serious bacterial infections. Shaking (excessive shivering) during the raise of the temperature,rash and/or worsening of child\'s general condition require medical assistance without delay. Avoid overheating (overdressing, covering) of the child during transportation.</string>
+    <string name="temperature_doses_ibuprofen"><b>5-10 mg/kg of body mass/doses.</b>\nDosage: Dosages are based on the child\'s weight. Give the medicine every 6 hours. Do not give more than 4 doses in a 24-hour period.</string>
+    <string name="temperature_doses_acetaminophen"><b>10-15 mg/kg of body mass/doses.</b>\nDosage: Give acetaminophen every 4 hours as needed. Do not give more than 5 doses in a 24-hour period. Dosages are based on the child\'s weight regardless of whether oral or rectal products are used.</string>
+    <string name="temperature_doses_weight">Weight</string>
+    <string name="temperature_doses_Dose">Dose</string>
+    <string name="temperature_dose_1">Ibuprofen</string>
+    <string name="temperature_dose_2">Acetaminophen (Paracetamol)</string>
+    <string name="temperature_doses_doctor">Ask a doctor</string>
+    <string name="temperature_doses_adult">Adult dose</string>
+    <string name="temperature_doses_mg">%1$s mg</string>
+    <string name="temperature_weight_kg">%1$s kg</string>
+    <string name="temperature_weight_lb">%1$s lb</string>
+
+    <!-- Filter Time list -->
+    <string name="filter_time_title">Choose time:</string>
+    <string name="filter_title_message">Showing:</string>
+    <string name="filter_time_1">Last 7 Days</string>
+    <string name="filter_time_2">Last 14 Days</string>
+    <string name="filter_time_3">Last 30 Days</string>
+    <string name="filter_time_4">Last 2 Months</string>
+    <string name="filter_time_5">Last 6 Months</string>
+    <string name="filter_time_6">Since Birth</string>
+    <string name="filter_time_7">Between Dates</string>
+    <string name="filter_today">Today</string>
+    <string name="filter_yesterday">Yesterday</string>
+    <string name="filter_between_from">From</string>
+    <string name="filter_between_to">To</string>
+    <string name="filter_time_error">Dates are wrong</string>
+
+    <!-- Teeth feed -->
+    <string name="teeth_feed_name">Teeth</string>
+    <string name="teeth_feed_title_list_empty">Add the first dot</string>
+    <string name="teeth_feed_content_list_empty">One by one, %1$s\'s little teeth\nappear. Welcome each with a dot.</string>
+
+    <!-- Teeth List -->
+    <string name="teeth_1">Upper right 1</string>
+    <string name="teeth_2">Upper left 1</string>
+    <string name="teeth_3">Lower right 1</string>
+    <string name="teeth_4">Lower left 1</string>
+    <string name="teeth_5">Upper right 2</string>
+    <string name="teeth_6">Upper left 2</string>
+    <string name="teeth_7">Lower right 2</string>
+    <string name="teeth_8">Lower left 2</string>
+    <string name="teeth_9">Upper right 3</string>
+    <string name="teeth_10">Upper left 3</string>
+    <string name="teeth_11">Lower right 3</string>
+    <string name="teeth_12">Lower left 3</string>
+    <string name="teeth_13">Upper right 4</string>
+    <string name="teeth_14">Upper left 4</string>
+    <string name="teeth_15">Lower right 4</string>
+    <string name="teeth_16">Lower left 4</string>
+    <string name="teeth_17">Upper right 5</string>
+    <string name="teeth_18">Upper left 5</string>
+    <string name="teeth_19">Lower right 5</string>
+    <string name="teeth_20">Lower left 5</string>
+
+
+    <!-- Vaccine feed -->
+    <string name="vaccine_feed_name">Vaccine</string>
+    <string name="vaccine_feed_title_list_empty">Add the first dot</string>
+    <string name="vaccine_feed_content_list_empty">%1$s should be protected from the\nlong-known diseases. Learn more\nabout each vaccine, prepare, and\ntake notes with each vaccination.</string>
+    <string name="vaccine_menu_1">Vaccination Schedule</string>
+    <string name="vaccine_menu_2">Good to know</string>
+    <string name="vaccine_vaccination_title">Vaccination</string>
+    <string name="vaccine_age">At age: %1$d months</string>
+    <string name="vaccine_dose">Dose: %1$d/%2$d</string>
+    <string name="vaccine_detail_dose">%1$d doses</string>
+    <string name="vaccine_recurring">Recurring</string>
+    <string name="vaccine_info_check">Check vaccination: %1$s</string>
+    <string name="vaccine_skipped">Skipped:</string>
+    <string name="vaccine_done">Done:</string>
+
+    <string name="vaccine_hepatitis_b">
+        1. What is hepatitis B?\n\nHepatitis B is an inflammation of the liver which is caused by the hepatitis B virus, It usually manifests itself
+        with vague symptoms (general feebleness, nausea, loss of appetite), and some infected persons may develop jaundice.\n\n
+        &#160;&#160;&#160;· In children, the disease can go without symptoms, but often the insufficiently strong defense system of child\'s
+        organism cannot completely destroy the virus. In that case, the child will become a chronic carrier of the virus and have
+        a chronic illness, which can later develop into serious complications, such as cirrhosis or primary carcinoma of the liver.\n
+        &#160;&#160;&#160;· The younger the child, the greater the chance that after being infected with the virus of hepatitis B, he or she will develop
+        serious complications in the form of a chronic liver disease.\n\nA child can be infected with the virus of hepatitis B:\n\n
+        &#160;&#160;&#160;· at birth from a mother who is a chronic carrier of the virus;\n
+        &#160;&#160;&#160;· in close contact with an infected person (using a common toothbrush or manicure set, through small wounds, bites
+        and scratches);\n
+        &#160;&#160;&#160;·through infected blood, for example, accidentally through and infected injection needle which has benn contaminated,
+        or through infected blood products;\n
+        &#160;&#160;&#160;· sex is the most frequent cause of infection in adolescents and adults.\n\nVaccination against hepatitis B can prevent the occurrence of the disease.\n\n2. How is a child vaccinated against hepatitis B?\n\nThe vaccination scheme against hepatitis B contains three doses of vaccine which the child must receive in order to be
+        protected fully and for a long time against infection.\n\n
+        &#160;&#160;&#160;· The first and second dose are administered 1 month apart, and the third dose is administered 5 months after the second dose,
+        or according to another scheme if the doctor so decides. Consult your doctor on the necessity for further revaccination.\n\nSince
+        1999, according to the Mandatory Immunization Schedule, in the Republic of Croatia children in the 6th form of primary school
+        are vaccinated against hepatitis B, while children born in after 2007 are vaccinated while still in the maternity hospital.\n\nIf a child must be protected earlier (for children born 2007), this is possible after consultation with the child\'s
+        paediatrician.\n\nChildren of mothers who are chronic carriers of the virus are immunized immediately after birth. All pregnant women
+        are routinely tested for hepatitis B!\n\n3. Some children must not be vaccinated or have to wait.\n\n
+        &#160;&#160;&#160;·Children who after the previous vaccination against hepatitis B developed an allergic reaction to the vaccine and
+        children who are allergic to any component of the vaccine must not be vaccinated.\n
+        &#160;&#160;&#160;· Children who are seriously ill and have a high fever must wait until they recover.\n\n
+        4. What are the possible adverse reactions to the vaccine?\n\nThe vaccine against hepatitis B is very safe.\n\nMild reactions (which are, in fact, the most commonly recorded) include:\n\n
+        &#160;&#160;&#160;· soreness, redness and hardening of the skin at the site of the injection\n\n
+        Moderate reactions (rare):\n
+        &#160;&#160;&#160;· tiredness, fever, temporary high temperature\n
+        &#160;&#160;&#160;· rash, itching\n
+        &#160;&#160;&#160;·nausea, vomiting, diarrhoea, stomach pain.\n\nThese present not obstacle for further vaccination.\n\nAlthough extremely rare, an allergic reaction may occur several minutes to several hours after the administration of
+        vaccine. The symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, increased heart
+        rate, and vertigo.\n\nIf you notice any of the above symptoms contact the doctor immediately!</string>
+
+    <string name="vaccine_dtap">
+        1. What are diphtheria, tetanus and whooping cough (pertussis)?\n\nDiphtheria, tetanus and whooping cough (pertussis) are dangerous diseases caused by bacteria. Diphtheria and whooping cough
+        are transmitted from person to person. Tetanus can enter the body through a cut or wound.\n\nDIPHTHERIA causes the formation of a thick membrane in the back tissue of the pharynx, which causes difficultly breathing,
+        paralysis, and can stop the heart and lead to death.\n\nTETANUS causes painful muscular contractions throughout the body. It can also cause a blockage of the jaw so that the patient
+        cannot open the mouth or swallow. Tetanus is fatal in one in ten persons. The bacteria enter the body through a cut or wound.\n\nWHOOPING COUGH (pertussis) causes coughing fits that are so violent that they prevent children from eating, drinking or breathing.
+        These severe coughing fits may last for weeks. Complications can lead to pneumonia, convulsions, brain damage and death.\n\n2. What types of vaccine are there against diphtheria, tetanus and pertussis?\n\nThere are two types of vaccines. These vaccines differ only in the composition of one part of the vaccine (antigen) against pertussis:\n\n
+        a) whole cell pertussis vaccine\n
+        &#160;&#160;&#160;· very affective\n
+        &#160;&#160;&#160;· was used for a large number of years\n
+        &#160;&#160;&#160;· caused somewhat more frequent adverse reactions\n\n
+        b) acellular pertussis vaccine\n
+        &#160;&#160;&#160;· In the acellular vaccine, only some important parts of the cell that cause a good immune response are separated, which also
+        provides efficient protection.\n
+        &#160;&#160;&#160;· More rarely leads to severe unwanted reactions.\n
+        &#160;&#160;&#160;· It was developed in an attempt to reduce the adverse reactions of vaccine.\n
+        &#160;&#160;&#160;· The majority of developed countries use exclusively this type of vaccine against pertussis (USA, Canada, UK, Germany, Austria, Italy,
+        Sweden, Belgium, Slovenia, etc.). The acellular type of vaccine is also used in the Republic of Croatia.\n\nWhen are children vaccinated with the DTaP vaccine?\n\nIn order to be protected, children must receive 5 doses of the DTaP vaccine; one at each of the following ages: 2 months, 4 months, 6
+        months, 2 years, 4 years.\n\nThis vaccine can be administered simultaneously with other vaccines that are given at those ages.\n\n3. Some children must not be vaccinated against diphtheria, tetanus and pertussis or have to wait.\n\n
+        &#160;&#160;&#160;· A child who has experienced an allergic reaction to the first dose of DTaP vaccine must not receive a second dose.\n
+        &#160;&#160;&#160;· It is also very important to inform the doctor if the child has ever had febrile convulsion (seizures that come with high fever).\n
+        &#160;&#160;&#160;· Inform the doctor if your child after receiving a DTaP shot:\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- had any kind of adverse reaction\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- had serious reactions (seizure, collapse, reddening of the skin covering more than half of the leg or arm)\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- cried inconsolably and continuously for longer than 3 hours\n
+        &#160;&#160;&#160;&#160;&#160;&#160;- had a fever higher than 40.5 °C\n\nOlder children and adults\n\n
+        &#160;&#160;&#160;· The DTaP vaccine must not be given to adults and children over 7 years of age due to the component against pertussis. However,
+        older children, adolescents and adults have to be revaccinated with DT against diphtheria and tetanus at the ages of 7, 14 and 19,
+        and every ten years after that.\n\n4. What are the possible adverse reactions caused by the DTaP vaccine?\n\nContracting diphtheria, tetanus or whooping cough carries much higher risks that the DTaP vaccine!\n\nAs with every medication, vaccines also carry the risk of adverse reactions. The risk of this vaccine causing severe and very severe
+        reactions is extremely small.\n\nMild reactions (which are, in fact, those most frequently recorded):\n\n
+        &#160;&#160;&#160;· soreness, redness swelling at the site of the infection\n
+        &#160;&#160;&#160;· unusual crying\n
+        &#160;&#160;&#160;· vomiting\n
+        &#160;&#160;&#160;· eating of drinking less that usual\n
+        &#160;&#160;&#160;· restlessness, drowsiness, sleeping more or less than usual\n
+        &#160;&#160;&#160;· high fever\n\nThese occur 48 hours after vaccination. The are not an obstacle to revaccination.\n\nSevere reactions (unusual):
+        &#160;&#160;&#160;· convulsions (seizures caused by fever)\n
+        &#160;&#160;&#160;· inconsolable crying that last continuously for over 3 hours\n
+        &#160;&#160;&#160;· a condition resembling shock (flabbiness and paleness)\n
+        &#160;&#160;&#160;· fever higher than 40.5 °C\n
+        &#160;&#160;&#160;· swelling covering more than half of the leg or arm\n\nThese reaction also occur 48 hours from vaccination, but may also appear after 7 days. Contact your doctor immediately! These
+        are not obstacles to continue vaccination, but your paediatrician will decide when and how.\n\nVery severe reactions (very rare):\n\n
+        &#160;&#160;&#160;· allergic reactions\n
+        &#160;&#160;&#160;· Consciousness disorder (coma, inhibited consciousness) is an extremely rare reaction. This kind of reaction would present and
+        obstacle for continuing the administration of DTaP. If a very severe reaction to the vaccine appears, contact the doctor immediately.\n\nThe majority of adverse reactions usually occur within 1 to 7 days from vaccination and most frequently disappear without any consequences.\n\nWhat if a severe of very severe reactions occurs?\n\nAlthough extremely rare, an allergic reaction may appear several minutes to several hours after administering the vaccine. The
+        symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate, and vertigo. In all these
+        case, the child has to be taken to the doctor as coon as possible!
+
+    </string>
+
+    <string name="vaccine_go_to_know">
+        &lt;b>Protecting children against infectious diseases through vaccination&lt;/b>&lt;br>&lt;br>
+        All of us come into daily contact with many pathogens that can cause serious diseases, damage to the organism and, in the worst
+        cases, death. Vaccination is the greatest success of 20th century medicine. It has saved more lives than any other medical intervention in history.&lt;br>
+        &#160;&#160;&#160;The prevention (immunoprophylaxys) of infectious diseases is carried out in two ways - actively and passively.
+        Active immunoprophylaxys is a procedure that we call vaccination, where the organism is stimulated to develop its own specific
+        defenses against a particular infectious disease. Passive immunoprophylaxis is a procedure where the organism is temporarily protected
+        against a particular disease. Passive immunoprophylaxis is a procedure where the organism is temporarily protected against a particular
+        infection by the provision of ready-made protective antibodies. This paper deals with active immunoprophylaxis - vaccination. Since
+        infectious diseases are frequent and particularly dangerous in infancy and childhood, the vaccination of children is of the greatest
+        significance.&lt;br>&lt;br>
+        &lt;b>Vaccine types&lt;/b>&lt;br>&lt;br>
+        Vaccines may be divided into live and inactivated/killed vaccines. Live vaccines contain attenuated disease-causing viruses which have
+        been subjected to various processes in order to lessen their capacity of causing diseases, while at the same time keeping their capacity
+        to multiply in the tissues or cells of the person who has been vaccinated. These types of vaccines include vaccines against tuberculosis,
+        rubella, measles, mumps and polio. Inactivated vaccines contain dead microorganisms (pertussis vaccine), parts of microorganisms (
+        vaccines against influenza, diphtheria and tetanus toxins, soluble capsular material of pneumococcus, meningococcus and Haemophilus
+        influenzae type b bacteria) or parts of the virus DNA separated through genetic engineering (hepatitis B vaccine). The most important vaccine
+        ingredients are called antigens because the organism of the person being vaccinated creates specific protective anti-bodies against them.
+        The antigens are dissolved in a solvent, most frequently sterilised water, a physiological solution or a composite solvent.&lt;br>&lt;br>
+        &lt;b>Mandatory Immunization Schedule&lt;/b>&lt;br>&lt;br>
+        &lt;a href="http://vaccine-schedule.ecdc.europa.eu/Pages/Schedule.aspx">EU Immunization Schedules&lt;/a>&lt;br>&lt;br>
+        &lt;a href="http://www.cdc.gov/vaccines/schedules/hcp/imz/child-adolescent.html">USA Immunization Schedule&lt;/a>&lt;br>&lt;br>
+        Most of mandatory immunization schedules in EU and USA, contain vaccination against diphtheria, tetanus and pertussis (DTaP),
+        haemophilus influenzae type B, polio, measles, mumps (parotitis) and rubella (MoPaRu), and hepatitis B. Vaccines against chickenpox,
+        streptococcus pneumonia, meningococcal disease and rotavirus infections, also play an important role in preventing infectious diseases
+        in children. These are vaccines that are in some preventing infectious diseases in children. These are vaccines that are in some countries
+        recommended rather than prescribed for children.&lt;br>&lt;br>
+        &lt;b>How often doses vaccination cause reactions?&lt;/b>&lt;br>&lt;br>
+        Most vaccinated children manifest no reaction to the vaccine, or sometimes a very mild reaction, such as a mild fever and soreness at
+        the site of the injection. More serious reactions, such as for example, convulsions, occur very rarely. Very serious reactions to vaccines
+        occur so rarely that it is difficult to assess the risk of their occurrence.&lt;br>&lt;br>
+        &lt;b>What are the symptoms of moderate and severe reactions that a parent should be aware of?&lt;/b>&lt;br>&lt;br>
+        After your child has been vaccinated, pay attention to the appearance of any unusual symptoms, such as high fever (> 40 °C), changes in
+        behaviour and signs of an allergic reaction (difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate,
+        vertigo and weariness). If such reactions occur, call your paediatrician. If he or she is not at work, call the doctor on duty and ask
+        for advice!&lt;br>&lt;br>
+        &lt;b>Vaccination with combination vaccines&lt;/b>&lt;br>&lt;br>
+        &lt;b>1. What are combination vaccines?&lt;/b>&lt;br>\n
+        &#160;&#160;&#160;· All combination vaccines contain several antigens and provide simultaneous protection against several contagious diseases.&lt;br>
+        &#160;&#160;&#160;· Combination vaccines that have been in use for a long time and are used routinely include DTaP against diphtheria, tetanus
+        and pertussis (whooping cough), and MoPaRu against measles, mumps (parotitis) and rubella (German measles). These vaccines were also
+        administered in the past as separate vaccines, so their combination today represent no novelty.&lt;br>&lt;br>
+        &lt;b>2. Why have combination vaccines been developed?&lt;/b>&lt;br>\n
+        &#160;&#160;&#160;Combination vaccines are the future in vaccinating children, because vaccines are being discovered for an increasing number of diseases.&lt;br>
+        &#160;&#160;&#160;· If separate vaccines are used, each child would have to receive 15-19 doses of various vaccines within the first 18
+        months of his or her life.&lt;br>
+        &#160;&#160;&#160;· The administration of combination vaccines offers you and your child significant advantages in comparison with separate vaccines:&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- fewer injections for the child - fewer tears and less pain;&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- fewer visits to the doctor;&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- lower costs than with separate vaccines;&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;- less risk from potential doctors\' mistakes.&lt;br>
+        Combination vaccines are widely used in developed countries. Some countries include combination vaccines in their National Immunization Schedule
+        (UK, Germany, Austria, Belgium, Slovenia), while some countries have introduced recommendations regarding infectious diseases against
+        which children should be vaccinated, and leave the decision on the type of vaccine (single or combination) to the doctor and the parent.&lt;br>&lt;br>
+        &lt;b>3. What are the common characteristics of combination vaccines?&lt;/b>&lt;br>\n
+        &#160;&#160;&#160;· All the components in a single dose of vaccine provide equal protection both in combination and when administered separately.&lt;br>&lt;br>
+        &#160;&#160;&#160;· Combination vaccines do not cause more adverse reactions than separate vaccines. These vaccines have been thoroughly tested,
+        both in clinical studies and by being massively used (for example, in Germany).&lt;br>&lt;br>
+        &lt;b>4. Which combination vaccines are used in Croatia?&lt;/b>&lt;br>\n
+        &#160;&#160;&#160;· In addition to MoPaRu, which has been administered for a long time now, a five-component combination vaccine
+        containing Haemophilus influenzae type b, DTaP (containing the acellular vaccine against pertussis), and the inactivated vaccine against
+        polio is also used in Croatia. There is also a six-component vaccine, consisting of the vaccine against Haemophilus influenzae type b, DTaP (
+        which contains the acellular vaccine against pertussis), the inactivated vaccine against polio, and hepatitis B.&lt;br>&lt;br>
+        &lt;b>5. What are the risks of combination vaccines?&lt;/b>&lt;br>\n
+        &#160;&#160;&#160;· The risks are the same as in using the component parts of these vaccines (DTaP, polio, Hib, hepatitis B) separately,
+        and they are described in the sections dealing with these separate vaccines.&lt;br>&lt;br>
+        &lt;b>6. What if a severe adverse reaction occur?&lt;/b>&lt;br>
+        &#160;&#160;&#160;· Although extremely rare, an allergic reaction may occur several minutes to several hours after the administration of the
+        vaccine. The symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate, and vertigo.&lt;br>
+        &#160;&#160;&#160;· If you notice any of the above symptoms contact the doctor immediately!
+    </string>
+
+    <string name="vaccine_hib">
+        1. What is Hib and what diseases does it cause?\n\nHaemophilus influenzae type b is a bacterial infection that causes a whole range of serious diseases, and is most common in children under 5.\n\n
+        &#160;&#160;&#160;· A child can contract Hib in contact with other children or adults who carry the bacteria, without being aware of it. The germs are transmitted
+        from an adult ir from one child to another by droplets through the air or through secretions from the respiratory system.\n
+        &#160;&#160;&#160;· If the bacteria remain in the child\'s nose or throat, the child will probably not get ill. However, if Hib bacteria spread to other places
+        in the respiratory system or enter the bloodstream, they can cause a very serious disease. Purulent meningitis is the most common disease
+        cause by Hib. It is most common in children under 5 years of age, and the most vulnerable are those from 6 to 11 months old. The disease is fatal
+        in 2-5\%% of patients, and can also leave lasting consequences in the form of mental retardation, deafness and/or speech disorders in 15-30\%%
+        of children who survive the disease.\n\nHib can also cause:\n
+        &#160;&#160;&#160;· pneumonia\n
+        &#160;&#160;&#160;· epiglottitis - an inflammation of the flap in the throat, which can lead to difficulty breathing and suffocation\n
+        &#160;&#160;&#160;· sepsis - presence of bacteria in the blood, which leads to a generally serious conditions: high fever, feebleness, difficulty breathing,
+        paleness, cold extremities, and vomiting\n
+        &#160;&#160;&#160;· purulent join inflammation\n\nBefore the Hib vaccine was introduced within the Mandatory Immunization Schedules of developed countries, this type of bacteria was the leading
+        cause of bacterial meningitis in children younger than 5.\n\n2. How is a child vaccinated against Hib?\n\nVaccination against Hib prevents the onset of diseases caused by this type of bacteria.\n\nWho must be vaccinated and when?\n\n
+        &#160;&#160;&#160;· According to the Vaccination Schedule, children are vaccinated against Hib before they are 5.\n\n3. Some children must not be vaccinated against Hib or have to wait.\n\n
+        &#160;&#160;&#160;· Children who have had an allergic reaction to the previous dose of Hib vaccine must not receive a second dose of the vaccine.\n
+        &#160;&#160;&#160;· Children under 6 months of age must not be vaccinated against Hib.\n
+        &#160;&#160;&#160;· Children with a mild illness, such as a cold, can be vaccinated, However, the vaccination of children who are more seriously ill must be postponed
+        until they completely recover.\n\n4. What are the possible adverse reactions to the vaccine against Hib?\n\nAs in any medication, this vaccine also carries the risk of adverse reactions, such as, for example, allergic reactions. The risk that this
+        vaccine will cause severe or very severe reactions is extremely small. Most Children vaccinated against Hib experience no problems at all.\n\nMild reactions (which are, in fact, those most commonly recorded)\n\n
+        &#160;&#160;&#160;· redness and/or swelling at the site of the injection\n
+        &#160;&#160;&#160;· fever above 38°C\n
+        &#160;&#160;&#160;· loss of appetite, restlessness, vomiting, diarrhoea, unusual crying\n\nIf adverse reactions occur, this usually happens within 1-2 days of vaccination, and they disappear without consequences within 2-3 days.\n\nWhat if a severe adverse reaction occurs?\n\n
+        &#160;&#160;&#160;· Although extremely rare, an allergic reaction can occur several minutes to several hours after the administration of the vaccine.The symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate, and vertigo.\n\nIf you notice any of the above symptoms, contact the doctor immediately!
+    </string>
+
+    <string name="vaccine_ipv">
+        1. What is polio?\n\nPolio is a viral disease that causes severe illness - paralysis (which most frequently incapacitates movement of the arms or legs).\n\n
+        &#160;&#160;&#160;· The virus can also cause the death of the infected person, usually when it causes paralysis of the muscles that facilitate breathing.
+        Before the appearance of the vaccine, polio was a frequent disease, which paralysed and killed thousands of people.\n
+        &#160;&#160;&#160;· The virus enters the organism of the child or adult through the mouth.\n\nVaccination against polio prevents the occurrence of the disease.\nVaccination against polio prevents the insurgence of the disease.\n\n2. What type of polio vaccines are there?\n\nThere are two types of vaccines against polio:\n\n
+        &#160;&#160;&#160;· \"killed\" - inactivated vaccine against polio - IPV - which is administered by injection;\n
+        &#160;&#160;&#160;· \"live\" - oral vaccine against polio - OPV\n
+        - which is administered through the mouth in the form of drops.\n\nBoth vaccines provide immunity against polio and may be administered simultaneously with other vaccines. The Mandatory Immunization Schedule
+        in Croatia uses only the inactivated vaccine (IPV).\n\nWhen are children vaccinated against polio?\n\nIn order to be protected, children must receive 6 doses of the vaccine; one at each of the following ages: 2 months, 4 months, 6 months, 2 years, 7 years, and 14 years.\nOther vaccines can be simultaneously administered at this age (DTaP, Hib, hepatitis B).\n\n3. Some children must not be vaccinated or have to wait\n\n
+        &#160;&#160;&#160;· The inactivated vaccine must not be administered to children allergic to antibiotics such as neomycin. streptomycin or polymyxin B, or
+        children who have had an allergic reaction after being vaccinated against polio.\n
+        &#160;&#160;&#160;· Children who are slightly ill, for example suffering from a cold, can be vaccinated, while the vaccination of children who are moderately
+        or seriously ill has to be postponed until they fully recover.\n\n4. What possible adverse reactions can be caused by the polio vaccine?\n\n
+        &#160;&#160;&#160;· After the administration of the inactivated vaccine (IPV), a skin reaction may appear at the site of the injection, most frequently in the
+        form of redness.\n
+        &#160;&#160;&#160;· Although extremely rare, an allergic reaction can occur several minutes to several hours after the administration of the vaccine.
+        The symptoms include difficulty breathing, hoarseness, paleness, general feebleness, rapid heartbeat and vertigo.\n\nIf you notice any of these symptoms, contact the doctor immediately!
+    </string>
+
+    <string name="vaccine_morapu">
+        1. What are measles, mumps and rubella?\n\n
+        MEASLES is a viral disease characterised by a rash, coughing, runny nose, irritation of the eyes and high fever. Approximately
+        17\%% of those who contract the disease develop one or several complications, such as ear infection, pneumonia, febrile convulsions
+        (seizures caused by high fever), diarrhoea or a brain inflammation (encephalitis).\n\nThe most common complication, pneumonia, occurs in
+        around 6\%% of patients and is the leading cause of death from measles, which, in developed countries, amounts to 1 out of 1000
+        patients, while in developing countries it amounts to as much as 1\%%.\n\n
+        MUMPS also known as parotitis, is also a viral disease. The parotitis virus causes high fever, headache, and swelling of glands. It
+        may also lead to deafness, meningitis, a painful swelling of the testes and ovaries, and, albeit rarely, to death.\n\nRUBELLA (popularly known as German measles) is caused by a virus, and manifests itself in a rash, a moderate fever and an
+        inflammation of the joints (mostly in women). If a woman contracts rubella when she is pregnant, she can have a miscarriage or give
+        birth to a baby with serious physical disabilities.\n\n
+        &#160;&#160;&#160;· A child may very easily contract the disease from an infected person in his or her surrounding, because the viruses are airborne.\n\n2. How is a child vaccinated against measles, parotitis and rubella?\n\nThe vaccine against the carriers of these three diseases is combined into a single injection which is called MoPaRu.\n\nChildren must receive two doses of this vaccine:\n\n
+        &#160;&#160;&#160;· the first around the time they turn one;\n
+        &#160;&#160;&#160;· the second at the age of 6 or 7 (in the 1st grade of primary school), and they can receive it simultaneously with other vaccines.\n\n3. Who must not be vaccinated or must wait?\n\n
+        &#160;&#160;&#160;· Children who are allergic to eggs, gelatin, neomycin antibiotics or to the previous dose of the vaccine against measles, parotitis
+        and rubella must not be vaccinated.\n
+        &#160;&#160;&#160;· The vaccination of moderately or seriously ill children must be postponed until they have completely recovered.\n
+        &#160;&#160;&#160;· In some cases, parents must consult the doctor before vaccinating their child, especially if the defences of the child\'s organism have been
+        weakened for congenital reasons, or as a result of serious diseases or long-term treatment, as well as if the child has had an allergic
+        reaction to eggs.\n
+        Children with unstable neurological diseases.\n\n4. What are the possible adverse reactions to vaccination?\n\nVaccines, just like all medication, may cause adverse reactions, but vaccination against measles, parotitis and rubella is much safer
+        that contracting these diseases. Most children who are vaccinated against these diseases do no experience any problems at all.\n\nMild reactions:\n
+        &#160;&#160;&#160;· redness, soreness or swelling at the site of injection;\n
+        &#160;&#160;&#160;· fever\n
+        &#160;&#160;&#160;· a mild rash.\n\nModerate reactions (rare):\n
+        &#160;&#160;&#160;· swelling of the glands on the face or neck, febrile convulsions - seizures caused by high fever, irritability, infection of the upper
+        respiratory system, diarrhoea\n\nSevere side effects (rare):\n
+        &#160;&#160;&#160;· aseptic meningitis or allergic reactions, which may be more or less severe.\n\n
+        If you notice any of the above symptoms, contact the doctor immediately. Your doctor will decide whether to continue administering this vaccine.
+    </string>
+
+    <string name="vaccine_optional_bcg">
+        1. What is tuberculosis (TBC)?\n\nMany developed countries have abolished vaccination against tuberculosis. Since tuberculosis still occurs in Croatia, the vaccination
+        continues. Tuberculosis affects all organs, most frequently the lungs. It is spread by droplets through the lungs. It is spread by droplets
+        through the air, through coughing. The disease is most critical when it occurs in very young children.\n\n2. Normal reaction at the spot where the TBC vaccine was administered.\n\nA blister appears on the forearm immediately after vaccination, which disappears after a few hours. In the 2-3 weeks that follow,
+        nothing in particular happens at the spot of the vaccination, but then a small purple node begins to appear. The central part of this node
+        can secrete a little moisture. After that time, the node heals leaving a small scar, which will remain for life as a reminder of the vaccination.\n\n3. Some children must not be vaccinated against tuberculosis, or they have to wait.\n\n
+        &#160;&#160;&#160;· A child with a weakened immune system must not be vaccinated.\n
+        &#160;&#160;&#160;· Inform the doctor in the maternity hospital if anyone in your new born\'s family has had an impaired immune system.\n\n4. What adverse reactions can the TBC vaccine cause?\n\nThis vaccine is one of the safest. Mild reactions (which are, in fact, those most frequently recorded) include:\n\n
+        &#160;&#160;&#160;· A slightly stronger inflammation of the nearby lymph node in the armpit or above the clavicle, called BCGitis. This
+        condition usually disappears spontaneously.\n
+        &#160;&#160;&#160;· If a moisture discharge appears from the lymph node, a surgical intervention on the node will be necessary.\n\nThis is not an obstacle for revaccination with the same vaccine.\n\n5. What if there is an allergic reaction?\n\nAlthough extremely rare, an allergic reaction can occur a few minutes to several hours after the administration of the vaccine.
+        The symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate, and vertigo.
+        If you notice any of these symptoms, contact the doctor immediately!
+
+    </string>
+
+    <string name="vaccine_optional_streptococcus">
+        1. What is Streptococcus pneumoniae and which diseases does it cause?\n\n
+        The Streptococcus pneumoniae bacteria, also called pneumococcus, are a frequent cause of various infectious diseases.
+        In children this is usually meningitis, pneumonia and ear infection (otitis media), which may frequently lead to complications.\n\n
+        Who can become infected?\n\n
+        Anyone can become infected, and especially young children, persons over 65 years of age, as well as persons suffering from heart,
+        lung and kidney diseases, diabetics, alcoholics and persons suffering from malignant diseases.\n\n
+        Vaccination against S. pneumoniae can prevent the occurrence of serous forms of disease caused by these bacteria. Due to the growing resistance of these bacteria to
+        antibiotics, treatment is becoming increasingly hard, which justifies the prevention of these diseases through vaccination.\n\n
+        2. How is a child vaccinated against S. pneumoniae? (for children over 2 years of age)\n\n
+        The polysaccharide vaccine against pneumococcus protects against 23 types of S. pneumoniae. A healthy person will develop an immune
+        response to most of these types of bacteria within 2-3 weeks after vaccination.\n\n
+        Who can be vaccinated and when?\n\n
+        The vaccine can be administered to all healthy children, but it is particularly recommended for children at high risk (children
+        whose spleen has been removed, or those suffering from diabetes, chronic liver disease, or diseases leading to liquor leakage,
+        children with a hearing aid, children with congenital immunodeficiency, HIV infection, nephritic syndrome, malignant diseases of blood
+        producing organs, children undergoing therapy with corticosteroids and immunosuppressives, children after an organ or bone marrow
+        transplant).\n\nWhen are they vaccinated?\n\n
+        &#160;&#160;&#160;· The vaccine can be administered to children over 2 years old age. A single dose of vaccine is recommended for healthy children.\n
+        &#160;&#160;&#160;· Children with a compromised immune system are administered the vaccine in two doses. If they are under 10 years of age, the second dose
+        will be administered 5 years after the first one.\n
+        &#160;&#160;&#160;· Healthy adults are vaccinated with a single dose of the vaccine. The vaccine may be administered simultaneously with other vaccines
+        in children.\n\n3. Some children must not be vaccinated or have to wait.\n\n
+        &#160;&#160;&#160;· Children who experienced an allergic reaction to the previous dose of vaccine against pneumococcus must not receive a second dose of
+        this vaccine.\n
+        &#160;&#160;&#160;· The vaccination of moderately or seriously ill children must be postponed until they fully recover.\n\n
+        4. What are the possible adverse reactions to the vaccine?\n\n
+        &#160;&#160;&#160;· On average, about half of the vaccinated persons experience mild reactions, such as redness and soreness at the site of injection.
+        These reactions are temporary and do not leave any consequences.\n
+        &#160;&#160;&#160;· Less than 1\%% of vaccinated persons may experience high fever, muscle pain, or more severe local reactions. This vaccine, just like any
+        other medication, may also cause an allergic reaction.\n\n
+        What if a severe adverse reaction occurs?\n\nAlthough extremely rare, an allergic reaction can occur several minutes to several hours after the administration of the vaccine. The
+        symptoms include difficulty breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate, and vertigo. If you notice
+        any of the above symptoms, contact the doctor immediately!\n\n
+        5. How is a child vaccinated against S. pneumoniae? (children between 2 months and 2 years)\n\n
+        The purpose of the 13-valent conjugate vaccine against the pneumococcus disease is to provide active immunization against invasive diseases
+        (sepsis, meningitis, a bacterial form of pneumonia and bacteraemia) caused by serotypes 1, 3, 4, 5, 6A, 6B, 7 F, 9V, 14, 18C, 19 A, 19F and
+        23F Streptococcus pneumoniae in infants and young children between the age of 2 months and 2 years, and in high-risk patients between
+        the age of 2 and 5.\n\n
+        The administration of this vaccine may significantly reduce the frequency of invasive pneumococcus disease caused
+        by these vaccine strains, and there are data that show that this vaccine also decreases the frequency of pneumonia and, to a smaller
+        extent, otitis media. According to limited data, the strains of pneumococcus included in the vaccine cause around 90\%% of invasive pneumococcal
+        infections in north-west Croatia.\n\n
+        The vaccine is administered in the form of an intramuscular injection. It is recommended to administer the vaccine in the outer area
+        of the thigh in infants, or in the shoulder muscle of the forearm in young children. Infants from 2 to 6 months are vaccinated in
+        three doses of 0.5ml each. The first dose is usually administered at 2 months, and the remaining two doses at a minimum of 1 month between doses.\n\n
+        Thus, vaccinated infants are revaccinated within their second year of life (15 to 18 months). Previously unvaccinated older infants and
+        young children infants from 7 to 11 months are administered two doses of 0.5ml each, at a minimum of 1 month between doses, followed
+        by the booster vaccination (revaccination) between the age of 15 and 18 months.\n\n
+        Children between 12 and 23 months are administered two
+        doses of 0.5ml each, at a minimum of 2 months between doses. Children between 24 months and 5 years are administered the vaccine in a
+        single dose. \n\n
+        6. What are the possible adverse reactions to the vaccine?\n\n
+        The side effects of this type of pneumococcal vaccine may, just like other vaccines, be divided into local and systemic side effects.
+        The local side effects are redness at the site of the injection in 12.1\%%, 14.0\%% and 15.2\%% of vaccinated persons within the primary vaccination
+        cycle after the first, second and third dose respectively.\n\n
+        Therefore, there is a growing tendency of local reactions occurring with
+        each of the received doses. Significant redness has been defined as redness larger than 2.4 cm in diameter, which has been recorded
+        in only 2\%% of vaccinated infants.\n\n
+        Local hardening of the skin (induration) has been recorded in 10.7\%%, 12.4\%% and 12.1\%% of vaccinated
+        persons within the primary vaccination cycle (1st, 2nd and 3rd dose), while local soreness was recorded in 25.2\%%, 22.9\%%, and 22.3\%% of
+        vaccinated persons. It can be concluded that the incidence of these local side effects, as opposed to redness, does not grow with
+        the number of administered doses.\n\n
+        After revaccination, redness was recorded in 12.6\%%, hardening in 11.2\%%, and local soreness in 30.4\%%
+        of vaccinated subjects. However, the frequency of significant local side effects after revaccination is low and amounts to 1.7\%%
+        (redness larger than 2.4 cm), 3.2\%% (hardening), and 13.8\%% (local sensitivity).\n\n
+        The percentage of vaccinated subject experiencing
+        a fever higher than 39 °C amounted to only 1-3\%%. The percentage of systemic side effects after revaccination at the age of 12 to 15
+        months is not significantly different from that after a series of primovaccination.\n\n
+        The simultaneous administration of this vaccine with other paediatric vaccines is possible, and the observed interactions are not
+        clinically significant.\n\n
+        7. Who must not be vaccinated?\n\n
+        Counter indications for the administration of this vaccine include over sensitivity to active and auxiliary matters and to the
+        diphtheria toxoid. The administration of this vaccine must be postponed in persons with an acute infective disease.\n\n
+        The vaccine must
+        not be administered to children suffering from thrombocytopenia or other blood clotting disorders, which can be a counter indication
+        for the administration of intramuscular injections. In children with a weak immune response, the creation of specific antibodies after
+        immunisation with this vaccine may be reduced.\n\n
+        The preventive administration of fever reducing medication is recommended for children with convulsive disorders or who have previously
+        experienced febrile seizures (convulsions).
+    </string>
+
+    <string name="vaccine_optional_chickenpox">
+        1. What is chickenpox?\n\nChickenpox is a common child disease. It usually manifests itself in a mild form, but it can also occur in a mild form, but it can
+        also occur in a more serious form, especially in very young children and adults.\n\n
+        &#160;&#160;&#160;· The varicella zoster virus is transmitted from person to person through the air or through contact with the liquid from the skin
+        vesicles.\n
+        &#160;&#160;&#160;· In children, pneumonia and encephalitis caused by the varicella zoster virus are extremely rare. Death can only occur in
+        children with a compromised immune system.\n
+        &#160;&#160;&#160;· The scars that are left in the place of the vesicles disappear in a few weeks, and permanents scars occur only if the vesicles
+        are additionally infected with bacteria (most commonly streptococcus or staphylococcus).\n\n2. How is a child vaccinated against chickenpox?\n\nVaccination against chickenpox prevents the occurrence of the disease. Most vaccinated children will not contract chickenpox.If such children are infected. the disease will be very mild and they will recover much faster.\n\nWho should be vaccinated and when?\n\n
+        &#160;&#160;&#160;· The vaccine is administered to children over 12 months of age, and it is recommended to be administered in two doses 6-10 weeks
+        apart. Until recently, children received only one dose, but due to the increased aggressiveness of the virus, some of the vaccinated
+        children contracted the disease anyway. For that reason, a recommendation was issued in 2012 for the introduction of a booster dose.\n
+        &#160;&#160;&#160;· Children older than 13 and adults must also receive 2 doses, 6-10 weeks apart. The vaccine against chickenpox may be administered
+        simultaneously with other vaccines.\n\n3. Some children must not be vaccinated against chickenpox or have to wait.\n
+        &#160;&#160;&#160;· Children who previously in their lives experienced an allergic reaction to eggs, gelatine, neomycin antibiotic (for those who are
+        supposed to receive two doses of vaccine) or to the previous dose of vaccine against chickenpox must not be vaccinated.\n
+        &#160;&#160;&#160;· Pregnant women must not be vaccinated with this vaccine. A woman vaccinated against chickenpox must wait at least 3 months before
+        getting pregnant.\n
+        &#160;&#160;&#160;· Children with a compromised immune system must not be vaccinated\n\n4. What are the possible adverse reactions to the vaccine against chickenpox?\n\nAs with any other medication, vaccines can also cause adverse reactions. The risk that this particular vaccine will cause severe reactions
+        is extremely small. Most persons vaccinated against chickenpox experience no side effects.\n\nMild reactions (which are, in fact, most commonly recorded) include:\n\n
+        &#160;&#160;&#160;· soreness, swelling and redness at the injection site\n
+        &#160;&#160;&#160;· high temperature\n
+        &#160;&#160;&#160;· a mild rash\n
+        &#160;&#160;&#160;· an extremely rare possibility of infecting another person (only in children with a weakened immune system)\n\nWhat if an allergic reaction occurs? \n\nAlthough extremely rare, an allergic reaction can occur several minutes to several hours after the administration of the vaccine.
+        The symptoms include difficulty breathing, hoarseness, a rash paleness, general feebleness, rapid heart rate, and vertigo.  If you notice
+        any of the above symptoms, contact the doctor immediately!
+    </string>
+
+    <string name="vaccine_optional_flu">
+    1. What is flu?\n\n
+        Flu or influenza is an infectious disease caused by the influenza virus. In itself, flu is not a dangerous disease, although it can
+        lead to serious complications which can even be fatal. The symptoms appear suddenly and cause high fever, chills, sore muscles and a
+        strong headache. Often this is accompanied by secretion from the nose and a strong cough that may last for weeks.\n\n
+        &#160;&#160;&#160;· Flu is very contagious (1 passenger with flu symptoms in an airplane can infect up to 27% of other passengers). You can contract
+        it by breathing the air near someone coughing or sneezing, if you are in close contact with a person who has got the flu, or if you
+        touch an infected object and thus transfer the virus into your respiratory tract.\n
+        &#160;&#160;&#160;· Children are more contagious than adults and they spread the flu virus for longer. They are also more frequently hospitalised for
+        flu than for other contagious diseases, most commonly when they are younger than two. \n\n
+        Who can get the flu?\n\n
+        Anyone can get the flu, including people wor are generally in good health. Also, if you have the flu, you can inadvertently pass it
+        on others, because 1-4 days can go by before the first symptoms appear, and we are contagious for as many as 5 days after the
+        symptoms occur.\n\n
+        2. How is a child vaccinated against the flu?\n\n
+        Vaccination prevents the onset of the flu. Vaccination is done before the flu season (October, November); for children under
+        7 is it administered in two doses 4-6 weeks apart. Vaccination must be repeated every year since the flu virus mutate every year.\n\n
+        Who should be vaccinated against the flu?\n\n
+        Children with chronic diseases belong to the high-risk group of persons who can develop life-threatening complications from being
+        infected with flu, and they should be vaccinated against the flu. In order to protect high-risk children, persons who come into
+        contact with them should also be vaccinated!\n\n
+        &#160;&#160;&#160;· All children between 6 and 23 months and the members of their families should be vaccinated;\n
+        &#160;&#160;&#160;· patients of institutions for the care of patients with chronic diseases;\n
+        &#160;&#160;&#160;· children with chronic lung diseases (asthma, cystic fibrosis, bronchopulmonary dyslasia);\n
+        &#160;&#160;&#160;· children with congenital heart diseases, kidney diseases, hemoglobinopathy, diabetic children, children with a compromised immune
+        system (including HIV infection);\n
+        &#160;&#160;&#160;· children and adolescents on long-term aspirin therapy;\n
+        &#160;&#160;&#160;· persons who spend extensive time in contact with children with chronic illnesses (parents, carers);\n
+        &#160;&#160;&#160;· persons over 65 years od age;\n
+        &#160;&#160;&#160;· all those who wish to avoid the flu.\n\nWhen should one be vaccinated against the flu?\n\n
+        Both children and adults must be vaccinated every year before the beginning of the flu season (from September to November), although it
+        is not to late even during the season (from November to April; most commonly from the end of December to March). Protection is
+        acquired one to two weeks after vaccination.\n\nWhy do we have to vaccinate every year?\n\nFlu viruses constantly mutate. As a rule, new strains of the flu virus appear each season. The most active viruses for each season.
+        The most active viruses for each season are determined by the World Health Organization and they are included in the composition of the
+        vaccine that is produced for the coming season.\n\n3. Some children must not be vaccinated against the flu.\n\n
+        &#160;&#160;&#160;· Children under 6 months of age\n
+        &#160;&#160;&#160;· Children who have had an allergic reaction to eggs or to the vaccine against the flu\n
+        &#160;&#160;&#160;· Children who are moderately or seriously ill have to wait until they fully recover.\n\n
+        4. What adverse reactions can be caused by the flu vaccine?\n\nAs with every medication, vaccines also carry the risk of adverse reactions. The risk that this vaccine will cause severe reactions
+        is extremely small. Most persons vaccinated against the flu do not experience any adverse reactions.\n\n
+        Mild reactions (which are, in fact, the most commonly recorder) include:\n\n
+        &#160;&#160;&#160;· soreness, swelling and redness at the site of the injection\n
+        &#160;&#160;&#160;· high fever\n\nSevere allergic reactions are very rare. Although extremely rare, an allergic reaction can occur several minutes to several hours after
+        the administration of the vaccine. The symptoms include breathing difficulty, hoarseness, a rash, paleness, general feebleness, rapid
+        heart rate, and vertigo.\n\nIf you notice any of these symptoms, contact the doctor immediately! For all other information about vaccination against the flu,
+        ask your doctor.
+    </string>
+
+    <string name="vaccine_optional_hepatitis_a">
+        1. What is hepatitis A?\n\n
+        Hepatitis A is an inflammatory disease of the liver caused by the hepatitis A virus. The disease begins with general symptoms,
+        such as fever, feebleness, vomiting, diarrhoea, and only every 4th infected person turns yellow!\n\n
+        &#160;&#160;&#160;· In around 25\%% of infected persons, the skin and whites of the eyes turn yellow, the urine becomes darker, and the stool
+        lighter in colour.\n
+        &#160;&#160;&#160;· After 1 to 2 weeks, the symptoms of the disease disappear, but full recovery takes longer; in some patients as long as 6-12 months. \n
+        &#160;&#160;&#160;· The incubation period after being infected with the hepatitis A virus is between 15 to 60 days.\n
+        &#160;&#160;&#160;· The hepatitis A virus is spread through dirty hands and contaminated food and water. The infection very frequently occurs within
+        a community (kindergarten, school, family).\n
+        &#160;&#160;&#160;· Vaccination is recommended as a safe form of protection against contracting hepatitis A.\n\n
+        2. Who is subject to vaccination?\n\n
+        Children at very high risk, or if travelling to high-risk areas where hepatitis A is an endemic disease (very common).\n\n
+        3. How is a child vaccinated against hepatitis A?\n\n
+        To achieve complete protection, two doses of vaccine have to be administered at any age, starting from the age of one. The second dose
+        should be administered 6 to 12 months after the first dose.\n\n
+        4. Some children must not be vaccinated or have to wait.\n
+        &#160;&#160;&#160;· Children who developed an allergic reaction to the vaccine after the first vaccination against hepatitis A and children who are allergic
+        to any component of the vaccine must not be vaccinated.\n
+        &#160;&#160;&#160;· Children who have a mild illness, such as, for example, a cold, may be vaccinated, but the vaccination against hepatitis A of children
+        who are more seriously ill and have a high fever must be postponed until they fully recover.\n\n
+        5. What are the possible adverse reactions to the vaccine?\n\n
+        The vaccine against hepatitis A is very safe. If any adverse reactions occur, they are, in most cases, very mild:\n
+        &#160;&#160;&#160;· soreness and redness at the site of the injection\n
+        &#160;&#160;&#160;· temporary fever, headache, tiredness, chills, nausea, and loss of appetite.\n\n
+        More severe adverse reactions, such as allergic reactions, are very rare.\n\n
+        What if a severe adverse reaction occurs?\n\nAlthough extremely rare, an allergic reaction can occur several minutes to several hours after
+        the administration of the vaccine. The symptoms include difficulty breathing, hoarseness, a rash, general feebleness, increased
+        heart rate, and vertigo.\n\n
+        If you notice any of the above symptoms, contact the doctor immediately!\n\n
+        Vaccination against hepatitis A and B in a single injection\n\n
+        1. What is a combination vaccine against hepatitis A and B?\n\n
+        Today it is possible to protect both children and adults from being infected by the virus of hepatitis A and hepatitis B through a single
+        combination vaccine. Vaccination is recommended as a safe form of simultaneous protection from contracting hepatitis A and hepatitis B.\n\n
+        2. How can a child be simultaneously vaccinated against hepatitis A and hepatitis B?\n\n
+        The simultaneous vaccination scheme against hepatitis A and hepatitis B includes three doses of a combination vaccine which the child must
+        receive in order to be protected fully and for a long time against these two viral infections of the liver.\n
+        &#160;&#160;&#160;· The first and the second dose of the vaccine are administered within a period of one month, and the third dose is administered 5 months
+        after the second dose. You must consult your doctor regarding the need for subsequent revaccination.\n\n
+        3. Some children must not be vaccinated or have to wait.\n
+        &#160;&#160;&#160;· Children who developed an allergic reaction to the vaccine after the previous vaccination against hepatitis A and hepatitis B, and children
+        who are allergic to any component of the vaccine must not be vaccinated.\n
+        &#160;&#160;&#160;· Children who have a mild illness, such as a cold, may be vaccinated, but the vaccination of children who are more seriously ill and
+        have a high fever must be postponed until they fully recover.\n\n
+        4. What are the possible adverse reactions to the vaccine?\n\n
+        &#160;&#160;&#160;· The adverse reactions are identical to those that may occur after the separate use of the component parts of this vaccine (hepatitis A
+        and hepatitis B), and they are described in the sections dealing with the separate vaccines.
+    </string>
+
+    <string name="vaccine_optional_rota_virus">
+        1. What do rota viruses cause?\n\n
+        Rota viruses are the most common cause of a severe form of gastroenteritis in infants and young children. The disease manifests itself
+        by vomiting, diarrhoea and high fever and lasts for 4-8 days. Serious cases are characterised by dehydration and an electrolytic imbalance,
+        where hospitalisation of the diseased is necessary.\n\n
+        Rota viruses are omnipresent and 95 %% of children are infected by the age of 3-5.
+        It is estimated that as many as 3.6 million children under 5 years of age contract this disease in the European Union, around 50,000 of
+        whom are hospitalised, and 231 children die as a consequence of the infection.\n\n
+        The greatest number contract the disease at an age between
+        6 and 24 months, but the infection is not rare in early infancy, when the danger from a serious form of the disease and consequent
+        hospitalisation is the greatest. Rotaviral infections in most developed countries usually occur during the winter months, most
+        commonly from October to April. \n\n
+        2. Paths of transmission\n\nRota viruses are highly contagious and are mainly through fecal-oral paths, but it is considered that the infection can also be spread by
+        droplets (air) and through contaminated surfaces. The virus is transmitted regardless of the sanitary conditions.\n\n
+        The improvement of the socio-economic situation, water quality, sewage systems and hygiene in developed countries have not succeeded in significantly suppressing
+        the spread of the infection. The infection usually appears among office personnel, but epidemics in hospital paediatric wards are also
+        common, as well as in outpatient clinics and IC units, where the spread of the infection is particularly difficult to control.\n\n
+        In such cases, the consequences for the hospitalised child can be fatal, and the extension of hospitalisation significantly increases the costs of
+        treatment. The virus can survive several hours on unclean hands, while in food or hard surfaces, such as toys, it can even survive up to
+        several days.\n\n
+        3. Clinical picture\n\nIn children under 5, the clinical picture can vary from mild short-lasting diarrhoea to severe gastroenteritis leading to a drop in blood
+        pressure, circulatory collapse and death. The symptoms usually last several days and diarrhoea disappears spontaneously.\n\n
+        However, a severe
+        form of the infection can rapidly progress and cause life-threatening dehydration which required urgent intravenous rehydration. After an
+        incubation period of 12 hours to 4 days, diarrhoea and vomiting occur and last for 4-8 days. High fever and stomach pain are also common.
+        The first infection is usually the most severe one, while the symptoms weaken at each subsequent infection.\n\n
+        5. Vaccination recommendations\n\n
+        The guidelines of two European umbrella associations, the European Society for Paediatric Infectious Diseases (ESPID) and the European Society
+        for Paediatric Gastroenterology, Hepatology and Nutrition (ESPGHAN), claim that due to the unacceptable degree of morbidity and mortality
+        caused by RV infections in Europe, early vaccination, before the first rota virus infection, could prevent most occurrences of the severe
+        form of the disease and its consequences for healthy children.\n\n
+        For this reason, vaccination is recommended for each healthy child in Europe.
+        Moreover, it is to be expected that vaccination against rota virus infection will also protect the adult population, which is especially
+        important for older and immunocompromised persons.\n\nPursuant to these efforts, at the beginning of 2008 in Croatia, a National Committee for
+        the promotion of the Prevention of Rotavirus infections in children was founded.\n\n
+        6. About vaccines\n\n
+        Two live attenuated vaccines against RV for oral administration are available in the markets in Europe and Croatia (Rotarix&#174;; GSK Biologicals
+        and RotaTeq&#x2122;; SPMSD).\n\n
+        Rotarix&#174; is administered in only two oral doses.\n\n
+        &#160;&#160;&#160;· The first dose can be administered from the age of 6 weeks. It is recommended to complete the vaccination by the 16th week, but it must be
+        completed at the latest by the age of 24 weeks.\n\n
+        It can be administered simultaneously with all monovalent or combination vaccines that are used in infancy during the same visit, including
+        the hexavalent and pneumococcus vaccine. It is proven to efficiently protect against 5 of the most common strains of rotaviruses.\n\n
+        In 96 %% of cases, it ensures protection against a severe form of rotaviral gastroenterocolitis in the first year after vaccination.\n\n
+        In 100 %% of cases, it provides protection against hospitalisation due to severe rotaviral gastroenterocolitis within the first year after vaccination. It provides
+        protection against in the first two years of a child\'s life, when the child is at greatest risk.\n\n
+        The side effects most commonly reported during the conducted clinical tests were irritability and loss of appetite (1/10). An extensive test also showed that here is no increased risk of
+        intussusception (the telescoping of one segment of intestine into another after vaccination with this vaccine.\n\nThe other vaccine RotaTeq&#x2122; has similar characteristics, except that it is administered in 3 doses. The first dose is administered between
+        the 6th and 12th week of a child\'s life.\n\n
+        A minimum of four weeks must go by between doses. It is recommended to administer all three doses before
+        the 20th - 22nd week. All three doses must certainly be administered by the 26th week of a child\'s life.
+    </string>
+
+    <string name="vaccine_optional_tick_borne">
+        1. What is tick-borne meningoencephalitis?\n\nTick-borne meningoencephalitis is a viral inflammation of the brain and its membranes, which in children usually passes without leaving any
+        permanent consequences.\n\n
+        &#160;&#160;&#160;· The carrier of the virus is an infected forest tick or common tick (Ixodes ricinus).\n
+        &#160;&#160;&#160;· This is mainly a seasonal disease, which begins in March, becomes less common during the summer months and then again occurs more frequently
+        in early autumn.\n
+        &#160;&#160;&#160;· The incubation period is from 1 to 2 weeks, after which a high fever occurs accompanied by feebleness and tiredness. This is followed by a
+        permanent or temporary improvement, after which encephalitis or meningoencephalitis can occur accompanied by high fever, impaired consciousness,
+        strong headaches and other disorders. Children usually fully recover from this disease and do not suffer significant complications or permanent
+        consequences. \n\n2. Who should be vaccinated?\n\nPersons who visit areas where there are ticks infected with the virus causing spring-summer tick-borne meningoencephalitis (north-west Croatia,
+        north of the River Sava).\n\n3. How is a child vaccinated against tick-borne meningoencephalitis?\n\n
+        &#160;&#160;&#160;· A child can be protected against this disease by being vaccinated with an inactivated (killed) vaccine, which is administered in three doses.\n
+        &#160;&#160;&#160;· A period of 2 weeks to 3 months must go by between the first and second dose, and a period of 9 to 12 months between the second and third dose.\n
+        &#160;&#160;&#160;· Children above 1 year of age can be vaccinated. \n
+        The vaccine may be administered to children simultaneously with other vaccines.\n
+        &#160;&#160;&#160;· A booster dose is necessary after 3 years.\n\n4. Some children must not be vaccinated against tick-borne meningoencephalitis or have to wait.\n\n
+        &#160;&#160;&#160;· Children who are allergic to any component of the vaccine, or who had at some time experienced a serious allergic reaction to eggs must not be
+        vaccinated. \n\n5. What are the possible adverse reactions caused by the vaccine against tick-borne meningoencephalitis?\n\nAs with any other medication, vaccines can also cause adverse reactions. The risk that this particular vaccine will cauase severe or very severe
+        reactions is extremely small.\n\n
+        Vaccination can lead to some adverse reactions\n\n
+        &#160;&#160;&#160;· of local character in the form of redness and swelling at the site of the injection, and swelling of the surrounding lymph nodes\n
+        &#160;&#160;&#160;· generic reactions such as tiredness, soreness in the arm or leg, nausea, headache, increased bodily temperature or a temporary rash.\n\nWhat if a severe adverse reaction occurs?\n\n
+        &#160;&#160;&#160;· Although extremely rare, an allergic reaction may occur several minutes to several hours after the administration of the vaccine. The symptoms
+        include difficulty in breathing, hoarseness, a rash, paleness, general feebleness, rapid heart rate and vertigo.\n\nIf you notice any of the above symptoms, contact your doctor immediately!
+    </string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_1">BCG, dose: %1$d</string>
+    <string name="vaccine_2">DTaP, dose: %1$d</string>
+    <string name="vaccine_3">IPV: Inactivated Polio Vaccine, dose: %1$d</string>
+    <string name="vaccine_4">Hib, dose: %1$d</string>
+    <string name="vaccine_5">MO-PA-RU: Measles, mumps and rubella, dose: %1$d</string>
+    <string name="vaccine_6">Hepatitis B, dose: %1$d</string>
+    <string name="vaccine_7">Hepatitis A, dose: %1$d</string>
+    <string name="vaccine_8">Chickenpox, dose: %1$d</string>
+    <string name="vaccine_9">Tick-borne meningoencephalitis</string>
+    <string name="vaccine_10">Streptococcus pneumoniae - pneumococcus, dose: %1$d</string>
+    <string name="vaccine_11">FLU</string>
+    <string name="vaccine_12">ROTA VIRUS, dose: %1$d</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_next_1">Hepatitis B</string>
+    <string name="vaccine_next_2">DTaP</string>
+    <string name="vaccine_next_3">IPV: Inactivated Polio Vaccine</string>
+    <string name="vaccine_next_4">Hib</string>
+    <string name="vaccine_next_5">MO-PA-RU: Measles, mumps and rubella</string>
+
+    <!-- Vaccine list  -->
+    <string name="vaccine_optional_1">BCG</string>
+    <string name="vaccine_optional_2">Streptococcus pneumoniae - pneumococcus</string>
+    <string name="vaccine_optional_3">ROTA VIRUS</string>
+    <string name="vaccine_optional_4">FLU</string>
+    <string name="vaccine_optional_5">Hepatitis A</string>
+    <string name="vaccine_optional_6">Chickenpox</string>
+    <string name="vaccine_optional_7">Tick-borne meningoencephalitis</string>
+
+
+    <!-- Add entry feeding -->
+    <string name="add_feeding_menu">Save</string>
+    <string name="add_feeding_ml">Amount (ml)</string>
+    <string name="add_feeding_fl">Amount (fl)</string>
+    <string name="add_feeding_min">Time (min)</string>
+    <string name="feed_1">Bottle</string>
+    <string name="feed_2">Left Breast</string>
+    <string name="feed_3">Right Breast</string>
+    <string name="feed_4">Other</string>
+
+    <string name="feed_group_main">Last - %1$s · %2$s min</string>
+    <string name="feed_group_left">Left</string>
+    <string name="feed_group_right">Right</string>
+
+    <!-- Sleeping feed -->
+    <string name="sleeping_feed_name">Sleeping</string>
+    <string name="sleeping_feed_title_list_empty">Add the first dot</string>
+    <string name="sleeping_feed_content_list_empty">In order to sleep well, %1$s\nshould have a sleeping routine.\nFollow %1$s\'s sleeping habits on\nthe path to while night sleep.</string>
+
+    <!-- Add sleeping feeding -->
+    <string name="add_sleeping_menu">Save</string>
+    <string name="add_sleeping_ml">Hours slept (h)</string>
+
+    <!-- Diapers feed -->
+    <string name="diapers_feed_name">Stool/pee</string>
+    <string name="diapers_feed_title_list_empty">Add the first dot</string>
+    <string name="diapers_feed_content_list_empty">Wet or dirty, diapers tell much\nabout what is going on with\n%1$s\'s health.</string>
+
+
+    <!-- Diapers list -->
+    <string name="diapers_pee">Pee</string>
+    <string name="diapers_poo_1">Soft poo</string>
+    <string name="diapers_poo_2">Semi-soft poo</string>
+    <string name="diapers_poo_3">Regular poo</string>
+    <string name="diapers_poo_4">Semi-hard poo</string>
+    <string name="diapers_poo_5">Hard poo</string>
+
+    <!-- Diapers list -->
+    <string name="diapers_poo_group_1">Soft</string>
+    <string name="diapers_poo_group_2">Semi-soft</string>
+    <string name="diapers_poo_group_3">Regular</string>
+    <string name="diapers_poo_group_4">Semi-hard</string>
+    <string name="diapers_poo_group_5">Hard</string>
+
+    <!-- Growth feed -->
+    <string name="growth_feed_name">Growth</string>
+    <string name="growth_feed_title_list_empty">Add the first dot</string>
+    <string name="growth_feed_content_list_empty">Is %1$s growing at the right pace?\nGet feedback for key growth\nareas - weight, height and BMI. </string>
+    <string name="growth_menu_1">Growth Curves</string>
+    <string name="growth_menu_2">Body Mass Index</string>
+
+    <!-- Feeding feed -->
+    <string name="feeding_feed_name">Feeding</string>
+    <string name="feeding_feed_title_list_empty">Add the first dot</string>
+    <string name="feeding_feed_content_list_empty">Feeding is the most important part\nof %1$s\'s development. Know\nwhat makes %1$s healthy.</string>
+    <string name="feeding_feed_item_left">Left %1$d min</string>
+    <string name="feeding_feed_item_right">Right %1$d min</string>
+    <!-- Sickness feed -->
+    <string name="sickness_feed_name">Sickness</string>
+    <string name="sickness_feed_title_list_empty">Add the first dot</string>
+    <string name="sickness_feed_content_list_empty">Vomiting, diarrhea, stuffy nose...\nDot all the troubles %1$s\nis getting through.</string>
+
+    <!-- Medicine feed -->
+    <string name="medicine_feed_name">Medicine</string>
+    <string name="medicine_feed_title_list_empty">Add the first dot</string>
+    <string name="medicine_feed_content_list_empty">Medicines require responsibility.\nKnow the dosage for popular\nmedicines and dot each medicine\n %1$s is taking.</string>
+    <string name="hint_add_entry">Please, write here...</string>
+
+    <!-- Add entry Growth -->
+    <string name="add_growth_menu">Save</string>
+    <string name="add_growth_weight">Weight (kg)</string>
+    <string name="add_growth_weight_pounds">Weight (lb)</string>
+    <string name="add_growth_height">Height (cm)</string>
+    <string name="add_growth_height_inches">Height (in)</string>
+    <string name="add_growth_head">Head circumference (cm)</string>
+    <string name="add_growth_head_inches">Head circumference (in)</string>
+
+    <string name="growth_weight">Weight</string>
+    <string name="growth_height">Height</string>
+    <string name="growth_head">Head Circumference</string>
+
+    <!-- Milestone feed -->
+    <string name="milestone_feed_name">Special moments</string>
+    <string name="milestone_feed_title_list_empty">Add the first dot</string>
+    <string name="milestone_feed_content_list_empty">First smile, first words and \nfirst steps - dot all\nthe special moments\n%1$s goes through.</string>
+
+
+    <!-- Milestone List -->
+    <string name="milestone_1">Begins to smile at people.</string>
+    <string name="milestone_2">Turns head towards sounds.</string>
+    <string name="milestone_3">Pays attention to faces.</string>
+    <string name="milestone_4">Can hold head up and begins to push up when lying on tummy.</string>
+    <string name="milestone_5">Smiles spontaneously, especially at people.</string>
+    <string name="milestone_6">Babbles with expression and copies sounds he hears.</string>
+    <string name="milestone_7">Responds to affection.</string>
+    <string name="milestone_8">Recognizes familiar people and things at a distance.</string>
+    <string name="milestone_9">Holds head steady, unsupported.</string>
+    <string name="milestone_10">May be able to roll over from tummy to back.</string>
+    <string name="milestone_11">When lying on stomach, pushes up to elbows.</string>
+    <string name="milestone_12">Likes to play with others, especially parents.</string>
+    <string name="milestone_13">Begins to say consonant sounds (jabbering with \"m\", \"b\").</string>
+    <string name="milestone_14">Looks around at things nearby.</string>
+    <string name="milestone_15">Begins to pass things from one hand to the other.</string>
+    <string name="milestone_16">Rolls over in both directions (Front to back, back to front).</string>
+    <string name="milestone_17">Rocks back and forth, sometimes crawling backward before moving forward.</string>
+    <string name="milestone_18">May be afraid of strangers.</string>
+    <string name="milestone_19">Understand \"No\".</string>
+    <string name="milestone_20">Makes a lot of different sounds like \"mamamama\" and \"bababababa\".</string>
+    <string name="milestone_21">Looks for things he sees you hide.</string>
+    <string name="milestone_22">Picks up things like cereal o\'s between thumb and index finger.</string>
+    <string name="milestone_23">Can get into sitting position.</string>
+    <string name="milestone_24">Crawls.</string>
+    <string name="milestone_25">Cries when mom or dad leaves.</string>
+    <string name="milestone_26">Responds to simple spoken requests.</string>
+    <string name="milestone_27">Says \"mama\" and \"dada\" and exclamations like \"uh-oh!\".</string>
+    <string name="milestone_28">Pokes with index (pointer) finger.</string>
+    <string name="milestone_29">Pulls up to stand, walks holding on to furniture (\"Cruising\").</string>
+    <string name="milestone_30">May take a few steps without holding on.</string>
+    <string name="milestone_31">May stand alone.</string>
+    <string name="milestone_32">Explores alone but with parent close by.</string>
+    <string name="milestone_33">Says several single words.</string>
+    <string name="milestone_34">Points to one body part.</string>
+    <string name="milestone_35">May walk up steps and run.</string>
+    <string name="milestone_36">Drinks from a cup.</string>
+    <string name="milestone_37">Eats with a spoon.</string>
+    <string name="milestone_38">Copies others, especially adults and older children.</string>
+    <string name="milestone_39">Says sentences with 2 to 4 words.</string>
+    <string name="milestone_40">Builds towers of 4 or more blocks.</string>
+    <string name="milestone_41">Names items in a picture book such as a cat, bird, or dog.</string>
+    <string name="milestone_42">Stands on tiptoe.</string>
+    <string name="milestone_43">Begins to run.</string>
+    <string name="milestone_44">Separates easily from mom and dad.</string>
+    <string name="milestone_45">Talks well enough for strangers to understand most of the time.</string>
+    <string name="milestone_46">Does puzzles with 3 or 4 pieces.</string>
+    <string name="milestone_47">Copies a circle with pencil or crayon.</string>
+    <string name="milestone_48">Walks up and down stairs, one foot on each step.</string>
+    <string name="milestone_49">Would rather play with other children than by himself.</string>
+    <string name="milestone_50">Often can\'t tell what\'s real and what\'s make-believe.</string>
+    <string name="milestone_51">Tells stories.</string>
+    <string name="milestone_52">Remembers parts of a story.</string>
+    <string name="milestone_53">Draws a person with 2 to 4 body parts.</string>
+    <string name="milestone_54">Hops and stands on one foot up to 2 seconds.</string>
+    <string name="milestone_55">Likes to sing, dance and act.</string>
+    <string name="milestone_56">Speaks very clearly.</string>
+    <string name="milestone_57">Tell a simple story using full sentences.</string>
+    <string name="milestone_58">Counts 10 or more things.</string>
+    <string name="milestone_59">Stands on one foot for 10 seconds or longer.</string>
+    <string name="milestone_60">Uses a fork and spoon and sometimes a table knife.</string>
+    <string name="milestone_61">Can use the toilet on her own.</string>
+
+    <!-- Other feed -->
+    <string name="other_feed_name">Other</string>
+    <string name="other_feed_title_list_empty">Add the first dot</string>
+    <string name="other_feed_content_list_empty">Add dots for everything else\n%1$s is going through.</string>
+
+    <string name="metric_unit_volume">ml</string>
+    <string name="us_unit_volume">fl oz</string>
+
+    <string name="metric_unit_length">cm</string>
+    <string name="us_unit_length">in</string>
+
+    <string name="metric_unit_weight">kg</string>
+    <string name="us_unit_weight">lb</string>
+
+    <string name="metric_unit_temperature">°C</string>
+    <string name="us_unit_temperature">°F</string>
+    <string name="title_activity_barchart">BarchartActivity</string>
+
+    <string name="title_activity_maps">Map</string>
+
+</resources>

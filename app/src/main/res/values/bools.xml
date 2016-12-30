@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Vaccine list  -->
+    <bool name="vaccine_repeating_1">false</bool>
+    <bool name="vaccine_repeating_2">false</bool>
+    <bool name="vaccine_repeating_3">false</bool>
+    <bool name="vaccine_repeating_4">false</bool>
+    <bool name="vaccine_repeating_5">false</bool>
+    <bool name="vaccine_repeating_6">false</bool>
+    <bool name="vaccine_repeating_7">false</bool>
+    <bool name="vaccine_repeating_8">false</bool>
+    <bool name="vaccine_repeating_9">true</bool>
+    <bool name="vaccine_repeating_10">false</bool>
+    <bool name="vaccine_repeating_11">true</bool>
+    <bool name="vaccine_repeating_12">false</bool>
+
+    <bool name="vaccine_optional_1">true</bool>
+    <bool name="vaccine_optional_2">false</bool>
+    <bool name="vaccine_optional_3">false</bool>
+    <bool name="vaccine_optional_4">false</bool>
+    <bool name="vaccine_optional_5">false</bool>
+    <bool name="vaccine_optional_6">false</bool>
+    <bool name="vaccine_optional_7">true</bool>
+    <bool name="vaccine_optional_8">true</bool>
+    <bool name="vaccine_optional_9">true</bool>
+    <bool name="vaccine_optional_10">true</bool>
+    <bool name="vaccine_optional_11">true</bool>
+    <bool name="vaccine_optional_12">true</bool>
+</resources>

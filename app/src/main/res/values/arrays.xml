@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Milestone list -->
+    <array name="milestone_list">
+        <item>@string/milestone_1</item>
+        <item>@string/milestone_2</item>
+        <item>@string/milestone_3</item>
+        <item>@string/milestone_4</item>
+        <item>@string/milestone_5</item>
+        <item>@string/milestone_6</item>
+        <item>@string/milestone_7</item>
+        <item>@string/milestone_8</item>
+        <item>@string/milestone_9</item>
+        <item>@string/milestone_10</item>
+        <item>@string/milestone_11</item>
+        <item>@string/milestone_12</item>
+        <item>@string/milestone_13</item>
+        <item>@string/milestone_14</item>
+        <item>@string/milestone_15</item>
+        <item>@string/milestone_16</item>
+        <item>@string/milestone_17</item>
+        <item>@string/milestone_18</item>
+        <item>@string/milestone_19</item>
+        <item>@string/milestone_20</item>
+        <item>@string/milestone_21</item>
+        <item>@string/milestone_22</item>
+        <item>@string/milestone_23</item>
+        <item>@string/milestone_24</item>
+        <item>@string/milestone_25</item>
+        <item>@string/milestone_26</item>
+        <item>@string/milestone_27</item>
+        <item>@string/milestone_28</item>
+        <item>@string/milestone_29</item>
+        <item>@string/milestone_30</item>
+        <item>@string/milestone_31</item>
+        <item>@string/milestone_32</item>
+        <item>@string/milestone_33</item>
+        <item>@string/milestone_34</item>
+        <item>@string/milestone_35</item>
+        <item>@string/milestone_36</item>
+        <item>@string/milestone_37</item>
+        <item>@string/milestone_38</item>
+        <item>@string/milestone_39</item>
+        <item>@string/milestone_40</item>
+        <item>@string/milestone_41</item>
+        <item>@string/milestone_42</item>
+        <item>@string/milestone_43</item>
+        <item>@string/milestone_44</item>
+        <item>@string/milestone_45</item>
+        <item>@string/milestone_46</item>
+        <item>@string/milestone_47</item>
+        <item>@string/milestone_48</item>
+        <item>@string/milestone_49</item>
+        <item>@string/milestone_50</item>
+        <item>@string/milestone_30</item>
+        <item>@string/milestone_51</item>
+        <item>@string/milestone_52</item>
+        <item>@string/milestone_53</item>
+        <item>@string/milestone_54</item>
+        <item>@string/milestone_55</item>
+        <item>@string/milestone_56</item>
+        <item>@string/milestone_57</item>
+        <item>@string/milestone_58</item>
+        <item>@string/milestone_59</item>
+        <item>@string/milestone_60</item>
+        <item>@string/milestone_61</item>
+    </array>
+
+    <!-- Teeth list -->
+    <array name="teeth_list">
+        <item>@string/teeth_1</item>
+        <item>@string/teeth_2</item>
+        <item>@string/teeth_3</item>
+        <item>@string/teeth_4</item>
+        <item>@string/teeth_5</item>
+        <item>@string/teeth_6</item>
+        <item>@string/teeth_7</item>
+        <item>@string/teeth_8</item>
+        <item>@string/teeth_9</item>
+        <item>@string/teeth_10</item>
+        <item>@string/teeth_11</item>
+        <item>@string/teeth_12</item>
+        <item>@string/teeth_13</item>
+        <item>@string/teeth_14</item>
+        <item>@string/teeth_15</item>
+        <item>@string/teeth_16</item>
+        <item>@string/teeth_17</item>
+        <item>@string/teeth_18</item>
+        <item>@string/teeth_19</item>
+        <item>@string/teeth_20</item>
+    </array>
+
+    <!-- Choose time -->
+    <array name="filter_time_list">
+        <item>@string/filter_time_1</item>
+        <item>@string/filter_time_2</item>
+        <item>@string/filter_time_3</item>
+        <item>@string/filter_time_4</item>
+        <item>@string/filter_time_5</item>
+        <item>@string/filter_time_6</item>
+        <item>@string/filter_time_7</item>
+    </array>
+
+    <!-- Diapers poo list -->
+    <array name="diapers_poo_list">
+        <item>@string/diapers_poo_1</item>
+        <item>@string/diapers_poo_2</item>
+        <item>@string/diapers_poo_3</item>
+        <item>@string/diapers_poo_4</item>
+        <item>@string/diapers_poo_5</item>
+    </array>
+
+    <!-- Diapers poo list -->
+    <array name="diapers_poo_group">
+        <item>@string/diapers_poo_group_1</item>
+        <item>@string/diapers_poo_group_2</item>
+        <item>@string/diapers_poo_group_3</item>
+        <item>@string/diapers_poo_group_4</item>
+        <item>@string/diapers_poo_group_5</item>
+    </array>
+
+    <array name="options_list">
+        <item>@string/other_menu_edit</item>
+        <item>@string/other_menu_setting</item>
+        <item>@string/other_menu_recommend</item>
+    </array>
+
+    <array name="options_icons">
+        <item>@mipmap/icn_children</item>
+        <item>@mipmap/icn_settings</item>
+        <item>@mipmap/recommended</item>
+    </array>
+
+    <array name="vaccine_list">
+        <item>@string/vaccine_1</item>
+        <item>@string/vaccine_2</item>
+        <item>@string/vaccine_3</item>
+        <item>@string/vaccine_4</item>
+        <item>@string/vaccine_5</item>
+        <item>@string/vaccine_6</item>
+        <item>@string/vaccine_7</item>
+        <item>@string/vaccine_8</item>
+        <item>@string/vaccine_9</item>
+        <item>@string/vaccine_10</item>
+        <item>@string/vaccine_11</item>
+        <item>@string/vaccine_12</item>
+    </array>
+
+    <array name="vaccine_list_names">
+        <item>@string/vaccine_optional_1</item>
+        <item>@string/vaccine_next_2</item>
+        <item>@string/vaccine_next_3</item>
+        <item>@string/vaccine_next_4</item>
+        <item>@string/vaccine_next_5</item>
+        <item>@string/vaccine_next_1</item>
+        <item>@string/vaccine_optional_5</item>
+        <item>@string/vaccine_optional_6</item>
+        <item>@string/vaccine_optional_7</item>
+        <item>@string/vaccine_optional_2</item>
+        <item>@string/vaccine_optional_4</item>
+        <item>@string/vaccine_optional_3</item>
+    </array>
+
+    <array name="vaccine_list_details">
+        <item>@string/vaccine_optional_bcg</item>
+        <item>@string/vaccine_dtap</item>
+        <item>@string/vaccine_ipv</item>
+        <item>@string/vaccine_hib</item>
+        <item>@string/vaccine_morapu</item>
+        <item>@string/vaccine_hepatitis_b</item>
+        <item>@string/vaccine_optional_hepatitis_a</item>
+        <item>@string/vaccine_optional_chickenpox</item>
+        <item>@string/vaccine_optional_tick_borne</item>
+        <item>@string/vaccine_optional_streptococcus</item>
+        <item>@string/vaccine_optional_flu</item>
+        <item>@string/vaccine_optional_rota_virus</item>
+    </array>
+
+    <array name="vaccine_next_list">
+        <item>@string/vaccine_next_1</item>
+        <item>@string/vaccine_next_2</item>
+        <item>@string/vaccine_next_3</item>
+        <item>@string/vaccine_next_4</item>
+        <item>@string/vaccine_next_5</item>
+    </array>
+
+    <array name="vaccine_optional_list">
+        <item>@string/vaccine_optional_1</item>
+        <item>@string/vaccine_optional_2</item>
+        <item>@string/vaccine_optional_3</item>
+        <item>@string/vaccine_optional_4</item>
+        <item>@string/vaccine_optional_5</item>
+        <item>@string/vaccine_optional_6</item>
+        <item>@string/vaccine_optional_7</item>
+    </array>
+
+    <array name="growth_menu_list">
+        <item>@string/growth_menu_1</item>
+        <item>@string/growth_menu_2</item>
+    </array>
+
+    <array name="vaccine_menu_list">
+        <item>@string/vaccine_menu_1</item>
+        <item>@string/vaccine_menu_2</item>
+    </array>
+
+    <array name="temperature_menu_list">
+        <item>@string/temperature_menu_1</item>
+        <item>@string/temperature_menu_2</item>
+    </array>
+
+    <array name="temperature_doses">
+        <item>@string/temperature_dose_1</item>
+        <item>@string/temperature_dose_2</item>
+    </array>
+
+    <!-- Feed list -->
+    <array name="feed_list">
+        <item>@string/feed_1</item>
+        <item>@string/feed_2</item>
+        <item>@string/feed_3</item>
+        <item>@string/feed_4</item>
+    </array>
+
+    <array name="add_icons">
+        <item>@mipmap/icn_add_feeding</item>
+        <item>@mipmap/icn_add_sleeping</item>
+        <item>@mipmap/icn_add_diapers</item>
+        <item>@mipmap/icn_add_sickness</item>
+        <item>@mipmap/icn_add_temperature</item>
+        <item>@mipmap/icn_add_medicines</item>
+        <item>@mipmap/icn_add_growth</item>
+        <item>@mipmap/icn_add_vaccines</item>
+        <item>@mipmap/icn_add_milestones</item>
+        <item>@mipmap/icn_add_teeth</item>
+        <item>@mipmap/icn_add_other</item>
+    </array>
+
+    <array name="languages">
+        <item>@string/setting_language_1</item>
+        <item>@string/setting_language_2</item>
+        <item>@string/setting_language_3</item>
+        <item>@string/setting_language_4</item>
+    </array>
+
+    <array name="units">
+        <item>@string/setting_units_1</item>
+        <item>@string/setting_units_2</item>
+    </array>
+</resources>

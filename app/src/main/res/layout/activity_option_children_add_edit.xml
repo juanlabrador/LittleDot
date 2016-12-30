@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/window_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/custom_toolbar"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="32dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/edit_image_baby"
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                app:border_width="2dp"
+                app:border_color="@color/border_image"
+                android:src="@color/border_image"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:layout_width="92dp"
+                android:layout_height="92dp"
+                android:background="@drawable/circle_photo"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:text="@string/setting_children_edit_photo"
+                android:textColor="@color/window_background"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edit_name_children"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/setting_children_name"
+                android:drawableRight="@mipmap/icn_edit"
+                android:drawablePadding="12dp"
+                android:textSize="16sp"
+                android:maxLength="15"
+                android:textColor="@color/text_normal"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edit_date_birth_children"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/setting_children_date_birth"
+                android:drawableRight="@mipmap/icn_edit"
+                android:drawablePadding="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"
+                android:inputType="none"
+                android:editable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_feed"
+            android:text="@string/setting_children_gender"
+            android:textSize="16sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="3dp"/>
+
+        <LinearLayout
+            android:id="@+id/vaccine_info_button_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/container_dose"
+            android:orientation="horizontal"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp">
+
+            <Button
+                android:id="@+id/option_male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_button_color"
+                android:text="@string/setting_children_gender_male"
+                android:textSize="16sp"
+                android:textColor="@color/window_background"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/option_female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/style_button_border"
+                android:text="@string/setting_children_gender_female"
+                android:textSize="16sp"
+                android:textColor="@color/text_feed"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@color/separate_line"/>
+
+        <Button
+            android:id="@+id/erase_data_children_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:padding="16dp"
+            android:text="@string/setting_erase_all_data_button"
+            android:textSize="16sp"
+            android:background="@drawable/style_button_border_red"
+            android:textColor="@color/text_red"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</ScrollView>

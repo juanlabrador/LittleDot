@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_normal">#111</color>
+    <color name="text_feed">#FF7C44</color>
+    <color name="border_image">#faf5f0</color>
+    <color name="circle_image">#80ff7c44</color>
+    <color name="window_background">#FFF</color>
+    <color name="separate_line">#F3F3F3</color>
+    <color name="box_background">#F9F6F6</color>
+    <color name="text_list">#666</color>
+    <color name="text_red">#CD0920</color>
+    <color name="border_check">#e0f4d9</color>
+    <color name="translucent">#E6FFFFFF</color>
+    <color name="skipped_background">#15E25043</color>
+    <color name="done_background">#32578033</color>
+    <color name="skipped_text">#E25043</color>
+    <color name="done_text">#578033</color>
+
+    <!-- Temperature colors -->
+    <color name="temperature_background">#80FFA683</color>
+    <color name="temperature_text">#B63C21</color>
+
+    <!-- Teeth colors -->
+    <color name="teeth_background">#80D3ECF7</color>
+    <color name="teeth_text">#00A3D9</color>
+
+    <!-- Diapers colors -->
+    <color name="diapers_background">#8089BCB0</color>
+    <color name="diapers_text">#39867B</color>
+
+    <!-- Growth colors -->
+    <color name="growth_background">#80FADCD9</color>
+    <color name="growth_text">#E25043</color>
+
+    <!-- Vaccine Colors -->
+    <color name="vaccine_background">#dde5d6</color>
+    <color name="vaccine_text">#578033</color>
+
+    <!-- Sleeping Colors -->
+    <color name="sleeping_background">#cce4ec</color>
+    <color name="sleeping_text">#007aa0</color>
+
+    <!-- Feeding Colors -->
+    <color name="feeding_background">#fff8ee</color>
+    <color name="feeding_text">#b65a00</color>
+
+    <!-- Sickness Colors -->
+    <color name="sickness_background">#e1d6ea</color>
+    <color name="sickness_text">#693599</color>
+
+    <!-- Medicines Colors -->
+    <color name="medicine_background">#ffe6e7</color>
+    <color name="medicine_text">#ff828a</color>
+
+    <!-- Milestone colors -->
+    <color name="milestone_background">#80F7B4CF</color>
+    <color name="milestone_text">#895A75</color>
+
+    <!-- Other colors -->
+    <color name="other_background">#fdeaa5</color>
+    <color name="other_text">#d69031</color>
+
+    <color name="darkGray">#D3D3D3</color>
+    <color name="darkestGray">#666666</color>
+    <color name="gray">#f9f5f4</color>
+    <color name="black">#000000</color>
+
+    <!-- Growth graphs colors -->
+    <color name="circle_color_weight">#009688</color>
+    <color name="line_color_weight">#64ffda</color>
+    <color name="circle_color_height">#3f51b5</color>
+    <color name="line_color_height">#536dfe</color>
+</resources>

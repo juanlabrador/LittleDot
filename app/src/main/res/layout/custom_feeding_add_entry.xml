@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background"
+    android:orientation="horizontal">
+
+    <ListView
+        android:id="@+id/feeding_set_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/window_background"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:choiceMode="singleChoice"/>
+
+    <RelativeLayout
+        android:id="@+id/feeding_bottle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/feeding_set_list_view"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/label_bottle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/add_feeding_ml"
+            android:textColor="@color/text_list"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content_bottle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_bottle"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/feeding_text"
+            android:textSize="52sp"
+            android:textStyle="bold" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_bottle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_bottle"
+            android:scrollbars="horizontal"
+            app:dsb_trackColor="@color/feeding_text"
+            app:dsb_indicatorColor="@color/feeding_text"
+            app:dsb_progressColor="@color/feeding_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/feeding_breast_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/feeding_set_list_view"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/label_breast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="@string/add_feeding_min"
+            android:textColor="@color/text_list"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/content_breast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_breast"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/feeding_text"
+            android:textSize="52sp"
+            android:textStyle="bold" />
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_breast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content_breast"
+            android:scrollbars="horizontal"
+            app:dsb_trackColor="@color/feeding_text"
+            app:dsb_indicatorColor="@color/feeding_text"
+            app:dsb_progressColor="@color/feeding_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/feeding_other_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/feeding_set_list_view"
+        android:visibility="gone">
+
+        <include
+            android:id="@+id/include_view"
+            layout="@layout/custom_text_add_entry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+</RelativeLayout>

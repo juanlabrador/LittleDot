@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@color/window_background"
+    android:paddingTop="8dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_email"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/user_email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/setting_button_email"
+            android:textSize="16sp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/text_normal"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/error_email"
+        android:layout_below="@+id/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/email_error"
+        android:paddingRight="16dp"
+        android:gravity="right"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>

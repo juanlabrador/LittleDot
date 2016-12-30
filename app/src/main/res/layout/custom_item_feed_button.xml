@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/add_old_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginBottom="22dp"
+        android:padding="16dp"
+        android:gravity="center"
+        android:text="@string/button_add"
+        android:textSize="16sp"
+        android:background="@drawable/border_button_disable"
+        android:textColor="@color/text_feed"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/window_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        android:paddingBottom="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/type_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_growth_weight"
+            android:textColor="@color/text_list"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/content_weight"
+            android:layout_below="@+id/type_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/growth_text"
+            android:text="0.0"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="6dp"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_weight"
+            android:layout_below="@+id/content_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            app:dsb_trackColor="@color/growth_text"
+            app:dsb_indicatorColor="@color/growth_text"
+            app:dsb_progressColor="@color/growth_text"/>
+
+        <TextView
+            android:id="@+id/type_height"
+            android:layout_below="@+id/seek_bar_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_growth_height"
+            android:textColor="@color/text_list"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/content_height"
+            android:layout_below="@+id/type_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/growth_text"
+            android:text="0.0"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="6dp"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_height"
+            android:layout_below="@+id/content_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            app:dsb_trackColor="@color/growth_text"
+            app:dsb_indicatorColor="@color/growth_text"
+            app:dsb_progressColor="@color/growth_text"/>
+
+        <TextView
+            android:id="@+id/type_head"
+            android:layout_below="@+id/seek_bar_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_growth_head"
+            android:textColor="@color/text_list"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/content_head"
+            android:layout_below="@+id/type_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/growth_text"
+            android:text="0.0"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="6dp"
+            android:visibility="gone"/>
+
+        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+            android:id="@+id/seek_bar_head"
+            android:layout_below="@+id/content_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            app:dsb_trackColor="@color/growth_text"
+            app:dsb_indicatorColor="@color/growth_text"
+            app:dsb_progressColor="@color/growth_text"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</ScrollView>

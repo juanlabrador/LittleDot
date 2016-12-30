@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:paddingBottom="16dp"
+    android:background="@color/window_background"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top">
+
+        <ListView
+            android:id="@+id/list_children"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/divider_list"
+            android:layout_below="@+id/list_children"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/separate_line"
+            android:visibility="gone"/>
+
+        <ListView
+            android:id="@+id/list_options"
+            android:layout_below="@+id/divider_list"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"/>
+
+        <View
+            android:id="@+id/bottom"
+            android:focusable="true"
+            android:layout_below="@+id/list_options"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/window_background"/>
+    </RelativeLayout>
+</ScrollView>

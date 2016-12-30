@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:scrollbars="none"
+    android:background="@color/window_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/vaccine_info_check"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            android:text="@string/vaccine_info_check"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/vaccine_info_check"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/darkGray" />
+
+        <LinearLayout
+            android:id="@+id/container_dose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/divider"
+            android:background="@color/window_background"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/age_dose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="@string/vaccine_age"
+                android:textColor="@color/text_normal" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/darkGray"
+                android:padding="8dp" />
+
+            <TextView
+                android:id="@+id/number_dose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:text="@string/vaccine_dose"
+                android:textColor="@color/text_normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vaccine_info_button_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/container_dose"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/vaccine_info_done_button"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/style_button_vaccine"
+                android:text="@string/button_done"
+                android:textSize="16sp"
+                android:textColor="@color/vaccine_text"
+                android:textAllCaps="false"/>
+
+            <Button
+                android:id="@+id/vaccine_info_skipped_button"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_toEndOf="@+id/vaccine_list_next_button"
+                android:layout_weight="1"
+                android:background="@drawable/disabled_button_vaccine"
+                android:text="@string/button_skipped"
+                android:textSize="16sp"
+                android:textColor="@color/darkGray"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/vaccine_info_details"
+            android:layout_below="@+id/vaccine_info_button_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/vaccine_hepatitis_b"
+            android:textColor="@color/text_normal"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

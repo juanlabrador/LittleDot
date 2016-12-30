@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"/>
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/window_background"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_name_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_name"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_hour_work_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_hours_work"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_phone_1_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_phone_1"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:inputType="phone"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_phone_2_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_phone_2"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:inputType="phone"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_email_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_email"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/edit_address_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edit_doctor_address"
+                    android:drawableRight="@mipmap/icn_edit"
+                    android:drawablePadding="12dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_normal"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

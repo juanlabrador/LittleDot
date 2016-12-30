@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    android:orientation="vertical">
+
+    <include android:id="@+id/toolbar"
+        layout="@layout/custom_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/window_background">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/window_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_normal"
+                android:textStyle="bold"
+                android:text="@string/email_option_doctor_label"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/choose_time_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="16dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:drawableLeft="@mipmap/img_filter_by_date"
+                android:text="Choose time: 14 days"
+                android:textSize="16sp"
+                android:background="@drawable/style_button"
+                android:textColor="@color/text_feed"
+                android:textAllCaps="false"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/temperature_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_temperature"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sickness_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_sickness"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/medicines_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_medicines"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/vaccines_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_vaccines"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="24dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/feeding_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_feeding"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/sleeping_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_sleeping"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/diapers_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_diapers"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginBottom="24dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/growth_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_growth"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/milestone_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_milestone"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/teeth_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_teeth"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/separate_line"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/other_switch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email_option_doctor_other"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_normal"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

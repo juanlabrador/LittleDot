@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.littledot.mystxx.littledot" >
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="ANDROID.PERMISSION.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="android.support.multidex.MultiDexApplication">
+        <activity
+            android:name=".MainFeedActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DoctorDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DoctorEmailOptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OptionSettingActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.littledot.api.test"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OptionListChildrenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OptionChildrenAddEditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TemperatureFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TemperatureAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeethFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeethAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TeethEditEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MilestoneFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MilestoneAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MilestoneEditEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DiapersFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DiapersAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrowthFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrowthAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrowthCurveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrowthBMIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VaccineFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VaccineAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VaccineEditEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeedingFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeedingAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SicknessFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SicknessAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicineFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicineAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepingFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SleepingAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OthersFeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OthersAddEntryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="graph.BarChartSampleActivity"
+            android:label="@string/title_activity_barchart" >
+        </activity>
+        <activity
+            android:name="graph.LineChartSampleActivity"
+            android:label="@string/title_activity_barchart" >
+        </activity>
+
+        <activity
+            android:name="graph.BubbleChartSampleActivity"
+            android:label="@string/title_activity_barchart" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".DoctorAddressMapActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+
+        <receiver android:name="services.InternetReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="graph.GrowthGraphsActivity"/>
+        <activity android:name="graph.GrowthHeightGraphsActivity"/>
+        <activity android:name="graph.GrowthWeightGraphsActivity"/>
+        <activity android:name="graph.MilestoneGraphsActivity"/>
+    </application>
+
+</manifest>

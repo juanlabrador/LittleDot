@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="colorPrimaryDark">@color/text_feed</item>
+        <item name="colorControlActivated">@color/text_feed</item>
+        <item name="colorAccent">@color/text_feed</item>
+        <item name="alertDialogTheme">@style/NormalStyleDialog</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/darkestGray</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_feed</item>
+        <item name="colorControlNormal">@color/text_feed</item>
+    </style>
+
+    <style name="NormalStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimaryDark">@color/text_feed</item>
+        <item name="android:textColor">@color/text_feed</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/text_feed</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="DiapersStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimaryDark">@color/diapers_text</item>
+        <item name="android:textColor">@color/diapers_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/diapers_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="TemperatureStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/temperature_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/temperature_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="GrowthStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/growth_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/growth_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="TeethStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/teeth_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/teeth_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="MilestoneStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/milestone_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/milestone_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="VaccineStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/vaccine_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/vaccine_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="FeedingStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/feeding_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/feeding_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="SicknessStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/sickness_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/sickness_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="MedicineStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/medicine_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/medicine_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="SleepingStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimaryDark">@color/sleeping_text</item>
+        <item name="android:textColor">@color/sleeping_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/sleeping_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+    <style name="OtherStyleDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/other_text</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="colorAccent">@color/other_text</item>
+        <item name="android:textColorPrimary">@color/text_normal</item>
+    </style>
+
+</resources>
